@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>File admin/woocommerce-admin-install.php | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Admin.Install.html" title="Summary of WooCommerce\Admin\Install"><span>Package</span></a>
+						</li>
+						<li>
+							<a href="function-woocommerce_create_page.html" title="Summary of woocommerce_create_page"><span>Function</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-do_install_woocommerce.html">do_install_woocommerce</a></li>
+				<li class="active"><a href="function-woocommerce_create_page.html">woocommerce_create_page</a></li>
+				<li><a href="function-woocommerce_create_pages.html">woocommerce_create_pages</a></li>
+				<li><a href="function-woocommerce_default_options.html">woocommerce_default_options</a></li>
+				<li><a href="function-woocommerce_default_taxonomies.html">woocommerce_default_taxonomies</a></li>
+				<li><a href="function-woocommerce_tables_install.html">woocommerce_tables_install</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a class="l" href="source-function-woocommerce_create_page.html#1">  1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="source-function-woocommerce_create_page.html#2">  2 </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a class="l" href="source-function-woocommerce_create_page.html#3">  3 </a><span class="php-comment"> * WooCommerce Install
+</span></span><span id="4" class="l"><a class="l" href="source-function-woocommerce_create_page.html#4">  4 </a><span class="php-comment"> *
+</span></span><span id="5" class="l"><a class="l" href="source-function-woocommerce_create_page.html#5">  5 </a><span class="php-comment"> * Plugin install script which adds default pages, taxonomies, and database tables to WordPress. Runs on activation and upgrade.
+</span></span><span id="6" class="l"><a class="l" href="source-function-woocommerce_create_page.html#6">  6 </a><span class="php-comment"> *
+</span></span><span id="7" class="l"><a class="l" href="source-function-woocommerce_create_page.html#7">  7 </a><span class="php-comment"> * @author      WooThemes
+</span></span><span id="8" class="l"><a class="l" href="source-function-woocommerce_create_page.html#8">  8 </a><span class="php-comment"> * @category    Admin
+</span></span><span id="9" class="l"><a class="l" href="source-function-woocommerce_create_page.html#9">  9 </a><span class="php-comment"> * @package     WooCommerce/Admin/Install
+</span></span><span id="10" class="l"><a class="l" href="source-function-woocommerce_create_page.html#10"> 10 </a><span class="php-comment"> * @version     2.0.0
+</span></span><span id="11" class="l"><a class="l" href="source-function-woocommerce_create_page.html#11"> 11 </a><span class="php-comment"> */</span>
+</span><span id="12" class="l"><a class="l" href="source-function-woocommerce_create_page.html#12"> 12 </a>
+</span><span id="13" class="l"><a class="l" href="source-function-woocommerce_create_page.html#13"> 13 </a><span class="php-keyword1">if</span> ( ! <span class="php-keyword2">defined</span>( <span class="php-quote">'ABSPATH'</span> ) ) <span class="php-keyword1">exit</span>; <span class="php-comment">// Exit if accessed directly</span>
+</span><span id="14" class="l"><a class="l" href="source-function-woocommerce_create_page.html#14"> 14 </a>
+</span><span id="15" class="l"><a class="l" href="source-function-woocommerce_create_page.html#15"> 15 </a><span class="php-comment">/**
+</span></span><span id="16" class="l"><a class="l" href="source-function-woocommerce_create_page.html#16"> 16 </a><span class="php-comment"> * Runs the installer.
+</span></span><span id="17" class="l"><a class="l" href="source-function-woocommerce_create_page.html#17"> 17 </a><span class="php-comment"> *
+</span></span><span id="18" class="l"><a class="l" href="source-function-woocommerce_create_page.html#18"> 18 </a><span class="php-comment"> * @access public
+</span></span><span id="19" class="l"><a class="l" href="source-function-woocommerce_create_page.html#19"> 19 </a><span class="php-comment"> * @return void
+</span></span><span id="20" class="l"><a class="l" href="source-function-woocommerce_create_page.html#20"> 20 </a><span class="php-comment"> */</span>
+</span><span id="21" class="l"><a class="l" href="source-function-woocommerce_create_page.html#21"> 21 </a><span class="php-keyword1">function</span> <a id="_do_install_woocommerce" href="source-function-woocommerce_create_page.html#_do_install_woocommerce">do_install_woocommerce</a>() {
+</span><span id="22" class="l"><a class="l" href="source-function-woocommerce_create_page.html#22"> 22 </a>    <span class="php-keyword1">global</span> <span class="php-var">$woocommerce_settings</span>, <span class="php-var">$woocommerce</span>;
+</span><span id="23" class="l"><a class="l" href="source-function-woocommerce_create_page.html#23"> 23 </a>
+</span><span id="24" class="l"><a class="l" href="source-function-woocommerce_create_page.html#24"> 24 </a>    <span class="php-comment">// Do install</span>
+</span><span id="25" class="l"><a class="l" href="source-function-woocommerce_create_page.html#25"> 25 </a>    woocommerce_default_options();
+</span><span id="26" class="l"><a class="l" href="source-function-woocommerce_create_page.html#26"> 26 </a>    woocommerce_tables_install();
+</span><span id="27" class="l"><a class="l" href="source-function-woocommerce_create_page.html#27"> 27 </a>    woocommerce_init_roles();
+</span><span id="28" class="l"><a class="l" href="source-function-woocommerce_create_page.html#28"> 28 </a>
+</span><span id="29" class="l"><a class="l" href="source-function-woocommerce_create_page.html#29"> 29 </a>    <span class="php-comment">// Register post types</span>
+</span><span id="30" class="l"><a class="l" href="source-function-woocommerce_create_page.html#30"> 30 </a>    <span class="php-var">$woocommerce</span>-&gt;init_taxonomy();
+</span><span id="31" class="l"><a class="l" href="source-function-woocommerce_create_page.html#31"> 31 </a>
+</span><span id="32" class="l"><a class="l" href="source-function-woocommerce_create_page.html#32"> 32 </a>    <span class="php-comment">// Add default taxonomies</span>
+</span><span id="33" class="l"><a class="l" href="source-function-woocommerce_create_page.html#33"> 33 </a>    woocommerce_default_taxonomies();
+</span><span id="34" class="l"><a class="l" href="source-function-woocommerce_create_page.html#34"> 34 </a>
+</span><span id="35" class="l"><a class="l" href="source-function-woocommerce_create_page.html#35"> 35 </a>    <span class="php-comment">// Cron jobs</span>
+</span><span id="36" class="l"><a class="l" href="source-function-woocommerce_create_page.html#36"> 36 </a>    wp_clear_scheduled_hook( <span class="php-quote">'woocommerce_scheduled_sales'</span> );
+</span><span id="37" class="l"><a class="l" href="source-function-woocommerce_create_page.html#37"> 37 </a>    wp_clear_scheduled_hook( <span class="php-quote">'woocommerce_cancel_unpaid_orders'</span> );
+</span><span id="38" class="l"><a class="l" href="source-function-woocommerce_create_page.html#38"> 38 </a>    wp_clear_scheduled_hook( <span class="php-quote">'woocommerce_cleanup_sessions'</span> );
+</span><span id="39" class="l"><a class="l" href="source-function-woocommerce_create_page.html#39"> 39 </a>
+</span><span id="40" class="l"><a class="l" href="source-function-woocommerce_create_page.html#40"> 40 </a>    <span class="php-var">$ve</span> = get_option(<span class="php-quote">'gmt_offset'</span>) &gt; <span class="php-num">0</span> ? <span class="php-quote">'+'</span> : <span class="php-quote">'-'</span>;
+</span><span id="41" class="l"><a class="l" href="source-function-woocommerce_create_page.html#41"> 41 </a>
+</span><span id="42" class="l"><a class="l" href="source-function-woocommerce_create_page.html#42"> 42 </a>    wp_schedule_event( <span class="php-keyword2">strtotime</span>( <span class="php-quote">'tomorrow '</span> . <span class="php-var">$ve</span> . get_option(<span class="php-quote">'gmt_offset'</span>) . <span class="php-quote">' HOURS'</span> ), <span class="php-quote">'daily'</span>, <span class="php-quote">'woocommerce_scheduled_sales'</span>);
+</span><span id="43" class="l"><a class="l" href="source-function-woocommerce_create_page.html#43"> 43 </a>
+</span><span id="44" class="l"><a class="l" href="source-function-woocommerce_create_page.html#44"> 44 </a>    <span class="php-var">$held_duration</span> = get_option( <span class="php-quote">'woocommerce_hold_stock_minutes'</span>, <span class="php-keyword1">null</span> );
+</span><span id="45" class="l"><a class="l" href="source-function-woocommerce_create_page.html#45"> 45 </a>
+</span><span id="46" class="l"><a class="l" href="source-function-woocommerce_create_page.html#46"> 46 </a>    <span class="php-keyword1">if</span> ( <span class="php-keyword2">is_null</span>( <span class="php-var">$held_duration</span> ) )
+</span><span id="47" class="l"><a class="l" href="source-function-woocommerce_create_page.html#47"> 47 </a>        <span class="php-var">$held_duration</span> = <span class="php-quote">'60'</span>;
+</span><span id="48" class="l"><a class="l" href="source-function-woocommerce_create_page.html#48"> 48 </a>
+</span><span id="49" class="l"><a class="l" href="source-function-woocommerce_create_page.html#49"> 49 </a>    <span class="php-keyword1">if</span> ( <span class="php-var">$held_duration</span> != <span class="php-quote">''</span> )
+</span><span id="50" class="l"><a class="l" href="source-function-woocommerce_create_page.html#50"> 50 </a>        wp_schedule_single_event( <span class="php-keyword2">time</span>() + ( absint( <span class="php-var">$held_duration</span> ) * <span class="php-num">60</span> ), <span class="php-quote">'woocommerce_cancel_unpaid_orders'</span> );
+</span><span id="51" class="l"><a class="l" href="source-function-woocommerce_create_page.html#51"> 51 </a>
+</span><span id="52" class="l"><a class="l" href="source-function-woocommerce_create_page.html#52"> 52 </a>    wp_schedule_event( <span class="php-keyword2">time</span>(), <span class="php-quote">'twicedaily'</span>, <span class="php-quote">'woocommerce_cleanup_sessions'</span> );
+</span><span id="53" class="l"><a class="l" href="source-function-woocommerce_create_page.html#53"> 53 </a>
+</span><span id="54" class="l"><a class="l" href="source-function-woocommerce_create_page.html#54"> 54 </a>    <span class="php-comment">// Install files and folders for uploading files and prevent hotlinking</span>
+</span><span id="55" class="l"><a class="l" href="source-function-woocommerce_create_page.html#55"> 55 </a>    <span class="php-var">$upload_dir</span> =  wp_upload_dir();
+</span><span id="56" class="l"><a class="l" href="source-function-woocommerce_create_page.html#56"> 56 </a>
+</span><span id="57" class="l"><a class="l" href="source-function-woocommerce_create_page.html#57"> 57 </a>    <span class="php-var">$files</span> = <span class="php-keyword1">array</span>(
+</span><span id="58" class="l"><a class="l" href="source-function-woocommerce_create_page.html#58"> 58 </a>        <span class="php-keyword1">array</span>(
+</span><span id="59" class="l"><a class="l" href="source-function-woocommerce_create_page.html#59"> 59 </a>            <span class="php-quote">'base'</span>      =&gt; <span class="php-var">$upload_dir</span>[<span class="php-quote">'basedir'</span>] . <span class="php-quote">'/woocommerce_uploads'</span>,
+</span><span id="60" class="l"><a class="l" href="source-function-woocommerce_create_page.html#60"> 60 </a>            <span class="php-quote">'file'</span>      =&gt; <span class="php-quote">'.htaccess'</span>,
+</span><span id="61" class="l"><a class="l" href="source-function-woocommerce_create_page.html#61"> 61 </a>            <span class="php-quote">'content'</span>   =&gt; <span class="php-quote">'deny from all'</span>
+</span><span id="62" class="l"><a class="l" href="source-function-woocommerce_create_page.html#62"> 62 </a>        ),
+</span><span id="63" class="l"><a class="l" href="source-function-woocommerce_create_page.html#63"> 63 </a>        <span class="php-keyword1">array</span>(
+</span><span id="64" class="l"><a class="l" href="source-function-woocommerce_create_page.html#64"> 64 </a>            <span class="php-quote">'base'</span>      =&gt; <span class="php-var">$upload_dir</span>[<span class="php-quote">'basedir'</span>] . <span class="php-quote">'/woocommerce_uploads'</span>,
+</span><span id="65" class="l"><a class="l" href="source-function-woocommerce_create_page.html#65"> 65 </a>            <span class="php-quote">'file'</span>      =&gt; <span class="php-quote">'index.html'</span>,
+</span><span id="66" class="l"><a class="l" href="source-function-woocommerce_create_page.html#66"> 66 </a>            <span class="php-quote">'content'</span>   =&gt; <span class="php-quote">''</span>
+</span><span id="67" class="l"><a class="l" href="source-function-woocommerce_create_page.html#67"> 67 </a>        ),
+</span><span id="68" class="l"><a class="l" href="source-function-woocommerce_create_page.html#68"> 68 </a>        <span class="php-keyword1">array</span>(
+</span><span id="69" class="l"><a class="l" href="source-function-woocommerce_create_page.html#69"> 69 </a>            <span class="php-quote">'base'</span>      =&gt; WP_PLUGIN_DIR . <span class="php-quote">&quot;/&quot;</span> . plugin_basename( <span class="php-keyword2">dirname</span>( <span class="php-keyword2">dirname</span>( __FILE__ ) ) ) . <span class="php-quote">'/logs'</span>,
+</span><span id="70" class="l"><a class="l" href="source-function-woocommerce_create_page.html#70"> 70 </a>            <span class="php-quote">'file'</span>      =&gt; <span class="php-quote">'.htaccess'</span>,
+</span><span id="71" class="l"><a class="l" href="source-function-woocommerce_create_page.html#71"> 71 </a>            <span class="php-quote">'content'</span>   =&gt; <span class="php-quote">'deny from all'</span>
+</span><span id="72" class="l"><a class="l" href="source-function-woocommerce_create_page.html#72"> 72 </a>        ),
+</span><span id="73" class="l"><a class="l" href="source-function-woocommerce_create_page.html#73"> 73 </a>        <span class="php-keyword1">array</span>(
+</span><span id="74" class="l"><a class="l" href="source-function-woocommerce_create_page.html#74"> 74 </a>            <span class="php-quote">'base'</span>      =&gt; WP_PLUGIN_DIR . <span class="php-quote">&quot;/&quot;</span> . plugin_basename( <span class="php-keyword2">dirname</span>( <span class="php-keyword2">dirname</span>( __FILE__ ) ) ) . <span class="php-quote">'/logs'</span>,
+</span><span id="75" class="l"><a class="l" href="source-function-woocommerce_create_page.html#75"> 75 </a>            <span class="php-quote">'file'</span>      =&gt; <span class="php-quote">'index.html'</span>,
+</span><span id="76" class="l"><a class="l" href="source-function-woocommerce_create_page.html#76"> 76 </a>            <span class="php-quote">'content'</span>   =&gt; <span class="php-quote">''</span>
+</span><span id="77" class="l"><a class="l" href="source-function-woocommerce_create_page.html#77"> 77 </a>        )
+</span><span id="78" class="l"><a class="l" href="source-function-woocommerce_create_page.html#78"> 78 </a>    );
+</span><span id="79" class="l"><a class="l" href="source-function-woocommerce_create_page.html#79"> 79 </a>
+</span><span id="80" class="l"><a class="l" href="source-function-woocommerce_create_page.html#80"> 80 </a>    <span class="php-keyword1">foreach</span> ( <span class="php-var">$files</span> <span class="php-keyword1">as</span> <span class="php-var">$file</span> ) {
+</span><span id="81" class="l"><a class="l" href="source-function-woocommerce_create_page.html#81"> 81 </a>        <span class="php-keyword1">if</span> ( wp_mkdir_p( <span class="php-var">$file</span>[<span class="php-quote">'base'</span>] ) &amp;&amp; ! <span class="php-keyword2">file_exists</span>( trailingslashit( <span class="php-var">$file</span>[<span class="php-quote">'base'</span>] ) . <span class="php-var">$file</span>[<span class="php-quote">'file'</span>] ) ) {
+</span><span id="82" class="l"><a class="l" href="source-function-woocommerce_create_page.html#82"> 82 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$file_handle</span> = @<span class="php-keyword2">fopen</span>( trailingslashit( <span class="php-var">$file</span>[<span class="php-quote">'base'</span>] ) . <span class="php-var">$file</span>[<span class="php-quote">'file'</span>], <span class="php-quote">'w'</span> ) ) {
+</span><span id="83" class="l"><a class="l" href="source-function-woocommerce_create_page.html#83"> 83 </a>                <span class="php-keyword2">fwrite</span>( <span class="php-var">$file_handle</span>, <span class="php-var">$file</span>[<span class="php-quote">'content'</span>] );
+</span><span id="84" class="l"><a class="l" href="source-function-woocommerce_create_page.html#84"> 84 </a>                <span class="php-keyword2">fclose</span>( <span class="php-var">$file_handle</span> );
+</span><span id="85" class="l"><a class="l" href="source-function-woocommerce_create_page.html#85"> 85 </a>            }
+</span><span id="86" class="l"><a class="l" href="source-function-woocommerce_create_page.html#86"> 86 </a>        }
+</span><span id="87" class="l"><a class="l" href="source-function-woocommerce_create_page.html#87"> 87 </a>    }
+</span><span id="88" class="l"><a class="l" href="source-function-woocommerce_create_page.html#88"> 88 </a>
+</span><span id="89" class="l"><a class="l" href="source-function-woocommerce_create_page.html#89"> 89 </a>    <span class="php-comment">// Clear transient cache</span>
+</span><span id="90" class="l"><a class="l" href="source-function-woocommerce_create_page.html#90"> 90 </a>    <span class="php-var">$woocommerce</span>-&gt;clear_product_transients();
+</span><span id="91" class="l"><a class="l" href="source-function-woocommerce_create_page.html#91"> 91 </a>
+</span><span id="92" class="l"><a class="l" href="source-function-woocommerce_create_page.html#92"> 92 </a>    <span class="php-comment">// Recompile LESS styles if they are custom</span>
+</span><span id="93" class="l"><a class="l" href="source-function-woocommerce_create_page.html#93"> 93 </a>    <span class="php-keyword1">if</span> ( get_option( <span class="php-quote">'woocommerce_frontend_css'</span> ) == <span class="php-quote">'yes'</span> ) {
+</span><span id="94" class="l"><a class="l" href="source-function-woocommerce_create_page.html#94"> 94 </a>
+</span><span id="95" class="l"><a class="l" href="source-function-woocommerce_create_page.html#95"> 95 </a>        <span class="php-var">$colors</span> = get_option( <span class="php-quote">'woocommerce_frontend_css_colors'</span> );
+</span><span id="96" class="l"><a class="l" href="source-function-woocommerce_create_page.html#96"> 96 </a>
+</span><span id="97" class="l"><a class="l" href="source-function-woocommerce_create_page.html#97"> 97 </a>        <span class="php-keyword1">if</span> ( ( ! <span class="php-keyword1">empty</span>( <span class="php-var">$colors</span>[<span class="php-quote">'primary'</span>] ) &amp;&amp; ! <span class="php-keyword1">empty</span>( <span class="php-var">$colors</span>[<span class="php-quote">'secondary'</span>] ) &amp;&amp; ! <span class="php-keyword1">empty</span>( <span class="php-var">$colors</span>[<span class="php-quote">'highlight'</span>] ) &amp;&amp; ! <span class="php-keyword1">empty</span>( <span class="php-var">$colors</span>[<span class="php-quote">'content_bg'</span>] ) &amp;&amp; ! <span class="php-keyword1">empty</span>( <span class="php-var">$colors</span>[<span class="php-quote">'subtext'</span>] ) ) &amp;&amp; ( <span class="php-var">$colors</span>[<span class="php-quote">'primary'</span>] != <span class="php-quote">'#ad74a2'</span> || <span class="php-var">$colors</span>[<span class="php-quote">'secondary'</span>] != <span class="php-quote">'#f7f6f7'</span> || <span class="php-var">$colors</span>[<span class="php-quote">'highlight'</span>] != <span class="php-quote">'#85ad74'</span> || <span class="php-var">$colors</span>[<span class="php-quote">'content_bg'</span>] != <span class="php-quote">'#ffffff'</span> || <span class="php-var">$colors</span>[<span class="php-quote">'subtext'</span>] != <span class="php-quote">'#777777'</span> ) )
+</span><span id="98" class="l"><a class="l" href="source-function-woocommerce_create_page.html#98"> 98 </a>            woocommerce_compile_less_styles();
+</span><span id="99" class="l"><a class="l" href="source-function-woocommerce_create_page.html#99"> 99 </a>
+</span><span id="100" class="l"><a class="l" href="source-function-woocommerce_create_page.html#100">100 </a>    }
+</span><span id="101" class="l"><a class="l" href="source-function-woocommerce_create_page.html#101">101 </a>
+</span><span id="102" class="l"><a class="l" href="source-function-woocommerce_create_page.html#102">102 </a>    <span class="php-comment">// Queue upgrades</span>
+</span><span id="103" class="l"><a class="l" href="source-function-woocommerce_create_page.html#103">103 </a>    <span class="php-var">$current_version</span> = get_option( <span class="php-quote">'woocommerce_version'</span>, <span class="php-keyword1">null</span> );
+</span><span id="104" class="l"><a class="l" href="source-function-woocommerce_create_page.html#104">104 </a>    <span class="php-var">$current_db_version</span> = get_option( <span class="php-quote">'woocommerce_db_version'</span>, <span class="php-keyword1">null</span> );
+</span><span id="105" class="l"><a class="l" href="source-function-woocommerce_create_page.html#105">105 </a>
+</span><span id="106" class="l"><a class="l" href="source-function-woocommerce_create_page.html#106">106 </a>    <span class="php-keyword1">if</span> ( <span class="php-keyword2">version_compare</span>( <span class="php-var">$current_db_version</span>, <span class="php-quote">'2.0'</span>, <span class="php-quote">'&lt;'</span> ) &amp;&amp; <span class="php-keyword1">null</span> !== <span class="php-var">$current_db_version</span> ) {
+</span><span id="107" class="l"><a class="l" href="source-function-woocommerce_create_page.html#107">107 </a>        update_option( <span class="php-quote">'_wc_needs_update'</span>, <span class="php-num">1</span> );
+</span><span id="108" class="l"><a class="l" href="source-function-woocommerce_create_page.html#108">108 </a>    } <span class="php-keyword1">else</span> {
+</span><span id="109" class="l"><a class="l" href="source-function-woocommerce_create_page.html#109">109 </a>        update_option( <span class="php-quote">'woocommerce_db_version'</span>, <span class="php-var">$woocommerce</span>-&gt;version );
+</span><span id="110" class="l"><a class="l" href="source-function-woocommerce_create_page.html#110">110 </a>    }
+</span><span id="111" class="l"><a class="l" href="source-function-woocommerce_create_page.html#111">111 </a>
+</span><span id="112" class="l"><a class="l" href="source-function-woocommerce_create_page.html#112">112 </a>    <span class="php-comment">// Update version</span>
+</span><span id="113" class="l"><a class="l" href="source-function-woocommerce_create_page.html#113">113 </a>    update_option( <span class="php-quote">'woocommerce_version'</span>, <span class="php-var">$woocommerce</span>-&gt;version );
+</span><span id="114" class="l"><a class="l" href="source-function-woocommerce_create_page.html#114">114 </a>
+</span><span id="115" class="l"><a class="l" href="source-function-woocommerce_create_page.html#115">115 </a>    <span class="php-comment">// Flush rewrite rules</span>
+</span><span id="116" class="l"><a class="l" href="source-function-woocommerce_create_page.html#116">116 </a>    flush_rewrite_rules();
+</span><span id="117" class="l"><a class="l" href="source-function-woocommerce_create_page.html#117">117 </a>}
+</span><span id="118" class="l"><a class="l" href="source-function-woocommerce_create_page.html#118">118 </a>
+</span><span id="119" class="l"><a class="l" href="source-function-woocommerce_create_page.html#119">119 </a>
+</span><span id="120" class="l"><a class="l" href="source-function-woocommerce_create_page.html#120">120 </a><span class="php-comment">/**
+</span></span><span id="121" class="l"><a class="l" href="source-function-woocommerce_create_page.html#121">121 </a><span class="php-comment"> * Default options
+</span></span><span id="122" class="l"><a class="l" href="source-function-woocommerce_create_page.html#122">122 </a><span class="php-comment"> *
+</span></span><span id="123" class="l"><a class="l" href="source-function-woocommerce_create_page.html#123">123 </a><span class="php-comment"> * Sets up the default options used on the settings page
+</span></span><span id="124" class="l"><a class="l" href="source-function-woocommerce_create_page.html#124">124 </a><span class="php-comment"> *
+</span></span><span id="125" class="l"><a class="l" href="source-function-woocommerce_create_page.html#125">125 </a><span class="php-comment"> * @access public
+</span></span><span id="126" class="l"><a class="l" href="source-function-woocommerce_create_page.html#126">126 </a><span class="php-comment"> * @return void
+</span></span><span id="127" class="l"><a class="l" href="source-function-woocommerce_create_page.html#127">127 </a><span class="php-comment"> */</span>
+</span><span id="128" class="l"><a class="l" href="source-function-woocommerce_create_page.html#128">128 </a><span class="php-keyword1">function</span> <a id="_woocommerce_default_options" href="source-function-woocommerce_create_page.html#_woocommerce_default_options">woocommerce_default_options</a>() {
+</span><span id="129" class="l"><a class="l" href="source-function-woocommerce_create_page.html#129">129 </a>    <span class="php-keyword1">global</span> <span class="php-var">$woocommerce_settings</span>;
+</span><span id="130" class="l"><a class="l" href="source-function-woocommerce_create_page.html#130">130 </a>
+</span><span id="131" class="l"><a class="l" href="source-function-woocommerce_create_page.html#131">131 </a>    <span class="php-comment">// Include settings so that we can run through defaults</span>
+</span><span id="132" class="l"><a class="l" href="source-function-woocommerce_create_page.html#132">132 </a>    <span class="php-keyword1">include_once</span>( <span class="php-quote">'settings/settings-init.php'</span> );
+</span><span id="133" class="l"><a class="l" href="source-function-woocommerce_create_page.html#133">133 </a>
+</span><span id="134" class="l"><a class="l" href="source-function-woocommerce_create_page.html#134">134 </a>    <span class="php-keyword1">foreach</span> ( <span class="php-var">$woocommerce_settings</span> <span class="php-keyword1">as</span> <span class="php-var">$section</span> ) {
+</span><span id="135" class="l"><a class="l" href="source-function-woocommerce_create_page.html#135">135 </a>        <span class="php-keyword1">foreach</span> ( <span class="php-var">$section</span> <span class="php-keyword1">as</span> <span class="php-var">$value</span> ) {
+</span><span id="136" class="l"><a class="l" href="source-function-woocommerce_create_page.html#136">136 </a>            <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$value</span>[<span class="php-quote">'default'</span>] ) &amp;&amp; <span class="php-keyword1">isset</span>( <span class="php-var">$value</span>[<span class="php-quote">'id'</span>] ) ) {
+</span><span id="137" class="l"><a class="l" href="source-function-woocommerce_create_page.html#137">137 </a>                add_option( <span class="php-var">$value</span>[<span class="php-quote">'id'</span>], <span class="php-var">$value</span>[<span class="php-quote">'default'</span>] );
+</span><span id="138" class="l"><a class="l" href="source-function-woocommerce_create_page.html#138">138 </a>            }
+</span><span id="139" class="l"><a class="l" href="source-function-woocommerce_create_page.html#139">139 </a>        }
+</span><span id="140" class="l"><a class="l" href="source-function-woocommerce_create_page.html#140">140 </a>    }
+</span><span id="141" class="l"><a class="l" href="source-function-woocommerce_create_page.html#141">141 </a>}
+</span><span id="142" class="l"><a class="l" href="source-function-woocommerce_create_page.html#142">142 </a>
+</span><span id="143" class="l"><a class="l" href="source-function-woocommerce_create_page.html#143">143 </a>
+</span><span id="144" class="l"><a class="l" href="source-function-woocommerce_create_page.html#144">144 </a><span class="php-comment">/**
+</span></span><span id="145" class="l"><a class="l" href="source-function-woocommerce_create_page.html#145">145 </a><span class="php-comment"> * Create a page
+</span></span><span id="146" class="l"><a class="l" href="source-function-woocommerce_create_page.html#146">146 </a><span class="php-comment"> *
+</span></span><span id="147" class="l"><a class="l" href="source-function-woocommerce_create_page.html#147">147 </a><span class="php-comment"> * @access public
+</span></span><span id="148" class="l"><a class="l" href="source-function-woocommerce_create_page.html#148">148 </a><span class="php-comment"> * @param mixed $slug Slug for the new page
+</span></span><span id="149" class="l"><a class="l" href="source-function-woocommerce_create_page.html#149">149 </a><span class="php-comment"> * @param mixed $option Option name to store the page's ID
+</span></span><span id="150" class="l"><a class="l" href="source-function-woocommerce_create_page.html#150">150 </a><span class="php-comment"> * @param string $page_title (default: '') Title for the new page
+</span></span><span id="151" class="l"><a class="l" href="source-function-woocommerce_create_page.html#151">151 </a><span class="php-comment"> * @param string $page_content (default: '') Content for the new page
+</span></span><span id="152" class="l"><a class="l" href="source-function-woocommerce_create_page.html#152">152 </a><span class="php-comment"> * @param int $post_parent (default: 0) Parent for the new page
+</span></span><span id="153" class="l"><a class="l" href="source-function-woocommerce_create_page.html#153">153 </a><span class="php-comment"> * @return void
+</span></span><span id="154" class="l"><a class="l" href="source-function-woocommerce_create_page.html#154">154 </a><span class="php-comment"> */</span>
+</span><span id="155" class="l"><a class="l" href="source-function-woocommerce_create_page.html#155">155 </a><span class="php-keyword1">function</span> <a id="_woocommerce_create_page" href="source-function-woocommerce_create_page.html#_woocommerce_create_page">woocommerce_create_page</a>( <span class="php-var">$slug</span>, <span class="php-var">$option</span>, <span class="php-var">$page_title</span> = <span class="php-quote">''</span>, <span class="php-var">$page_content</span> = <span class="php-quote">''</span>, <span class="php-var">$post_parent</span> = <span class="php-num">0</span> ) {
+</span><span id="156" class="l"><a class="l" href="source-function-woocommerce_create_page.html#156">156 </a>    <span class="php-keyword1">global</span> <span class="php-var">$wpdb</span>;
+</span><span id="157" class="l"><a class="l" href="source-function-woocommerce_create_page.html#157">157 </a>
+</span><span id="158" class="l"><a class="l" href="source-function-woocommerce_create_page.html#158">158 </a>    <span class="php-var">$option_value</span> = get_option( <span class="php-var">$option</span> );
+</span><span id="159" class="l"><a class="l" href="source-function-woocommerce_create_page.html#159">159 </a>
+</span><span id="160" class="l"><a class="l" href="source-function-woocommerce_create_page.html#160">160 </a>    <span class="php-keyword1">if</span> ( <span class="php-var">$option_value</span> &gt; <span class="php-num">0</span> &amp;&amp; get_post( <span class="php-var">$option_value</span> ) )
+</span><span id="161" class="l"><a class="l" href="source-function-woocommerce_create_page.html#161">161 </a>        <span class="php-keyword1">return</span>;
+</span><span id="162" class="l"><a class="l" href="source-function-woocommerce_create_page.html#162">162 </a>
+</span><span id="163" class="l"><a class="l" href="source-function-woocommerce_create_page.html#163">163 </a>    <span class="php-var">$page_found</span> = <span class="php-var">$wpdb</span>-&gt;get_var( <span class="php-var">$wpdb</span>-&gt;prepare( <span class="php-quote">&quot;SELECT ID FROM &quot;</span> . <span class="php-var">$wpdb</span>-&gt;posts . <span class="php-quote">&quot; WHERE post_name = %s LIMIT 1;&quot;</span>, <span class="php-var">$slug</span> ) );
+</span><span id="164" class="l"><a class="l" href="source-function-woocommerce_create_page.html#164">164 </a>    <span class="php-keyword1">if</span> ( <span class="php-var">$page_found</span> ) {
+</span><span id="165" class="l"><a class="l" href="source-function-woocommerce_create_page.html#165">165 </a>        <span class="php-keyword1">if</span> ( ! <span class="php-var">$option_value</span> )
+</span><span id="166" class="l"><a class="l" href="source-function-woocommerce_create_page.html#166">166 </a>            update_option( <span class="php-var">$option</span>, <span class="php-var">$page_found</span> );
+</span><span id="167" class="l"><a class="l" href="source-function-woocommerce_create_page.html#167">167 </a>        <span class="php-keyword1">return</span>;
+</span><span id="168" class="l"><a class="l" href="source-function-woocommerce_create_page.html#168">168 </a>    }
+</span><span id="169" class="l"><a class="l" href="source-function-woocommerce_create_page.html#169">169 </a>
+</span><span id="170" class="l"><a class="l" href="source-function-woocommerce_create_page.html#170">170 </a>    <span class="php-var">$page_data</span> = <span class="php-keyword1">array</span>(
+</span><span id="171" class="l"><a class="l" href="source-function-woocommerce_create_page.html#171">171 </a>        <span class="php-quote">'post_status'</span>       =&gt; <span class="php-quote">'publish'</span>,
+</span><span id="172" class="l"><a class="l" href="source-function-woocommerce_create_page.html#172">172 </a>        <span class="php-quote">'post_type'</span>         =&gt; <span class="php-quote">'page'</span>,
+</span><span id="173" class="l"><a class="l" href="source-function-woocommerce_create_page.html#173">173 </a>        <span class="php-quote">'post_author'</span>       =&gt; <span class="php-num">1</span>,
+</span><span id="174" class="l"><a class="l" href="source-function-woocommerce_create_page.html#174">174 </a>        <span class="php-quote">'post_name'</span>         =&gt; <span class="php-var">$slug</span>,
+</span><span id="175" class="l"><a class="l" href="source-function-woocommerce_create_page.html#175">175 </a>        <span class="php-quote">'post_title'</span>        =&gt; <span class="php-var">$page_title</span>,
+</span><span id="176" class="l"><a class="l" href="source-function-woocommerce_create_page.html#176">176 </a>        <span class="php-quote">'post_content'</span>      =&gt; <span class="php-var">$page_content</span>,
+</span><span id="177" class="l"><a class="l" href="source-function-woocommerce_create_page.html#177">177 </a>        <span class="php-quote">'post_parent'</span>       =&gt; <span class="php-var">$post_parent</span>,
+</span><span id="178" class="l"><a class="l" href="source-function-woocommerce_create_page.html#178">178 </a>        <span class="php-quote">'comment_status'</span>    =&gt; <span class="php-quote">'closed'</span>
+</span><span id="179" class="l"><a class="l" href="source-function-woocommerce_create_page.html#179">179 </a>    );
+</span><span id="180" class="l"><a class="l" href="source-function-woocommerce_create_page.html#180">180 </a>    <span class="php-var">$page_id</span> = wp_insert_post( <span class="php-var">$page_data</span> );
+</span><span id="181" class="l"><a class="l" href="source-function-woocommerce_create_page.html#181">181 </a>
+</span><span id="182" class="l"><a class="l" href="source-function-woocommerce_create_page.html#182">182 </a>    update_option( <span class="php-var">$option</span>, <span class="php-var">$page_id</span> );
+</span><span id="183" class="l"><a class="l" href="source-function-woocommerce_create_page.html#183">183 </a>}
+</span><span id="184" class="l"><a class="l" href="source-function-woocommerce_create_page.html#184">184 </a>
+</span><span id="185" class="l"><a class="l" href="source-function-woocommerce_create_page.html#185">185 </a>
+</span><span id="186" class="l"><a class="l" href="source-function-woocommerce_create_page.html#186">186 </a><span class="php-comment">/**
+</span></span><span id="187" class="l"><a class="l" href="source-function-woocommerce_create_page.html#187">187 </a><span class="php-comment"> * Create pages that the plugin relies on, storing page id's in variables.
+</span></span><span id="188" class="l"><a class="l" href="source-function-woocommerce_create_page.html#188">188 </a><span class="php-comment"> *
+</span></span><span id="189" class="l"><a class="l" href="source-function-woocommerce_create_page.html#189">189 </a><span class="php-comment"> * @access public
+</span></span><span id="190" class="l"><a class="l" href="source-function-woocommerce_create_page.html#190">190 </a><span class="php-comment"> * @return void
+</span></span><span id="191" class="l"><a class="l" href="source-function-woocommerce_create_page.html#191">191 </a><span class="php-comment"> */</span>
+</span><span id="192" class="l"><a class="l" href="source-function-woocommerce_create_page.html#192">192 </a><span class="php-keyword1">function</span> <a id="_woocommerce_create_pages" href="source-function-woocommerce_create_page.html#_woocommerce_create_pages">woocommerce_create_pages</a>() {
+</span><span id="193" class="l"><a class="l" href="source-function-woocommerce_create_page.html#193">193 </a>
+</span><span id="194" class="l"><a class="l" href="source-function-woocommerce_create_page.html#194">194 </a>    <span class="php-comment">// Shop page</span>
+</span><span id="195" class="l"><a class="l" href="source-function-woocommerce_create_page.html#195">195 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'shop'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_shop_page_id'</span>, __( <span class="php-quote">'Shop'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">''</span> );
+</span><span id="196" class="l"><a class="l" href="source-function-woocommerce_create_page.html#196">196 </a>
+</span><span id="197" class="l"><a class="l" href="source-function-woocommerce_create_page.html#197">197 </a>    <span class="php-comment">// Cart page</span>
+</span><span id="198" class="l"><a class="l" href="source-function-woocommerce_create_page.html#198">198 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'cart'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_cart_page_id'</span>, __( <span class="php-quote">'Cart'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">'[woocommerce_cart]'</span> );
+</span><span id="199" class="l"><a class="l" href="source-function-woocommerce_create_page.html#199">199 </a>
+</span><span id="200" class="l"><a class="l" href="source-function-woocommerce_create_page.html#200">200 </a>    <span class="php-comment">// Checkout page</span>
+</span><span id="201" class="l"><a class="l" href="source-function-woocommerce_create_page.html#201">201 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'checkout'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_checkout_page_id'</span>, __( <span class="php-quote">'Checkout'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">'[woocommerce_checkout]'</span> );
+</span><span id="202" class="l"><a class="l" href="source-function-woocommerce_create_page.html#202">202 </a>
+</span><span id="203" class="l"><a class="l" href="source-function-woocommerce_create_page.html#203">203 </a>    <span class="php-comment">// My Account page</span>
+</span><span id="204" class="l"><a class="l" href="source-function-woocommerce_create_page.html#204">204 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'my-account'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_myaccount_page_id'</span>, __( <span class="php-quote">'My Account'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">'[woocommerce_my_account]'</span> );
+</span><span id="205" class="l"><a class="l" href="source-function-woocommerce_create_page.html#205">205 </a>
+</span><span id="206" class="l"><a class="l" href="source-function-woocommerce_create_page.html#206">206 </a>    <span class="php-comment">// Lost password page</span>
+</span><span id="207" class="l"><a class="l" href="source-function-woocommerce_create_page.html#207">207 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'lost-password'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_lost_password_page_id'</span>, __( <span class="php-quote">'Lost Password'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">'[woocommerce_lost_password]'</span>, woocommerce_get_page_id( <span class="php-quote">'myaccount'</span> ) );
+</span><span id="208" class="l"><a class="l" href="source-function-woocommerce_create_page.html#208">208 </a>
+</span><span id="209" class="l"><a class="l" href="source-function-woocommerce_create_page.html#209">209 </a>    <span class="php-comment">// Edit address page</span>
+</span><span id="210" class="l"><a class="l" href="source-function-woocommerce_create_page.html#210">210 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'edit-address'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_edit_address_page_id'</span>, __( <span class="php-quote">'Edit My Address'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">'[woocommerce_edit_address]'</span>, woocommerce_get_page_id( <span class="php-quote">'myaccount'</span> ) );
+</span><span id="211" class="l"><a class="l" href="source-function-woocommerce_create_page.html#211">211 </a>
+</span><span id="212" class="l"><a class="l" href="source-function-woocommerce_create_page.html#212">212 </a>    <span class="php-comment">// View order page</span>
+</span><span id="213" class="l"><a class="l" href="source-function-woocommerce_create_page.html#213">213 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'view-order'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_view_order_page_id'</span>, __( <span class="php-quote">'View Order'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">'[woocommerce_view_order]'</span>, woocommerce_get_page_id( <span class="php-quote">'myaccount'</span> ) );
+</span><span id="214" class="l"><a class="l" href="source-function-woocommerce_create_page.html#214">214 </a>
+</span><span id="215" class="l"><a class="l" href="source-function-woocommerce_create_page.html#215">215 </a>    <span class="php-comment">// Change password page</span>
+</span><span id="216" class="l"><a class="l" href="source-function-woocommerce_create_page.html#216">216 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'change-password'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_change_password_page_id'</span>, __( <span class="php-quote">'Change Password'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">'[woocommerce_change_password]'</span>, woocommerce_get_page_id( <span class="php-quote">'myaccount'</span> ) );
+</span><span id="217" class="l"><a class="l" href="source-function-woocommerce_create_page.html#217">217 </a>
+</span><span id="218" class="l"><a class="l" href="source-function-woocommerce_create_page.html#218">218 </a>    <span class="php-comment">// Logout page</span>
+</span><span id="219" class="l"><a class="l" href="source-function-woocommerce_create_page.html#219">219 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'logout'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_logout_page_id'</span>, __( <span class="php-quote">'Logout'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">''</span>, woocommerce_get_page_id( <span class="php-quote">'myaccount'</span> ) );
+</span><span id="220" class="l"><a class="l" href="source-function-woocommerce_create_page.html#220">220 </a>
+</span><span id="221" class="l"><a class="l" href="source-function-woocommerce_create_page.html#221">221 </a>    <span class="php-comment">// Pay page</span>
+</span><span id="222" class="l"><a class="l" href="source-function-woocommerce_create_page.html#222">222 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'pay'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_pay_page_id'</span>, __( <span class="php-quote">'Checkout &amp;rarr; Pay'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">'[woocommerce_pay]'</span>, woocommerce_get_page_id( <span class="php-quote">'checkout'</span> ) );
+</span><span id="223" class="l"><a class="l" href="source-function-woocommerce_create_page.html#223">223 </a>
+</span><span id="224" class="l"><a class="l" href="source-function-woocommerce_create_page.html#224">224 </a>    <span class="php-comment">// Thanks page</span>
+</span><span id="225" class="l"><a class="l" href="source-function-woocommerce_create_page.html#225">225 </a>    woocommerce_create_page( esc_sql( _x( <span class="php-quote">'order-received'</span>, <span class="php-quote">'page_slug'</span>, <span class="php-quote">'woocommerce'</span> ) ), <span class="php-quote">'woocommerce_thanks_page_id'</span>, __( <span class="php-quote">'Order Received'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">'[woocommerce_thankyou]'</span>, woocommerce_get_page_id( <span class="php-quote">'checkout'</span> ) );
+</span><span id="226" class="l"><a class="l" href="source-function-woocommerce_create_page.html#226">226 </a>}
+</span><span id="227" class="l"><a class="l" href="source-function-woocommerce_create_page.html#227">227 </a>
+</span><span id="228" class="l"><a class="l" href="source-function-woocommerce_create_page.html#228">228 </a>
+</span><span id="229" class="l"><a class="l" href="source-function-woocommerce_create_page.html#229">229 </a><span class="php-comment">/**
+</span></span><span id="230" class="l"><a class="l" href="source-function-woocommerce_create_page.html#230">230 </a><span class="php-comment"> * Set up the database tables which the plugin needs to function.
+</span></span><span id="231" class="l"><a class="l" href="source-function-woocommerce_create_page.html#231">231 </a><span class="php-comment"> *
+</span></span><span id="232" class="l"><a class="l" href="source-function-woocommerce_create_page.html#232">232 </a><span class="php-comment"> * Tables:
+</span></span><span id="233" class="l"><a class="l" href="source-function-woocommerce_create_page.html#233">233 </a><span class="php-comment"> *      woocommerce_attribute_taxonomies - Table for storing attribute taxonomies - these are user defined
+</span></span><span id="234" class="l"><a class="l" href="source-function-woocommerce_create_page.html#234">234 </a><span class="php-comment"> *      woocommerce_termmeta - Term meta table - sadly WordPress does not have termmeta so we need our own
+</span></span><span id="235" class="l"><a class="l" href="source-function-woocommerce_create_page.html#235">235 </a><span class="php-comment"> *      woocommerce_downloadable_product_permissions - Table for storing user and guest download permissions.
+</span></span><span id="236" class="l"><a class="l" href="source-function-woocommerce_create_page.html#236">236 </a><span class="php-comment"> *          KEY(order_id, product_id, download_id) used for organizing downloads on the My Account page
+</span></span><span id="237" class="l"><a class="l" href="source-function-woocommerce_create_page.html#237">237 </a><span class="php-comment"> *      woocommerce_order_items - Order line items are stored in a table to make them easily queryable for reports
+</span></span><span id="238" class="l"><a class="l" href="source-function-woocommerce_create_page.html#238">238 </a><span class="php-comment"> *      woocommerce_order_itemmeta - Order line item meta is stored in a table for storing extra data.
+</span></span><span id="239" class="l"><a class="l" href="source-function-woocommerce_create_page.html#239">239 </a><span class="php-comment"> *      woocommerce_tax_rates - Tax Rates are stored inside 2 tables making tax queries simple and efficient.
+</span></span><span id="240" class="l"><a class="l" href="source-function-woocommerce_create_page.html#240">240 </a><span class="php-comment"> *      woocommerce_tax_rate_locations - Each rate can be applied to more than one postcode/city hence the second table.
+</span></span><span id="241" class="l"><a class="l" href="source-function-woocommerce_create_page.html#241">241 </a><span class="php-comment"> *
+</span></span><span id="242" class="l"><a class="l" href="source-function-woocommerce_create_page.html#242">242 </a><span class="php-comment"> * @access public
+</span></span><span id="243" class="l"><a class="l" href="source-function-woocommerce_create_page.html#243">243 </a><span class="php-comment"> * @return void
+</span></span><span id="244" class="l"><a class="l" href="source-function-woocommerce_create_page.html#244">244 </a><span class="php-comment"> */</span>
+</span><span id="245" class="l"><a class="l" href="source-function-woocommerce_create_page.html#245">245 </a><span class="php-keyword1">function</span> <a id="_woocommerce_tables_install" href="source-function-woocommerce_create_page.html#_woocommerce_tables_install">woocommerce_tables_install</a>() {
+</span><span id="246" class="l"><a class="l" href="source-function-woocommerce_create_page.html#246">246 </a>    <span class="php-keyword1">global</span> <span class="php-var">$wpdb</span>, <span class="php-var">$woocommerce</span>;
+</span><span id="247" class="l"><a class="l" href="source-function-woocommerce_create_page.html#247">247 </a>
+</span><span id="248" class="l"><a class="l" href="source-function-woocommerce_create_page.html#248">248 </a>    <span class="php-var">$wpdb</span>-&gt;hide_errors();
+</span><span id="249" class="l"><a class="l" href="source-function-woocommerce_create_page.html#249">249 </a>
+</span><span id="250" class="l"><a class="l" href="source-function-woocommerce_create_page.html#250">250 </a>    <span class="php-var">$collate</span> = <span class="php-quote">''</span>;
+</span><span id="251" class="l"><a class="l" href="source-function-woocommerce_create_page.html#251">251 </a>
+</span><span id="252" class="l"><a class="l" href="source-function-woocommerce_create_page.html#252">252 </a>    <span class="php-keyword1">if</span> ( <span class="php-var">$wpdb</span>-&gt;has_cap( <span class="php-quote">'collation'</span> ) ) {
+</span><span id="253" class="l"><a class="l" href="source-function-woocommerce_create_page.html#253">253 </a>        <span class="php-keyword1">if</span>( ! <span class="php-keyword1">empty</span>(<span class="php-var">$wpdb</span>-&gt;charset ) )
+</span><span id="254" class="l"><a class="l" href="source-function-woocommerce_create_page.html#254">254 </a>            <span class="php-var">$collate</span> .= <span class="php-quote">&quot;DEFAULT CHARACTER SET </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;charset&quot;</span>;
+</span><span id="255" class="l"><a class="l" href="source-function-woocommerce_create_page.html#255">255 </a>        <span class="php-keyword1">if</span>( ! <span class="php-keyword1">empty</span>(<span class="php-var">$wpdb</span>-&gt;collate ) )
+</span><span id="256" class="l"><a class="l" href="source-function-woocommerce_create_page.html#256">256 </a>            <span class="php-var">$collate</span> .= <span class="php-quote">&quot; COLLATE </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;collate&quot;</span>;
+</span><span id="257" class="l"><a class="l" href="source-function-woocommerce_create_page.html#257">257 </a>    }
+</span><span id="258" class="l"><a class="l" href="source-function-woocommerce_create_page.html#258">258 </a>
+</span><span id="259" class="l"><a class="l" href="source-function-woocommerce_create_page.html#259">259 </a>    <span class="php-keyword1">require_once</span>( ABSPATH . <span class="php-quote">'wp-admin/includes/upgrade.php'</span> );
+</span><span id="260" class="l"><a class="l" href="source-function-woocommerce_create_page.html#260">260 </a>
+</span><span id="261" class="l"><a class="l" href="source-function-woocommerce_create_page.html#261">261 </a>    <span class="php-comment">// WooCommerce Tables</span>
+</span><span id="262" class="l"><a class="l" href="source-function-woocommerce_create_page.html#262">262 </a>    <span class="php-var">$woocommerce_tables</span> = <span class="php-quote">&quot;
+</span></span><span id="263" class="l"><a class="l" href="source-function-woocommerce_create_page.html#263">263 </a><span class="php-quote">CREATE TABLE </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_attribute_taxonomies (
+</span></span><span id="264" class="l"><a class="l" href="source-function-woocommerce_create_page.html#264">264 </a><span class="php-quote">  attribute_id bigint(20) NOT NULL auto_increment,
+</span></span><span id="265" class="l"><a class="l" href="source-function-woocommerce_create_page.html#265">265 </a><span class="php-quote">  attribute_name varchar(200) NOT NULL,
+</span></span><span id="266" class="l"><a class="l" href="source-function-woocommerce_create_page.html#266">266 </a><span class="php-quote">  attribute_label longtext NULL,
+</span></span><span id="267" class="l"><a class="l" href="source-function-woocommerce_create_page.html#267">267 </a><span class="php-quote">  attribute_type varchar(200) NOT NULL,
+</span></span><span id="268" class="l"><a class="l" href="source-function-woocommerce_create_page.html#268">268 </a><span class="php-quote">  attribute_orderby varchar(200) NOT NULL,
+</span></span><span id="269" class="l"><a class="l" href="source-function-woocommerce_create_page.html#269">269 </a><span class="php-quote">  PRIMARY KEY  (attribute_id),
+</span></span><span id="270" class="l"><a class="l" href="source-function-woocommerce_create_page.html#270">270 </a><span class="php-quote">  KEY attribute_name (attribute_name)
+</span></span><span id="271" class="l"><a class="l" href="source-function-woocommerce_create_page.html#271">271 </a><span class="php-quote">) </span><span class="php-var">$collate</span><span class="php-quote">;
+</span></span><span id="272" class="l"><a class="l" href="source-function-woocommerce_create_page.html#272">272 </a><span class="php-quote">CREATE TABLE </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_termmeta (
+</span></span><span id="273" class="l"><a class="l" href="source-function-woocommerce_create_page.html#273">273 </a><span class="php-quote">  meta_id bigint(20) NOT NULL auto_increment,
+</span></span><span id="274" class="l"><a class="l" href="source-function-woocommerce_create_page.html#274">274 </a><span class="php-quote">  woocommerce_term_id bigint(20) NOT NULL,
+</span></span><span id="275" class="l"><a class="l" href="source-function-woocommerce_create_page.html#275">275 </a><span class="php-quote">  meta_key varchar(255) NULL,
+</span></span><span id="276" class="l"><a class="l" href="source-function-woocommerce_create_page.html#276">276 </a><span class="php-quote">  meta_value longtext NULL,
+</span></span><span id="277" class="l"><a class="l" href="source-function-woocommerce_create_page.html#277">277 </a><span class="php-quote">  PRIMARY KEY  (meta_id),
+</span></span><span id="278" class="l"><a class="l" href="source-function-woocommerce_create_page.html#278">278 </a><span class="php-quote">  KEY woocommerce_term_id (woocommerce_term_id),
+</span></span><span id="279" class="l"><a class="l" href="source-function-woocommerce_create_page.html#279">279 </a><span class="php-quote">  KEY meta_key (meta_key)
+</span></span><span id="280" class="l"><a class="l" href="source-function-woocommerce_create_page.html#280">280 </a><span class="php-quote">) </span><span class="php-var">$collate</span><span class="php-quote">;
+</span></span><span id="281" class="l"><a class="l" href="source-function-woocommerce_create_page.html#281">281 </a><span class="php-quote">CREATE TABLE </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_downloadable_product_permissions (
+</span></span><span id="282" class="l"><a class="l" href="source-function-woocommerce_create_page.html#282">282 </a><span class="php-quote">  download_id varchar(32) NOT NULL,
+</span></span><span id="283" class="l"><a class="l" href="source-function-woocommerce_create_page.html#283">283 </a><span class="php-quote">  product_id bigint(20) NOT NULL,
+</span></span><span id="284" class="l"><a class="l" href="source-function-woocommerce_create_page.html#284">284 </a><span class="php-quote">  order_id bigint(20) NOT NULL DEFAULT 0,
+</span></span><span id="285" class="l"><a class="l" href="source-function-woocommerce_create_page.html#285">285 </a><span class="php-quote">  order_key varchar(200) NOT NULL,
+</span></span><span id="286" class="l"><a class="l" href="source-function-woocommerce_create_page.html#286">286 </a><span class="php-quote">  user_email varchar(200) NOT NULL,
+</span></span><span id="287" class="l"><a class="l" href="source-function-woocommerce_create_page.html#287">287 </a><span class="php-quote">  user_id bigint(20) NULL,
+</span></span><span id="288" class="l"><a class="l" href="source-function-woocommerce_create_page.html#288">288 </a><span class="php-quote">  downloads_remaining varchar(9) NULL,
+</span></span><span id="289" class="l"><a class="l" href="source-function-woocommerce_create_page.html#289">289 </a><span class="php-quote">  access_granted datetime NOT NULL default '0000-00-00 00:00:00',
+</span></span><span id="290" class="l"><a class="l" href="source-function-woocommerce_create_page.html#290">290 </a><span class="php-quote">  access_expires datetime NULL default null,
+</span></span><span id="291" class="l"><a class="l" href="source-function-woocommerce_create_page.html#291">291 </a><span class="php-quote">  download_count bigint(20) NOT NULL DEFAULT 0,
+</span></span><span id="292" class="l"><a class="l" href="source-function-woocommerce_create_page.html#292">292 </a><span class="php-quote">  PRIMARY KEY  (product_id,order_id,order_key,download_id),
+</span></span><span id="293" class="l"><a class="l" href="source-function-woocommerce_create_page.html#293">293 </a><span class="php-quote">  KEY download_order_product (download_id,order_id,product_id)
+</span></span><span id="294" class="l"><a class="l" href="source-function-woocommerce_create_page.html#294">294 </a><span class="php-quote">) </span><span class="php-var">$collate</span><span class="php-quote">;
+</span></span><span id="295" class="l"><a class="l" href="source-function-woocommerce_create_page.html#295">295 </a><span class="php-quote">CREATE TABLE </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_order_items (
+</span></span><span id="296" class="l"><a class="l" href="source-function-woocommerce_create_page.html#296">296 </a><span class="php-quote">  order_item_id bigint(20) NOT NULL auto_increment,
+</span></span><span id="297" class="l"><a class="l" href="source-function-woocommerce_create_page.html#297">297 </a><span class="php-quote">  order_item_name longtext NOT NULL,
+</span></span><span id="298" class="l"><a class="l" href="source-function-woocommerce_create_page.html#298">298 </a><span class="php-quote">  order_item_type varchar(200) NOT NULL DEFAULT '',
+</span></span><span id="299" class="l"><a class="l" href="source-function-woocommerce_create_page.html#299">299 </a><span class="php-quote">  order_id bigint(20) NOT NULL,
+</span></span><span id="300" class="l"><a class="l" href="source-function-woocommerce_create_page.html#300">300 </a><span class="php-quote">  PRIMARY KEY  (order_item_id),
+</span></span><span id="301" class="l"><a class="l" href="source-function-woocommerce_create_page.html#301">301 </a><span class="php-quote">  KEY order_id (order_id)
+</span></span><span id="302" class="l"><a class="l" href="source-function-woocommerce_create_page.html#302">302 </a><span class="php-quote">) </span><span class="php-var">$collate</span><span class="php-quote">;
+</span></span><span id="303" class="l"><a class="l" href="source-function-woocommerce_create_page.html#303">303 </a><span class="php-quote">CREATE TABLE </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_order_itemmeta (
+</span></span><span id="304" class="l"><a class="l" href="source-function-woocommerce_create_page.html#304">304 </a><span class="php-quote">  meta_id bigint(20) NOT NULL auto_increment,
+</span></span><span id="305" class="l"><a class="l" href="source-function-woocommerce_create_page.html#305">305 </a><span class="php-quote">  order_item_id bigint(20) NOT NULL,
+</span></span><span id="306" class="l"><a class="l" href="source-function-woocommerce_create_page.html#306">306 </a><span class="php-quote">  meta_key varchar(255) NULL,
+</span></span><span id="307" class="l"><a class="l" href="source-function-woocommerce_create_page.html#307">307 </a><span class="php-quote">  meta_value longtext NULL,
+</span></span><span id="308" class="l"><a class="l" href="source-function-woocommerce_create_page.html#308">308 </a><span class="php-quote">  PRIMARY KEY  (meta_id),
+</span></span><span id="309" class="l"><a class="l" href="source-function-woocommerce_create_page.html#309">309 </a><span class="php-quote">  KEY order_item_id (order_item_id),
+</span></span><span id="310" class="l"><a class="l" href="source-function-woocommerce_create_page.html#310">310 </a><span class="php-quote">  KEY meta_key (meta_key)
+</span></span><span id="311" class="l"><a class="l" href="source-function-woocommerce_create_page.html#311">311 </a><span class="php-quote">) </span><span class="php-var">$collate</span><span class="php-quote">;
+</span></span><span id="312" class="l"><a class="l" href="source-function-woocommerce_create_page.html#312">312 </a><span class="php-quote">CREATE TABLE </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_tax_rates (
+</span></span><span id="313" class="l"><a class="l" href="source-function-woocommerce_create_page.html#313">313 </a><span class="php-quote">  tax_rate_id bigint(20) NOT NULL auto_increment,
+</span></span><span id="314" class="l"><a class="l" href="source-function-woocommerce_create_page.html#314">314 </a><span class="php-quote">  tax_rate_country varchar(200) NOT NULL DEFAULT '',
+</span></span><span id="315" class="l"><a class="l" href="source-function-woocommerce_create_page.html#315">315 </a><span class="php-quote">  tax_rate_state varchar(200) NOT NULL DEFAULT '',
+</span></span><span id="316" class="l"><a class="l" href="source-function-woocommerce_create_page.html#316">316 </a><span class="php-quote">  tax_rate varchar(200) NOT NULL DEFAULT '',
+</span></span><span id="317" class="l"><a class="l" href="source-function-woocommerce_create_page.html#317">317 </a><span class="php-quote">  tax_rate_name varchar(200) NOT NULL DEFAULT '',
+</span></span><span id="318" class="l"><a class="l" href="source-function-woocommerce_create_page.html#318">318 </a><span class="php-quote">  tax_rate_priority bigint(20) NOT NULL,
+</span></span><span id="319" class="l"><a class="l" href="source-function-woocommerce_create_page.html#319">319 </a><span class="php-quote">  tax_rate_compound int(1) NOT NULL DEFAULT 0,
+</span></span><span id="320" class="l"><a class="l" href="source-function-woocommerce_create_page.html#320">320 </a><span class="php-quote">  tax_rate_shipping int(1) NOT NULL DEFAULT 1,
+</span></span><span id="321" class="l"><a class="l" href="source-function-woocommerce_create_page.html#321">321 </a><span class="php-quote">  tax_rate_order bigint(20) NOT NULL,
+</span></span><span id="322" class="l"><a class="l" href="source-function-woocommerce_create_page.html#322">322 </a><span class="php-quote">  tax_rate_class varchar(200) NOT NULL DEFAULT '',
+</span></span><span id="323" class="l"><a class="l" href="source-function-woocommerce_create_page.html#323">323 </a><span class="php-quote">  PRIMARY KEY  (tax_rate_id),
+</span></span><span id="324" class="l"><a class="l" href="source-function-woocommerce_create_page.html#324">324 </a><span class="php-quote">  KEY tax_rate_country (tax_rate_country),
+</span></span><span id="325" class="l"><a class="l" href="source-function-woocommerce_create_page.html#325">325 </a><span class="php-quote">  KEY tax_rate_state (tax_rate_state),
+</span></span><span id="326" class="l"><a class="l" href="source-function-woocommerce_create_page.html#326">326 </a><span class="php-quote">  KEY tax_rate_class (tax_rate_class),
+</span></span><span id="327" class="l"><a class="l" href="source-function-woocommerce_create_page.html#327">327 </a><span class="php-quote">  KEY tax_rate_priority (tax_rate_priority)
+</span></span><span id="328" class="l"><a class="l" href="source-function-woocommerce_create_page.html#328">328 </a><span class="php-quote">) </span><span class="php-var">$collate</span><span class="php-quote">;
+</span></span><span id="329" class="l"><a class="l" href="source-function-woocommerce_create_page.html#329">329 </a><span class="php-quote">CREATE TABLE </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_tax_rate_locations (
+</span></span><span id="330" class="l"><a class="l" href="source-function-woocommerce_create_page.html#330">330 </a><span class="php-quote">  location_id bigint(20) NOT NULL auto_increment,
+</span></span><span id="331" class="l"><a class="l" href="source-function-woocommerce_create_page.html#331">331 </a><span class="php-quote">  location_code varchar(255) NOT NULL,
+</span></span><span id="332" class="l"><a class="l" href="source-function-woocommerce_create_page.html#332">332 </a><span class="php-quote">  tax_rate_id bigint(20) NOT NULL,
+</span></span><span id="333" class="l"><a class="l" href="source-function-woocommerce_create_page.html#333">333 </a><span class="php-quote">  location_type varchar(40) NOT NULL,
+</span></span><span id="334" class="l"><a class="l" href="source-function-woocommerce_create_page.html#334">334 </a><span class="php-quote">  PRIMARY KEY  (location_id),
+</span></span><span id="335" class="l"><a class="l" href="source-function-woocommerce_create_page.html#335">335 </a><span class="php-quote">  KEY location_type (location_type),
+</span></span><span id="336" class="l"><a class="l" href="source-function-woocommerce_create_page.html#336">336 </a><span class="php-quote">  KEY location_type_code (location_type,location_code)
+</span></span><span id="337" class="l"><a class="l" href="source-function-woocommerce_create_page.html#337">337 </a><span class="php-quote">) </span><span class="php-var">$collate</span><span class="php-quote">;
+</span></span><span id="338" class="l"><a class="l" href="source-function-woocommerce_create_page.html#338">338 </a><span class="php-quote">&quot;</span>;
+</span><span id="339" class="l"><a class="l" href="source-function-woocommerce_create_page.html#339">339 </a>    dbDelta( <span class="php-var">$woocommerce_tables</span> );
+</span><span id="340" class="l"><a class="l" href="source-function-woocommerce_create_page.html#340">340 </a>}
+</span><span id="341" class="l"><a class="l" href="source-function-woocommerce_create_page.html#341">341 </a>
+</span><span id="342" class="l"><a class="l" href="source-function-woocommerce_create_page.html#342">342 </a>
+</span><span id="343" class="l"><a class="l" href="source-function-woocommerce_create_page.html#343">343 </a><span class="php-comment">/**
+</span></span><span id="344" class="l"><a class="l" href="source-function-woocommerce_create_page.html#344">344 </a><span class="php-comment"> * Add the default terms for WC taxonomies - product types and order statuses. Modify this at your own risk.
+</span></span><span id="345" class="l"><a class="l" href="source-function-woocommerce_create_page.html#345">345 </a><span class="php-comment"> *
+</span></span><span id="346" class="l"><a class="l" href="source-function-woocommerce_create_page.html#346">346 </a><span class="php-comment"> * @access public
+</span></span><span id="347" class="l"><a class="l" href="source-function-woocommerce_create_page.html#347">347 </a><span class="php-comment"> * @return void
+</span></span><span id="348" class="l"><a class="l" href="source-function-woocommerce_create_page.html#348">348 </a><span class="php-comment"> */</span>
+</span><span id="349" class="l"><a class="l" href="source-function-woocommerce_create_page.html#349">349 </a><span class="php-keyword1">function</span> <a id="_woocommerce_default_taxonomies" href="source-function-woocommerce_create_page.html#_woocommerce_default_taxonomies">woocommerce_default_taxonomies</a>() {
+</span><span id="350" class="l"><a class="l" href="source-function-woocommerce_create_page.html#350">350 </a>
+</span><span id="351" class="l"><a class="l" href="source-function-woocommerce_create_page.html#351">351 </a>    <span class="php-var">$taxonomies</span> = <span class="php-keyword1">array</span>(
+</span><span id="352" class="l"><a class="l" href="source-function-woocommerce_create_page.html#352">352 </a>        <span class="php-quote">'product_type'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="353" class="l"><a class="l" href="source-function-woocommerce_create_page.html#353">353 </a>            <span class="php-quote">'simple'</span>,
+</span><span id="354" class="l"><a class="l" href="source-function-woocommerce_create_page.html#354">354 </a>            <span class="php-quote">'grouped'</span>,
+</span><span id="355" class="l"><a class="l" href="source-function-woocommerce_create_page.html#355">355 </a>            <span class="php-quote">'variable'</span>,
+</span><span id="356" class="l"><a class="l" href="source-function-woocommerce_create_page.html#356">356 </a>            <span class="php-quote">'external'</span>
+</span><span id="357" class="l"><a class="l" href="source-function-woocommerce_create_page.html#357">357 </a>        ),
+</span><span id="358" class="l"><a class="l" href="source-function-woocommerce_create_page.html#358">358 </a>        <span class="php-quote">'shop_order_status'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="359" class="l"><a class="l" href="source-function-woocommerce_create_page.html#359">359 </a>            <span class="php-quote">'pending'</span>,
+</span><span id="360" class="l"><a class="l" href="source-function-woocommerce_create_page.html#360">360 </a>            <span class="php-quote">'failed'</span>,
+</span><span id="361" class="l"><a class="l" href="source-function-woocommerce_create_page.html#361">361 </a>            <span class="php-quote">'on-hold'</span>,
+</span><span id="362" class="l"><a class="l" href="source-function-woocommerce_create_page.html#362">362 </a>            <span class="php-quote">'processing'</span>,
+</span><span id="363" class="l"><a class="l" href="source-function-woocommerce_create_page.html#363">363 </a>            <span class="php-quote">'completed'</span>,
+</span><span id="364" class="l"><a class="l" href="source-function-woocommerce_create_page.html#364">364 </a>            <span class="php-quote">'refunded'</span>,
+</span><span id="365" class="l"><a class="l" href="source-function-woocommerce_create_page.html#365">365 </a>            <span class="php-quote">'cancelled'</span>
+</span><span id="366" class="l"><a class="l" href="source-function-woocommerce_create_page.html#366">366 </a>        )
+</span><span id="367" class="l"><a class="l" href="source-function-woocommerce_create_page.html#367">367 </a>    );
+</span><span id="368" class="l"><a class="l" href="source-function-woocommerce_create_page.html#368">368 </a>
+</span><span id="369" class="l"><a class="l" href="source-function-woocommerce_create_page.html#369">369 </a>    <span class="php-keyword1">foreach</span> ( <span class="php-var">$taxonomies</span> <span class="php-keyword1">as</span> <span class="php-var">$taxonomy</span> =&gt; <span class="php-var">$terms</span> ) {
+</span><span id="370" class="l"><a class="l" href="source-function-woocommerce_create_page.html#370">370 </a>        <span class="php-keyword1">foreach</span> ( <span class="php-var">$terms</span> <span class="php-keyword1">as</span> <span class="php-var">$term</span> ) {
+</span><span id="371" class="l"><a class="l" href="source-function-woocommerce_create_page.html#371">371 </a>            <span class="php-keyword1">if</span> ( ! get_term_by( <span class="php-quote">'slug'</span>, sanitize_title( <span class="php-var">$term</span> ), <span class="php-var">$taxonomy</span> ) ) {
+</span><span id="372" class="l"><a class="l" href="source-function-woocommerce_create_page.html#372">372 </a>                wp_insert_term( <span class="php-var">$term</span>, <span class="php-var">$taxonomy</span> );
+</span><span id="373" class="l"><a class="l" href="source-function-woocommerce_create_page.html#373">373 </a>            }
+</span><span id="374" class="l"><a class="l" href="source-function-woocommerce_create_page.html#374">374 </a>        }
+</span><span id="375" class="l"><a class="l" href="source-function-woocommerce_create_page.html#375">375 </a>    }
+</span><span id="376" class="l"><a class="l" href="source-function-woocommerce_create_page.html#376">376 </a></span>}</code></pre>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

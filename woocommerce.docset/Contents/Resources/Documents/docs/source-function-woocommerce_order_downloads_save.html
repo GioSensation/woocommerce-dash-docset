@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>File admin/post-types/writepanels/writepanel-order_downloads.php | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Admin.WritePanels.html" title="Summary of WooCommerce\Admin\WritePanels"><span>Package</span></a>
+						</li>
+						<li>
+							<a href="function-woocommerce_order_downloads_save.html" title="Summary of woocommerce_order_downloads_save"><span>Function</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-process_product_meta_variable.html">process_product_meta_variable</a></li>
+				<li><a href="function-variable_product_type_options.html">variable_product_type_options</a></li>
+				<li><a href="function-variable_product_type_options_tab.html">variable_product_type_options_tab</a></li>
+				<li><a href="function-variable_product_type_selector.html">variable_product_type_selector</a></li>
+				<li><a href="function-woocommerce_coupon_data_meta_box.html">woocommerce_coupon_data_meta_box</a></li>
+				<li><a href="function-woocommerce_enter_title_here.html">woocommerce_enter_title_here</a></li>
+				<li><a href="function-woocommerce_meta_boxes.html">woocommerce_meta_boxes</a></li>
+				<li><a href="function-woocommerce_meta_boxes_save.html">woocommerce_meta_boxes_save</a></li>
+				<li><a href="function-woocommerce_meta_boxes_save_errors.html">woocommerce_meta_boxes_save_errors</a></li>
+				<li><a href="function-woocommerce_meta_boxes_show_errors.html">woocommerce_meta_boxes_show_errors</a></li>
+				<li><a href="function-woocommerce_order_actions_meta_box.html">woocommerce_order_actions_meta_box</a></li>
+				<li><a href="function-woocommerce_order_data.html">woocommerce_order_data</a></li>
+				<li><a href="function-woocommerce_order_data_meta_box.html">woocommerce_order_data_meta_box</a></li>
+				<li><a href="function-woocommerce_order_downloads_meta_box.html">woocommerce_order_downloads_meta_box</a></li>
+				<li class="active"><a href="function-woocommerce_order_downloads_save.html">woocommerce_order_downloads_save</a></li>
+				<li><a href="function-woocommerce_order_items_meta_box.html">woocommerce_order_items_meta_box</a></li>
+				<li><a href="function-woocommerce_order_notes_meta_box.html">woocommerce_order_notes_meta_box</a></li>
+				<li><a href="function-woocommerce_order_totals_meta_box.html">woocommerce_order_totals_meta_box</a></li>
+				<li><a href="function-woocommerce_pre_post_update.html">woocommerce_pre_post_update</a></li>
+				<li><a href="function-woocommerce_process_product_file_download_paths.html">woocommerce_process_product_file_download_paths</a></li>
+				<li><a href="function-woocommerce_process_product_meta.html">woocommerce_process_product_meta</a></li>
+				<li><a href="function-woocommerce_process_shop_coupon_meta.html">woocommerce_process_shop_coupon_meta</a></li>
+				<li><a href="function-woocommerce_process_shop_order_meta.html">woocommerce_process_shop_order_meta</a></li>
+				<li><a href="function-woocommerce_product_data.html">woocommerce_product_data</a></li>
+				<li><a href="function-woocommerce_product_data_box.html">woocommerce_product_data_box</a></li>
+				<li><a href="function-woocommerce_product_data_visibility.html">woocommerce_product_data_visibility</a></li>
+				<li><a href="function-woocommerce_product_images_box.html">woocommerce_product_images_box</a></li>
+				<li><a href="function-woocommerce_product_review_status_meta_box.html">woocommerce_product_review_status_meta_box</a></li>
+				<li><a href="function-woocommerce_product_short_description_meta_box.html">woocommerce_product_short_description_meta_box</a></li>
+				<li><a href="function-woocommerce_wp_checkbox.html">woocommerce_wp_checkbox</a></li>
+				<li><a href="function-woocommerce_wp_hidden_input.html">woocommerce_wp_hidden_input</a></li>
+				<li><a href="function-woocommerce_wp_radio.html">woocommerce_wp_radio</a></li>
+				<li><a href="function-woocommerce_wp_select.html">woocommerce_wp_select</a></li>
+				<li><a href="function-woocommerce_wp_text_input.html">woocommerce_wp_text_input</a></li>
+				<li><a href="function-woocommerce_wp_textarea_input.html">woocommerce_wp_textarea_input</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#1">  1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#2">  2 </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#3">  3 </a><span class="php-comment"> * Order Downloads
+</span></span><span id="4" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#4">  4 </a><span class="php-comment"> *
+</span></span><span id="5" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#5">  5 </a><span class="php-comment"> * Functions for displaying order download permissions in admin.
+</span></span><span id="6" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#6">  6 </a><span class="php-comment"> *
+</span></span><span id="7" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#7">  7 </a><span class="php-comment"> * @author      WooThemes
+</span></span><span id="8" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#8">  8 </a><span class="php-comment"> * @category    Admin
+</span></span><span id="9" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#9">  9 </a><span class="php-comment"> * @package     WooCommerce/Admin/WritePanels
+</span></span><span id="10" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#10"> 10 </a><span class="php-comment"> * @version     1.6.4
+</span></span><span id="11" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#11"> 11 </a><span class="php-comment"> */</span>
+</span><span id="12" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#12"> 12 </a>
+</span><span id="13" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#13"> 13 </a><span class="php-keyword1">if</span> ( ! <span class="php-keyword2">defined</span>( <span class="php-quote">'ABSPATH'</span> ) ) <span class="php-keyword1">exit</span>; <span class="php-comment">// Exit if accessed directly</span>
+</span><span id="14" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#14"> 14 </a>
+</span><span id="15" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#15"> 15 </a><span class="php-comment">/**
+</span></span><span id="16" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#16"> 16 </a><span class="php-comment"> * Displays the order downloads meta box.
+</span></span><span id="17" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#17"> 17 </a><span class="php-comment"> *
+</span></span><span id="18" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#18"> 18 </a><span class="php-comment"> * @access public
+</span></span><span id="19" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#19"> 19 </a><span class="php-comment"> * @return void
+</span></span><span id="20" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#20"> 20 </a><span class="php-comment"> */</span>
+</span><span id="21" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#21"> 21 </a><span class="php-keyword1">function</span> <a id="_woocommerce_order_downloads_meta_box" href="source-function-woocommerce_order_downloads_save.html#_woocommerce_order_downloads_meta_box">woocommerce_order_downloads_meta_box</a>() {
+</span><span id="22" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#22"> 22 </a>    <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>, <span class="php-var">$post</span>, <span class="php-var">$wpdb</span>;
+</span><span id="23" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#23"> 23 </a>
+</span><span id="24" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#24"> 24 </a>    <span class="xlang">?&gt;</span>
+</span><span id="25" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#25"> 25 </a>    &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;order_download_permissions wc-metaboxes-wrapper&quot;</span>&gt;
+</span><span id="26" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#26"> 26 </a>
+</span><span id="27" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#27"> 27 </a>        &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;wc-metaboxes&quot;</span>&gt;
+</span><span id="28" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#28"> 28 </a>            <span class="xlang">&lt;?php</span>
+</span><span id="29" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#29"> 29 </a>                <span class="php-var">$download_permissions</span> = <span class="php-var">$wpdb</span>-&gt;get_results( <span class="php-var">$wpdb</span>-&gt;prepare( <span class="php-quote">&quot;
+</span></span><span id="30" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#30"> 30 </a><span class="php-quote">                    SELECT * FROM </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_downloadable_product_permissions
+</span></span><span id="31" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#31"> 31 </a><span class="php-quote">                    WHERE order_id = %d ORDER BY product_id
+</span></span><span id="32" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#32"> 32 </a><span class="php-quote">                &quot;</span>, <span class="php-var">$post</span>-&gt;ID ) );
+</span><span id="33" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#33"> 33 </a>
+</span><span id="34" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#34"> 34 </a>                <span class="php-var">$product</span> = <span class="php-keyword1">null</span>;
+</span><span id="35" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#35"> 35 </a>                <span class="php-var">$loop</span>    = <span class="php-num">0</span>;
+</span><span id="36" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#36"> 36 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$download_permissions</span> &amp;&amp; <span class="php-keyword2">sizeof</span>( <span class="php-var">$download_permissions</span> ) &gt; <span class="php-num">0</span> ) <span class="php-keyword1">foreach</span> ( <span class="php-var">$download_permissions</span> <span class="php-keyword1">as</span> <span class="php-var">$download</span> ) {
+</span><span id="37" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#37"> 37 </a>
+</span><span id="38" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#38"> 38 </a>                    <span class="php-keyword1">if</span> ( ! <span class="php-var">$product</span> || <span class="php-var">$product</span>-&gt;id != <span class="php-var">$download</span>-&gt;product_id ) {
+</span><span id="39" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#39"> 39 </a>                        <span class="php-var">$product</span> = get_product( absint( <span class="php-var">$download</span>-&gt;product_id ) );
+</span><span id="40" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#40"> 40 </a>                        <span class="php-var">$file_count</span> = <span class="php-num">0</span>;
+</span><span id="41" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#41"> 41 </a>                    }
+</span><span id="42" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#42"> 42 </a>
+</span><span id="43" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#43"> 43 </a>                    <span class="php-comment">// don't show permissions to files that have since been removed</span>
+</span><span id="44" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#44"> 44 </a>                    <span class="php-keyword1">if</span> ( ! <span class="php-var">$product</span>-&gt;exists() || ! <span class="php-var">$product</span>-&gt;has_file( <span class="php-var">$download</span>-&gt;download_id ) )
+</span><span id="45" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#45"> 45 </a>                        <span class="php-keyword1">continue</span>;
+</span><span id="46" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#46"> 46 </a>
+</span><span id="47" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#47"> 47 </a>                    <span class="php-keyword1">include</span>( <span class="php-quote">'order-download-permission-html.php'</span> );
+</span><span id="48" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#48"> 48 </a>
+</span><span id="49" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#49"> 49 </a>                    <span class="php-var">$loop</span>++;
+</span><span id="50" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#50"> 50 </a>                    <span class="php-var">$file_count</span>++;
+</span><span id="51" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#51"> 51 </a>                }
+</span><span id="52" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#52"> 52 </a>            <span class="xlang">?&gt;</span>
+</span><span id="53" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#53"> 53 </a>        &lt;/div&gt;
+</span><span id="54" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#54"> 54 </a>
+</span><span id="55" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#55"> 55 </a>        &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;toolbar&quot;</span>&gt;
+</span><span id="56" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#56"> 56 </a>            &lt;p <span class="php-keyword1">class</span>=<span class="php-quote">&quot;buttons&quot;</span>&gt;
+</span><span id="57" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#57"> 57 </a>                &lt;select name=<span class="php-quote">&quot;grant_access_id&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;grant_access_id chosen_select_nostd&quot;</span> data-placeholder=<span class="php-quote">&quot;&lt;?php _e( 'Choose a downloadable product&amp;hellip;', 'woocommerce' ) ?&gt;&quot;</span>&gt;
+</span><span id="58" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#58"> 58 </a>                    <span class="xlang">&lt;?php</span>
+</span><span id="59" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#59"> 59 </a>                        <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;option value=&quot;&quot;&gt;&lt;/option&gt;'</span>;
+</span><span id="60" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#60"> 60 </a>
+</span><span id="61" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#61"> 61 </a>                        <span class="php-var">$args</span> = <span class="php-keyword1">array</span>(
+</span><span id="62" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#62"> 62 </a>                            <span class="php-quote">'post_type'</span>         =&gt; <span class="php-keyword1">array</span>( <span class="php-quote">'product'</span>, <span class="php-quote">'product_variation'</span> ),
+</span><span id="63" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#63"> 63 </a>                            <span class="php-quote">'posts_per_page'</span>    =&gt; -<span class="php-num">1</span>,
+</span><span id="64" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#64"> 64 </a>                            <span class="php-quote">'post_status'</span>       =&gt; <span class="php-quote">'publish'</span>,
+</span><span id="65" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#65"> 65 </a>                            <span class="php-quote">'order'</span>             =&gt; <span class="php-quote">'ASC'</span>,
+</span><span id="66" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#66"> 66 </a>                            <span class="php-quote">'orderby'</span>           =&gt; <span class="php-quote">'parent title'</span>,
+</span><span id="67" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#67"> 67 </a>                            <span class="php-quote">'meta_query'</span>        =&gt; <span class="php-keyword1">array</span>(
+</span><span id="68" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#68"> 68 </a>                                <span class="php-keyword1">array</span>(
+</span><span id="69" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#69"> 69 </a>                                    <span class="php-quote">'key'</span>   =&gt; <span class="php-quote">'_downloadable'</span>,
+</span><span id="70" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#70"> 70 </a>                                    <span class="php-quote">'value'</span> =&gt; <span class="php-quote">'yes'</span>
+</span><span id="71" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#71"> 71 </a>                                )
+</span><span id="72" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#72"> 72 </a>                            )
+</span><span id="73" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#73"> 73 </a>                        );
+</span><span id="74" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#74"> 74 </a>                        <span class="php-var">$products</span> = get_posts( <span class="php-var">$args</span> );
+</span><span id="75" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#75"> 75 </a>
+</span><span id="76" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#76"> 76 </a>                        <span class="php-keyword1">if</span> ( <span class="php-var">$products</span> ) <span class="php-keyword1">foreach</span> ( <span class="php-var">$products</span> <span class="php-keyword1">as</span> <span class="php-var">$product</span> ) {
+</span><span id="77" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#77"> 77 </a>
+</span><span id="78" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#78"> 78 </a>                            <span class="php-var">$product_object</span> = get_product( <span class="php-var">$product</span>-&gt;ID );
+</span><span id="79" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#79"> 79 </a>                            <span class="php-var">$product_name</span>   = woocommerce_get_formatted_product_name( <span class="php-var">$product_object</span> );
+</span><span id="80" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#80"> 80 </a>
+</span><span id="81" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#81"> 81 </a>                            <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;option value=&quot;'</span> . esc_attr( <span class="php-var">$product</span>-&gt;ID ) . <span class="php-quote">'&quot;&gt;'</span> . esc_html( <span class="php-var">$product_name</span> ) . <span class="php-quote">'&lt;/option&gt;'</span>;
+</span><span id="82" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#82"> 82 </a>
+</span><span id="83" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#83"> 83 </a>                        }
+</span><span id="84" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#84"> 84 </a>                    <span class="xlang">?&gt;</span>
+</span><span id="85" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#85"> 85 </a>                &lt;/select&gt;
+</span><span id="86" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#86"> 86 </a>
+</span><span id="87" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#87"> 87 </a>                &lt;button type=<span class="php-quote">&quot;button&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;button grant_access&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Grant Access'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/button&gt;
+</span><span id="88" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#88"> 88 </a>            &lt;/p&gt;
+</span><span id="89" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#89"> 89 </a>            &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;clear&quot;</span>&gt;&lt;/div&gt;
+</span><span id="90" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#90"> 90 </a>        &lt;/div&gt;
+</span><span id="91" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#91"> 91 </a>
+</span><span id="92" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#92"> 92 </a>    &lt;/div&gt;
+</span><span id="93" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#93"> 93 </a>    <span class="xlang">&lt;?php</span>
+</span><span id="94" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#94"> 94 </a>    <span class="php-comment">/**
+</span></span><span id="95" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#95"> 95 </a><span class="php-comment">     * Javascript
+</span></span><span id="96" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#96"> 96 </a><span class="php-comment">     */</span>
+</span><span id="97" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#97"> 97 </a>    <span class="php-keyword2">ob_start</span>();
+</span><span id="98" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#98"> 98 </a>    <span class="xlang">?&gt;</span>
+</span><span id="99" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#99"> 99 </a>    jQuery(<span class="php-keyword1">function</span>(){
+</span><span id="100" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#100">100 </a>
+</span><span id="101" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#101">101 </a>        jQuery(<span class="php-quote">'.order_download_permissions'</span>).on(<span class="php-quote">'click'</span>, <span class="php-quote">'button.grant_access'</span>, <span class="php-keyword1">function</span>(){
+</span><span id="102" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#102">102 </a>
+</span><span id="103" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#103">103 </a>            <span class="php-keyword1">var</span> product = jQuery(<span class="php-quote">'select.grant_access_id'</span>).val();
+</span><span id="104" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#104">104 </a>
+</span><span id="105" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#105">105 </a>            <span class="php-keyword1">if</span> (!product) <span class="php-keyword1">return</span>;
+</span><span id="106" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#106">106 </a>
+</span><span id="107" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#107">107 </a>            jQuery(<span class="php-quote">'.order_download_permissions'</span>).block({ message: <span class="php-keyword1">null</span>, overlayCSS: { background: <span class="php-quote">'#fff url(&lt;?php echo $woocommerce-&gt;plugin_url(); ?&gt;/assets/images/ajax-loader.gif) no-repeat center'</span>, opacity: <span class="php-num">0.6</span> } });
+</span><span id="108" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#108">108 </a>
+</span><span id="109" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#109">109 </a>            <span class="php-keyword1">var</span> data = {
+</span><span id="110" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#110">110 </a>                action:         <span class="php-quote">'woocommerce_grant_access_to_download'</span>,
+</span><span id="111" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#111">111 </a>                product_id:     product,
+</span><span id="112" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#112">112 </a>                loop:           jQuery(<span class="php-quote">'.order_download_permissions .wc-metabox'</span>).size(),
+</span><span id="113" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#113">113 </a>                order_id:       <span class="php-quote">'&lt;?php echo $post-&gt;ID; ?&gt;'</span>,
+</span><span id="114" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#114">114 </a>                security:       <span class="php-quote">'&lt;?php echo wp_create_nonce(&quot;grant-access&quot;); ?&gt;'</span>
+</span><span id="115" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#115">115 </a>            };
+</span><span id="116" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#116">116 </a>
+</span><span id="117" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#117">117 </a>            jQuery.post(<span class="php-quote">'&lt;?php echo admin_url('</span>admin-ajax.php<span class="php-quote">'); ?&gt;'</span>, data, <span class="php-keyword1">function</span>( response ) {
+</span><span id="118" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#118">118 </a>
+</span><span id="119" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#119">119 </a>                <span class="php-keyword1">if</span> ( response ) {
+</span><span id="120" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#120">120 </a>
+</span><span id="121" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#121">121 </a>                    jQuery(<span class="php-quote">'.order_download_permissions .wc-metaboxes'</span>).append( response );
+</span><span id="122" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#122">122 </a>
+</span><span id="123" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#123">123 </a>                } <span class="php-keyword1">else</span> {
+</span><span id="124" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#124">124 </a>
+</span><span id="125" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#125">125 </a>                    alert(<span class="php-quote">'&lt;?php _e( '</span>Could not grant access - the user may already have permission <span class="php-keyword1">for</span> this <span class="php-keyword2">file</span> <span class="php-keyword1">or</span> billing email is not set. Ensure the billing email is set, <span class="php-keyword1">and</span> the order has been saved.<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>);
+</span><span id="126" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#126">126 </a>
+</span><span id="127" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#127">127 </a>                }
+</span><span id="128" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#128">128 </a>
+</span><span id="129" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#129">129 </a>                jQuery( <span class="php-quote">&quot;.date-picker&quot;</span> ).datepicker({
+</span><span id="130" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#130">130 </a>                    dateFormat: <span class="php-quote">&quot;yy-mm-dd&quot;</span>,
+</span><span id="131" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#131">131 </a>                    numberOfMonths: <span class="php-num">1</span>,
+</span><span id="132" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#132">132 </a>                    showButtonPanel: <span class="php-keyword1">true</span>,
+</span><span id="133" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#133">133 </a>                    showOn: <span class="php-quote">&quot;button&quot;</span>,
+</span><span id="134" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#134">134 </a>                    buttonImage: woocommerce_writepanel_params.calendar_image,
+</span><span id="135" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#135">135 </a>                    buttonImageOnly: <span class="php-keyword1">true</span>
+</span><span id="136" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#136">136 </a>                });
+</span><span id="137" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#137">137 </a>
+</span><span id="138" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#138">138 </a>                jQuery(<span class="php-quote">'.order_download_permissions'</span>).unblock();
+</span><span id="139" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#139">139 </a>
+</span><span id="140" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#140">140 </a>            });
+</span><span id="141" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#141">141 </a>
+</span><span id="142" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#142">142 </a>            <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="143" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#143">143 </a>
+</span><span id="144" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#144">144 </a>        });
+</span><span id="145" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#145">145 </a>
+</span><span id="146" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#146">146 </a>        jQuery(<span class="php-quote">'.order_download_permissions'</span>).on(<span class="php-quote">'click'</span>, <span class="php-quote">'button.revoke_access'</span>, <span class="php-keyword1">function</span>(e){
+</span><span id="147" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#147">147 </a>            e.preventDefault();
+</span><span id="148" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#148">148 </a>            <span class="php-keyword1">var</span> answer = confirm(<span class="php-quote">'&lt;?php _e( '</span>Are you sure you want to revoke access to this download?<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>);
+</span><span id="149" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#149">149 </a>            <span class="php-keyword1">if</span> (answer){
+</span><span id="150" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#150">150 </a>
+</span><span id="151" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#151">151 </a>                <span class="php-keyword1">var</span> el = jQuery(this).parent().parent();
+</span><span id="152" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#152">152 </a>
+</span><span id="153" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#153">153 </a>                <span class="php-keyword1">var</span> product = jQuery(this).attr(<span class="php-quote">'rel'</span>).<span class="php-keyword2">split</span>(<span class="php-quote">&quot;,&quot;</span>)[<span class="php-num">0</span>];
+</span><span id="154" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#154">154 </a>                <span class="php-keyword1">var</span> <span class="php-keyword2">file</span> = jQuery(this).attr(<span class="php-quote">'rel'</span>).<span class="php-keyword2">split</span>(<span class="php-quote">&quot;,&quot;</span>)[<span class="php-num">1</span>];
+</span><span id="155" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#155">155 </a>
+</span><span id="156" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#156">156 </a>                <span class="php-keyword1">if</span> (product&gt;<span class="php-num">0</span>) {
+</span><span id="157" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#157">157 </a>
+</span><span id="158" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#158">158 </a>                    jQuery(el).block({ message: <span class="php-keyword1">null</span>, overlayCSS: { background: <span class="php-quote">'#fff url(&lt;?php echo $woocommerce-&gt;plugin_url(); ?&gt;/assets/images/ajax-loader.gif) no-repeat center'</span>, opacity: <span class="php-num">0.6</span> } });
+</span><span id="159" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#159">159 </a>
+</span><span id="160" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#160">160 </a>                    <span class="php-keyword1">var</span> data = {
+</span><span id="161" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#161">161 </a>                        action:         <span class="php-quote">'woocommerce_revoke_access_to_download'</span>,
+</span><span id="162" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#162">162 </a>                        product_id:     product,
+</span><span id="163" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#163">163 </a>                        download_id:    <span class="php-keyword2">file</span>,
+</span><span id="164" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#164">164 </a>                        order_id:       <span class="php-quote">'&lt;?php echo $post-&gt;ID; ?&gt;'</span>,
+</span><span id="165" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#165">165 </a>                        security:       <span class="php-quote">'&lt;?php echo wp_create_nonce(&quot;revoke-access&quot;); ?&gt;'</span>
+</span><span id="166" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#166">166 </a>                    };
+</span><span id="167" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#167">167 </a>
+</span><span id="168" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#168">168 </a>                    jQuery.post(<span class="php-quote">'&lt;?php echo admin_url('</span>admin-ajax.php<span class="php-quote">'); ?&gt;'</span>, data, <span class="php-keyword1">function</span>(response) {
+</span><span id="169" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#169">169 </a>                        <span class="php-comment">// Success</span>
+</span><span id="170" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#170">170 </a>                        jQuery(el).fadeOut(<span class="php-quote">'300'</span>, <span class="php-keyword1">function</span>(){
+</span><span id="171" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#171">171 </a>                            jQuery(el).remove();
+</span><span id="172" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#172">172 </a>                        });
+</span><span id="173" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#173">173 </a>                    });
+</span><span id="174" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#174">174 </a>
+</span><span id="175" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#175">175 </a>                } <span class="php-keyword1">else</span> {
+</span><span id="176" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#176">176 </a>                    jQuery(el).fadeOut(<span class="php-quote">'300'</span>, <span class="php-keyword1">function</span>(){
+</span><span id="177" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#177">177 </a>                        jQuery(el).remove();
+</span><span id="178" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#178">178 </a>                    });
+</span><span id="179" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#179">179 </a>                }
+</span><span id="180" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#180">180 </a>
+</span><span id="181" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#181">181 </a>            }
+</span><span id="182" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#182">182 </a>            <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="183" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#183">183 </a>        });
+</span><span id="184" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#184">184 </a>
+</span><span id="185" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#185">185 </a>    });
+</span><span id="186" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#186">186 </a>    <span class="xlang">&lt;?php</span>
+</span><span id="187" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#187">187 </a>    <span class="php-var">$javascript</span> = <span class="php-keyword2">ob_get_clean</span>();
+</span><span id="188" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#188">188 </a>    <span class="php-var">$woocommerce</span>-&gt;add_inline_js( <span class="php-var">$javascript</span> );
+</span><span id="189" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#189">189 </a>}
+</span><span id="190" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#190">190 </a>
+</span><span id="191" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#191">191 </a>
+</span><span id="192" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#192">192 </a><span class="php-comment">/**
+</span></span><span id="193" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#193">193 </a><span class="php-comment"> * Save the order downloads meta box.
+</span></span><span id="194" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#194">194 </a><span class="php-comment"> *
+</span></span><span id="195" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#195">195 </a><span class="php-comment"> * @access public
+</span></span><span id="196" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#196">196 </a><span class="php-comment"> * @param mixed $post_id
+</span></span><span id="197" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#197">197 </a><span class="php-comment"> * @param mixed $post
+</span></span><span id="198" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#198">198 </a><span class="php-comment"> * @return void
+</span></span><span id="199" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#199">199 </a><span class="php-comment"> */</span>
+</span><span id="200" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#200">200 </a><span class="php-keyword1">function</span> <a id="_woocommerce_order_downloads_save" href="source-function-woocommerce_order_downloads_save.html#_woocommerce_order_downloads_save">woocommerce_order_downloads_save</a>( <span class="php-var">$post_id</span>, <span class="php-var">$post</span> ) {
+</span><span id="201" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#201">201 </a>    <span class="php-keyword1">global</span> <span class="php-var">$wpdb</span>, <span class="php-var">$woocommerce</span>;
+</span><span id="202" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#202">202 </a>
+</span><span id="203" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#203">203 </a>    <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'download_id'</span>] ) ) {
+</span><span id="204" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#204">204 </a>
+</span><span id="205" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#205">205 </a>        <span class="php-comment">// Download data</span>
+</span><span id="206" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#206">206 </a>        <span class="php-var">$download_ids</span>           = <span class="php-var">$_POST</span>[<span class="php-quote">'download_id'</span>];
+</span><span id="207" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#207">207 </a>        <span class="php-var">$product_ids</span>            = <span class="php-var">$_POST</span>[<span class="php-quote">'product_id'</span>];
+</span><span id="208" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#208">208 </a>        <span class="php-var">$downloads_remaining</span>    = <span class="php-var">$_POST</span>[<span class="php-quote">'downloads_remaining'</span>];
+</span><span id="209" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#209">209 </a>        <span class="php-var">$access_expires</span>         = <span class="php-var">$_POST</span>[<span class="php-quote">'access_expires'</span>];
+</span><span id="210" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#210">210 </a>
+</span><span id="211" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#211">211 </a>        <span class="php-comment">// Order data</span>
+</span><span id="212" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#212">212 </a>        <span class="php-var">$order_key</span>              = get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_order_key'</span>, <span class="php-keyword1">true</span> );
+</span><span id="213" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#213">213 </a>        <span class="php-var">$customer_email</span>         = get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_billing_email'</span>, <span class="php-keyword1">true</span> );
+</span><span id="214" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#214">214 </a>        <span class="php-var">$customer_user</span>          = get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_customer_user'</span>, <span class="php-keyword1">true</span> );
+</span><span id="215" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#215">215 </a>        <span class="php-var">$product_ids_count</span>      = <span class="php-keyword2">sizeof</span>( <span class="php-var">$product_ids</span> );
+</span><span id="216" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#216">216 </a>
+</span><span id="217" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#217">217 </a>        <span class="php-keyword1">for</span> ( <span class="php-var">$i</span> = <span class="php-num">0</span>; <span class="php-var">$i</span> &lt; <span class="php-var">$product_ids_count</span>; <span class="php-var">$i</span> ++ ) {
+</span><span id="218" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#218">218 </a>
+</span><span id="219" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#219">219 </a>            <span class="php-var">$data</span> = <span class="php-keyword1">array</span>(
+</span><span id="220" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#220">220 </a>                <span class="php-quote">'user_id'</span>               =&gt; absint( <span class="php-var">$customer_user</span> ),
+</span><span id="221" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#221">221 </a>                <span class="php-quote">'user_email'</span>            =&gt; woocommerce_clean( <span class="php-var">$customer_email</span> ),
+</span><span id="222" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#222">222 </a>                <span class="php-quote">'downloads_remaining'</span>   =&gt; woocommerce_clean( <span class="php-var">$downloads_remaining</span>[<span class="php-var">$i</span>] )
+</span><span id="223" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#223">223 </a>            );
+</span><span id="224" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#224">224 </a>
+</span><span id="225" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#225">225 </a>            <span class="php-var">$format</span> = <span class="php-keyword1">array</span>( <span class="php-quote">'%d'</span>, <span class="php-quote">'%s'</span>, <span class="php-quote">'%s'</span> );
+</span><span id="226" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#226">226 </a>
+</span><span id="227" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#227">227 </a>            <span class="php-var">$expiry</span>  = ( <span class="php-keyword2">array_key_exists</span>( <span class="php-var">$i</span>, <span class="php-var">$access_expires</span> ) &amp;&amp; <span class="php-var">$access_expires</span>[ <span class="php-var">$i</span> ] != <span class="php-quote">''</span> ) ? date_i18n( <span class="php-quote">'Y-m-d'</span>, <span class="php-keyword2">strtotime</span>( <span class="php-var">$access_expires</span>[ <span class="php-var">$i</span> ] ) ) : <span class="php-keyword1">null</span>;
+</span><span id="228" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#228">228 </a>
+</span><span id="229" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#229">229 </a>            <span class="php-keyword1">if</span> ( ! <span class="php-keyword2">is_null</span>( <span class="php-var">$expiry</span> ) ) {
+</span><span id="230" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#230">230 </a>                <span class="php-var">$data</span>[<span class="php-quote">'access_expires'</span>] = <span class="php-var">$expiry</span>;
+</span><span id="231" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#231">231 </a>                <span class="php-var">$format</span>[] = <span class="php-quote">'%s'</span>;
+</span><span id="232" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#232">232 </a>            }
+</span><span id="233" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#233">233 </a>
+</span><span id="234" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#234">234 </a>            <span class="php-var">$wpdb</span>-&gt;update( <span class="php-var">$wpdb</span>-&gt;prefix . <span class="php-quote">&quot;woocommerce_downloadable_product_permissions&quot;</span>,
+</span><span id="235" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#235">235 </a>                <span class="php-var">$data</span>,
+</span><span id="236" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#236">236 </a>                <span class="php-keyword1">array</span>(
+</span><span id="237" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#237">237 </a>                    <span class="php-quote">'order_id'</span>      =&gt; <span class="php-var">$post_id</span>,
+</span><span id="238" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#238">238 </a>                    <span class="php-quote">'product_id'</span>    =&gt; absint( <span class="php-var">$product_ids</span>[<span class="php-var">$i</span>] ),
+</span><span id="239" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#239">239 </a>                    <span class="php-quote">'download_id'</span>   =&gt; woocommerce_clean( <span class="php-var">$download_ids</span>[<span class="php-var">$i</span>] )
+</span><span id="240" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#240">240 </a>                    ),
+</span><span id="241" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#241">241 </a>                <span class="php-var">$format</span>, <span class="php-keyword1">array</span>( <span class="php-quote">'%d'</span>, <span class="php-quote">'%d'</span>, <span class="php-quote">'%s'</span> )
+</span><span id="242" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#242">242 </a>            );
+</span><span id="243" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#243">243 </a>
+</span><span id="244" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#244">244 </a>        }
+</span><span id="245" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#245">245 </a>    }
+</span><span id="246" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#246">246 </a>}
+</span><span id="247" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#247">247 </a>
+</span><span id="248" class="l"><a class="l" href="source-function-woocommerce_order_downloads_save.html#248">248 </a></span>add_action( <span class="php-quote">'woocommerce_process_shop_order_meta'</span>, <span class="php-quote">'woocommerce_order_downloads_save'</span>, <span class="php-num">5</span>, <span class="php-num">2</span> );</code></pre>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

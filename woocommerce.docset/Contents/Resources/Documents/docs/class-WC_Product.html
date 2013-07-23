@@ -1,0 +1,2980 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class WC_Product | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Abstracts.html" title="Summary of WooCommerce\Abstracts"><span>Package</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li class="active"><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WC_Email.html">WC_Email</a></li>
+				<li><a href="class-WC_Integration.html">WC_Integration</a></li>
+				<li><a href="class-WC_Payment_Gateway.html">WC_Payment_Gateway</a></li>
+				<li class="active"><a href="class-WC_Product.html">WC_Product</a></li>
+				<li><a href="class-WC_Session.html">WC_Session</a></li>
+				<li><a href="class-WC_Settings_API.html">WC_Settings_API</a></li>
+				<li><a href="class-WC_Shipping_Method.html">WC_Shipping_Method</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class WC_Product</h1>
+
+
+	<div class="description">
+	
+<p>Abstract Product Class</p>
+
+<p>The WooCommerce product class handles individual product data.</p>
+
+	</div>
+
+
+
+	<div>
+		<h3>Direct known subclasses</h3>
+		<p class="elementList">
+			<code><a href="class-WC_Product_External.html">WC_Product_External</a></code>, 
+			<code><a href="class-WC_Product_Grouped.html">WC_Product_Grouped</a></code>, 
+			<code><a href="class-WC_Product_Simple.html">WC_Product_Simple</a></code>, 
+			<code><a href="class-WC_Product_Variable.html">WC_Product_Variable</a></code>, 
+			<code><a href="class-WC_Product_Variation.html">WC_Product_Variation</a></code>
+		</p>
+	</div>
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WooCommerce.html">WooCommerce</a>\<a href="package-WooCommerce.Abstracts.html">Abstracts</a><br />
+
+				<b>Category:</b>
+				Abstract Class<br />
+				<b>Author:</b>
+				WooThemes<br />
+				<b>Version:</b>
+				2.0.0<br />
+				<b>Class:</b>
+				WC_Product<br />
+		<b>Located at</b> <a href="source-class-WC_Product.html#2-1272" title="Go to source code">classes/abstracts/abstract-wc-product.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#___construct">#</a>
+			<code><a href="source-class-WC_Product.html#24-45" title="Go to source code">__construct</a>( <span>mixed <var>$product</var></span> )</code>
+
+			<div class="description short">
+				
+<p>__construct function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>__construct function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$product</var></dt>
+						<dd><code>mixed</code><br>$product</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__isset" id="___isset">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#___isset">#</a>
+			<code><a href="source-class-WC_Product.html#47-56" title="Go to source code">__isset</a>( <span>mixed <var>$key</var></span> )</code>
+
+			<div class="description short">
+				
+<p>__isset function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>__isset function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$key</var></dt>
+						<dd><code>mixed</code><br>$key</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__get" id="___get">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#___get">#</a>
+			<code><a href="source-class-WC_Product.html#58-90" title="Go to source code">__get</a>( <span>mixed <var>$key</var></span> )</code>
+
+			<div class="description short">
+				
+<p>__get function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>__get function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$key</var></dt>
+						<dd><code>mixed</code><br>$key</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_post_data" id="_get_post_data">
+
+			<td class="attributes"><code>
+				 public 
+				object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_post_data">#</a>
+			<code><a href="source-class-WC_Product.html#92-100" title="Go to source code">get_post_data</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the product's post data.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the product's post data.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>object</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_gallery_attachment_ids" id="_get_gallery_attachment_ids">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_gallery_attachment_ids">#</a>
+			<code><a href="source-class-WC_Product.html#102-116" title="Go to source code">get_gallery_attachment_ids</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_gallery_attachment_ids function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_gallery_attachment_ids function.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_sku" id="_get_sku">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_sku">#</a>
+			<code><a href="source-class-WC_Product.html#118-125" title="Go to source code">get_sku</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get SKU (Stock-keeping unit) - product unique ID.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get SKU (Stock-keeping unit) - product unique ID.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_stock_quantity" id="_get_stock_quantity">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_stock_quantity">#</a>
+			<code><a href="source-class-WC_Product.html#128-136" title="Go to source code">get_stock_quantity</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns number of items available for sale.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns number of items available for sale.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_total_stock" id="_get_total_stock">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_total_stock">#</a>
+			<code><a href="source-class-WC_Product.html#139-147" title="Go to source code">get_total_stock</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get total stock.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get total stock.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_stock" id="_set_stock">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_set_stock">#</a>
+			<code><a href="source-class-WC_Product.html#150-174" title="Go to source code">set_stock</a>( <span>mixed <var>$amount</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Set stock level of the product.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set stock level of the product.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$amount</var></dt>
+						<dd><code>mixed</code><br>$amount (default: null)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br>Stock<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="reduce_stock" id="_reduce_stock">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_reduce_stock">#</a>
+			<code><a href="source-class-WC_Product.html#177-199" title="Go to source code">reduce_stock</a>( <span>integer <var>$by</var> = <span class="php-num">1</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Reduce stock level of the product.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Reduce stock level of the product.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$by</var></dt>
+						<dd><code>integer</code><br>$by (default: 1) Amount to reduce by.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br>Stock<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="increase_stock" id="_increase_stock">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_increase_stock">#</a>
+			<code><a href="source-class-WC_Product.html#202-224" title="Go to source code">increase_stock</a>( <span>integer <var>$by</var> = <span class="php-num">1</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Increase stock level of the product.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Increase stock level of the product.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$by</var></dt>
+						<dd><code>integer</code><br>$by (default: 1) Amount to increase by</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br>Stock<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_stock_status" id="_set_stock_status">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_set_stock_status">#</a>
+			<code><a href="source-class-WC_Product.html#227-241" title="Go to source code">set_stock_status</a>( <span>mixed <var>$status</var></span> )</code>
+
+			<div class="description short">
+				
+<p>set_stock_status function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>set_stock_status function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_type" id="_is_type">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_type">#</a>
+			<code><a href="source-class-WC_Product.html#244-255" title="Go to source code">is_type</a>( <span>mixed <var>$type</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Checks the product type.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Checks the product type.</p>
+
+<p>Backwards compat with downloadable/virtual.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$type</var></dt>
+						<dd><code>mixed</code><br>$type Array or string of types</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_downloadable" id="_is_downloadable">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_downloadable">#</a>
+			<code><a href="source-class-WC_Product.html#258-266" title="Go to source code">is_downloadable</a>( )</code>
+
+			<div class="description short">
+				
+<p>Checks if a product is downloadable</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Checks if a product is downloadable</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="has_file" id="_has_file">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_has_file">#</a>
+			<code><a href="source-class-WC_Product.html#269-280" title="Go to source code">has_file</a>( <span>string <var>$download_id</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Check if downloadable product has a file attached.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check if downloadable product has a file attached.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$download_id</var></dt>
+						<dd><code>string</code><br>$download_id file identifier</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br>Whether downloadable product has a file attached.<br />
+					</div>
+
+
+					<h4>Since</h4>
+					<div class="list">
+							1.6.2<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_file_download_path" id="_get_file_download_path">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_file_download_path">#</a>
+			<code><a href="source-class-WC_Product.html#283-307" title="Go to source code">get_file_download_path</a>( <span>string <var>$download_id</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Get file download path identified by $download_id</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get file download path identified by $download_id</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$download_id</var></dt>
+						<dd><code>string</code><br>$download_id file identifier</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_virtual" id="_is_virtual">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_virtual">#</a>
+			<code><a href="source-class-WC_Product.html#310-318" title="Go to source code">is_virtual</a>( )</code>
+
+			<div class="description short">
+				
+<p>Checks if a product is virtual (has no shipping).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Checks if a product is virtual (has no shipping).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="needs_shipping" id="_needs_shipping">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_needs_shipping">#</a>
+			<code><a href="source-class-WC_Product.html#321-329" title="Go to source code">needs_shipping</a>( )</code>
+
+			<div class="description short">
+				
+<p>Checks if a product needs shipping.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Checks if a product needs shipping.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_sold_individually" id="_is_sold_individually">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_sold_individually">#</a>
+			<code><a href="source-class-WC_Product.html#332-346" title="Go to source code">is_sold_individually</a>( )</code>
+
+			<div class="description short">
+				
+<p>Check if a product is sold individually (no quantities)</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check if a product is sold individually (no quantities)</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_children" id="_get_children">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_children">#</a>
+			<code><a href="source-class-WC_Product.html#348-356" title="Go to source code">get_children</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_children function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_children function.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="has_child" id="_has_child">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_has_child">#</a>
+			<code><a href="source-class-WC_Product.html#359-367" title="Go to source code">has_child</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product has any child product.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product has any child product.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="exists" id="_exists">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_exists">#</a>
+			<code><a href="source-class-WC_Product.html#370-378" title="Go to source code">exists</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product post exists.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product post exists.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_taxable" id="_is_taxable">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_taxable">#</a>
+			<code><a href="source-class-WC_Product.html#381-389" title="Go to source code">is_taxable</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product is taxable.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product is taxable.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_shipping_taxable" id="_is_shipping_taxable">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_shipping_taxable">#</a>
+			<code><a href="source-class-WC_Product.html#392-400" title="Go to source code">is_shipping_taxable</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product shipping is taxable.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product shipping is taxable.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_title" id="_get_title">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_title">#</a>
+			<code><a href="source-class-WC_Product.html#403-411" title="Go to source code">get_title</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the title of the post.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the title of the post.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_parent" id="_get_parent">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_parent">#</a>
+			<code><a href="source-class-WC_Product.html#414-422" title="Go to source code">get_parent</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the parent of the post.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the parent of the post.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="add_to_cart_url" id="_add_to_cart_url">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_add_to_cart_url">#</a>
+			<code><a href="source-class-WC_Product.html#425-433" title="Go to source code">add_to_cart_url</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the add to url.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the add to url.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="managing_stock" id="_managing_stock">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_managing_stock">#</a>
+			<code><a href="source-class-WC_Product.html#436-444" title="Go to source code">managing_stock</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product is stock managed.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product is stock managed.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_in_stock" id="_is_in_stock">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_in_stock">#</a>
+			<code><a href="source-class-WC_Product.html#447-477" title="Go to source code">is_in_stock</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product is in stock.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product is in stock.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="backorders_allowed" id="_backorders_allowed">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_backorders_allowed">#</a>
+			<code><a href="source-class-WC_Product.html#480-488" title="Go to source code">backorders_allowed</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product can be backordered.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product can be backordered.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="backorders_require_notification" id="_backorders_require_notification">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_backorders_require_notification">#</a>
+			<code><a href="source-class-WC_Product.html#491-499" title="Go to source code">backorders_require_notification</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product needs to notify the customer on
+backorder.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product needs to notify the customer on
+backorder.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_on_backorder" id="_is_on_backorder">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_on_backorder">#</a>
+			<code><a href="source-class-WC_Product.html#502-511" title="Go to source code">is_on_backorder</a>( <span>integer <var>$qty_in_cart</var> = <span class="php-num">0</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>is_on_backorder function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>is_on_backorder function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$qty_in_cart</var></dt>
+						<dd><code>integer</code><br>$qty_in_cart (default: 0)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="has_enough_stock" id="_has_enough_stock">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_has_enough_stock">#</a>
+			<code><a href="source-class-WC_Product.html#514-523" title="Go to source code">has_enough_stock</a>( <span>mixed <var>$quantity</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product has enough stock for the order.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product has enough stock for the order.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$quantity</var></dt>
+						<dd><code>mixed</code><br>$quantity</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_availability" id="_get_availability">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_availability">#</a>
+			<code><a href="source-class-WC_Product.html#526-591" title="Go to source code">get_availability</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the availability of the product.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the availability of the product.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_featured" id="_is_featured">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_featured">#</a>
+			<code><a href="source-class-WC_Product.html#594-602" title="Go to source code">is_featured</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product is featured.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product is featured.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_visible" id="_is_visible">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_visible">#</a>
+			<code><a href="source-class-WC_Product.html#605-629" title="Go to source code">is_visible</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product is visible.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product is visible.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_on_sale" id="_is_on_sale">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_on_sale">#</a>
+			<code><a href="source-class-WC_Product.html#632-640" title="Go to source code">is_on_sale</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product is on sale.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product is on sale.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_weight" id="_get_weight">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_weight">#</a>
+			<code><a href="source-class-WC_Product.html#643-651" title="Go to source code">get_weight</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the product's weight.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the product's weight.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_price" id="_set_price">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_set_price">#</a>
+			<code><a href="source-class-WC_Product.html#654-663" title="Go to source code">set_price</a>( <span>float <var>$price</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Set a products price dynamically.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set a products price dynamically.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$price</var></dt>
+						<dd><code>float</code><br>$price Price to set.</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="adjust_price" id="_adjust_price">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_adjust_price">#</a>
+			<code><a href="source-class-WC_Product.html#666-675" title="Go to source code">adjust_price</a>( <span>mixed <var>$price</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Adjust a products price dynamically.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Adjust a products price dynamically.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$price</var></dt>
+						<dd><code>mixed</code><br>$price</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_price" id="_get_price">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_price">#</a>
+			<code><a href="source-class-WC_Product.html#678-686" title="Go to source code">get_price</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the product's price.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the product's price.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_purchasable" id="_is_purchasable">
+
+			<td class="attributes"><code>
+				 public 
+				cool
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_is_purchasable">#</a>
+			<code><a href="source-class-WC_Product.html#689-708" title="Go to source code">is_purchasable</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns false if the product cannot be bought.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns false if the product cannot be bought.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>cool</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_price_including_tax" id="_get_price_including_tax">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_price_including_tax">#</a>
+			<code><a href="source-class-WC_Product.html#711-762" title="Go to source code">get_price_including_tax</a>( <span>mixed <var>$qty</var> = <span class="php-num">1</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Returns the price (including tax). Uses customer tax rates. Can work for a
+specific $qty for more accurate taxes.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the price (including tax). Uses customer tax rates. Can work for a
+specific $qty for more accurate taxes.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_price_excluding_tax" id="_get_price_excluding_tax">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_price_excluding_tax">#</a>
+			<code><a href="source-class-WC_Product.html#765-789" title="Go to source code">get_price_excluding_tax</a>( <span>mixed <var>$qty</var> = <span class="php-num">1</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Returns the price (excluding tax) - ignores tax_class filters since the price
+may <em>include</em> tax and thus needs subtracting. Uses store base tax rates.
+Can work for a specific $qty for more accurate taxes.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the price (excluding tax) - ignores tax_class filters since the price
+may <em>include</em> tax and thus needs subtracting. Uses store base tax rates.
+Can work for a specific $qty for more accurate taxes.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_tax_class" id="_get_tax_class">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_tax_class">#</a>
+			<code><a href="source-class-WC_Product.html#792-800" title="Go to source code">get_tax_class</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the tax class.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the tax class.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_tax_status" id="_get_tax_status">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_tax_status">#</a>
+			<code><a href="source-class-WC_Product.html#803-811" title="Go to source code">get_tax_status</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the tax status.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the tax status.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_price_html" id="_get_price_html">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_price_html">#</a>
+			<code><a href="source-class-WC_Product.html#814-860" title="Go to source code">get_price_html</a>( <span>string <var>$price</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Returns the price in html format.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the price in html format.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$price</var></dt>
+						<dd><code>string</code><br>$price (default: '')</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_price_html_from_text" id="_get_price_html_from_text">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_price_html_from_text">#</a>
+			<code><a href="source-class-WC_Product.html#863-871" title="Go to source code">get_price_html_from_text</a>( )</code>
+
+			<div class="description short">
+				
+<p>Functions for getting parts of a price, in html, used by get_price_html.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Functions for getting parts of a price, in html, used by get_price_html.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_price_html_from_to" id="_get_price_html_from_to">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_price_html_from_to">#</a>
+			<code><a href="source-class-WC_Product.html#874-882" title="Go to source code">get_price_html_from_to</a>( <span>mixed <var>$from</var></span>, <span>mixed <var>$to</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Functions for getting parts of a price, in html, used by get_price_html.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Functions for getting parts of a price, in html, used by get_price_html.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_average_rating" id="_get_average_rating">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_average_rating">#</a>
+			<code><a href="source-class-WC_Product.html#884-917" title="Go to source code">get_average_rating</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_average_rating function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_average_rating function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_rating_count" id="_get_rating_count">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_rating_count">#</a>
+			<code><a href="source-class-WC_Product.html#919-943" title="Go to source code">get_rating_count</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_rating_count function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_rating_count function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_rating_html" id="_get_rating_html">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_rating_html">#</a>
+			<code><a href="source-class-WC_Product.html#945-967" title="Go to source code">get_rating_html</a>( <span>string <var>$rating</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Returns the product rating in html format.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the product rating in html format.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$rating</var></dt>
+						<dd><code>string</code><br>$rating (default: '')</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_upsells" id="_get_upsells">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_upsells">#</a>
+			<code><a href="source-class-WC_Product.html#970-978" title="Go to source code">get_upsells</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the upsell product ids.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the upsell product ids.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cross_sells" id="_get_cross_sells">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_cross_sells">#</a>
+			<code><a href="source-class-WC_Product.html#981-989" title="Go to source code">get_cross_sells</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the cross sell product ids.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the cross sell product ids.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_categories" id="_get_categories">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_categories">#</a>
+			<code><a href="source-class-WC_Product.html#992-1004" title="Go to source code">get_categories</a>( <span>string <var>$sep</var> = <span class="php-quote">', '</span></span>, <span>mixed <var>$before</var> = <span class="php-quote">''</span></span>, <span>string <var>$after</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Returns the product categories.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the product categories.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$sep</var></dt>
+						<dd><code>string</code><br>$sep (default: ')</dd>
+						<dt><var>$before</var></dt>
+						<dd><code>mixed</code><br>'</dd>
+						<dt><var>$after</var></dt>
+						<dd><code>string</code><br>$before (default: '')</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_tags" id="_get_tags">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_tags">#</a>
+			<code><a href="source-class-WC_Product.html#1007-1018" title="Go to source code">get_tags</a>( <span>string <var>$sep</var> = <span class="php-quote">', '</span></span>, <span>string <var>$before</var> = <span class="php-quote">''</span></span>, <span>string <var>$after</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Returns the product tags.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the product tags.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$sep</var></dt>
+						<dd><code>string</code><br>$sep (default: ', ')</dd>
+						<dt><var>$before</var></dt>
+						<dd><code>string</code><br>$before (default: '')</dd>
+						<dt><var>$after</var></dt>
+						<dd><code>string</code><br>$after (default: '')</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_class" id="_get_shipping_class">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_shipping_class">#</a>
+			<code><a href="source-class-WC_Product.html#1021-1036" title="Go to source code">get_shipping_class</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the product shipping class.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the product shipping class.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_class_id" id="_get_shipping_class_id">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_shipping_class_id">#</a>
+			<code><a href="source-class-WC_Product.html#1039-1054" title="Go to source code">get_shipping_class_id</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the product shipping class ID.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the product shipping class ID.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_related" id="_get_related">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_related">#</a>
+			<code><a href="source-class-WC_Product.html#1057-1112" title="Go to source code">get_related</a>( <span>integer <var>$limit</var> = <span class="php-num">5</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Get and return related products.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get and return related products.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$limit</var></dt>
+						<dd><code>integer</code><br>$limit (default: 5)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br>Array of post IDs<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_attribute" id="_get_attribute">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_attribute">#</a>
+			<code><a href="source-class-WC_Product.html#1115-1144" title="Go to source code">get_attribute</a>( <span>mixed <var>$attr</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Returns a single product attribute.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns a single product attribute.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$attr</var></dt>
+						<dd><code>mixed</code><br>$attr</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_attributes" id="_get_attributes">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_attributes">#</a>
+			<code><a href="source-class-WC_Product.html#1147-1155" title="Go to source code">get_attributes</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns product attributes.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns product attributes.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="has_attributes" id="_has_attributes">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_has_attributes">#</a>
+			<code><a href="source-class-WC_Product.html#1158-1172" title="Go to source code">has_attributes</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product has any attributes set.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product has any attributes set.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="enable_dimensions_display" id="_enable_dimensions_display">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_enable_dimensions_display">#</a>
+			<code><a href="source-class-WC_Product.html#1175-1183" title="Go to source code">enable_dimensions_display</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not we are showing dimensions on the product page.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not we are showing dimensions on the product page.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="has_dimensions" id="_has_dimensions">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_has_dimensions">#</a>
+			<code><a href="source-class-WC_Product.html#1186-1194" title="Go to source code">has_dimensions</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product has dimensions set.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product has dimensions set.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="has_weight" id="_has_weight">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_has_weight">#</a>
+			<code><a href="source-class-WC_Product.html#1197-1205" title="Go to source code">has_weight</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not the product has weight set.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not the product has weight set.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_dimensions" id="_get_dimensions">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_dimensions">#</a>
+			<code><a href="source-class-WC_Product.html#1208-1234" title="Go to source code">get_dimensions</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns dimensions.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns dimensions.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="list_attributes" id="_list_attributes">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_list_attributes">#</a>
+			<code><a href="source-class-WC_Product.html#1237-1247" title="Go to source code">list_attributes</a>( )</code>
+
+			<div class="description short">
+				
+<p>Lists a table of attributes for the product page.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Lists a table of attributes for the product page.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_image" id="_get_image">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Product.html#_get_image">#</a>
+			<code><a href="source-class-WC_Product.html#1250-1271" title="Go to source code">get_image</a>( <span>string <var>$size</var> = <span class="php-quote">'shop_thumbnail'</span></span>, <span>mixed <var>$attr</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+			<div class="description short">
+				
+<p>Returns the main product image</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the main product image</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$size</var></dt>
+						<dd><code>string</code><br>$size (default: 'shop_thumbnail')</dd>
+						<dt><var>$attr</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped" id="properties">
+		<tr data-order="id" id="$id">
+			<td class="attributes"><code>
+				public  
+				integer
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Product.html#15-16" title="Go to source code"><var>$id</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Product.html#$id" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The product (post) ID.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The product (post) ID.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="post" id="$post">
+			<td class="attributes"><code>
+				public  
+				object
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Product.html#18-19" title="Go to source code"><var>$post</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Product.html#$post" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The actual post object.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The actual post object.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="product_type" id="$product_type">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Product.html#21-22" title="Go to source code"><var>$product_type</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Product.html#$product_type" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The product's type (simple, variable etc).</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The product's type (simple, variable etc).</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

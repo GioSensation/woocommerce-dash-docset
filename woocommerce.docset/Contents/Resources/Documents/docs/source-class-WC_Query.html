@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>File classes/class-wc-query.php | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Classes.html" title="Summary of WooCommerce\Classes"><span>Package</span></a>
+						</li>
+						<li>
+							<a href="class-WC_Query.html" title="Summary of WC_Query"><span>Class</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WC_API.html">WC_API</a></li>
+				<li><a href="class-WC_Cache_Helper.html">WC_Cache_Helper</a></li>
+				<li><a href="class-WC_Cart.html">WC_Cart</a></li>
+				<li><a href="class-WC_Checkout.html">WC_Checkout</a></li>
+				<li><a href="class-WC_Countries.html">WC_Countries</a></li>
+				<li><a href="class-WC_Coupon.html">WC_Coupon</a></li>
+				<li><a href="class-WC_Customer.html">WC_Customer</a></li>
+				<li><a href="class-WC_Logger.html">WC_Logger</a></li>
+				<li><a href="class-WC_Order.html">WC_Order</a></li>
+				<li><a href="class-WC_Order_Item_Meta.html">WC_Order_Item_Meta</a></li>
+				<li><a href="class-WC_Product_Factory.html">WC_Product_Factory</a></li>
+				<li><a href="class-WC_Product_Variation.html">WC_Product_Variation</a></li>
+				<li class="active"><a href="class-WC_Query.html">WC_Query</a></li>
+				<li><a href="class-WC_Session_Handler.html">WC_Session_Handler</a></li>
+				<li><a href="class-WC_Shortcodes.html">WC_Shortcodes</a></li>
+				<li><a href="class-WC_Tax.html">WC_Tax</a></li>
+				<li><a href="class-WC_Validation.html">WC_Validation</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a class="l" href="source-class-WC_Query.html#1">  1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="source-class-WC_Query.html#2">  2 </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a class="l" href="source-class-WC_Query.html#3">  3 </a><span class="php-comment"> * Contains the query functions for WooCommerce which alter the front-end post queries and loops.
+</span></span><span id="4" class="l"><a class="l" href="source-class-WC_Query.html#4">  4 </a><span class="php-comment"> *
+</span></span><span id="5" class="l"><a class="l" href="source-class-WC_Query.html#5">  5 </a><span class="php-comment"> * @class       WC_Query
+</span></span><span id="6" class="l"><a class="l" href="source-class-WC_Query.html#6">  6 </a><span class="php-comment"> * @version     1.6.4
+</span></span><span id="7" class="l"><a class="l" href="source-class-WC_Query.html#7">  7 </a><span class="php-comment"> * @package     WooCommerce/Classes
+</span></span><span id="8" class="l"><a class="l" href="source-class-WC_Query.html#8">  8 </a><span class="php-comment"> * @category    Class
+</span></span><span id="9" class="l"><a class="l" href="source-class-WC_Query.html#9">  9 </a><span class="php-comment"> * @author      WooThemes
+</span></span><span id="10" class="l"><a class="l" href="source-class-WC_Query.html#10"> 10 </a><span class="php-comment"> */</span>
+</span><span id="11" class="l"><a class="l" href="source-class-WC_Query.html#11"> 11 </a><span class="php-keyword1">class</span> <a id="WC_Query" href="source-class-WC_Query.html#WC_Query">WC_Query</a> {
+</span><span id="12" class="l"><a class="l" href="source-class-WC_Query.html#12"> 12 </a>
+</span><span id="13" class="l"><a class="l" href="source-class-WC_Query.html#13"> 13 </a>    <span class="php-comment">/** @public array Unfiltered product ids (before layered nav etc) */</span>
+</span><span id="14" class="l"><a class="l" href="source-class-WC_Query.html#14"> 14 </a>    <span class="php-keyword1">public</span> <span class="php-var"><a id="$unfiltered_product_ids" href="source-class-WC_Query.html#$unfiltered_product_ids">$unfiltered_product_ids</a></span>  = <span class="php-keyword1">array</span>();
+</span><span id="15" class="l"><a class="l" href="source-class-WC_Query.html#15"> 15 </a>
+</span><span id="16" class="l"><a class="l" href="source-class-WC_Query.html#16"> 16 </a>    <span class="php-comment">/** @public array Filtered product ids (after layered nav) */</span>
+</span><span id="17" class="l"><a class="l" href="source-class-WC_Query.html#17"> 17 </a>    <span class="php-keyword1">public</span> <span class="php-var"><a id="$filtered_product_ids" href="source-class-WC_Query.html#$filtered_product_ids">$filtered_product_ids</a></span>    = <span class="php-keyword1">array</span>();
+</span><span id="18" class="l"><a class="l" href="source-class-WC_Query.html#18"> 18 </a>
+</span><span id="19" class="l"><a class="l" href="source-class-WC_Query.html#19"> 19 </a>    <span class="php-comment">/** @public array Product IDs that match the layered nav + price filter */</span>
+</span><span id="20" class="l"><a class="l" href="source-class-WC_Query.html#20"> 20 </a>    <span class="php-keyword1">public</span> <span class="php-var"><a id="$post__in" href="source-class-WC_Query.html#$post__in">$post__in</a></span>        = <span class="php-keyword1">array</span>();
+</span><span id="21" class="l"><a class="l" href="source-class-WC_Query.html#21"> 21 </a>
+</span><span id="22" class="l"><a class="l" href="source-class-WC_Query.html#22"> 22 </a>    <span class="php-comment">/** @public array The meta query for the page */</span>
+</span><span id="23" class="l"><a class="l" href="source-class-WC_Query.html#23"> 23 </a>    <span class="php-keyword1">public</span> <span class="php-var"><a id="$meta_query" href="source-class-WC_Query.html#$meta_query">$meta_query</a></span>      = <span class="php-quote">''</span>;
+</span><span id="24" class="l"><a class="l" href="source-class-WC_Query.html#24"> 24 </a>
+</span><span id="25" class="l"><a class="l" href="source-class-WC_Query.html#25"> 25 </a>    <span class="php-comment">/** @public array Post IDs matching layered nav only */</span>
+</span><span id="26" class="l"><a class="l" href="source-class-WC_Query.html#26"> 26 </a>    <span class="php-keyword1">public</span> <span class="php-var"><a id="$layered_nav_post__in" href="source-class-WC_Query.html#$layered_nav_post__in">$layered_nav_post__in</a></span>    = <span class="php-keyword1">array</span>();
+</span><span id="27" class="l"><a class="l" href="source-class-WC_Query.html#27"> 27 </a>
+</span><span id="28" class="l"><a class="l" href="source-class-WC_Query.html#28"> 28 </a>    <span class="php-comment">/** @public array Stores post IDs matching layered nav, so price filter can find max price in view */</span>
+</span><span id="29" class="l"><a class="l" href="source-class-WC_Query.html#29"> 29 </a>    <span class="php-keyword1">public</span> <span class="php-var"><a id="$layered_nav_product_ids" href="source-class-WC_Query.html#$layered_nav_product_ids">$layered_nav_product_ids</a></span> = <span class="php-keyword1">array</span>();
+</span><span id="30" class="l"><a class="l" href="source-class-WC_Query.html#30"> 30 </a>
+</span><span id="31" class="l"><a class="l" href="source-class-WC_Query.html#31"> 31 </a>    <span class="php-comment">/**
+</span></span><span id="32" class="l"><a class="l" href="source-class-WC_Query.html#32"> 32 </a><span class="php-comment">     * Constructor for the query class. Hooks in methods.
+</span></span><span id="33" class="l"><a class="l" href="source-class-WC_Query.html#33"> 33 </a><span class="php-comment">     *
+</span></span><span id="34" class="l"><a class="l" href="source-class-WC_Query.html#34"> 34 </a><span class="php-comment">     * @access public
+</span></span><span id="35" class="l"><a class="l" href="source-class-WC_Query.html#35"> 35 </a><span class="php-comment">     * @return void
+</span></span><span id="36" class="l"><a class="l" href="source-class-WC_Query.html#36"> 36 </a><span class="php-comment">     */</span>
+</span><span id="37" class="l"><a class="l" href="source-class-WC_Query.html#37"> 37 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="___construct" href="source-class-WC_Query.html#___construct">__construct</a>() {
+</span><span id="38" class="l"><a class="l" href="source-class-WC_Query.html#38"> 38 </a>        add_filter( <span class="php-quote">'pre_get_posts'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'pre_get_posts'</span> ) );
+</span><span id="39" class="l"><a class="l" href="source-class-WC_Query.html#39"> 39 </a>        add_filter( <span class="php-quote">'the_posts'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'the_posts'</span> ), <span class="php-num">11</span>, <span class="php-num">2</span> );
+</span><span id="40" class="l"><a class="l" href="source-class-WC_Query.html#40"> 40 </a>        add_filter( <span class="php-quote">'wp'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'remove_product_query'</span> ) );
+</span><span id="41" class="l"><a class="l" href="source-class-WC_Query.html#41"> 41 </a>    }
+</span><span id="42" class="l"><a class="l" href="source-class-WC_Query.html#42"> 42 </a>
+</span><span id="43" class="l"><a class="l" href="source-class-WC_Query.html#43"> 43 </a>    <span class="php-comment">/**
+</span></span><span id="44" class="l"><a class="l" href="source-class-WC_Query.html#44"> 44 </a><span class="php-comment">     * Hook into pre_get_posts to do the main product query
+</span></span><span id="45" class="l"><a class="l" href="source-class-WC_Query.html#45"> 45 </a><span class="php-comment">     *
+</span></span><span id="46" class="l"><a class="l" href="source-class-WC_Query.html#46"> 46 </a><span class="php-comment">     * @access public
+</span></span><span id="47" class="l"><a class="l" href="source-class-WC_Query.html#47"> 47 </a><span class="php-comment">     * @param mixed $q query object
+</span></span><span id="48" class="l"><a class="l" href="source-class-WC_Query.html#48"> 48 </a><span class="php-comment">     * @return void
+</span></span><span id="49" class="l"><a class="l" href="source-class-WC_Query.html#49"> 49 </a><span class="php-comment">     */</span>
+</span><span id="50" class="l"><a class="l" href="source-class-WC_Query.html#50"> 50 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_pre_get_posts" href="source-class-WC_Query.html#_pre_get_posts">pre_get_posts</a>( <span class="php-var">$q</span> ) {
+</span><span id="51" class="l"><a class="l" href="source-class-WC_Query.html#51"> 51 </a>        <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>;
+</span><span id="52" class="l"><a class="l" href="source-class-WC_Query.html#52"> 52 </a>
+</span><span id="53" class="l"><a class="l" href="source-class-WC_Query.html#53"> 53 </a>        <span class="php-comment">// We only want to affect the main query</span>
+</span><span id="54" class="l"><a class="l" href="source-class-WC_Query.html#54"> 54 </a>        <span class="php-keyword1">if</span> ( ! <span class="php-var">$q</span>-&gt;is_main_query() )
+</span><span id="55" class="l"><a class="l" href="source-class-WC_Query.html#55"> 55 </a>            <span class="php-keyword1">return</span>;
+</span><span id="56" class="l"><a class="l" href="source-class-WC_Query.html#56"> 56 </a>
+</span><span id="57" class="l"><a class="l" href="source-class-WC_Query.html#57"> 57 </a>        <span class="php-comment">// When orderby is set, WordPress shows posts. Get around that here.</span>
+</span><span id="58" class="l"><a class="l" href="source-class-WC_Query.html#58"> 58 </a>        <span class="php-keyword1">if</span> ( <span class="php-var">$q</span>-&gt;is_home() &amp;&amp; <span class="php-quote">'page'</span> == get_option(<span class="php-quote">'show_on_front'</span>) &amp;&amp; get_option(<span class="php-quote">'page_on_front'</span>) == woocommerce_get_page_id(<span class="php-quote">'shop'</span>) ) {
+</span><span id="59" class="l"><a class="l" href="source-class-WC_Query.html#59"> 59 </a>            <span class="php-var">$_query</span> = wp_parse_args( <span class="php-var">$q</span>-&gt;query );
+</span><span id="60" class="l"><a class="l" href="source-class-WC_Query.html#60"> 60 </a>            <span class="php-keyword1">if</span> ( <span class="php-keyword1">empty</span>( <span class="php-var">$_query</span> ) || ! <span class="php-keyword2">array_diff</span>( <span class="php-keyword2">array_keys</span>( <span class="php-var">$_query</span> ), <span class="php-keyword1">array</span>( <span class="php-quote">'preview'</span>, <span class="php-quote">'page'</span>, <span class="php-quote">'paged'</span>, <span class="php-quote">'cpage'</span>, <span class="php-quote">'orderby'</span> ) ) ) {
+</span><span id="61" class="l"><a class="l" href="source-class-WC_Query.html#61"> 61 </a>                <span class="php-var">$q</span>-&gt;is_page = <span class="php-keyword1">true</span>;
+</span><span id="62" class="l"><a class="l" href="source-class-WC_Query.html#62"> 62 </a>                <span class="php-var">$q</span>-&gt;is_home = <span class="php-keyword1">false</span>;
+</span><span id="63" class="l"><a class="l" href="source-class-WC_Query.html#63"> 63 </a>                <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'page_id'</span>, get_option(<span class="php-quote">'page_on_front'</span>) );
+</span><span id="64" class="l"><a class="l" href="source-class-WC_Query.html#64"> 64 </a>                <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'post_type'</span>, <span class="php-quote">'product'</span> );
+</span><span id="65" class="l"><a class="l" href="source-class-WC_Query.html#65"> 65 </a>            }
+</span><span id="66" class="l"><a class="l" href="source-class-WC_Query.html#66"> 66 </a>        }
+</span><span id="67" class="l"><a class="l" href="source-class-WC_Query.html#67"> 67 </a>
+</span><span id="68" class="l"><a class="l" href="source-class-WC_Query.html#68"> 68 </a>        <span class="php-comment">// Special check for shops with the product archive on front</span>
+</span><span id="69" class="l"><a class="l" href="source-class-WC_Query.html#69"> 69 </a>        <span class="php-keyword1">if</span> ( <span class="php-var">$q</span>-&gt;is_page() &amp;&amp; <span class="php-quote">'page'</span> == get_option( <span class="php-quote">'show_on_front'</span> ) &amp;&amp; <span class="php-var">$q</span>-&gt;get(<span class="php-quote">'page_id'</span>) == woocommerce_get_page_id(<span class="php-quote">'shop'</span>) ) {
+</span><span id="70" class="l"><a class="l" href="source-class-WC_Query.html#70"> 70 </a>
+</span><span id="71" class="l"><a class="l" href="source-class-WC_Query.html#71"> 71 </a>            <span class="php-comment">// This is a front-page shop</span>
+</span><span id="72" class="l"><a class="l" href="source-class-WC_Query.html#72"> 72 </a>            <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'post_type'</span>, <span class="php-quote">'product'</span> );
+</span><span id="73" class="l"><a class="l" href="source-class-WC_Query.html#73"> 73 </a>            <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'page_id'</span>, <span class="php-quote">''</span> );
+</span><span id="74" class="l"><a class="l" href="source-class-WC_Query.html#74"> 74 </a>            <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$q</span>-&gt;query[<span class="php-quote">'paged'</span>] ) )
+</span><span id="75" class="l"><a class="l" href="source-class-WC_Query.html#75"> 75 </a>                <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'paged'</span>, <span class="php-var">$q</span>-&gt;query[<span class="php-quote">'paged'</span>] );
+</span><span id="76" class="l"><a class="l" href="source-class-WC_Query.html#76"> 76 </a>
+</span><span id="77" class="l"><a class="l" href="source-class-WC_Query.html#77"> 77 </a>            <span class="php-comment">// Define a variable so we know this is the front page shop later on</span>
+</span><span id="78" class="l"><a class="l" href="source-class-WC_Query.html#78"> 78 </a>            <span class="php-keyword2">define</span>( <span class="php-quote">'SHOP_IS_ON_FRONT'</span>, <span class="php-keyword1">true</span> );
+</span><span id="79" class="l"><a class="l" href="source-class-WC_Query.html#79"> 79 </a>
+</span><span id="80" class="l"><a class="l" href="source-class-WC_Query.html#80"> 80 </a>            <span class="php-comment">// Get the actual WP page to avoid errors and let us use is_front_page()</span>
+</span><span id="81" class="l"><a class="l" href="source-class-WC_Query.html#81"> 81 </a>            <span class="php-comment">// This is hacky but works. Awaiting http://core.trac.wordpress.org/ticket/21096</span>
+</span><span id="82" class="l"><a class="l" href="source-class-WC_Query.html#82"> 82 </a>            <span class="php-keyword1">global</span> <span class="php-var">$wp_post_types</span>;
+</span><span id="83" class="l"><a class="l" href="source-class-WC_Query.html#83"> 83 </a>
+</span><span id="84" class="l"><a class="l" href="source-class-WC_Query.html#84"> 84 </a>            <span class="php-var">$shop_page</span>  = get_post( woocommerce_get_page_id(<span class="php-quote">'shop'</span>) );
+</span><span id="85" class="l"><a class="l" href="source-class-WC_Query.html#85"> 85 </a>            <span class="php-var">$q</span>-&gt;is_page = <span class="php-keyword1">true</span>;
+</span><span id="86" class="l"><a class="l" href="source-class-WC_Query.html#86"> 86 </a>
+</span><span id="87" class="l"><a class="l" href="source-class-WC_Query.html#87"> 87 </a>            <span class="php-var">$wp_post_types</span>[<span class="php-quote">'product'</span>]-&gt;ID           = <span class="php-var">$shop_page</span>-&gt;ID;
+</span><span id="88" class="l"><a class="l" href="source-class-WC_Query.html#88"> 88 </a>            <span class="php-var">$wp_post_types</span>[<span class="php-quote">'product'</span>]-&gt;post_title   = <span class="php-var">$shop_page</span>-&gt;post_title;
+</span><span id="89" class="l"><a class="l" href="source-class-WC_Query.html#89"> 89 </a>            <span class="php-var">$wp_post_types</span>[<span class="php-quote">'product'</span>]-&gt;post_name    = <span class="php-var">$shop_page</span>-&gt;post_name;
+</span><span id="90" class="l"><a class="l" href="source-class-WC_Query.html#90"> 90 </a>
+</span><span id="91" class="l"><a class="l" href="source-class-WC_Query.html#91"> 91 </a>            <span class="php-comment">// Fix conditional Functions like is_front_page</span>
+</span><span id="92" class="l"><a class="l" href="source-class-WC_Query.html#92"> 92 </a>            <span class="php-var">$q</span>-&gt;is_singular = <span class="php-keyword1">false</span>;
+</span><span id="93" class="l"><a class="l" href="source-class-WC_Query.html#93"> 93 </a>            <span class="php-var">$q</span>-&gt;is_post_type_archive = <span class="php-keyword1">true</span>;
+</span><span id="94" class="l"><a class="l" href="source-class-WC_Query.html#94"> 94 </a>            <span class="php-var">$q</span>-&gt;is_archive = <span class="php-keyword1">true</span>;
+</span><span id="95" class="l"><a class="l" href="source-class-WC_Query.html#95"> 95 </a>
+</span><span id="96" class="l"><a class="l" href="source-class-WC_Query.html#96"> 96 </a>            <span class="php-comment">// Fix WP SEO</span>
+</span><span id="97" class="l"><a class="l" href="source-class-WC_Query.html#97"> 97 </a>            <span class="php-keyword1">if</span> ( <span class="php-keyword2">function_exists</span>( <span class="php-quote">'wpseo_get_value'</span> ) ) {
+</span><span id="98" class="l"><a class="l" href="source-class-WC_Query.html#98"> 98 </a>                add_filter( <span class="php-quote">'wpseo_metadesc'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'wpseo_metadesc'</span> ) );
+</span><span id="99" class="l"><a class="l" href="source-class-WC_Query.html#99"> 99 </a>                add_filter( <span class="php-quote">'wpseo_metakey'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'wpseo_metakey'</span> ) );
+</span><span id="100" class="l"><a class="l" href="source-class-WC_Query.html#100">100 </a>            }
+</span><span id="101" class="l"><a class="l" href="source-class-WC_Query.html#101">101 </a>
+</span><span id="102" class="l"><a class="l" href="source-class-WC_Query.html#102">102 </a>        } <span class="php-keyword1">else</span> {
+</span><span id="103" class="l"><a class="l" href="source-class-WC_Query.html#103">103 </a>
+</span><span id="104" class="l"><a class="l" href="source-class-WC_Query.html#104">104 </a>            <span class="php-comment">// Only apply to product categories, the product post archive, the shop page, product tags, and product attribute taxonomies</span>
+</span><span id="105" class="l"><a class="l" href="source-class-WC_Query.html#105">105 </a>            <span class="php-keyword1">if</span>  ( ! <span class="php-var">$q</span>-&gt;is_post_type_archive( <span class="php-quote">'product'</span> ) &amp;&amp; ! <span class="php-var">$q</span>-&gt;is_tax( get_object_taxonomies( <span class="php-quote">'product'</span> ) ) )
+</span><span id="106" class="l"><a class="l" href="source-class-WC_Query.html#106">106 </a>                <span class="php-keyword1">return</span>;
+</span><span id="107" class="l"><a class="l" href="source-class-WC_Query.html#107">107 </a>
+</span><span id="108" class="l"><a class="l" href="source-class-WC_Query.html#108">108 </a>        }
+</span><span id="109" class="l"><a class="l" href="source-class-WC_Query.html#109">109 </a>
+</span><span id="110" class="l"><a class="l" href="source-class-WC_Query.html#110">110 </a>        <span class="php-var">$this</span>-&gt;product_query( <span class="php-var">$q</span> );
+</span><span id="111" class="l"><a class="l" href="source-class-WC_Query.html#111">111 </a>
+</span><span id="112" class="l"><a class="l" href="source-class-WC_Query.html#112">112 </a>        <span class="php-keyword1">if</span> ( is_search() ) {
+</span><span id="113" class="l"><a class="l" href="source-class-WC_Query.html#113">113 </a>            add_filter( <span class="php-quote">'posts_where'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'search_post_excerpt'</span> ) );
+</span><span id="114" class="l"><a class="l" href="source-class-WC_Query.html#114">114 </a>            add_filter( <span class="php-quote">'wp'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'remove_posts_where'</span> ) );
+</span><span id="115" class="l"><a class="l" href="source-class-WC_Query.html#115">115 </a>        }
+</span><span id="116" class="l"><a class="l" href="source-class-WC_Query.html#116">116 </a>
+</span><span id="117" class="l"><a class="l" href="source-class-WC_Query.html#117">117 </a>        <span class="php-comment">// We're on a shop page so queue the woocommerce_get_products_in_view function</span>
+</span><span id="118" class="l"><a class="l" href="source-class-WC_Query.html#118">118 </a>        add_action( <span class="php-quote">'wp'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'get_products_in_view'</span> ), <span class="php-num">2</span>);
+</span><span id="119" class="l"><a class="l" href="source-class-WC_Query.html#119">119 </a>
+</span><span id="120" class="l"><a class="l" href="source-class-WC_Query.html#120">120 </a>        <span class="php-comment">// And remove the pre_get_posts hook</span>
+</span><span id="121" class="l"><a class="l" href="source-class-WC_Query.html#121">121 </a>        <span class="php-var">$this</span>-&gt;remove_product_query();
+</span><span id="122" class="l"><a class="l" href="source-class-WC_Query.html#122">122 </a>    }
+</span><span id="123" class="l"><a class="l" href="source-class-WC_Query.html#123">123 </a>
+</span><span id="124" class="l"><a class="l" href="source-class-WC_Query.html#124">124 </a>    <span class="php-comment">/**
+</span></span><span id="125" class="l"><a class="l" href="source-class-WC_Query.html#125">125 </a><span class="php-comment">     * search_post_excerpt function.
+</span></span><span id="126" class="l"><a class="l" href="source-class-WC_Query.html#126">126 </a><span class="php-comment">     *
+</span></span><span id="127" class="l"><a class="l" href="source-class-WC_Query.html#127">127 </a><span class="php-comment">     * @access public
+</span></span><span id="128" class="l"><a class="l" href="source-class-WC_Query.html#128">128 </a><span class="php-comment">     * @param string $where (default: '')
+</span></span><span id="129" class="l"><a class="l" href="source-class-WC_Query.html#129">129 </a><span class="php-comment">     * @return string (modified where clause)
+</span></span><span id="130" class="l"><a class="l" href="source-class-WC_Query.html#130">130 </a><span class="php-comment">     */</span>
+</span><span id="131" class="l"><a class="l" href="source-class-WC_Query.html#131">131 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_search_post_excerpt" href="source-class-WC_Query.html#_search_post_excerpt">search_post_excerpt</a>( <span class="php-var">$where</span> = <span class="php-quote">''</span> ) {
+</span><span id="132" class="l"><a class="l" href="source-class-WC_Query.html#132">132 </a>        <span class="php-keyword1">global</span> <span class="php-var">$wp_the_query</span>;
+</span><span id="133" class="l"><a class="l" href="source-class-WC_Query.html#133">133 </a>
+</span><span id="134" class="l"><a class="l" href="source-class-WC_Query.html#134">134 </a>        <span class="php-comment">// If this is not a WC Query, do not modify the query</span>
+</span><span id="135" class="l"><a class="l" href="source-class-WC_Query.html#135">135 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword1">empty</span>( <span class="php-var">$wp_the_query</span>-&gt;query_vars[<span class="php-quote">'wc_query'</span>] ) )
+</span><span id="136" class="l"><a class="l" href="source-class-WC_Query.html#136">136 </a>            <span class="php-keyword1">return</span> <span class="php-var">$where</span>;
+</span><span id="137" class="l"><a class="l" href="source-class-WC_Query.html#137">137 </a>
+</span><span id="138" class="l"><a class="l" href="source-class-WC_Query.html#138">138 </a>        <span class="php-var">$where</span> = <span class="php-keyword2">preg_replace</span>(
+</span><span id="139" class="l"><a class="l" href="source-class-WC_Query.html#139">139 </a>            <span class="php-quote">&quot;/post_title\s+LIKE\s*(\'[^\']+\')/&quot;</span>,
+</span><span id="140" class="l"><a class="l" href="source-class-WC_Query.html#140">140 </a>            <span class="php-quote">&quot;post_title LIKE </span><span class="php-var">$1</span><span class="php-quote">) OR (post_excerpt LIKE </span><span class="php-var">$1</span><span class="php-quote">&quot;</span>, <span class="php-var">$where</span> );
+</span><span id="141" class="l"><a class="l" href="source-class-WC_Query.html#141">141 </a>
+</span><span id="142" class="l"><a class="l" href="source-class-WC_Query.html#142">142 </a>        <span class="php-keyword1">return</span> <span class="php-var">$where</span>;
+</span><span id="143" class="l"><a class="l" href="source-class-WC_Query.html#143">143 </a>    }
+</span><span id="144" class="l"><a class="l" href="source-class-WC_Query.html#144">144 </a>
+</span><span id="145" class="l"><a class="l" href="source-class-WC_Query.html#145">145 </a>    <span class="php-comment">/**
+</span></span><span id="146" class="l"><a class="l" href="source-class-WC_Query.html#146">146 </a><span class="php-comment">     * wpseo_metadesc function.
+</span></span><span id="147" class="l"><a class="l" href="source-class-WC_Query.html#147">147 </a><span class="php-comment">     *
+</span></span><span id="148" class="l"><a class="l" href="source-class-WC_Query.html#148">148 </a><span class="php-comment">     * @access public
+</span></span><span id="149" class="l"><a class="l" href="source-class-WC_Query.html#149">149 </a><span class="php-comment">     * @param mixed $meta
+</span></span><span id="150" class="l"><a class="l" href="source-class-WC_Query.html#150">150 </a><span class="php-comment">     * @return void
+</span></span><span id="151" class="l"><a class="l" href="source-class-WC_Query.html#151">151 </a><span class="php-comment">     */</span>
+</span><span id="152" class="l"><a class="l" href="source-class-WC_Query.html#152">152 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_wpseo_metadesc" href="source-class-WC_Query.html#_wpseo_metadesc">wpseo_metadesc</a>() {
+</span><span id="153" class="l"><a class="l" href="source-class-WC_Query.html#153">153 </a>        <span class="php-keyword1">return</span> wpseo_get_value( <span class="php-quote">'metadesc'</span>, woocommerce_get_page_id(<span class="php-quote">'shop'</span>) );
+</span><span id="154" class="l"><a class="l" href="source-class-WC_Query.html#154">154 </a>    }
+</span><span id="155" class="l"><a class="l" href="source-class-WC_Query.html#155">155 </a>
+</span><span id="156" class="l"><a class="l" href="source-class-WC_Query.html#156">156 </a>
+</span><span id="157" class="l"><a class="l" href="source-class-WC_Query.html#157">157 </a>    <span class="php-comment">/**
+</span></span><span id="158" class="l"><a class="l" href="source-class-WC_Query.html#158">158 </a><span class="php-comment">     * wpseo_metakey function.
+</span></span><span id="159" class="l"><a class="l" href="source-class-WC_Query.html#159">159 </a><span class="php-comment">     *
+</span></span><span id="160" class="l"><a class="l" href="source-class-WC_Query.html#160">160 </a><span class="php-comment">     * @access public
+</span></span><span id="161" class="l"><a class="l" href="source-class-WC_Query.html#161">161 </a><span class="php-comment">     * @return void
+</span></span><span id="162" class="l"><a class="l" href="source-class-WC_Query.html#162">162 </a><span class="php-comment">     */</span>
+</span><span id="163" class="l"><a class="l" href="source-class-WC_Query.html#163">163 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_wpseo_metakey" href="source-class-WC_Query.html#_wpseo_metakey">wpseo_metakey</a>() {
+</span><span id="164" class="l"><a class="l" href="source-class-WC_Query.html#164">164 </a>        <span class="php-keyword1">return</span> wpseo_get_value( <span class="php-quote">'metakey'</span>, woocommerce_get_page_id(<span class="php-quote">'shop'</span>) );
+</span><span id="165" class="l"><a class="l" href="source-class-WC_Query.html#165">165 </a>    }
+</span><span id="166" class="l"><a class="l" href="source-class-WC_Query.html#166">166 </a>
+</span><span id="167" class="l"><a class="l" href="source-class-WC_Query.html#167">167 </a>
+</span><span id="168" class="l"><a class="l" href="source-class-WC_Query.html#168">168 </a>    <span class="php-comment">/**
+</span></span><span id="169" class="l"><a class="l" href="source-class-WC_Query.html#169">169 </a><span class="php-comment">     * Hook into the_posts to do the main product query if needed - relevanssi compatibility
+</span></span><span id="170" class="l"><a class="l" href="source-class-WC_Query.html#170">170 </a><span class="php-comment">     *
+</span></span><span id="171" class="l"><a class="l" href="source-class-WC_Query.html#171">171 </a><span class="php-comment">     * @access public
+</span></span><span id="172" class="l"><a class="l" href="source-class-WC_Query.html#172">172 </a><span class="php-comment">     * @param mixed $posts
+</span></span><span id="173" class="l"><a class="l" href="source-class-WC_Query.html#173">173 </a><span class="php-comment">     * @param bool $query (default: false)
+</span></span><span id="174" class="l"><a class="l" href="source-class-WC_Query.html#174">174 </a><span class="php-comment">     * @return void
+</span></span><span id="175" class="l"><a class="l" href="source-class-WC_Query.html#175">175 </a><span class="php-comment">     */</span>
+</span><span id="176" class="l"><a class="l" href="source-class-WC_Query.html#176">176 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_the_posts" href="source-class-WC_Query.html#_the_posts">the_posts</a>( <span class="php-var">$posts</span>, <span class="php-var">$query</span> = <span class="php-keyword1">false</span> ) {
+</span><span id="177" class="l"><a class="l" href="source-class-WC_Query.html#177">177 </a>        <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>;
+</span><span id="178" class="l"><a class="l" href="source-class-WC_Query.html#178">178 </a>
+</span><span id="179" class="l"><a class="l" href="source-class-WC_Query.html#179">179 </a>        <span class="php-comment">// Abort if there's no query</span>
+</span><span id="180" class="l"><a class="l" href="source-class-WC_Query.html#180">180 </a>        <span class="php-keyword1">if</span> ( ! <span class="php-var">$query</span> )
+</span><span id="181" class="l"><a class="l" href="source-class-WC_Query.html#181">181 </a>            <span class="php-keyword1">return</span> <span class="php-var">$posts</span>;
+</span><span id="182" class="l"><a class="l" href="source-class-WC_Query.html#182">182 </a>
+</span><span id="183" class="l"><a class="l" href="source-class-WC_Query.html#183">183 </a>        <span class="php-comment">// Abort if we're not filtering posts</span>
+</span><span id="184" class="l"><a class="l" href="source-class-WC_Query.html#184">184 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword1">empty</span>( <span class="php-var">$this</span>-&gt;post__in ) )
+</span><span id="185" class="l"><a class="l" href="source-class-WC_Query.html#185">185 </a>            <span class="php-keyword1">return</span> <span class="php-var">$posts</span>;
+</span><span id="186" class="l"><a class="l" href="source-class-WC_Query.html#186">186 </a>
+</span><span id="187" class="l"><a class="l" href="source-class-WC_Query.html#187">187 </a>        <span class="php-comment">// Abort if this query has already been done</span>
+</span><span id="188" class="l"><a class="l" href="source-class-WC_Query.html#188">188 </a>        <span class="php-keyword1">if</span> ( ! <span class="php-keyword1">empty</span>( <span class="php-var">$query</span>-&gt;wc_query ) )
+</span><span id="189" class="l"><a class="l" href="source-class-WC_Query.html#189">189 </a>            <span class="php-keyword1">return</span> <span class="php-var">$posts</span>;
+</span><span id="190" class="l"><a class="l" href="source-class-WC_Query.html#190">190 </a>
+</span><span id="191" class="l"><a class="l" href="source-class-WC_Query.html#191">191 </a>        <span class="php-comment">// Abort if this isn't a search query</span>
+</span><span id="192" class="l"><a class="l" href="source-class-WC_Query.html#192">192 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword1">empty</span>( <span class="php-var">$query</span>-&gt;query_vars[<span class="php-quote">&quot;s&quot;</span>] ) )
+</span><span id="193" class="l"><a class="l" href="source-class-WC_Query.html#193">193 </a>            <span class="php-keyword1">return</span> <span class="php-var">$posts</span>;
+</span><span id="194" class="l"><a class="l" href="source-class-WC_Query.html#194">194 </a>
+</span><span id="195" class="l"><a class="l" href="source-class-WC_Query.html#195">195 </a>        <span class="php-comment">// Abort if we're not on a post type archive/product taxonomy</span>
+</span><span id="196" class="l"><a class="l" href="source-class-WC_Query.html#196">196 </a>        <span class="php-keyword1">if</span>  ( ! <span class="php-var">$query</span>-&gt;is_post_type_archive( <span class="php-quote">'product'</span> ) &amp;&amp; ! <span class="php-var">$query</span>-&gt;is_tax( get_object_taxonomies( <span class="php-quote">'product'</span> ) ) )
+</span><span id="197" class="l"><a class="l" href="source-class-WC_Query.html#197">197 </a>            <span class="php-keyword1">return</span> <span class="php-var">$posts</span>;
+</span><span id="198" class="l"><a class="l" href="source-class-WC_Query.html#198">198 </a>
+</span><span id="199" class="l"><a class="l" href="source-class-WC_Query.html#199">199 </a>        <span class="php-var">$filtered_posts</span> = <span class="php-keyword1">array</span>();
+</span><span id="200" class="l"><a class="l" href="source-class-WC_Query.html#200">200 </a>        <span class="php-var">$queried_post_ids</span> = <span class="php-keyword1">array</span>();
+</span><span id="201" class="l"><a class="l" href="source-class-WC_Query.html#201">201 </a>
+</span><span id="202" class="l"><a class="l" href="source-class-WC_Query.html#202">202 </a>        <span class="php-keyword1">foreach</span> ( <span class="php-var">$posts</span> <span class="php-keyword1">as</span> <span class="php-var">$post</span> ) {
+</span><span id="203" class="l"><a class="l" href="source-class-WC_Query.html#203">203 </a>            <span class="php-keyword1">if</span> ( <span class="php-keyword2">in_array</span>( <span class="php-var">$post</span>-&gt;ID, <span class="php-var">$this</span>-&gt;post__in ) ) {
+</span><span id="204" class="l"><a class="l" href="source-class-WC_Query.html#204">204 </a>                <span class="php-var">$filtered_posts</span>[] = <span class="php-var">$post</span>;
+</span><span id="205" class="l"><a class="l" href="source-class-WC_Query.html#205">205 </a>                <span class="php-var">$queried_post_ids</span>[] = <span class="php-var">$post</span>-&gt;ID;
+</span><span id="206" class="l"><a class="l" href="source-class-WC_Query.html#206">206 </a>            }
+</span><span id="207" class="l"><a class="l" href="source-class-WC_Query.html#207">207 </a>        }
+</span><span id="208" class="l"><a class="l" href="source-class-WC_Query.html#208">208 </a>
+</span><span id="209" class="l"><a class="l" href="source-class-WC_Query.html#209">209 </a>        <span class="php-var">$query</span>-&gt;posts = <span class="php-var">$filtered_posts</span>;
+</span><span id="210" class="l"><a class="l" href="source-class-WC_Query.html#210">210 </a>            <span class="php-var">$query</span>-&gt;post_count = <span class="php-keyword2">count</span>( <span class="php-var">$filtered_posts</span> );
+</span><span id="211" class="l"><a class="l" href="source-class-WC_Query.html#211">211 </a>
+</span><span id="212" class="l"><a class="l" href="source-class-WC_Query.html#212">212 </a>            <span class="php-comment">// Ensure filters are set</span>
+</span><span id="213" class="l"><a class="l" href="source-class-WC_Query.html#213">213 </a>            <span class="php-var">$this</span>-&gt;unfiltered_product_ids = <span class="php-var">$queried_post_ids</span>;
+</span><span id="214" class="l"><a class="l" href="source-class-WC_Query.html#214">214 </a>            <span class="php-var">$this</span>-&gt;filtered_product_ids = <span class="php-var">$queried_post_ids</span>;
+</span><span id="215" class="l"><a class="l" href="source-class-WC_Query.html#215">215 </a>
+</span><span id="216" class="l"><a class="l" href="source-class-WC_Query.html#216">216 </a>            <span class="php-keyword1">if</span> ( <span class="php-keyword2">sizeof</span>( <span class="php-var">$this</span>-&gt;layered_nav_post__in ) &gt; <span class="php-num">0</span> ) {
+</span><span id="217" class="l"><a class="l" href="source-class-WC_Query.html#217">217 </a>                <span class="php-var">$this</span>-&gt;layered_nav_product_ids = <span class="php-keyword2">array_intersect</span>( <span class="php-var">$this</span>-&gt;unfiltered_product_ids, <span class="php-var">$this</span>-&gt;layered_nav_post__in );
+</span><span id="218" class="l"><a class="l" href="source-class-WC_Query.html#218">218 </a>            } <span class="php-keyword1">else</span> {
+</span><span id="219" class="l"><a class="l" href="source-class-WC_Query.html#219">219 </a>                <span class="php-var">$this</span>-&gt;layered_nav_product_ids = <span class="php-var">$this</span>-&gt;unfiltered_product_ids;
+</span><span id="220" class="l"><a class="l" href="source-class-WC_Query.html#220">220 </a>            }
+</span><span id="221" class="l"><a class="l" href="source-class-WC_Query.html#221">221 </a>
+</span><span id="222" class="l"><a class="l" href="source-class-WC_Query.html#222">222 </a>        <span class="php-keyword1">return</span> <span class="php-var">$filtered_posts</span>;
+</span><span id="223" class="l"><a class="l" href="source-class-WC_Query.html#223">223 </a>    }
+</span><span id="224" class="l"><a class="l" href="source-class-WC_Query.html#224">224 </a>
+</span><span id="225" class="l"><a class="l" href="source-class-WC_Query.html#225">225 </a>
+</span><span id="226" class="l"><a class="l" href="source-class-WC_Query.html#226">226 </a>    <span class="php-comment">/**
+</span></span><span id="227" class="l"><a class="l" href="source-class-WC_Query.html#227">227 </a><span class="php-comment">     * Query the products, applying sorting/ordering etc. This applies to the main wordpress loop
+</span></span><span id="228" class="l"><a class="l" href="source-class-WC_Query.html#228">228 </a><span class="php-comment">     *
+</span></span><span id="229" class="l"><a class="l" href="source-class-WC_Query.html#229">229 </a><span class="php-comment">     * @access public
+</span></span><span id="230" class="l"><a class="l" href="source-class-WC_Query.html#230">230 </a><span class="php-comment">     * @param mixed $q
+</span></span><span id="231" class="l"><a class="l" href="source-class-WC_Query.html#231">231 </a><span class="php-comment">     * @return void
+</span></span><span id="232" class="l"><a class="l" href="source-class-WC_Query.html#232">232 </a><span class="php-comment">     */</span>
+</span><span id="233" class="l"><a class="l" href="source-class-WC_Query.html#233">233 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_product_query" href="source-class-WC_Query.html#_product_query">product_query</a>( <span class="php-var">$q</span> ) {
+</span><span id="234" class="l"><a class="l" href="source-class-WC_Query.html#234">234 </a>
+</span><span id="235" class="l"><a class="l" href="source-class-WC_Query.html#235">235 </a>        <span class="php-comment">// Meta query</span>
+</span><span id="236" class="l"><a class="l" href="source-class-WC_Query.html#236">236 </a>        <span class="php-var">$meta_query</span> = (<span class="php-keyword1">array</span>) <span class="php-var">$q</span>-&gt;get( <span class="php-quote">'meta_query'</span> );
+</span><span id="237" class="l"><a class="l" href="source-class-WC_Query.html#237">237 </a>        <span class="php-var">$meta_query</span>[] = <span class="php-var">$this</span>-&gt;visibility_meta_query();
+</span><span id="238" class="l"><a class="l" href="source-class-WC_Query.html#238">238 </a>        <span class="php-var">$meta_query</span>[] = <span class="php-var">$this</span>-&gt;stock_status_meta_query();
+</span><span id="239" class="l"><a class="l" href="source-class-WC_Query.html#239">239 </a>
+</span><span id="240" class="l"><a class="l" href="source-class-WC_Query.html#240">240 </a>        <span class="php-comment">// Ordering</span>
+</span><span id="241" class="l"><a class="l" href="source-class-WC_Query.html#241">241 </a>        <span class="php-var">$ordering</span> = <span class="php-var">$this</span>-&gt;get_catalog_ordering_args();
+</span><span id="242" class="l"><a class="l" href="source-class-WC_Query.html#242">242 </a>
+</span><span id="243" class="l"><a class="l" href="source-class-WC_Query.html#243">243 </a>        <span class="php-comment">// Get a list of post id's which match the current filters set (in the layered nav and price filter)</span>
+</span><span id="244" class="l"><a class="l" href="source-class-WC_Query.html#244">244 </a>        <span class="php-var">$post__in</span> = <span class="php-keyword2">array_unique</span>( apply_filters( <span class="php-quote">'loop_shop_post_in'</span>, <span class="php-keyword1">array</span>() ) );
+</span><span id="245" class="l"><a class="l" href="source-class-WC_Query.html#245">245 </a>
+</span><span id="246" class="l"><a class="l" href="source-class-WC_Query.html#246">246 </a>        <span class="php-comment">// Ordering query vars</span>
+</span><span id="247" class="l"><a class="l" href="source-class-WC_Query.html#247">247 </a>        <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'orderby'</span>, <span class="php-var">$ordering</span>[<span class="php-quote">'orderby'</span>] );
+</span><span id="248" class="l"><a class="l" href="source-class-WC_Query.html#248">248 </a>        <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'order'</span>, <span class="php-var">$ordering</span>[<span class="php-quote">'order'</span>] );
+</span><span id="249" class="l"><a class="l" href="source-class-WC_Query.html#249">249 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$ordering</span>[<span class="php-quote">'meta_key'</span>] ) )
+</span><span id="250" class="l"><a class="l" href="source-class-WC_Query.html#250">250 </a>            <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'meta_key'</span>, <span class="php-var">$ordering</span>[<span class="php-quote">'meta_key'</span>] );
+</span><span id="251" class="l"><a class="l" href="source-class-WC_Query.html#251">251 </a>
+</span><span id="252" class="l"><a class="l" href="source-class-WC_Query.html#252">252 </a>        <span class="php-comment">// Query vars that affect posts shown</span>
+</span><span id="253" class="l"><a class="l" href="source-class-WC_Query.html#253">253 </a>        <span class="php-keyword1">if</span> ( ! <span class="php-var">$q</span>-&gt;is_tax( <span class="php-quote">'product_cat'</span> ) &amp;&amp; ! <span class="php-var">$q</span>-&gt;is_tax( <span class="php-quote">'product_tag'</span> ) )
+</span><span id="254" class="l"><a class="l" href="source-class-WC_Query.html#254">254 </a>            <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'post_type'</span>, <span class="php-quote">'product'</span> );
+</span><span id="255" class="l"><a class="l" href="source-class-WC_Query.html#255">255 </a>        <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'meta_query'</span>, <span class="php-var">$meta_query</span> );
+</span><span id="256" class="l"><a class="l" href="source-class-WC_Query.html#256">256 </a>        <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'post__in'</span>, <span class="php-var">$post__in</span> );
+</span><span id="257" class="l"><a class="l" href="source-class-WC_Query.html#257">257 </a>        <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'posts_per_page'</span>, <span class="php-var">$q</span>-&gt;get( <span class="php-quote">'posts_per_page'</span> ) ? <span class="php-var">$q</span>-&gt;get( <span class="php-quote">'posts_per_page'</span> ) : apply_filters( <span class="php-quote">'loop_shop_per_page'</span>, get_option( <span class="php-quote">'posts_per_page'</span> ) ) );
+</span><span id="258" class="l"><a class="l" href="source-class-WC_Query.html#258">258 </a>
+</span><span id="259" class="l"><a class="l" href="source-class-WC_Query.html#259">259 </a>        <span class="php-comment">// Set a special variable</span>
+</span><span id="260" class="l"><a class="l" href="source-class-WC_Query.html#260">260 </a>        <span class="php-var">$q</span>-&gt;set( <span class="php-quote">'wc_query'</span>, <span class="php-keyword1">true</span> );
+</span><span id="261" class="l"><a class="l" href="source-class-WC_Query.html#261">261 </a>
+</span><span id="262" class="l"><a class="l" href="source-class-WC_Query.html#262">262 </a>        <span class="php-comment">// Store variables</span>
+</span><span id="263" class="l"><a class="l" href="source-class-WC_Query.html#263">263 </a>        <span class="php-var">$this</span>-&gt;post__in = <span class="php-var">$post__in</span>;
+</span><span id="264" class="l"><a class="l" href="source-class-WC_Query.html#264">264 </a>        <span class="php-var">$this</span>-&gt;meta_query = <span class="php-var">$meta_query</span>;
+</span><span id="265" class="l"><a class="l" href="source-class-WC_Query.html#265">265 </a>
+</span><span id="266" class="l"><a class="l" href="source-class-WC_Query.html#266">266 </a>        do_action( <span class="php-quote">'woocommerce_product_query'</span>, <span class="php-var">$q</span>, <span class="php-var">$this</span> );
+</span><span id="267" class="l"><a class="l" href="source-class-WC_Query.html#267">267 </a>    }
+</span><span id="268" class="l"><a class="l" href="source-class-WC_Query.html#268">268 </a>
+</span><span id="269" class="l"><a class="l" href="source-class-WC_Query.html#269">269 </a>
+</span><span id="270" class="l"><a class="l" href="source-class-WC_Query.html#270">270 </a>    <span class="php-comment">/**
+</span></span><span id="271" class="l"><a class="l" href="source-class-WC_Query.html#271">271 </a><span class="php-comment">     * Remove the query
+</span></span><span id="272" class="l"><a class="l" href="source-class-WC_Query.html#272">272 </a><span class="php-comment">     *
+</span></span><span id="273" class="l"><a class="l" href="source-class-WC_Query.html#273">273 </a><span class="php-comment">     * @access public
+</span></span><span id="274" class="l"><a class="l" href="source-class-WC_Query.html#274">274 </a><span class="php-comment">     * @return void
+</span></span><span id="275" class="l"><a class="l" href="source-class-WC_Query.html#275">275 </a><span class="php-comment">     */</span>
+</span><span id="276" class="l"><a class="l" href="source-class-WC_Query.html#276">276 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_remove_product_query" href="source-class-WC_Query.html#_remove_product_query">remove_product_query</a>() {
+</span><span id="277" class="l"><a class="l" href="source-class-WC_Query.html#277">277 </a>        remove_filter( <span class="php-quote">'pre_get_posts'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'pre_get_posts'</span> ) );
+</span><span id="278" class="l"><a class="l" href="source-class-WC_Query.html#278">278 </a>    }
+</span><span id="279" class="l"><a class="l" href="source-class-WC_Query.html#279">279 </a>
+</span><span id="280" class="l"><a class="l" href="source-class-WC_Query.html#280">280 </a>    <span class="php-comment">/**
+</span></span><span id="281" class="l"><a class="l" href="source-class-WC_Query.html#281">281 </a><span class="php-comment">     * Remove the posts_where filter
+</span></span><span id="282" class="l"><a class="l" href="source-class-WC_Query.html#282">282 </a><span class="php-comment">     *
+</span></span><span id="283" class="l"><a class="l" href="source-class-WC_Query.html#283">283 </a><span class="php-comment">     * @access public
+</span></span><span id="284" class="l"><a class="l" href="source-class-WC_Query.html#284">284 </a><span class="php-comment">     * @return void
+</span></span><span id="285" class="l"><a class="l" href="source-class-WC_Query.html#285">285 </a><span class="php-comment">     */</span>
+</span><span id="286" class="l"><a class="l" href="source-class-WC_Query.html#286">286 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_remove_posts_where" href="source-class-WC_Query.html#_remove_posts_where">remove_posts_where</a>() {
+</span><span id="287" class="l"><a class="l" href="source-class-WC_Query.html#287">287 </a>        remove_filter( <span class="php-quote">'posts_where'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'search_post_excerpt'</span> ) );
+</span><span id="288" class="l"><a class="l" href="source-class-WC_Query.html#288">288 </a>    }
+</span><span id="289" class="l"><a class="l" href="source-class-WC_Query.html#289">289 </a>
+</span><span id="290" class="l"><a class="l" href="source-class-WC_Query.html#290">290 </a>
+</span><span id="291" class="l"><a class="l" href="source-class-WC_Query.html#291">291 </a>    <span class="php-comment">/**
+</span></span><span id="292" class="l"><a class="l" href="source-class-WC_Query.html#292">292 </a><span class="php-comment">     * Get an unpaginated list all product ID's (both filtered and unfiltered). Makes use of transients.
+</span></span><span id="293" class="l"><a class="l" href="source-class-WC_Query.html#293">293 </a><span class="php-comment">     *
+</span></span><span id="294" class="l"><a class="l" href="source-class-WC_Query.html#294">294 </a><span class="php-comment">     * @access public
+</span></span><span id="295" class="l"><a class="l" href="source-class-WC_Query.html#295">295 </a><span class="php-comment">     * @return void
+</span></span><span id="296" class="l"><a class="l" href="source-class-WC_Query.html#296">296 </a><span class="php-comment">     */</span>
+</span><span id="297" class="l"><a class="l" href="source-class-WC_Query.html#297">297 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_get_products_in_view" href="source-class-WC_Query.html#_get_products_in_view">get_products_in_view</a>() {
+</span><span id="298" class="l"><a class="l" href="source-class-WC_Query.html#298">298 </a>        <span class="php-keyword1">global</span> <span class="php-var">$wp_the_query</span>;
+</span><span id="299" class="l"><a class="l" href="source-class-WC_Query.html#299">299 </a>
+</span><span id="300" class="l"><a class="l" href="source-class-WC_Query.html#300">300 </a>        <span class="php-var">$unfiltered_product_ids</span> = <span class="php-keyword1">array</span>();
+</span><span id="301" class="l"><a class="l" href="source-class-WC_Query.html#301">301 </a>
+</span><span id="302" class="l"><a class="l" href="source-class-WC_Query.html#302">302 </a>        <span class="php-comment">// Get main query</span>
+</span><span id="303" class="l"><a class="l" href="source-class-WC_Query.html#303">303 </a>        <span class="php-var">$current_wp_query</span> = <span class="php-var">$wp_the_query</span>-&gt;query;
+</span><span id="304" class="l"><a class="l" href="source-class-WC_Query.html#304">304 </a>
+</span><span id="305" class="l"><a class="l" href="source-class-WC_Query.html#305">305 </a>        <span class="php-comment">// Get WP Query for current page (without 'paged')</span>
+</span><span id="306" class="l"><a class="l" href="source-class-WC_Query.html#306">306 </a>        <span class="php-keyword1">unset</span>( <span class="php-var">$current_wp_query</span>[<span class="php-quote">'paged'</span>] );
+</span><span id="307" class="l"><a class="l" href="source-class-WC_Query.html#307">307 </a>
+</span><span id="308" class="l"><a class="l" href="source-class-WC_Query.html#308">308 </a>        <span class="php-comment">// Generate a transient name based on current query</span>
+</span><span id="309" class="l"><a class="l" href="source-class-WC_Query.html#309">309 </a>        <span class="php-var">$transient_name</span> = <span class="php-quote">'wc_uf_pid_'</span> . <span class="php-keyword2">md5</span>( <span class="php-keyword2">http_build_query</span>( <span class="php-var">$current_wp_query</span> ) );
+</span><span id="310" class="l"><a class="l" href="source-class-WC_Query.html#310">310 </a>        <span class="php-var">$transient_name</span> = ( is_search() ) ? <span class="php-var">$transient_name</span> . <span class="php-quote">'_s'</span> : <span class="php-var">$transient_name</span>;
+</span><span id="311" class="l"><a class="l" href="source-class-WC_Query.html#311">311 </a>
+</span><span id="312" class="l"><a class="l" href="source-class-WC_Query.html#312">312 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword1">false</span> === ( <span class="php-var">$unfiltered_product_ids</span> = get_transient( <span class="php-var">$transient_name</span> ) ) ) {
+</span><span id="313" class="l"><a class="l" href="source-class-WC_Query.html#313">313 </a>
+</span><span id="314" class="l"><a class="l" href="source-class-WC_Query.html#314">314 </a>            <span class="php-comment">// Get all visible posts, regardless of filters</span>
+</span><span id="315" class="l"><a class="l" href="source-class-WC_Query.html#315">315 </a>            <span class="php-var">$unfiltered_product_ids</span> = get_posts(
+</span><span id="316" class="l"><a class="l" href="source-class-WC_Query.html#316">316 </a>                <span class="php-keyword2">array_merge</span>(
+</span><span id="317" class="l"><a class="l" href="source-class-WC_Query.html#317">317 </a>                    <span class="php-var">$current_wp_query</span>,
+</span><span id="318" class="l"><a class="l" href="source-class-WC_Query.html#318">318 </a>                    <span class="php-keyword1">array</span>(
+</span><span id="319" class="l"><a class="l" href="source-class-WC_Query.html#319">319 </a>                        <span class="php-quote">'post_type'</span>     =&gt; <span class="php-quote">'product'</span>,
+</span><span id="320" class="l"><a class="l" href="source-class-WC_Query.html#320">320 </a>                        <span class="php-quote">'numberposts'</span>   =&gt; -<span class="php-num">1</span>,
+</span><span id="321" class="l"><a class="l" href="source-class-WC_Query.html#321">321 </a>                        <span class="php-quote">'post_status'</span>   =&gt; <span class="php-quote">'publish'</span>,
+</span><span id="322" class="l"><a class="l" href="source-class-WC_Query.html#322">322 </a>                        <span class="php-quote">'meta_query'</span>    =&gt; <span class="php-var">$this</span>-&gt;meta_query,
+</span><span id="323" class="l"><a class="l" href="source-class-WC_Query.html#323">323 </a>                        <span class="php-quote">'fields'</span>        =&gt; <span class="php-quote">'ids'</span>,
+</span><span id="324" class="l"><a class="l" href="source-class-WC_Query.html#324">324 </a>                        <span class="php-quote">'no_found_rows'</span> =&gt; <span class="php-keyword1">true</span>,
+</span><span id="325" class="l"><a class="l" href="source-class-WC_Query.html#325">325 </a>                        <span class="php-quote">'update_post_meta_cache'</span> =&gt; <span class="php-keyword1">false</span>,
+</span><span id="326" class="l"><a class="l" href="source-class-WC_Query.html#326">326 </a>                        <span class="php-quote">'update_post_term_cache'</span> =&gt; <span class="php-keyword1">false</span>
+</span><span id="327" class="l"><a class="l" href="source-class-WC_Query.html#327">327 </a>                    )
+</span><span id="328" class="l"><a class="l" href="source-class-WC_Query.html#328">328 </a>                )
+</span><span id="329" class="l"><a class="l" href="source-class-WC_Query.html#329">329 </a>            );
+</span><span id="330" class="l"><a class="l" href="source-class-WC_Query.html#330">330 </a>
+</span><span id="331" class="l"><a class="l" href="source-class-WC_Query.html#331">331 </a>            set_transient( <span class="php-var">$transient_name</span>, <span class="php-var">$unfiltered_product_ids</span> );
+</span><span id="332" class="l"><a class="l" href="source-class-WC_Query.html#332">332 </a>        }
+</span><span id="333" class="l"><a class="l" href="source-class-WC_Query.html#333">333 </a>
+</span><span id="334" class="l"><a class="l" href="source-class-WC_Query.html#334">334 </a>        <span class="php-comment">// Store the variable</span>
+</span><span id="335" class="l"><a class="l" href="source-class-WC_Query.html#335">335 </a>        <span class="php-var">$this</span>-&gt;unfiltered_product_ids = <span class="php-var">$unfiltered_product_ids</span>;
+</span><span id="336" class="l"><a class="l" href="source-class-WC_Query.html#336">336 </a>
+</span><span id="337" class="l"><a class="l" href="source-class-WC_Query.html#337">337 </a>        <span class="php-comment">// Also store filtered posts ids...</span>
+</span><span id="338" class="l"><a class="l" href="source-class-WC_Query.html#338">338 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword2">sizeof</span>( <span class="php-var">$this</span>-&gt;post__in ) &gt; <span class="php-num">0</span> )
+</span><span id="339" class="l"><a class="l" href="source-class-WC_Query.html#339">339 </a>            <span class="php-var">$this</span>-&gt;filtered_product_ids = <span class="php-keyword2">array_intersect</span>( <span class="php-var">$this</span>-&gt;unfiltered_product_ids, <span class="php-var">$this</span>-&gt;post__in );
+</span><span id="340" class="l"><a class="l" href="source-class-WC_Query.html#340">340 </a>        <span class="php-keyword1">else</span>
+</span><span id="341" class="l"><a class="l" href="source-class-WC_Query.html#341">341 </a>            <span class="php-var">$this</span>-&gt;filtered_product_ids = <span class="php-var">$this</span>-&gt;unfiltered_product_ids;
+</span><span id="342" class="l"><a class="l" href="source-class-WC_Query.html#342">342 </a>
+</span><span id="343" class="l"><a class="l" href="source-class-WC_Query.html#343">343 </a>        <span class="php-comment">// And filtered post ids which just take layered nav into consideration (to find max price in the price widget)</span>
+</span><span id="344" class="l"><a class="l" href="source-class-WC_Query.html#344">344 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword2">sizeof</span>( <span class="php-var">$this</span>-&gt;layered_nav_post__in ) &gt; <span class="php-num">0</span> )
+</span><span id="345" class="l"><a class="l" href="source-class-WC_Query.html#345">345 </a>            <span class="php-var">$this</span>-&gt;layered_nav_product_ids = <span class="php-keyword2">array_intersect</span>( <span class="php-var">$this</span>-&gt;unfiltered_product_ids, <span class="php-var">$this</span>-&gt;layered_nav_post__in );
+</span><span id="346" class="l"><a class="l" href="source-class-WC_Query.html#346">346 </a>        <span class="php-keyword1">else</span>
+</span><span id="347" class="l"><a class="l" href="source-class-WC_Query.html#347">347 </a>            <span class="php-var">$this</span>-&gt;layered_nav_product_ids = <span class="php-var">$this</span>-&gt;unfiltered_product_ids;
+</span><span id="348" class="l"><a class="l" href="source-class-WC_Query.html#348">348 </a>    }
+</span><span id="349" class="l"><a class="l" href="source-class-WC_Query.html#349">349 </a>
+</span><span id="350" class="l"><a class="l" href="source-class-WC_Query.html#350">350 </a>
+</span><span id="351" class="l"><a class="l" href="source-class-WC_Query.html#351">351 </a>    <span class="php-comment">/**
+</span></span><span id="352" class="l"><a class="l" href="source-class-WC_Query.html#352">352 </a><span class="php-comment">     * Returns an array of arguments for ordering products based on the selected values
+</span></span><span id="353" class="l"><a class="l" href="source-class-WC_Query.html#353">353 </a><span class="php-comment">     *
+</span></span><span id="354" class="l"><a class="l" href="source-class-WC_Query.html#354">354 </a><span class="php-comment">     * @access public
+</span></span><span id="355" class="l"><a class="l" href="source-class-WC_Query.html#355">355 </a><span class="php-comment">     * @return array
+</span></span><span id="356" class="l"><a class="l" href="source-class-WC_Query.html#356">356 </a><span class="php-comment">     */</span>
+</span><span id="357" class="l"><a class="l" href="source-class-WC_Query.html#357">357 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_get_catalog_ordering_args" href="source-class-WC_Query.html#_get_catalog_ordering_args">get_catalog_ordering_args</a>( <span class="php-var">$orderby</span> = <span class="php-quote">''</span>, <span class="php-var">$order</span> = <span class="php-quote">''</span> ) {
+</span><span id="358" class="l"><a class="l" href="source-class-WC_Query.html#358">358 </a>        <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>;
+</span><span id="359" class="l"><a class="l" href="source-class-WC_Query.html#359">359 </a>
+</span><span id="360" class="l"><a class="l" href="source-class-WC_Query.html#360">360 </a>        <span class="php-comment">// Get ordering from query string unless defined</span>
+</span><span id="361" class="l"><a class="l" href="source-class-WC_Query.html#361">361 </a>        <span class="php-keyword1">if</span> ( ! <span class="php-var">$orderby</span> ) {
+</span><span id="362" class="l"><a class="l" href="source-class-WC_Query.html#362">362 </a>            <span class="php-var">$orderby_value</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$_GET</span>[<span class="php-quote">'orderby'</span>] ) ? woocommerce_clean( <span class="php-var">$_GET</span>[<span class="php-quote">'orderby'</span>] ) : apply_filters( <span class="php-quote">'woocommerce_default_catalog_orderby'</span>, get_option( <span class="php-quote">'woocommerce_default_catalog_orderby'</span> ) );
+</span><span id="363" class="l"><a class="l" href="source-class-WC_Query.html#363">363 </a>
+</span><span id="364" class="l"><a class="l" href="source-class-WC_Query.html#364">364 </a>            <span class="php-comment">// Get order + orderby args from string</span>
+</span><span id="365" class="l"><a class="l" href="source-class-WC_Query.html#365">365 </a>            <span class="php-var">$orderby_value</span> = <span class="php-keyword2">explode</span>( <span class="php-quote">'-'</span>, <span class="php-var">$orderby_value</span> );
+</span><span id="366" class="l"><a class="l" href="source-class-WC_Query.html#366">366 </a>            <span class="php-var">$orderby</span>       = esc_attr( <span class="php-var">$orderby_value</span>[<span class="php-num">0</span>] );
+</span><span id="367" class="l"><a class="l" href="source-class-WC_Query.html#367">367 </a>            <span class="php-var">$order</span>         = ! <span class="php-keyword1">empty</span>( <span class="php-var">$orderby_value</span>[<span class="php-num">1</span>] ) ? <span class="php-var">$orderby_value</span>[<span class="php-num">1</span>] : <span class="php-var">$order</span>;
+</span><span id="368" class="l"><a class="l" href="source-class-WC_Query.html#368">368 </a>        }
+</span><span id="369" class="l"><a class="l" href="source-class-WC_Query.html#369">369 </a>
+</span><span id="370" class="l"><a class="l" href="source-class-WC_Query.html#370">370 </a>        <span class="php-var">$orderby</span> = <span class="php-keyword2">strtolower</span>( <span class="php-var">$orderby</span> );
+</span><span id="371" class="l"><a class="l" href="source-class-WC_Query.html#371">371 </a>        <span class="php-var">$order</span>   = <span class="php-keyword2">strtoupper</span>( <span class="php-var">$order</span> );
+</span><span id="372" class="l"><a class="l" href="source-class-WC_Query.html#372">372 </a>
+</span><span id="373" class="l"><a class="l" href="source-class-WC_Query.html#373">373 </a>        <span class="php-var">$args</span> = <span class="php-keyword1">array</span>();
+</span><span id="374" class="l"><a class="l" href="source-class-WC_Query.html#374">374 </a>
+</span><span id="375" class="l"><a class="l" href="source-class-WC_Query.html#375">375 </a>        <span class="php-keyword1">switch</span> ( <span class="php-var">$orderby</span> ) {
+</span><span id="376" class="l"><a class="l" href="source-class-WC_Query.html#376">376 </a>            <span class="php-keyword1">case</span> <span class="php-quote">'date'</span> :
+</span><span id="377" class="l"><a class="l" href="source-class-WC_Query.html#377">377 </a>                <span class="php-var">$args</span>[<span class="php-quote">'orderby'</span>]  = <span class="php-quote">'date'</span>;
+</span><span id="378" class="l"><a class="l" href="source-class-WC_Query.html#378">378 </a>                <span class="php-var">$args</span>[<span class="php-quote">'order'</span>]    = <span class="php-var">$order</span> == <span class="php-quote">'ASC'</span> ? <span class="php-quote">'ASC'</span> : <span class="php-quote">'DESC'</span>;
+</span><span id="379" class="l"><a class="l" href="source-class-WC_Query.html#379">379 </a>                <span class="php-var">$args</span>[<span class="php-quote">'meta_key'</span>] = <span class="php-quote">''</span>;
+</span><span id="380" class="l"><a class="l" href="source-class-WC_Query.html#380">380 </a>            <span class="php-keyword1">break</span>;
+</span><span id="381" class="l"><a class="l" href="source-class-WC_Query.html#381">381 </a>            <span class="php-keyword1">case</span> <span class="php-quote">'price'</span> :
+</span><span id="382" class="l"><a class="l" href="source-class-WC_Query.html#382">382 </a>                <span class="php-var">$args</span>[<span class="php-quote">'orderby'</span>]  = <span class="php-quote">'meta_value_num'</span>;
+</span><span id="383" class="l"><a class="l" href="source-class-WC_Query.html#383">383 </a>                <span class="php-var">$args</span>[<span class="php-quote">'order'</span>]    = <span class="php-var">$order</span> == <span class="php-quote">'DESC'</span> ? <span class="php-quote">'DESC'</span> : <span class="php-quote">'ASC'</span>;
+</span><span id="384" class="l"><a class="l" href="source-class-WC_Query.html#384">384 </a>                <span class="php-var">$args</span>[<span class="php-quote">'meta_key'</span>] = <span class="php-quote">'_price'</span>;
+</span><span id="385" class="l"><a class="l" href="source-class-WC_Query.html#385">385 </a>            <span class="php-keyword1">break</span>;
+</span><span id="386" class="l"><a class="l" href="source-class-WC_Query.html#386">386 </a>            <span class="php-keyword1">case</span> <span class="php-quote">'popularity'</span> :
+</span><span id="387" class="l"><a class="l" href="source-class-WC_Query.html#387">387 </a>                <span class="php-var">$args</span>[<span class="php-quote">'orderby'</span>]  = <span class="php-quote">'meta_value_num'</span>;
+</span><span id="388" class="l"><a class="l" href="source-class-WC_Query.html#388">388 </a>                <span class="php-var">$args</span>[<span class="php-quote">'order'</span>]    = <span class="php-var">$order</span> == <span class="php-quote">'ASC'</span> ? <span class="php-quote">'ASC'</span> : <span class="php-quote">'DESC'</span>;
+</span><span id="389" class="l"><a class="l" href="source-class-WC_Query.html#389">389 </a>                <span class="php-var">$args</span>[<span class="php-quote">'meta_key'</span>] = <span class="php-quote">'total_sales'</span>;
+</span><span id="390" class="l"><a class="l" href="source-class-WC_Query.html#390">390 </a>            <span class="php-keyword1">break</span>;
+</span><span id="391" class="l"><a class="l" href="source-class-WC_Query.html#391">391 </a>            <span class="php-keyword1">case</span> <span class="php-quote">'rating'</span> :
+</span><span id="392" class="l"><a class="l" href="source-class-WC_Query.html#392">392 </a>                <span class="php-var">$args</span>[<span class="php-quote">'orderby'</span>]  = <span class="php-quote">'menu_order title'</span>;
+</span><span id="393" class="l"><a class="l" href="source-class-WC_Query.html#393">393 </a>                <span class="php-var">$args</span>[<span class="php-quote">'order'</span>]    = <span class="php-var">$order</span> == <span class="php-quote">'DESC'</span> ? <span class="php-quote">'DESC'</span> : <span class="php-quote">'ASC'</span>;
+</span><span id="394" class="l"><a class="l" href="source-class-WC_Query.html#394">394 </a>                <span class="php-var">$args</span>[<span class="php-quote">'meta_key'</span>] = <span class="php-quote">''</span>;
+</span><span id="395" class="l"><a class="l" href="source-class-WC_Query.html#395">395 </a>
+</span><span id="396" class="l"><a class="l" href="source-class-WC_Query.html#396">396 </a>                add_filter( <span class="php-quote">'posts_clauses'</span>, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'order_by_rating_post_clauses'</span> ) );
+</span><span id="397" class="l"><a class="l" href="source-class-WC_Query.html#397">397 </a>            <span class="php-keyword1">break</span>;
+</span><span id="398" class="l"><a class="l" href="source-class-WC_Query.html#398">398 </a>            <span class="php-keyword1">case</span> <span class="php-quote">'title'</span> :
+</span><span id="399" class="l"><a class="l" href="source-class-WC_Query.html#399">399 </a>                <span class="php-var">$args</span>[<span class="php-quote">'orderby'</span>]  = <span class="php-quote">'title'</span>;
+</span><span id="400" class="l"><a class="l" href="source-class-WC_Query.html#400">400 </a>                <span class="php-var">$args</span>[<span class="php-quote">'order'</span>]    = <span class="php-var">$order</span> == <span class="php-quote">'DESC'</span> ? <span class="php-quote">'DESC'</span> : <span class="php-quote">'ASC'</span>;
+</span><span id="401" class="l"><a class="l" href="source-class-WC_Query.html#401">401 </a>                <span class="php-var">$args</span>[<span class="php-quote">'meta_key'</span>] = <span class="php-quote">''</span>;
+</span><span id="402" class="l"><a class="l" href="source-class-WC_Query.html#402">402 </a>            <span class="php-keyword1">break</span>;
+</span><span id="403" class="l"><a class="l" href="source-class-WC_Query.html#403">403 </a>            <span class="php-comment">// default - menu_order</span>
+</span><span id="404" class="l"><a class="l" href="source-class-WC_Query.html#404">404 </a>            <span class="php-keyword1">default</span> :
+</span><span id="405" class="l"><a class="l" href="source-class-WC_Query.html#405">405 </a>                <span class="php-var">$args</span>[<span class="php-quote">'orderby'</span>]  = <span class="php-quote">'menu_order title'</span>;
+</span><span id="406" class="l"><a class="l" href="source-class-WC_Query.html#406">406 </a>                <span class="php-var">$args</span>[<span class="php-quote">'order'</span>]    = <span class="php-var">$order</span> == <span class="php-quote">'DESC'</span> ? <span class="php-quote">'DESC'</span> : <span class="php-quote">'ASC'</span>;
+</span><span id="407" class="l"><a class="l" href="source-class-WC_Query.html#407">407 </a>                <span class="php-var">$args</span>[<span class="php-quote">'meta_key'</span>] = <span class="php-quote">''</span>;
+</span><span id="408" class="l"><a class="l" href="source-class-WC_Query.html#408">408 </a>            <span class="php-keyword1">break</span>;
+</span><span id="409" class="l"><a class="l" href="source-class-WC_Query.html#409">409 </a>        }
+</span><span id="410" class="l"><a class="l" href="source-class-WC_Query.html#410">410 </a>
+</span><span id="411" class="l"><a class="l" href="source-class-WC_Query.html#411">411 </a>        <span class="php-keyword1">return</span> apply_filters( <span class="php-quote">'woocommerce_get_catalog_ordering_args'</span>, <span class="php-var">$args</span> );
+</span><span id="412" class="l"><a class="l" href="source-class-WC_Query.html#412">412 </a>    }
+</span><span id="413" class="l"><a class="l" href="source-class-WC_Query.html#413">413 </a>
+</span><span id="414" class="l"><a class="l" href="source-class-WC_Query.html#414">414 </a>    <span class="php-comment">/**
+</span></span><span id="415" class="l"><a class="l" href="source-class-WC_Query.html#415">415 </a><span class="php-comment">     * order_by_rating_post_clauses function.
+</span></span><span id="416" class="l"><a class="l" href="source-class-WC_Query.html#416">416 </a><span class="php-comment">     *
+</span></span><span id="417" class="l"><a class="l" href="source-class-WC_Query.html#417">417 </a><span class="php-comment">     * @access public
+</span></span><span id="418" class="l"><a class="l" href="source-class-WC_Query.html#418">418 </a><span class="php-comment">     * @param array $args
+</span></span><span id="419" class="l"><a class="l" href="source-class-WC_Query.html#419">419 </a><span class="php-comment">     * @return array
+</span></span><span id="420" class="l"><a class="l" href="source-class-WC_Query.html#420">420 </a><span class="php-comment">     */</span>
+</span><span id="421" class="l"><a class="l" href="source-class-WC_Query.html#421">421 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_order_by_rating_post_clauses" href="source-class-WC_Query.html#_order_by_rating_post_clauses">order_by_rating_post_clauses</a>( <span class="php-var">$args</span> ) {
+</span><span id="422" class="l"><a class="l" href="source-class-WC_Query.html#422">422 </a>
+</span><span id="423" class="l"><a class="l" href="source-class-WC_Query.html#423">423 </a>        <span class="php-keyword1">global</span> <span class="php-var">$wpdb</span>;
+</span><span id="424" class="l"><a class="l" href="source-class-WC_Query.html#424">424 </a>
+</span><span id="425" class="l"><a class="l" href="source-class-WC_Query.html#425">425 </a>        <span class="php-var">$args</span>[<span class="php-quote">'fields'</span>] .= <span class="php-quote">&quot;, AVG( </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;commentmeta.meta_value ) as average_rating &quot;</span>;
+</span><span id="426" class="l"><a class="l" href="source-class-WC_Query.html#426">426 </a>
+</span><span id="427" class="l"><a class="l" href="source-class-WC_Query.html#427">427 </a>        <span class="php-var">$args</span>[<span class="php-quote">'where'</span>] .= <span class="php-quote">&quot; AND ( </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;commentmeta.meta_key = 'rating' OR </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;commentmeta.meta_key IS null ) &quot;</span>;
+</span><span id="428" class="l"><a class="l" href="source-class-WC_Query.html#428">428 </a>
+</span><span id="429" class="l"><a class="l" href="source-class-WC_Query.html#429">429 </a>        <span class="php-var">$args</span>[<span class="php-quote">'join'</span>] .= <span class="php-quote">&quot;
+</span></span><span id="430" class="l"><a class="l" href="source-class-WC_Query.html#430">430 </a><span class="php-quote">            LEFT OUTER JOIN </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;comments ON(</span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;posts.ID = </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;comments.comment_post_ID)
+</span></span><span id="431" class="l"><a class="l" href="source-class-WC_Query.html#431">431 </a><span class="php-quote">            LEFT JOIN </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;commentmeta ON(</span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;comments.comment_ID = </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;commentmeta.comment_id)
+</span></span><span id="432" class="l"><a class="l" href="source-class-WC_Query.html#432">432 </a><span class="php-quote">        &quot;</span>;
+</span><span id="433" class="l"><a class="l" href="source-class-WC_Query.html#433">433 </a>
+</span><span id="434" class="l"><a class="l" href="source-class-WC_Query.html#434">434 </a>        <span class="php-var">$args</span>[<span class="php-quote">'orderby'</span>] = <span class="php-quote">&quot;average_rating DESC&quot;</span>;
+</span><span id="435" class="l"><a class="l" href="source-class-WC_Query.html#435">435 </a>
+</span><span id="436" class="l"><a class="l" href="source-class-WC_Query.html#436">436 </a>        <span class="php-var">$args</span>[<span class="php-quote">'groupby'</span>] = <span class="php-quote">&quot;</span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;posts.ID&quot;</span>;
+</span><span id="437" class="l"><a class="l" href="source-class-WC_Query.html#437">437 </a>
+</span><span id="438" class="l"><a class="l" href="source-class-WC_Query.html#438">438 </a>        <span class="php-keyword1">return</span> <span class="php-var">$args</span>;
+</span><span id="439" class="l"><a class="l" href="source-class-WC_Query.html#439">439 </a>    }
+</span><span id="440" class="l"><a class="l" href="source-class-WC_Query.html#440">440 </a>
+</span><span id="441" class="l"><a class="l" href="source-class-WC_Query.html#441">441 </a>    <span class="php-comment">/**
+</span></span><span id="442" class="l"><a class="l" href="source-class-WC_Query.html#442">442 </a><span class="php-comment">     * Returns a meta query to handle product visibility
+</span></span><span id="443" class="l"><a class="l" href="source-class-WC_Query.html#443">443 </a><span class="php-comment">     *
+</span></span><span id="444" class="l"><a class="l" href="source-class-WC_Query.html#444">444 </a><span class="php-comment">     * @access public
+</span></span><span id="445" class="l"><a class="l" href="source-class-WC_Query.html#445">445 </a><span class="php-comment">     * @param string $compare (default: 'IN')
+</span></span><span id="446" class="l"><a class="l" href="source-class-WC_Query.html#446">446 </a><span class="php-comment">     * @return array
+</span></span><span id="447" class="l"><a class="l" href="source-class-WC_Query.html#447">447 </a><span class="php-comment">     */</span>
+</span><span id="448" class="l"><a class="l" href="source-class-WC_Query.html#448">448 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_visibility_meta_query" href="source-class-WC_Query.html#_visibility_meta_query">visibility_meta_query</a>( <span class="php-var">$compare</span> = <span class="php-quote">'IN'</span> ) {
+</span><span id="449" class="l"><a class="l" href="source-class-WC_Query.html#449">449 </a>        <span class="php-keyword1">if</span> ( is_search() ) <span class="php-var">$in</span> = <span class="php-keyword1">array</span>( <span class="php-quote">'visible'</span>, <span class="php-quote">'search'</span> ); <span class="php-keyword1">else</span> <span class="php-var">$in</span> = <span class="php-keyword1">array</span>( <span class="php-quote">'visible'</span>, <span class="php-quote">'catalog'</span> );
+</span><span id="450" class="l"><a class="l" href="source-class-WC_Query.html#450">450 </a>
+</span><span id="451" class="l"><a class="l" href="source-class-WC_Query.html#451">451 </a>        <span class="php-var">$meta_query</span> = <span class="php-keyword1">array</span>(
+</span><span id="452" class="l"><a class="l" href="source-class-WC_Query.html#452">452 </a>            <span class="php-quote">'key'</span> =&gt; <span class="php-quote">'_visibility'</span>,
+</span><span id="453" class="l"><a class="l" href="source-class-WC_Query.html#453">453 </a>            <span class="php-quote">'value'</span> =&gt; <span class="php-var">$in</span>,
+</span><span id="454" class="l"><a class="l" href="source-class-WC_Query.html#454">454 </a>            <span class="php-quote">'compare'</span> =&gt; <span class="php-var">$compare</span>
+</span><span id="455" class="l"><a class="l" href="source-class-WC_Query.html#455">455 </a>        );
+</span><span id="456" class="l"><a class="l" href="source-class-WC_Query.html#456">456 </a>
+</span><span id="457" class="l"><a class="l" href="source-class-WC_Query.html#457">457 </a>        <span class="php-keyword1">return</span> <span class="php-var">$meta_query</span>;
+</span><span id="458" class="l"><a class="l" href="source-class-WC_Query.html#458">458 </a>    }
+</span><span id="459" class="l"><a class="l" href="source-class-WC_Query.html#459">459 </a>
+</span><span id="460" class="l"><a class="l" href="source-class-WC_Query.html#460">460 </a>
+</span><span id="461" class="l"><a class="l" href="source-class-WC_Query.html#461">461 </a>    <span class="php-comment">/**
+</span></span><span id="462" class="l"><a class="l" href="source-class-WC_Query.html#462">462 </a><span class="php-comment">     * Returns a meta query to handle product stock status
+</span></span><span id="463" class="l"><a class="l" href="source-class-WC_Query.html#463">463 </a><span class="php-comment">     *
+</span></span><span id="464" class="l"><a class="l" href="source-class-WC_Query.html#464">464 </a><span class="php-comment">     * @access public
+</span></span><span id="465" class="l"><a class="l" href="source-class-WC_Query.html#465">465 </a><span class="php-comment">     * @param string $status (default: 'instock')
+</span></span><span id="466" class="l"><a class="l" href="source-class-WC_Query.html#466">466 </a><span class="php-comment">     * @return array
+</span></span><span id="467" class="l"><a class="l" href="source-class-WC_Query.html#467">467 </a><span class="php-comment">     */</span>
+</span><span id="468" class="l"><a class="l" href="source-class-WC_Query.html#468">468 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_stock_status_meta_query" href="source-class-WC_Query.html#_stock_status_meta_query">stock_status_meta_query</a>( <span class="php-var">$status</span> = <span class="php-quote">'instock'</span> ) {
+</span><span id="469" class="l"><a class="l" href="source-class-WC_Query.html#469">469 </a>        <span class="php-var">$meta_query</span> = <span class="php-keyword1">array</span>();
+</span><span id="470" class="l"><a class="l" href="source-class-WC_Query.html#470">470 </a>        <span class="php-keyword1">if</span> ( get_option( <span class="php-quote">'woocommerce_hide_out_of_stock_items'</span> ) == <span class="php-quote">'yes'</span> ) {
+</span><span id="471" class="l"><a class="l" href="source-class-WC_Query.html#471">471 </a>             <span class="php-var">$meta_query</span> = <span class="php-keyword1">array</span>(
+</span><span id="472" class="l"><a class="l" href="source-class-WC_Query.html#472">472 </a>                <span class="php-quote">'key'</span>       =&gt; <span class="php-quote">'_stock_status'</span>,
+</span><span id="473" class="l"><a class="l" href="source-class-WC_Query.html#473">473 </a>                <span class="php-quote">'value'</span>     =&gt; <span class="php-var">$status</span>,
+</span><span id="474" class="l"><a class="l" href="source-class-WC_Query.html#474">474 </a>                <span class="php-quote">'compare'</span>   =&gt; <span class="php-quote">'='</span>
+</span><span id="475" class="l"><a class="l" href="source-class-WC_Query.html#475">475 </a>            );
+</span><span id="476" class="l"><a class="l" href="source-class-WC_Query.html#476">476 </a>        }
+</span><span id="477" class="l"><a class="l" href="source-class-WC_Query.html#477">477 </a>        <span class="php-keyword1">return</span> <span class="php-var">$meta_query</span>;
+</span><span id="478" class="l"><a class="l" href="source-class-WC_Query.html#478">478 </a>    }
+</span><span id="479" class="l"><a class="l" href="source-class-WC_Query.html#479">479 </a>
+</span><span id="480" class="l"><a class="l" href="source-class-WC_Query.html#480">480 </a></span>}</code></pre>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

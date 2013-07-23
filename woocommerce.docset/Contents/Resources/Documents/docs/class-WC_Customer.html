@@ -1,0 +1,1790 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class WC_Customer | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Classes.html" title="Summary of WooCommerce\Classes"><span>Package</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WC_API.html">WC_API</a></li>
+				<li><a href="class-WC_Cache_Helper.html">WC_Cache_Helper</a></li>
+				<li><a href="class-WC_Cart.html">WC_Cart</a></li>
+				<li><a href="class-WC_Checkout.html">WC_Checkout</a></li>
+				<li><a href="class-WC_Countries.html">WC_Countries</a></li>
+				<li><a href="class-WC_Coupon.html">WC_Coupon</a></li>
+				<li class="active"><a href="class-WC_Customer.html">WC_Customer</a></li>
+				<li><a href="class-WC_Logger.html">WC_Logger</a></li>
+				<li><a href="class-WC_Order.html">WC_Order</a></li>
+				<li><a href="class-WC_Order_Item_Meta.html">WC_Order_Item_Meta</a></li>
+				<li><a href="class-WC_Product_Factory.html">WC_Product_Factory</a></li>
+				<li><a href="class-WC_Product_Variation.html">WC_Product_Variation</a></li>
+				<li><a href="class-WC_Query.html">WC_Query</a></li>
+				<li><a href="class-WC_Session_Handler.html">WC_Session_Handler</a></li>
+				<li><a href="class-WC_Shortcodes.html">WC_Shortcodes</a></li>
+				<li><a href="class-WC_Tax.html">WC_Tax</a></li>
+				<li><a href="class-WC_Validation.html">WC_Validation</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class WC_Customer</h1>
+
+
+	<div class="description">
+	
+<p>Customer</p>
+
+<p>The WooCommerce customer class handles storage of the current customer's
+data, such as location.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WooCommerce.html">WooCommerce</a>\<a href="package-WooCommerce.Classes.html">Classes</a><br />
+
+				<b>Category:</b>
+				Class<br />
+				<b>Author:</b>
+				WooThemes<br />
+				<b>Version:</b>
+				1.6.4<br />
+				<b>Class:</b>
+				WC_Customer<br />
+		<b>Located at</b> <a href="source-class-WC_Customer.html#2-665" title="Go to source code">classes/class-wc-customer.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#___construct">#</a>
+			<code><a href="source-class-WC_Customer.html#21-66" title="Go to source code">__construct</a>( )</code>
+
+			<div class="description short">
+				
+<p>Constructor for the customer class loads the customer data.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Constructor for the customer class loads the customer data.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="save_data" id="_save_data">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_save_data">#</a>
+			<code><a href="source-class-WC_Customer.html#68-77" title="Go to source code">save_data</a>( )</code>
+
+			<div class="description short">
+				
+<p>save_data function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>save_data function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__isset" id="___isset">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#___isset">#</a>
+			<code><a href="source-class-WC_Customer.html#79-89" title="Go to source code">__isset</a>( <span>mixed <var>$property</var></span> )</code>
+
+			<div class="description short">
+				
+<p>__set function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>__set function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$property</var></dt>
+						<dd><code>mixed</code><br>$property</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__get" id="___get">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#___get">#</a>
+			<code><a href="source-class-WC_Customer.html#91-100" title="Go to source code">__get</a>( <span>mixed <var>$property</var></span> )</code>
+
+			<div class="description short">
+				
+<p>__get function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>__get function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$property</var></dt>
+						<dd><code>mixed</code><br>$property</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="__set" id="___set">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#___set">#</a>
+			<code><a href="source-class-WC_Customer.html#102-113" title="Go to source code">__set</a>( <span>mixed <var>$property</var></span>, <span>mixed <var>$value</var></span> )</code>
+
+			<div class="description short">
+				
+<p>__set function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>__set function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$property</var></dt>
+						<dd><code>mixed</code><br>$property</dd>
+						<dt><var>$value</var></dt>
+						<dd><code>mixed</code><br>$value</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="has_calculated_shipping" id="_has_calculated_shipping">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_has_calculated_shipping">#</a>
+			<code><a href="source-class-WC_Customer.html#115-123" title="Go to source code">has_calculated_shipping</a>( )</code>
+
+			<div class="description short">
+				
+<p>has_calculated_shipping function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>has_calculated_shipping function.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_to_base" id="_set_to_base">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_to_base">#</a>
+			<code><a href="source-class-WC_Customer.html#126-145" title="Go to source code">set_to_base</a>( )</code>
+
+			<div class="description short">
+				
+<p>Set customer address to match shop base address.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set customer address to match shop base address.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_shipping_to_base" id="_set_shipping_to_base">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_shipping_to_base">#</a>
+			<code><a href="source-class-WC_Customer.html#148-167" title="Go to source code">set_shipping_to_base</a>( )</code>
+
+			<div class="description short">
+				
+<p>Set customer shipping address to base address.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set customer shipping address to base address.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_customer_outside_base" id="_is_customer_outside_base">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_is_customer_outside_base">#</a>
+			<code><a href="source-class-WC_Customer.html#170-195" title="Go to source code">is_customer_outside_base</a>( )</code>
+
+			<div class="description short">
+				
+<p>Is customer outside base country (for tax purposes)?</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Is customer outside base country (for tax purposes)?</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_vat_exempt" id="_is_vat_exempt">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_is_vat_exempt">#</a>
+			<code><a href="source-class-WC_Customer.html#198-206" title="Go to source code">is_vat_exempt</a>( )</code>
+
+			<div class="description short">
+				
+<p>Is customer VAT exempt?</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Is customer VAT exempt?</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_state" id="_get_state">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_state">#</a>
+			<code><a href="source-class-WC_Customer.html#209-217" title="Go to source code">get_state</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the state from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the state from the current session.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_country" id="_get_country">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_country">#</a>
+			<code><a href="source-class-WC_Customer.html#220-228" title="Go to source code">get_country</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the country from the current session</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the country from the current session</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_postcode" id="_get_postcode">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_postcode">#</a>
+			<code><a href="source-class-WC_Customer.html#231-242" title="Go to source code">get_postcode</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the postcode from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the postcode from the current session.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_city" id="_get_city">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_city">#</a>
+			<code><a href="source-class-WC_Customer.html#245-253" title="Go to source code">get_city</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the city from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the city from the current session.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_address" id="_get_address">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_address">#</a>
+			<code><a href="source-class-WC_Customer.html#255-263" title="Go to source code">get_address</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the address from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the address from the current session.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_address_2" id="_get_address_2">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_address_2">#</a>
+			<code><a href="source-class-WC_Customer.html#265-273" title="Go to source code">get_address_2</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the address<sub>2</sub> from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the address<sub>2</sub> from the current session.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_state" id="_get_shipping_state">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_shipping_state">#</a>
+			<code><a href="source-class-WC_Customer.html#275-283" title="Go to source code">get_shipping_state</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the state from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the state from the current session.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_country" id="_get_shipping_country">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_shipping_country">#</a>
+			<code><a href="source-class-WC_Customer.html#286-294" title="Go to source code">get_shipping_country</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the country from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the country from the current session.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_postcode" id="_get_shipping_postcode">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_shipping_postcode">#</a>
+			<code><a href="source-class-WC_Customer.html#297-308" title="Go to source code">get_shipping_postcode</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the postcode from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the postcode from the current session.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_city" id="_get_shipping_city">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_shipping_city">#</a>
+			<code><a href="source-class-WC_Customer.html#311-319" title="Go to source code">get_shipping_city</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the city from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the city from the current session.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_address" id="_get_shipping_address">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_shipping_address">#</a>
+			<code><a href="source-class-WC_Customer.html#321-329" title="Go to source code">get_shipping_address</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the address from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the address from the current session.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_address_2" id="_get_shipping_address_2">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_shipping_address_2">#</a>
+			<code><a href="source-class-WC_Customer.html#331-339" title="Go to source code">get_shipping_address_2</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the address<sub>2</sub> from the current session.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the address<sub>2</sub> from the current session.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_taxable_address" id="_get_taxable_address">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_taxable_address">#</a>
+			<code><a href="source-class-WC_Customer.html#341-380" title="Go to source code">get_taxable_address</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_taxable_address function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_taxable_address function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_location" id="_set_location">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_location">#</a>
+			<code><a href="source-class-WC_Customer.html#383-398" title="Go to source code">set_location</a>( <span>mixed <var>$country</var></span>, <span>mixed <var>$state</var></span>, <span>string <var>$postcode</var> = <span class="php-quote">''</span></span>, <span>string <var>$city</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the location.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the location.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$country</var></dt>
+						<dd><code>mixed</code><br>$country</dd>
+						<dt><var>$state</var></dt>
+						<dd><code>mixed</code><br>$state</dd>
+						<dt><var>$postcode</var></dt>
+						<dd><code>string</code><br>$postcode (default: '')</dd>
+						<dt><var>$city</var></dt>
+						<dd><code>string</code><br>$city (default: '')</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_country" id="_set_country">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_country">#</a>
+			<code><a href="source-class-WC_Customer.html#401-410" title="Go to source code">set_country</a>( <span>mixed <var>$country</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the country.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the country.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$country</var></dt>
+						<dd><code>mixed</code><br>$country</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_state" id="_set_state">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_state">#</a>
+			<code><a href="source-class-WC_Customer.html#413-422" title="Go to source code">set_state</a>( <span>mixed <var>$state</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the state.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the state.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$state</var></dt>
+						<dd><code>mixed</code><br>$state</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_postcode" id="_set_postcode">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_postcode">#</a>
+			<code><a href="source-class-WC_Customer.html#425-434" title="Go to source code">set_postcode</a>( <span>mixed <var>$postcode</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the postcode.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the postcode.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$postcode</var></dt>
+						<dd><code>mixed</code><br>$postcode</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_city" id="_set_city">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_city">#</a>
+			<code><a href="source-class-WC_Customer.html#437-446" title="Go to source code">set_city</a>( <span>mixed <var>$city</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the city.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the city.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$city</var></dt>
+						<dd><code>mixed</code><br>$postcode</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_address" id="_set_address">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_address">#</a>
+			<code><a href="source-class-WC_Customer.html#448-457" title="Go to source code">set_address</a>( <span>mixed <var>$address</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the address.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the address.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$address</var></dt>
+						<dd><code>mixed</code><br>$address</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_address_2" id="_set_address_2">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_address_2">#</a>
+			<code><a href="source-class-WC_Customer.html#459-468" title="Go to source code">set_address_2</a>( <span>mixed <var>$address_2</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the address<sub>2</sub>.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the address<sub>2</sub>.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$address_2</var></dt>
+						<dd><code>mixed</code><br>$address<sub>2</sub></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_shipping_location" id="_set_shipping_location">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_shipping_location">#</a>
+			<code><a href="source-class-WC_Customer.html#470-485" title="Go to source code">set_shipping_location</a>( <span>mixed <var>$country</var></span>, <span>string <var>$state</var> = <span class="php-quote">''</span></span>, <span>string <var>$postcode</var> = <span class="php-quote">''</span></span>, <span>string <var>$city</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the location.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the location.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$country</var></dt>
+						<dd><code>mixed</code><br>$country</dd>
+						<dt><var>$state</var></dt>
+						<dd><code>string</code><br>$state (default: '')</dd>
+						<dt><var>$postcode</var></dt>
+						<dd><code>string</code><br>$postcode (default: '')</dd>
+						<dt><var>$city</var></dt>
+						<dd><code>string</code><br>$city (default: '')</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_shipping_country" id="_set_shipping_country">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_shipping_country">#</a>
+			<code><a href="source-class-WC_Customer.html#488-497" title="Go to source code">set_shipping_country</a>( <span>mixed <var>$country</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the country.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the country.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$country</var></dt>
+						<dd><code>mixed</code><br>$country</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_shipping_state" id="_set_shipping_state">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_shipping_state">#</a>
+			<code><a href="source-class-WC_Customer.html#500-509" title="Go to source code">set_shipping_state</a>( <span>mixed <var>$state</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the state.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the state.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$state</var></dt>
+						<dd><code>mixed</code><br>$state</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_shipping_postcode" id="_set_shipping_postcode">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_shipping_postcode">#</a>
+			<code><a href="source-class-WC_Customer.html#512-521" title="Go to source code">set_shipping_postcode</a>( <span>mixed <var>$postcode</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the postcode.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the postcode.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$postcode</var></dt>
+						<dd><code>mixed</code><br>$postcode</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_shipping_city" id="_set_shipping_city">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_shipping_city">#</a>
+			<code><a href="source-class-WC_Customer.html#524-533" title="Go to source code">set_shipping_city</a>( <span>mixed <var>$city</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the city.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the city.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$city</var></dt>
+						<dd><code>mixed</code><br>$postcode</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_shipping_address" id="_set_shipping_address">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_shipping_address">#</a>
+			<code><a href="source-class-WC_Customer.html#535-544" title="Go to source code">set_shipping_address</a>( <span>mixed <var>$address</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the address.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the address.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$address</var></dt>
+						<dd><code>mixed</code><br>$address</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_shipping_address_2" id="_set_shipping_address_2">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_shipping_address_2">#</a>
+			<code><a href="source-class-WC_Customer.html#546-555" title="Go to source code">set_shipping_address_2</a>( <span>mixed <var>$address_2</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the address<sub>2</sub>.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the address<sub>2</sub>.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$address_2</var></dt>
+						<dd><code>mixed</code><br>$address<sub>2</sub></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_is_vat_exempt" id="_set_is_vat_exempt">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_set_is_vat_exempt">#</a>
+			<code><a href="source-class-WC_Customer.html#558-567" title="Go to source code">set_is_vat_exempt</a>( <span>mixed <var>$is_vat_exempt</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Sets session data for the tax exemption.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets session data for the tax exemption.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$is_vat_exempt</var></dt>
+						<dd><code>mixed</code><br>$is_vat_exempt</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="calculated_shipping" id="_calculated_shipping">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_calculated_shipping">#</a>
+			<code><a href="source-class-WC_Customer.html#570-579" title="Go to source code">calculated_shipping</a>( <span>mixed <var>$calculated</var> = <span class="php-keyword1">true</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>calculated_shipping function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>calculated_shipping function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$calculated</var></dt>
+						<dd><code>mixed</code><br>$calculated</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_downloadable_products" id="_get_downloadable_products">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Customer.html#_get_downloadable_products">#</a>
+			<code><a href="source-class-WC_Customer.html#582-664" title="Go to source code">get_downloadable_products</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets a user's downloadable products if they are logged in.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets a user's downloadable products if they are logged in.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br>Array of downloadable products<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped" id="properties">
+		<tr data-order="_data" id="$_data">
+			<td class="attributes"><code>
+				protected  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Customer.html#15-16" title="Go to source code"><var>$_data</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Customer.html#$_data" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Stores customer data as an array</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Stores customer data as an array</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

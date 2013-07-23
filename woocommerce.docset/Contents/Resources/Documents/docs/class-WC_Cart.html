@@ -1,0 +1,3034 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class WC_Cart | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Classes.html" title="Summary of WooCommerce\Classes"><span>Package</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WC_API.html">WC_API</a></li>
+				<li><a href="class-WC_Cache_Helper.html">WC_Cache_Helper</a></li>
+				<li class="active"><a href="class-WC_Cart.html">WC_Cart</a></li>
+				<li><a href="class-WC_Checkout.html">WC_Checkout</a></li>
+				<li><a href="class-WC_Countries.html">WC_Countries</a></li>
+				<li><a href="class-WC_Coupon.html">WC_Coupon</a></li>
+				<li><a href="class-WC_Customer.html">WC_Customer</a></li>
+				<li><a href="class-WC_Logger.html">WC_Logger</a></li>
+				<li><a href="class-WC_Order.html">WC_Order</a></li>
+				<li><a href="class-WC_Order_Item_Meta.html">WC_Order_Item_Meta</a></li>
+				<li><a href="class-WC_Product_Factory.html">WC_Product_Factory</a></li>
+				<li><a href="class-WC_Product_Variation.html">WC_Product_Variation</a></li>
+				<li><a href="class-WC_Query.html">WC_Query</a></li>
+				<li><a href="class-WC_Session_Handler.html">WC_Session_Handler</a></li>
+				<li><a href="class-WC_Shortcodes.html">WC_Shortcodes</a></li>
+				<li><a href="class-WC_Tax.html">WC_Tax</a></li>
+				<li><a href="class-WC_Validation.html">WC_Validation</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class WC_Cart</h1>
+
+
+	<div class="description">
+	
+<p>WooCommerce cart</p>
+
+<p>The WooCommerce cart class stores cart data and active coupons as well as
+handling customer sessions and some cart related urls. The cart class also has a
+price calculation function which calls upon other classes to calculate
+totals.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WooCommerce.html">WooCommerce</a>\<a href="package-WooCommerce.Classes.html">Classes</a><br />
+
+				<b>Category:</b>
+				Class<br />
+				<b>Author:</b>
+				WooThemes<br />
+				<b>Version:</b>
+				2.0.0<br />
+				<b>Class:</b>
+				WC_Cart<br />
+		<b>Located at</b> <a href="source-class-WC_Cart.html#2-2210" title="Go to source code">classes/class-wc-cart.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#___construct">#</a>
+			<code><a href="source-class-WC_Cart.html#79-95" title="Go to source code">__construct</a>( )</code>
+
+			<div class="description short">
+				
+<p>Constructor for the cart class. Loads options and hooks in the init
+method.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Constructor for the cart class. Loads options and hooks in the init
+method.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="init" id="_init">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_init">#</a>
+			<code><a href="source-class-WC_Cart.html#98-110" title="Go to source code">init</a>( )</code>
+
+			<div class="description short">
+				
+<p>Loads the cart data from the PHP session during WordPress init and hooks in
+other methods.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Loads the cart data from the PHP session during WordPress init and hooks in
+other methods.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_from_session" id="_get_cart_from_session">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart_from_session">#</a>
+			<code><a href="source-class-WC_Cart.html#116-182" title="Go to source code">get_cart_from_session</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the cart data from the PHP session and store it in class variables.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the cart data from the PHP session and store it in class variables.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_session" id="_set_session">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_set_session">#</a>
+			<code><a href="source-class-WC_Cart.html#185-232" title="Go to source code">set_session</a>( )</code>
+
+			<div class="description short">
+				
+<p>Sets the php session data for the cart and coupons.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sets the php session data for the cart and coupons.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="empty_cart" id="_empty_cart">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_empty_cart">#</a>
+			<code><a href="source-class-WC_Cart.html#234-253" title="Go to source code">empty_cart</a>( <span>boolean <var>$clear_persistent_cart</var> = <span class="php-keyword1">true</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Empties the cart and optionally the persistent cart too.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Empties the cart and optionally the persistent cart too.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$clear_persistent_cart</var></dt>
+						<dd><code>boolean</code><br>$clear_persistent_cart (default: true)</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="persistent_cart_update" id="_persistent_cart_update">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_persistent_cart_update">#</a>
+			<code><a href="source-class-WC_Cart.html#259-271" title="Go to source code">persistent_cart_update</a>( )</code>
+
+			<div class="description short">
+				
+<p>Save the persistent cart when the cart is updated.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Save the persistent cart when the cart is updated.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="persistent_cart_destroy" id="_persistent_cart_destroy">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_persistent_cart_destroy">#</a>
+			<code><a href="source-class-WC_Cart.html#274-282" title="Go to source code">persistent_cart_destroy</a>( )</code>
+
+			<div class="description short">
+				
+<p>Delete the persistent cart permanently.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Delete the persistent cart permanently.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="coupons_enabled" id="_coupons_enabled">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_coupons_enabled">#</a>
+			<code><a href="source-class-WC_Cart.html#288-298" title="Go to source code">coupons_enabled</a>( )</code>
+
+			<div class="description short">
+				
+<p>Coupons enabled function. Filterable.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Coupons enabled function. Filterable.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_contents_count" id="_get_cart_contents_count">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart_contents_count">#</a>
+			<code><a href="source-class-WC_Cart.html#300-308" title="Go to source code">get_cart_contents_count</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get number of items in the cart.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get number of items in the cart.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>integer</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="check_cart_items" id="_check_cart_items">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_check_cart_items">#</a>
+			<code><a href="source-class-WC_Cart.html#311-325" title="Go to source code">check_cart_items</a>( )</code>
+
+			<div class="description short">
+				
+<p>Check all cart items for errors.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check all cart items for errors.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="check_cart_coupons" id="_check_cart_coupons">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_check_cart_coupons">#</a>
+			<code><a href="source-class-WC_Cart.html#328-353" title="Go to source code">check_cart_coupons</a>( )</code>
+
+			<div class="description short">
+				
+<p>Check cart coupons for errors.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check cart coupons for errors.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_item_quantities" id="_get_cart_item_quantities">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart_item_quantities">#</a>
+			<code><a href="source-class-WC_Cart.html#355-392" title="Go to source code">get_cart_item_quantities</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get cart items quantities - merged so we can do accurate stock checks on
+items across multiple lines.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get cart items quantities - merged so we can do accurate stock checks on
+items across multiple lines.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="check_customer_coupons" id="_check_customer_coupons">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_check_customer_coupons">#</a>
+			<code><a href="source-class-WC_Cart.html#394-431" title="Go to source code">check_customer_coupons</a>( <span>array <var>$posted</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Check for user coupons (now that we have billing email). If a coupon is
+invalid, add an error.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check for user coupons (now that we have billing email). If a coupon is
+invalid, add an error.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$posted</var></dt>
+						<dd><code>array</code><br>$posted</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="check_cart_item_stock" id="_check_cart_item_stock">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_check_cart_item_stock">#</a>
+			<code><a href="source-class-WC_Cart.html#433-540" title="Go to source code">check_cart_item_stock</a>( )</code>
+
+			<div class="description short">
+				
+<p>Looks through the cart to check each item is in stock. If not, add an
+error.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Looks through the cart to check each item is in stock. If not, add an
+error.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_item_data" id="_get_item_data">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_item_data">#</a>
+			<code><a href="source-class-WC_Cart.html#542-627" title="Go to source code">get_item_data</a>( <span>array <var>$cart_item</var></span>, <span>boolean <var>$flat</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Gets and formats a list of cart item data + variations for display on the
+frontend.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets and formats a list of cart item data + variations for display on the
+frontend.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cart_item</var></dt>
+						<dd><code>array</code><br>$cart_item</dd>
+						<dt><var>$flat</var></dt>
+						<dd><code>boolean</code><br>$flat (default: false)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cross_sells" id="_get_cross_sells">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cross_sells">#</a>
+			<code><a href="source-class-WC_Cart.html#629-647" title="Go to source code">get_cross_sells</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets cross sells based on the items in the cart.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets cross sells based on the items in the cart.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br>cross_sells (item ids)<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_url" id="_get_cart_url">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart_url">#</a>
+			<code><a href="source-class-WC_Cart.html#649-657" title="Go to source code">get_cart_url</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the url to the cart page.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the url to the cart page.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>url to page<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_checkout_url" id="_get_checkout_url">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_checkout_url">#</a>
+			<code><a href="source-class-WC_Cart.html#659-672" title="Go to source code">get_checkout_url</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the url to the checkout page.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the url to the checkout page.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>url to page<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_remove_url" id="_get_remove_url">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_remove_url">#</a>
+			<code><a href="source-class-WC_Cart.html#674-684" title="Go to source code">get_remove_url</a>( <span>mixed <var>$cart_item_key</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Gets the url to remove an item from the cart.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the url to remove an item from the cart.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>url to page<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart" id="_get_cart">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart">#</a>
+			<code><a href="source-class-WC_Cart.html#686-693" title="Go to source code">get_cart</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the contents of the cart in an array.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the contents of the cart in an array.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br>contents of the cart<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_taxes" id="_get_taxes">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_taxes">#</a>
+			<code><a href="source-class-WC_Cart.html#695-709" title="Go to source code">get_taxes</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the cart and shipping taxes, merged.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the cart and shipping taxes, merged.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br>merged taxes<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_formatted_taxes" id="_get_formatted_taxes">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_formatted_taxes">#</a>
+			<code><a href="source-class-WC_Cart.html#711-724" title="Go to source code">get_formatted_taxes</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns the cart and shipping taxes, merged &amp; formatted.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns the cart and shipping taxes, merged &amp; formatted.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br>merged taxes<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_tax_totals" id="_get_tax_totals">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_tax_totals">#</a>
+			<code><a href="source-class-WC_Cart.html#726-752" title="Go to source code">get_tax_totals</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get taxes, merged by code, formatted ready for output.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get taxes, merged by code, formatted ready for output.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="find_product_in_cart" id="_find_product_in_cart">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_find_product_in_cart">#</a>
+			<code><a href="source-class-WC_Cart.html#758-771" title="Go to source code">find_product_in_cart</a>( <span>mixed <var>$cart_id</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Check if product is in the cart and return cart item key.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check if product is in the cart and return cart item key.</p>
+
+<p>Cart item key will be unique based on the item and its properties, such as
+variations.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cart_id</var></dt>
+						<dd><code>mixed</code><br>id of product to find in the cart</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>cart item key<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="generate_cart_id" id="_generate_cart_id">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_generate_cart_id">#</a>
+			<code><a href="source-class-WC_Cart.html#773-806" title="Go to source code">generate_cart_id</a>( <span>integer <var>$product_id</var></span>, <span>integer <var>$variation_id</var> = <span class="php-quote">''</span></span>, <span>array <var>$variation</var> = <span class="php-quote">''</span></span>, <span>array <var>$cart_item_data</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+			<div class="description short">
+				
+<p>Generate a unique ID for the cart item being added.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Generate a unique ID for the cart item being added.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$product_id</var></dt>
+						<dd><code>integer</code><br>$product_id - id of the product the key is being generated for</dd>
+						<dt><var>$variation_id</var></dt>
+						<dd><code>integer</code><br>$variation_id of the product the key is being generated for</dd>
+						<dt><var>$variation</var></dt>
+						<dd><code>array</code><br>$variation data for the cart item</dd>
+						<dt><var>$cart_item_data</var></dt>
+						<dd><code>array</code><br>$cart_item_data other cart item data passed which affects this items uniqueness
+in the cart</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>cart item key<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="add_to_cart" id="_add_to_cart">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_add_to_cart">#</a>
+			<code><a href="source-class-WC_Cart.html#808-925" title="Go to source code">add_to_cart</a>( <span>string <var>$product_id</var></span>, <span>string <var>$quantity</var> = <span class="php-num">1</span></span>, <span>integer <var>$variation_id</var> = <span class="php-quote">''</span></span>, <span>array <var>$variation</var> = <span class="php-quote">''</span></span>, <span>array <var>$cart_item_data</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+			<div class="description short">
+				
+<p>Add a product to the cart.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Add a product to the cart.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$product_id</var></dt>
+						<dd><code>string</code><br>$product_id contains the id of the product to add to the cart</dd>
+						<dt><var>$quantity</var></dt>
+						<dd><code>string</code><br>$quantity contains the quantity of the item to add</dd>
+						<dt><var>$variation_id</var></dt>
+						<dd><code>integer</code><br>$variation_id</dd>
+						<dt><var>$variation</var></dt>
+						<dd><code>array</code><br>$variation attribute values</dd>
+						<dt><var>$cart_item_data</var></dt>
+						<dd><code>array</code><br>$cart_item_data extra cart item data we want to pass into the item</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_quantity" id="_set_quantity">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_set_quantity">#</a>
+			<code><a href="source-class-WC_Cart.html#927-944" title="Go to source code">set_quantity</a>( <span>string <var>$cart_item_key</var></span>, <span>string <var>$quantity</var> = <span class="php-num">1</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Set the quantity for an item in the cart.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Set the quantity for an item in the cart.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$cart_item_key</var></dt>
+						<dd><code>string</code><br>cart_item_key contains the id of the cart item</dd>
+						<dt><var>$quantity</var></dt>
+						<dd><code>string</code><br>quantity contains the quantity of the item</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_discounted_price" id="_get_discounted_price">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_discounted_price">#</a>
+			<code><a href="source-class-WC_Cart.html#984-1154" title="Go to source code">get_discounted_price</a>( <span>mixed <var>$values</var></span>, <span>mixed <var>$price</var></span>, <span>boolean <var>$add_totals</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Function to apply discounts to a product and get the discounted price (before
+tax is applied).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Function to apply discounts to a product and get the discounted price (before
+tax is applied).</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$values</var></dt>
+						<dd><code>mixed</code><br>$values</dd>
+						<dt><var>$price</var></dt>
+						<dd><code>mixed</code><br>$price</dd>
+						<dt><var>$add_totals</var></dt>
+						<dd><code>boolean</code><br>$add_totals (default: false)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br>price<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="apply_product_discounts_after_tax" id="_apply_product_discounts_after_tax">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_apply_product_discounts_after_tax">#</a>
+			<code><a href="source-class-WC_Cart.html#1156-1240" title="Go to source code">apply_product_discounts_after_tax</a>( <span>mixed <var>$values</var></span>, <span>mixed <var>$price</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Function to apply product discounts after tax.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Function to apply product discounts after tax.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$values</var></dt>
+						<dd><code>mixed</code><br>$values</dd>
+						<dt><var>$price</var></dt>
+						<dd><code>mixed</code><br>$price</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="apply_cart_discounts_after_tax" id="_apply_cart_discounts_after_tax">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_apply_cart_discounts_after_tax">#</a>
+			<code><a href="source-class-WC_Cart.html#1242-1294" title="Go to source code">apply_cart_discounts_after_tax</a>( )</code>
+
+			<div class="description short">
+				
+<p>Function to apply cart discounts after tax.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Function to apply cart discounts after tax.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="calculate_totals" id="_calculate_totals">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_calculate_totals">#</a>
+			<code><a href="source-class-WC_Cart.html#1311-1623" title="Go to source code">calculate_totals</a>( )</code>
+
+			<div class="description short">
+				
+<p>Calculate totals for the items in the cart.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Calculate totals for the items in the cart.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="remove_taxes" id="_remove_taxes">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_remove_taxes">#</a>
+			<code><a href="source-class-WC_Cart.html#1625-1637" title="Go to source code">remove_taxes</a>( )</code>
+
+			<div class="description short">
+				
+<p>remove_taxes function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>remove_taxes function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="needs_payment" id="_needs_payment">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_needs_payment">#</a>
+			<code><a href="source-class-WC_Cart.html#1639-1647" title="Go to source code">needs_payment</a>( )</code>
+
+			<div class="description short">
+				
+<p>looks at the totals to see if payment is actually required.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>looks at the totals to see if payment is actually required.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="calculate_shipping" id="_calculate_shipping">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_calculate_shipping">#</a>
+			<code><a href="source-class-WC_Cart.html#1653-1672" title="Go to source code">calculate_shipping</a>( )</code>
+
+			<div class="description short">
+				
+<p>Uses the shipping class to calculate shipping then gets the totals when its
+finished.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Uses the shipping class to calculate shipping then gets the totals when its
+finished.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_packages" id="_get_shipping_packages">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_shipping_packages">#</a>
+			<code><a href="source-class-WC_Cart.html#1674-1709" title="Go to source code">get_shipping_packages</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get packages to calculate shipping for.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get packages to calculate shipping for.</p>
+
+<p>This lets us calculate costs for carts that are shipped to multiple
+locations.</p>
+
+<p>Shipping methods are responsible for looping through these packages.</p>
+
+<p>By default we pass the cart itself as a package - plugins can change this
+through the filter and break it up.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br>of cart items<br />
+					</div>
+
+
+					<h4>Since</h4>
+					<div class="list">
+							1.5.4<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="needs_shipping" id="_needs_shipping">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_needs_shipping">#</a>
+			<code><a href="source-class-WC_Cart.html#1711-1730" title="Go to source code">needs_shipping</a>( )</code>
+
+			<div class="description short">
+				
+<p>Looks through the cart to see if shipping is actually required.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Looks through the cart to see if shipping is actually required.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br>whether or not the cart needs shipping<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="show_shipping" id="_show_shipping">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_show_shipping">#</a>
+			<code><a href="source-class-WC_Cart.html#1732-1753" title="Go to source code">show_shipping</a>( )</code>
+
+			<div class="description short">
+				
+<p>Sees if the customer has entered enough data to calc the shipping yet.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sees if the customer has entered enough data to calc the shipping yet.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="ship_to_billing_address_only" id="_ship_to_billing_address_only">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_ship_to_billing_address_only">#</a>
+			<code><a href="source-class-WC_Cart.html#1755-1762" title="Go to source code">ship_to_billing_address_only</a>( )</code>
+
+			<div class="description short">
+				
+<p>Sees if we need a shipping address.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Sees if we need a shipping address.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_shipping_total" id="_get_cart_shipping_total">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart_shipping_total">#</a>
+			<code><a href="source-class-WC_Cart.html#1764-1802" title="Go to source code">get_cart_shipping_total</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the shipping total (after calculation).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the shipping total (after calculation).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>price or string for the shipping total<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_shipping_title" id="_get_cart_shipping_title">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart_shipping_title">#</a>
+			<code><a href="source-class-WC_Cart.html#1804-1814" title="Go to source code">get_cart_shipping_title</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets title of the chosen shipping method.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets title of the chosen shipping method.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>shipping method title<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="has_discount" id="_has_discount">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_has_discount">#</a>
+			<code><a href="source-class-WC_Cart.html#1820-1832" title="Go to source code">has_discount</a>( <span>mixed <var>$coupon_code</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Returns whether or not a discount has been applied.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns whether or not a discount has been applied.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="add_discount" id="_add_discount">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_add_discount">#</a>
+			<code><a href="source-class-WC_Cart.html#1834-1907" title="Go to source code">add_discount</a>( <span>string <var>$coupon_code</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Applies a coupon code passed to the method.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Applies a coupon code passed to the method.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$coupon_code</var></dt>
+						<dd><code>string</code><br>$coupon_code - The code to apply</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br>True if the coupon is applied, false if it does not exist or cannot be applied<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_applied_coupons" id="_get_applied_coupons">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_applied_coupons">#</a>
+			<code><a href="source-class-WC_Cart.html#1909-1916" title="Go to source code">get_applied_coupons</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the array of applied coupon codes.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the array of applied coupon codes.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br>of applied coupons<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="remove_coupons" id="_remove_coupons">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_remove_coupons">#</a>
+			<code><a href="source-class-WC_Cart.html#1918-1948" title="Go to source code">remove_coupons</a>( <span>mixed <var>$type</var> = <span class="php-num">0</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Remove coupons from the cart of a defined type. Type 1 is before tax, type 2
+is after tax.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Remove coupons from the cart of a defined type. Type 1 is before tax, type 2
+is after tax.</p>
+
+
+
+
+
+
+					<h4>Params</h4>
+					<div class="list">
+							int type - 0 for all, 1 for before tax, 2 for after tax<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="add_fee" id="_add_fee">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_add_fee">#</a>
+			<code><a href="source-class-WC_Cart.html#1954-1978" title="Go to source code">add_fee</a>( <span>mixed <var>$name</var></span>, <span>mixed <var>$amount</var></span>, <span>boolean <var>$taxable</var> = <span class="php-keyword1">false</span></span>, <span>string <var>$tax_class</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>add_fee function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>add_fee function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$name</var></dt>
+						<dd><code>mixed</code><br>$name</dd>
+						<dt><var>$amount</var></dt>
+						<dd><code>mixed</code><br>$amount</dd>
+						<dt><var>$taxable</var></dt>
+						<dd><code>boolean</code><br>$taxable (default: false)</dd>
+						<dt><var>$tax_class</var></dt>
+						<dd><code>string</code><br>$tax_class (default: '')</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_fees" id="_get_fees">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_fees">#</a>
+			<code><a href="source-class-WC_Cart.html#1980-1988" title="Go to source code">get_fees</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_fees function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_fees function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_order_discount_total" id="_get_order_discount_total">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_order_discount_total">#</a>
+			<code><a href="source-class-WC_Cart.html#1994-2001" title="Go to source code">get_order_discount_total</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the total of all order discounts (after tax discounts).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the total of all order discounts (after tax discounts).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_discount_total" id="_get_cart_discount_total">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart_discount_total">#</a>
+			<code><a href="source-class-WC_Cart.html#2003-2010" title="Go to source code">get_cart_discount_total</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the total of all cart discounts (before tax discounts).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the total of all cart discounts (before tax discounts).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_total" id="_get_total">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_total">#</a>
+			<code><a href="source-class-WC_Cart.html#2012-2019" title="Go to source code">get_total</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the order total (after calculation).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the order total (after calculation).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>formatted price<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_total_ex_tax" id="_get_total_ex_tax">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_total_ex_tax">#</a>
+			<code><a href="source-class-WC_Cart.html#2021-2030" title="Go to source code">get_total_ex_tax</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the total excluding taxes.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the total excluding taxes.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>formatted price<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_total" id="_get_cart_total">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart_total">#</a>
+			<code><a href="source-class-WC_Cart.html#2032-2045" title="Go to source code">get_cart_total</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the cart contents total (after calculation).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the cart contents total (after calculation).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>formatted price<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_subtotal" id="_get_cart_subtotal">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart_subtotal">#</a>
+			<code><a href="source-class-WC_Cart.html#2047-2086" title="Go to source code">get_cart_subtotal</a>( <span>mixed <var>$compound</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Gets the sub total (after calculation).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the sub total (after calculation).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>formatted price<br />
+					</div>
+
+
+					<h4>Params</h4>
+					<div class="list">
+							bool whether to include compound taxes<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_product_subtotal" id="_get_product_subtotal">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_product_subtotal">#</a>
+			<code><a href="source-class-WC_Cart.html#2088-2137" title="Go to source code">get_product_subtotal</a>( <span>mixed <var>$_product</var></span>, <span>mixed <var>$quantity</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Get the product row subtotal.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the product row subtotal.</p>
+
+<p>Gets the tax etc to avoid rounding issues.</p>
+
+<p>When on the checkout (review order), this will get the subtotal based on the
+customer's tax rate rather than the base rate</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>formatted price<br />
+					</div>
+
+
+					<h4>Params</h4>
+					<div class="list">
+							object product<br />
+							int quantity<br />
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_tax" id="_get_cart_tax">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_cart_tax">#</a>
+			<code><a href="source-class-WC_Cart.html#2139-2149" title="Go to source code">get_cart_tax</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the cart tax (after calculation).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the cart tax (after calculation).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>formatted price<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_taxes_total" id="_get_taxes_total">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_taxes_total">#</a>
+			<code><a href="source-class-WC_Cart.html#2151-2167" title="Go to source code">get_taxes_total</a>( <span>mixed <var>$compound</var> = <span class="php-keyword1">true</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Get tax row amounts with or without compound taxes includes.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get tax row amounts with or without compound taxes includes.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br>price<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_discounts_before_tax" id="_get_discounts_before_tax">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_discounts_before_tax">#</a>
+			<code><a href="source-class-WC_Cart.html#2169-2181" title="Go to source code">get_discounts_before_tax</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the total (product) discount amount - these are applied before tax.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the total (product) discount amount - these are applied before tax.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>formatted price or false if there are none<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_discounts_after_tax" id="_get_discounts_after_tax">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_discounts_after_tax">#</a>
+			<code><a href="source-class-WC_Cart.html#2183-2195" title="Go to source code">get_discounts_after_tax</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the order discount amount - these are applied after tax.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the order discount amount - these are applied after tax.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>formatted price or false if there are none<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_total_discount" id="_get_total_discount">
+
+			<td class="attributes"><code>
+				 public 
+				mixed
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Cart.html#_get_total_discount">#</a>
+			<code><a href="source-class-WC_Cart.html#2197-2209" title="Go to source code">get_total_discount</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the total discount amount - both kinds.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the total discount amount - both kinds.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>mixed</code><br>formatted price or false if there are none<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped" id="properties">
+		<tr data-order="cart_contents" id="$cart_contents">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#16-17" title="Go to source code"><var>$cart_contents</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$cart_contents" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Contains an array of cart items.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Contains an array of cart items.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="applied_coupons" id="$applied_coupons">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#19-20" title="Go to source code"><var>$applied_coupons</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$applied_coupons" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Contains an array of coupon codes applied to the cart.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Contains an array of coupon codes applied to the cart.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="coupon_discount_amounts" id="$coupon_discount_amounts">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#22-23" title="Go to source code"><var>$coupon_discount_amounts</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$coupon_discount_amounts" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Contains an array of coupon code discounts after they have been applied.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Contains an array of coupon code discounts after they have been applied.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="cart_contents_total" id="$cart_contents_total">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#25-26" title="Go to source code"><var>$cart_contents_total</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$cart_contents_total" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The total cost of the cart items.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The total cost of the cart items.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="cart_contents_weight" id="$cart_contents_weight">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#28-29" title="Go to source code"><var>$cart_contents_weight</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$cart_contents_weight" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The total weight of the cart items.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The total weight of the cart items.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="cart_contents_count" id="$cart_contents_count">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#31-32" title="Go to source code"><var>$cart_contents_count</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$cart_contents_count" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The total count of the cart items.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The total count of the cart items.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="cart_contents_tax" id="$cart_contents_tax">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#34-35" title="Go to source code"><var>$cart_contents_tax</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$cart_contents_tax" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>The total tax for the cart items.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>The total tax for the cart items.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="total" id="$total">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#37-38" title="Go to source code"><var>$total</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$total" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Cart grand total.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Cart grand total.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="subtotal" id="$subtotal">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#40-41" title="Go to source code"><var>$subtotal</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$subtotal" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Cart subtotal.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Cart subtotal.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="subtotal_ex_tax" id="$subtotal_ex_tax">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#43-44" title="Go to source code"><var>$subtotal_ex_tax</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$subtotal_ex_tax" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Cart subtotal without tax.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Cart subtotal without tax.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="tax_total" id="$tax_total">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#46-47" title="Go to source code"><var>$tax_total</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$tax_total" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Total cart tax.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Total cart tax.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="taxes" id="$taxes">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#49-50" title="Go to source code"><var>$taxes</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$taxes" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>An array of taxes/tax rates for the cart.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>An array of taxes/tax rates for the cart.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_taxes" id="$shipping_taxes">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#52-53" title="Go to source code"><var>$shipping_taxes</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$shipping_taxes" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>An array of taxes/tax rates for the shipping.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>An array of taxes/tax rates for the shipping.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="discount_cart" id="$discount_cart">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#55-56" title="Go to source code"><var>$discount_cart</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$discount_cart" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Discounts before tax.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Discounts before tax.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="discount_total" id="$discount_total">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#58-59" title="Go to source code"><var>$discount_total</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$discount_total" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Discounts after tax.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Discounts after tax.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="fee_total" id="$fee_total">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#61-62" title="Go to source code"><var>$fee_total</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$fee_total" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Total for additional fees.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Total for additional fees.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_total" id="$shipping_total">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#64-65" title="Go to source code"><var>$shipping_total</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$shipping_total" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Shipping cost.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Shipping cost.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_tax_total" id="$shipping_tax_total">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#67-68" title="Go to source code"><var>$shipping_tax_total</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$shipping_tax_total" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Shipping tax.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Shipping tax.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_label" id="$shipping_label">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#70-71" title="Go to source code"><var>$shipping_label</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$shipping_label" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Shipping title/label.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Shipping title/label.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="tax" id="$tax">
+			<td class="attributes"><code>
+				public  
+				<code><a href="class-WC_Tax.html">WC_Tax</a></code>
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#73-74" title="Go to source code"><var>$tax</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$tax" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="fees" id="$fees">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Cart.html#76-77" title="Go to source code"><var>$fees</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Cart.html#$fees" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>An array of fees.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>An array of fees.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

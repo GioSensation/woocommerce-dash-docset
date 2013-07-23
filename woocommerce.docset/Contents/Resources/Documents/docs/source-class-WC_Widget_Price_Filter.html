@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>File classes/widgets/class-wc-widget-price-filter.php | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Widgets.html" title="Summary of WooCommerce\Widgets"><span>Package</span></a>
+						</li>
+						<li>
+							<a href="class-WC_Widget_Price_Filter.html" title="Summary of WC_Widget_Price_Filter"><span>Class</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li class="active"><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WC_Widget_Best_Sellers.html">WC_Widget_Best_Sellers</a></li>
+				<li><a href="class-WC_Widget_Cart.html">WC_Widget_Cart</a></li>
+				<li><a href="class-WC_Widget_Featured_Products.html">WC_Widget_Featured_Products</a></li>
+				<li><a href="class-WC_Widget_Layered_Nav.html">WC_Widget_Layered_Nav</a></li>
+				<li><a href="class-WC_Widget_Layered_Nav_Filters.html">WC_Widget_Layered_Nav_Filters</a></li>
+				<li><a href="class-WC_Widget_Onsale.html">WC_Widget_Onsale</a></li>
+				<li class="active"><a href="class-WC_Widget_Price_Filter.html">WC_Widget_Price_Filter</a></li>
+				<li><a href="class-WC_Widget_Product_Categories.html">WC_Widget_Product_Categories</a></li>
+				<li><a href="class-WC_Widget_Product_Search.html">WC_Widget_Product_Search</a></li>
+				<li><a href="class-WC_Widget_Product_Tag_Cloud.html">WC_Widget_Product_Tag_Cloud</a></li>
+				<li><a href="class-WC_Widget_Random_Products.html">WC_Widget_Random_Products</a></li>
+				<li><a href="class-WC_Widget_Recent_Products.html">WC_Widget_Recent_Products</a></li>
+				<li><a href="class-WC_Widget_Recent_Reviews.html">WC_Widget_Recent_Reviews</a></li>
+				<li><a href="class-WC_Widget_Recently_Viewed.html">WC_Widget_Recently_Viewed</a></li>
+				<li><a href="class-WC_Widget_Top_Rated_Products.html">WC_Widget_Top_Rated_Products</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-woocommerce_layered_nav_init.html">woocommerce_layered_nav_init</a></li>
+				<li><a href="function-woocommerce_layered_nav_query.html">woocommerce_layered_nav_query</a></li>
+				<li><a href="function-woocommerce_price_filter.html">woocommerce_price_filter</a></li>
+				<li><a href="function-woocommerce_price_filter_init.html">woocommerce_price_filter_init</a></li>
+				<li><a href="function-woocommerce_track_product_view.html">woocommerce_track_product_view</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#1">  1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#2">  2 </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#3">  3 </a><span class="php-comment"> * Price Filter Widget and related functions
+</span></span><span id="4" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#4">  4 </a><span class="php-comment"> *
+</span></span><span id="5" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#5">  5 </a><span class="php-comment"> * Generates a range slider to filter products by price.
+</span></span><span id="6" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#6">  6 </a><span class="php-comment"> *
+</span></span><span id="7" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#7">  7 </a><span class="php-comment"> * @author      WooThemes
+</span></span><span id="8" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#8">  8 </a><span class="php-comment"> * @category    Widgets
+</span></span><span id="9" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#9">  9 </a><span class="php-comment"> * @package     WooCommerce/Widgets
+</span></span><span id="10" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#10"> 10 </a><span class="php-comment"> * @version     1.6.4
+</span></span><span id="11" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#11"> 11 </a><span class="php-comment"> * @extends     WP_Widget
+</span></span><span id="12" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#12"> 12 </a><span class="php-comment"> */</span>
+</span><span id="13" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#13"> 13 </a>
+</span><span id="14" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#14"> 14 </a><span class="php-keyword1">if</span> ( ! <span class="php-keyword2">defined</span>( <span class="php-quote">'ABSPATH'</span> ) ) <span class="php-keyword1">exit</span>; <span class="php-comment">// Exit if accessed directly</span>
+</span><span id="15" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#15"> 15 </a>
+</span><span id="16" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#16"> 16 </a><span class="php-keyword1">class</span> <a id="WC_Widget_Price_Filter" href="source-class-WC_Widget_Price_Filter.html#WC_Widget_Price_Filter">WC_Widget_Price_Filter</a> <span class="php-keyword1">extends</span> WP_Widget {
+</span><span id="17" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#17"> 17 </a>
+</span><span id="18" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#18"> 18 </a>    <span class="php-keyword1">var</span> <span class="php-var"><a id="$woo_widget_cssclass" href="source-class-WC_Widget_Price_Filter.html#$woo_widget_cssclass">$woo_widget_cssclass</a></span>;
+</span><span id="19" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#19"> 19 </a>    <span class="php-keyword1">var</span> <span class="php-var"><a id="$woo_widget_description" href="source-class-WC_Widget_Price_Filter.html#$woo_widget_description">$woo_widget_description</a></span>;
+</span><span id="20" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#20"> 20 </a>    <span class="php-keyword1">var</span> <span class="php-var"><a id="$woo_widget_idbase" href="source-class-WC_Widget_Price_Filter.html#$woo_widget_idbase">$woo_widget_idbase</a></span>;
+</span><span id="21" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#21"> 21 </a>    <span class="php-keyword1">var</span> <span class="php-var"><a id="$woo_widget_name" href="source-class-WC_Widget_Price_Filter.html#$woo_widget_name">$woo_widget_name</a></span>;
+</span><span id="22" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#22"> 22 </a>
+</span><span id="23" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#23"> 23 </a>    <span class="php-comment">/**
+</span></span><span id="24" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#24"> 24 </a><span class="php-comment">     * constructor
+</span></span><span id="25" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#25"> 25 </a><span class="php-comment">     *
+</span></span><span id="26" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#26"> 26 </a><span class="php-comment">     * @access public
+</span></span><span id="27" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#27"> 27 </a><span class="php-comment">     * @return void
+</span></span><span id="28" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#28"> 28 </a><span class="php-comment">     */</span>
+</span><span id="29" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#29"> 29 </a>    <span class="php-keyword1">function</span> <a id="_WC_Widget_Price_Filter" href="source-class-WC_Widget_Price_Filter.html#_WC_Widget_Price_Filter">WC_Widget_Price_Filter</a>() {
+</span><span id="30" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#30"> 30 </a>
+</span><span id="31" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#31"> 31 </a>        <span class="php-comment">/* Widget variable settings. */</span>
+</span><span id="32" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#32"> 32 </a>        <span class="php-var">$this</span>-&gt;woo_widget_cssclass = <span class="php-quote">'woocommerce widget_price_filter'</span>;
+</span><span id="33" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#33"> 33 </a>        <span class="php-var">$this</span>-&gt;woo_widget_description = __( <span class="php-quote">'Shows a price filter slider in a widget which lets you narrow down the list of shown products when viewing product categories.'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="34" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#34"> 34 </a>        <span class="php-var">$this</span>-&gt;woo_widget_idbase = <span class="php-quote">'woocommerce_price_filter'</span>;
+</span><span id="35" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#35"> 35 </a>        <span class="php-var">$this</span>-&gt;woo_widget_name = __( <span class="php-quote">'WooCommerce Price Filter'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="36" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#36"> 36 </a>
+</span><span id="37" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#37"> 37 </a>        <span class="php-comment">/* Widget settings. */</span>
+</span><span id="38" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#38"> 38 </a>        <span class="php-var">$widget_ops</span> = <span class="php-keyword1">array</span>( <span class="php-quote">'classname'</span> =&gt; <span class="php-var">$this</span>-&gt;woo_widget_cssclass, <span class="php-quote">'description'</span> =&gt; <span class="php-var">$this</span>-&gt;woo_widget_description );
+</span><span id="39" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#39"> 39 </a>
+</span><span id="40" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#40"> 40 </a>        <span class="php-comment">/* Create the widget. */</span>
+</span><span id="41" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#41"> 41 </a>        <span class="php-var">$this</span>-&gt;WP_Widget(<span class="php-quote">'price_filter'</span>, <span class="php-var">$this</span>-&gt;woo_widget_name, <span class="php-var">$widget_ops</span>);
+</span><span id="42" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#42"> 42 </a>    }
+</span><span id="43" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#43"> 43 </a>
+</span><span id="44" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#44"> 44 </a>
+</span><span id="45" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#45"> 45 </a>    <span class="php-comment">/**
+</span></span><span id="46" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#46"> 46 </a><span class="php-comment">     * widget function.
+</span></span><span id="47" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#47"> 47 </a><span class="php-comment">     *
+</span></span><span id="48" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#48"> 48 </a><span class="php-comment">     * @see WP_Widget
+</span></span><span id="49" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#49"> 49 </a><span class="php-comment">     * @access public
+</span></span><span id="50" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#50"> 50 </a><span class="php-comment">     * @param array $args
+</span></span><span id="51" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#51"> 51 </a><span class="php-comment">     * @param array $instance
+</span></span><span id="52" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#52"> 52 </a><span class="php-comment">     * @return void
+</span></span><span id="53" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#53"> 53 </a><span class="php-comment">     */</span>
+</span><span id="54" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#54"> 54 </a>    <span class="php-keyword1">function</span> <a id="_widget" href="source-class-WC_Widget_Price_Filter.html#_widget">widget</a>( <span class="php-var">$args</span>, <span class="php-var">$instance</span> ) {
+</span><span id="55" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#55"> 55 </a>        <span class="php-keyword2">extract</span>( <span class="php-var">$args</span> );
+</span><span id="56" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#56"> 56 </a>
+</span><span id="57" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#57"> 57 </a>        <span class="php-keyword1">global</span> <span class="php-var">$_chosen_attributes</span>, <span class="php-var">$wpdb</span>, <span class="php-var">$woocommerce</span>, <span class="php-var">$wp_query</span>, <span class="php-var">$wp</span>;
+</span><span id="58" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#58"> 58 </a>
+</span><span id="59" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#59"> 59 </a>        <span class="php-keyword1">if</span> (!is_tax( <span class="php-quote">'product_cat'</span> ) &amp;&amp; !is_post_type_archive(<span class="php-quote">'product'</span>) &amp;&amp; !is_tax( <span class="php-quote">'product_tag'</span> )) <span class="php-keyword1">return</span>; <span class="php-comment">// Not on product page - return</span>
+</span><span id="60" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#60"> 60 </a>
+</span><span id="61" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#61"> 61 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword2">sizeof</span>( <span class="php-var">$woocommerce</span>-&gt;query-&gt;unfiltered_product_ids ) == <span class="php-num">0</span> ) <span class="php-keyword1">return</span>; <span class="php-comment">// None shown - return</span>
+</span><span id="62" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#62"> 62 </a>
+</span><span id="63" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#63"> 63 </a>        <span class="php-var">$min_price</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$_GET</span>[<span class="php-quote">'min_price'</span>] ) ? esc_attr( <span class="php-var">$_GET</span>[<span class="php-quote">'min_price'</span>] ) : <span class="php-quote">''</span>;
+</span><span id="64" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#64"> 64 </a>        <span class="php-var">$max_price</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$_GET</span>[<span class="php-quote">'max_price'</span>] ) ? esc_attr( <span class="php-var">$_GET</span>[<span class="php-quote">'max_price'</span>] ) : <span class="php-quote">''</span>;
+</span><span id="65" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#65"> 65 </a>
+</span><span id="66" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#66"> 66 </a>        wp_enqueue_script( <span class="php-quote">'wc-price-slider'</span> );
+</span><span id="67" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#67"> 67 </a>
+</span><span id="68" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#68"> 68 </a>        wp_localize_script( <span class="php-quote">'wc-price-slider'</span>, <span class="php-quote">'woocommerce_price_slider_params'</span>, <span class="php-keyword1">array</span>(
+</span><span id="69" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#69"> 69 </a>            <span class="php-quote">'currency_symbol'</span>   =&gt; get_woocommerce_currency_symbol(),
+</span><span id="70" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#70"> 70 </a>            <span class="php-quote">'currency_pos'</span>      =&gt; get_option( <span class="php-quote">'woocommerce_currency_pos'</span> ),
+</span><span id="71" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#71"> 71 </a>            <span class="php-quote">'min_price'</span>         =&gt; <span class="php-var">$min_price</span>,
+</span><span id="72" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#72"> 72 </a>            <span class="php-quote">'max_price'</span>         =&gt; <span class="php-var">$max_price</span>
+</span><span id="73" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#73"> 73 </a>        ) );
+</span><span id="74" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#74"> 74 </a>
+</span><span id="75" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#75"> 75 </a>        <span class="php-var">$title</span> = <span class="php-var">$instance</span>[<span class="php-quote">'title'</span>];
+</span><span id="76" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#76"> 76 </a>        <span class="php-var">$title</span> = apply_filters(<span class="php-quote">'widget_title'</span>, <span class="php-var">$title</span>, <span class="php-var">$instance</span>, <span class="php-var">$this</span>-&gt;id_base);
+</span><span id="77" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#77"> 77 </a>
+</span><span id="78" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#78"> 78 </a>        <span class="php-comment">// Remember current filters/search</span>
+</span><span id="79" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#79"> 79 </a>        <span class="php-var">$fields</span> = <span class="php-quote">''</span>;
+</span><span id="80" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#80"> 80 </a>
+</span><span id="81" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#81"> 81 </a>        <span class="php-keyword1">if</span> (get_search_query()) <span class="php-var">$fields</span> = <span class="php-quote">'&lt;input type=&quot;hidden&quot; name=&quot;s&quot; value=&quot;'</span>.get_search_query().<span class="php-quote">'&quot; /&gt;'</span>;
+</span><span id="82" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#82"> 82 </a>        <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_GET</span>[<span class="php-quote">'post_type'</span>])) <span class="php-var">$fields</span> .= <span class="php-quote">'&lt;input type=&quot;hidden&quot; name=&quot;post_type&quot; value=&quot;'</span>.esc_attr( <span class="php-var">$_GET</span>[<span class="php-quote">'post_type'</span>] ).<span class="php-quote">'&quot; /&gt;'</span>;
+</span><span id="83" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#83"> 83 </a>        <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_GET</span>[<span class="php-quote">'product_cat'</span>])) <span class="php-var">$fields</span> .= <span class="php-quote">'&lt;input type=&quot;hidden&quot; name=&quot;product_cat&quot; value=&quot;'</span>.esc_attr( <span class="php-var">$_GET</span>[<span class="php-quote">'product_cat'</span>] ).<span class="php-quote">'&quot; /&gt;'</span>;
+</span><span id="84" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#84"> 84 </a>        <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_GET</span>[<span class="php-quote">'product_tag'</span>])) <span class="php-var">$fields</span> .= <span class="php-quote">'&lt;input type=&quot;hidden&quot; name=&quot;product_tag&quot; value=&quot;'</span>.esc_attr( <span class="php-var">$_GET</span>[<span class="php-quote">'product_tag'</span>] ).<span class="php-quote">'&quot; /&gt;'</span>;
+</span><span id="85" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#85"> 85 </a>
+</span><span id="86" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#86"> 86 </a>        <span class="php-keyword1">if</span> (<span class="php-var">$_chosen_attributes</span>) <span class="php-keyword1">foreach</span> (<span class="php-var">$_chosen_attributes</span> <span class="php-keyword1">as</span> <span class="php-var">$attribute</span> =&gt; <span class="php-var">$data</span>) :
+</span><span id="87" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#87"> 87 </a>
+</span><span id="88" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#88"> 88 </a>            <span class="php-var">$fields</span> .= <span class="php-quote">'&lt;input type=&quot;hidden&quot; name=&quot;'</span>.esc_attr( <span class="php-keyword2">str_replace</span>(<span class="php-quote">'pa_'</span>, <span class="php-quote">'filter_'</span>, <span class="php-var">$attribute</span>) ).<span class="php-quote">'&quot; value=&quot;'</span>.esc_attr( <span class="php-keyword2">implode</span>(<span class="php-quote">','</span>, <span class="php-var">$data</span>[<span class="php-quote">'terms'</span>]) ).<span class="php-quote">'&quot; /&gt;'</span>;
+</span><span id="89" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#89"> 89 </a>            <span class="php-keyword1">if</span> (<span class="php-var">$data</span>[<span class="php-quote">'query_type'</span>]==<span class="php-quote">'or'</span>) <span class="php-var">$fields</span> .= <span class="php-quote">'&lt;input type=&quot;hidden&quot; name=&quot;'</span>.esc_attr( <span class="php-keyword2">str_replace</span>(<span class="php-quote">'pa_'</span>, <span class="php-quote">'query_type_'</span>, <span class="php-var">$attribute</span>) ).<span class="php-quote">'&quot; value=&quot;or&quot; /&gt;'</span>;
+</span><span id="90" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#90"> 90 </a>
+</span><span id="91" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#91"> 91 </a>        <span class="php-keyword1">endforeach</span>;
+</span><span id="92" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#92"> 92 </a>
+</span><span id="93" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#93"> 93 </a>        <span class="php-var">$min</span> = <span class="php-var">$max</span> = <span class="php-num">0</span>;
+</span><span id="94" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#94"> 94 </a>        <span class="php-var">$post_min</span> = <span class="php-var">$post_max</span> = <span class="php-quote">''</span>;
+</span><span id="95" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#95"> 95 </a>
+</span><span id="96" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#96"> 96 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword2">sizeof</span>( <span class="php-var">$woocommerce</span>-&gt;query-&gt;layered_nav_product_ids ) === <span class="php-num">0</span> ) {
+</span><span id="97" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#97"> 97 </a>            <span class="php-var">$max</span> = <span class="php-keyword2">ceil</span>( <span class="php-var">$wpdb</span>-&gt;get_var(
+</span><span id="98" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#98"> 98 </a>                <span class="php-var">$wpdb</span>-&gt;prepare(<span class="php-quote">'
+</span></span><span id="99" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#99"> 99 </a><span class="php-quote">                    SELECT max(meta_value + 0)
+</span></span><span id="100" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#100">100 </a><span class="php-quote">                    FROM %1$s
+</span></span><span id="101" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#101">101 </a><span class="php-quote">                    LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+</span></span><span id="102" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#102">102 </a><span class="php-quote">                    WHERE meta_key = \'%3$s\'
+</span></span><span id="103" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#103">103 </a><span class="php-quote">                '</span>, <span class="php-var">$wpdb</span>-&gt;posts, <span class="php-var">$wpdb</span>-&gt;postmeta, <span class="php-quote">'_price'</span> )
+</span><span id="104" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#104">104 </a>            ) );
+</span><span id="105" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#105">105 </a>        } <span class="php-keyword1">else</span> {
+</span><span id="106" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#106">106 </a>            <span class="php-var">$max</span> = <span class="php-keyword2">ceil</span>( <span class="php-var">$wpdb</span>-&gt;get_var(
+</span><span id="107" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#107">107 </a>                <span class="php-var">$wpdb</span>-&gt;prepare(<span class="php-quote">'
+</span></span><span id="108" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#108">108 </a><span class="php-quote">                    SELECT max(meta_value + 0)
+</span></span><span id="109" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#109">109 </a><span class="php-quote">                    FROM %1$s
+</span></span><span id="110" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#110">110 </a><span class="php-quote">                    LEFT JOIN %2$s ON %1$s.ID = %2$s.post_id
+</span></span><span id="111" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#111">111 </a><span class="php-quote">                    WHERE meta_key =\'%3$s\'
+</span></span><span id="112" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#112">112 </a><span class="php-quote">                    AND (
+</span></span><span id="113" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#113">113 </a><span class="php-quote">                        %1$s.ID IN (%4$s)
+</span></span><span id="114" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#114">114 </a><span class="php-quote">                        OR (
+</span></span><span id="115" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#115">115 </a><span class="php-quote">                            %1$s.post_parent IN (%4$s)
+</span></span><span id="116" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#116">116 </a><span class="php-quote">                            AND %1$s.post_parent != 0
+</span></span><span id="117" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#117">117 </a><span class="php-quote">                        )
+</span></span><span id="118" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#118">118 </a><span class="php-quote">                    )
+</span></span><span id="119" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#119">119 </a><span class="php-quote">                '</span>, <span class="php-var">$wpdb</span>-&gt;posts, <span class="php-var">$wpdb</span>-&gt;postmeta, <span class="php-quote">'_price'</span>, <span class="php-keyword2">implode</span>( <span class="php-quote">','</span>, <span class="php-var">$woocommerce</span>-&gt;query-&gt;layered_nav_product_ids )
+</span><span id="120" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#120">120 </a>            ) ) );
+</span><span id="121" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#121">121 </a>        }
+</span><span id="122" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#122">122 </a>
+</span><span id="123" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#123">123 </a>        <span class="php-keyword1">if</span> ( <span class="php-var">$min</span> == <span class="php-var">$max</span> ) <span class="php-keyword1">return</span>;
+</span><span id="124" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#124">124 </a>
+</span><span id="125" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#125">125 </a>        <span class="php-keyword1">echo</span> <span class="php-var">$before_widget</span> . <span class="php-var">$before_title</span> . <span class="php-var">$title</span> . <span class="php-var">$after_title</span>;
+</span><span id="126" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#126">126 </a>
+</span><span id="127" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#127">127 </a>        <span class="php-keyword1">if</span> ( get_option( <span class="php-quote">'permalink_structure'</span> ) == <span class="php-quote">''</span> )
+</span><span id="128" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#128">128 </a>            <span class="php-var">$form_action</span> = remove_query_arg( <span class="php-keyword1">array</span>( <span class="php-quote">'page'</span>, <span class="php-quote">'paged'</span> ), add_query_arg( <span class="php-var">$wp</span>-&gt;query_string, <span class="php-quote">''</span>, home_url( <span class="php-var">$wp</span>-&gt;request ) ) );
+</span><span id="129" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#129">129 </a>        <span class="php-keyword1">else</span>
+</span><span id="130" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#130">130 </a>            <span class="php-var">$form_action</span> = <span class="php-keyword2">preg_replace</span>( <span class="php-quote">'%\/page/[0-9]+%'</span>, <span class="php-quote">''</span>, home_url( <span class="php-var">$wp</span>-&gt;request ) );
+</span><span id="131" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#131">131 </a>
+</span><span id="132" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#132">132 </a>        <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;form method=&quot;get&quot; action=&quot;'</span> . <span class="php-var">$form_action</span> . <span class="php-quote">'&quot;&gt;
+</span></span><span id="133" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#133">133 </a><span class="php-quote">            &lt;div class=&quot;price_slider_wrapper&quot;&gt;
+</span></span><span id="134" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#134">134 </a><span class="php-quote">                &lt;div class=&quot;price_slider&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;
+</span></span><span id="135" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#135">135 </a><span class="php-quote">                &lt;div class=&quot;price_slider_amount&quot;&gt;
+</span></span><span id="136" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#136">136 </a><span class="php-quote">                    &lt;input type=&quot;text&quot; id=&quot;min_price&quot; name=&quot;min_price&quot; value=&quot;'</span>.esc_attr( <span class="php-var">$min_price</span> ).<span class="php-quote">'&quot; data-min=&quot;'</span>.esc_attr( <span class="php-var">$min</span> ).<span class="php-quote">'&quot; placeholder=&quot;'</span>.__(<span class="php-quote">'Min price'</span>, <span class="php-quote">'woocommerce'</span> ).<span class="php-quote">'&quot; /&gt;
+</span></span><span id="137" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#137">137 </a><span class="php-quote">                    &lt;input type=&quot;text&quot; id=&quot;max_price&quot; name=&quot;max_price&quot; value=&quot;'</span>.esc_attr( <span class="php-var">$max_price</span> ).<span class="php-quote">'&quot; data-max=&quot;'</span>.esc_attr( <span class="php-var">$max</span> ).<span class="php-quote">'&quot; placeholder=&quot;'</span>.__( <span class="php-quote">'Max price'</span>, <span class="php-quote">'woocommerce'</span> ).<span class="php-quote">'&quot; /&gt;
+</span></span><span id="138" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#138">138 </a><span class="php-quote">                    &lt;button type=&quot;submit&quot; class=&quot;button&quot;&gt;'</span>.__( <span class="php-quote">'Filter'</span>, <span class="php-quote">'woocommerce'</span> ).<span class="php-quote">'&lt;/button&gt;
+</span></span><span id="139" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#139">139 </a><span class="php-quote">                    &lt;div class=&quot;price_label&quot; style=&quot;display:none;&quot;&gt;
+</span></span><span id="140" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#140">140 </a><span class="php-quote">                        '</span>.__( <span class="php-quote">'Price:'</span>, <span class="php-quote">'woocommerce'</span> ).<span class="php-quote">' &lt;span class=&quot;from&quot;&gt;&lt;/span&gt; &amp;mdash; &lt;span class=&quot;to&quot;&gt;&lt;/span&gt;
+</span></span><span id="141" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#141">141 </a><span class="php-quote">                    &lt;/div&gt;
+</span></span><span id="142" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#142">142 </a><span class="php-quote">                    '</span>.<span class="php-var">$fields</span>.<span class="php-quote">'
+</span></span><span id="143" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#143">143 </a><span class="php-quote">                    &lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;
+</span></span><span id="144" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#144">144 </a><span class="php-quote">                &lt;/div&gt;
+</span></span><span id="145" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#145">145 </a><span class="php-quote">            &lt;/div&gt;
+</span></span><span id="146" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#146">146 </a><span class="php-quote">        &lt;/form&gt;'</span>;
+</span><span id="147" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#147">147 </a>
+</span><span id="148" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#148">148 </a>        <span class="php-keyword1">echo</span> <span class="php-var">$after_widget</span>;
+</span><span id="149" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#149">149 </a>    }
+</span><span id="150" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#150">150 </a>
+</span><span id="151" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#151">151 </a>
+</span><span id="152" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#152">152 </a>    <span class="php-comment">/**
+</span></span><span id="153" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#153">153 </a><span class="php-comment">     * update function.
+</span></span><span id="154" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#154">154 </a><span class="php-comment">     *
+</span></span><span id="155" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#155">155 </a><span class="php-comment">     * @see WP_Widget-&gt;update
+</span></span><span id="156" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#156">156 </a><span class="php-comment">     * @access public
+</span></span><span id="157" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#157">157 </a><span class="php-comment">     * @param array $new_instance
+</span></span><span id="158" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#158">158 </a><span class="php-comment">     * @param array $old_instance
+</span></span><span id="159" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#159">159 </a><span class="php-comment">     * @return array
+</span></span><span id="160" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#160">160 </a><span class="php-comment">     */</span>
+</span><span id="161" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#161">161 </a>    <span class="php-keyword1">function</span> <a id="_update" href="source-class-WC_Widget_Price_Filter.html#_update">update</a>( <span class="php-var">$new_instance</span>, <span class="php-var">$old_instance</span> ) {
+</span><span id="162" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#162">162 </a>        <span class="php-keyword1">if</span> (!<span class="php-keyword1">isset</span>(<span class="php-var">$new_instance</span>[<span class="php-quote">'title'</span>]) || <span class="php-keyword1">empty</span>(<span class="php-var">$new_instance</span>[<span class="php-quote">'title'</span>])) <span class="php-var">$new_instance</span>[<span class="php-quote">'title'</span>] = __( <span class="php-quote">'Filter by price'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="163" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#163">163 </a>        <span class="php-var">$instance</span>[<span class="php-quote">'title'</span>] = <span class="php-keyword2">strip_tags</span>(<span class="php-keyword2">stripslashes</span>(<span class="php-var">$new_instance</span>[<span class="php-quote">'title'</span>]));
+</span><span id="164" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#164">164 </a>        <span class="php-keyword1">return</span> <span class="php-var">$instance</span>;
+</span><span id="165" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#165">165 </a>    }
+</span><span id="166" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#166">166 </a>
+</span><span id="167" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#167">167 </a>
+</span><span id="168" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#168">168 </a>    <span class="php-comment">/**
+</span></span><span id="169" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#169">169 </a><span class="php-comment">     * form function.
+</span></span><span id="170" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#170">170 </a><span class="php-comment">     *
+</span></span><span id="171" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#171">171 </a><span class="php-comment">     * @see WP_Widget-&gt;form
+</span></span><span id="172" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#172">172 </a><span class="php-comment">     * @access public
+</span></span><span id="173" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#173">173 </a><span class="php-comment">     * @param array $instance
+</span></span><span id="174" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#174">174 </a><span class="php-comment">     * @return void
+</span></span><span id="175" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#175">175 </a><span class="php-comment">     */</span>
+</span><span id="176" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#176">176 </a>    <span class="php-keyword1">function</span> <a id="_form" href="source-class-WC_Widget_Price_Filter.html#_form">form</a>( <span class="php-var">$instance</span> ) {
+</span><span id="177" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#177">177 </a>        <span class="php-keyword1">global</span> <span class="php-var">$wpdb</span>;
+</span><span id="178" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#178">178 </a>        <span class="xlang">?&gt;</span>
+</span><span id="179" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#179">179 </a>            &lt;p&gt;&lt;label <span class="php-keyword1">for</span>=<span class="php-quote">&quot;&lt;?php echo </span><span class="php-var">$this</span><span class="php-quote">-&gt;get_field_id('title'); ?&gt;&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Title:'</span>, <span class="php-quote">'woocommerce'</span> ) <span class="xlang">?&gt;</span>&lt;/label&gt;
+</span><span id="180" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#180">180 </a>            &lt;input type=<span class="php-quote">&quot;text&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;widefat&quot;</span> id=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$this</span><span class="php-quote">-&gt;get_field_id('title') ); ?&gt;&quot;</span> name=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$this</span><span class="php-quote">-&gt;get_field_name('title') ); ?&gt;&quot;</span> value=<span class="php-quote">&quot;&lt;?php if (isset ( </span><span class="php-var">$instance</span><span class="php-quote">['title'])) {echo esc_attr( </span><span class="php-var">$instance</span><span class="php-quote">['title'] );} ?&gt;&quot;</span> /&gt;&lt;/p&gt;
+</span><span id="181" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#181">181 </a>        <span class="xlang">&lt;?php</span>
+</span><span id="182" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#182">182 </a>    }
+</span><span id="183" class="l"><a class="l" href="source-class-WC_Widget_Price_Filter.html#183">183 </a></span>}</code></pre>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

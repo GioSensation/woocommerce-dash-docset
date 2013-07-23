@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class WC_Query | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Classes.html" title="Summary of WooCommerce\Classes"><span>Package</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WC_API.html">WC_API</a></li>
+				<li><a href="class-WC_Cache_Helper.html">WC_Cache_Helper</a></li>
+				<li><a href="class-WC_Cart.html">WC_Cart</a></li>
+				<li><a href="class-WC_Checkout.html">WC_Checkout</a></li>
+				<li><a href="class-WC_Countries.html">WC_Countries</a></li>
+				<li><a href="class-WC_Coupon.html">WC_Coupon</a></li>
+				<li><a href="class-WC_Customer.html">WC_Customer</a></li>
+				<li><a href="class-WC_Logger.html">WC_Logger</a></li>
+				<li><a href="class-WC_Order.html">WC_Order</a></li>
+				<li><a href="class-WC_Order_Item_Meta.html">WC_Order_Item_Meta</a></li>
+				<li><a href="class-WC_Product_Factory.html">WC_Product_Factory</a></li>
+				<li><a href="class-WC_Product_Variation.html">WC_Product_Variation</a></li>
+				<li class="active"><a href="class-WC_Query.html">WC_Query</a></li>
+				<li><a href="class-WC_Session_Handler.html">WC_Session_Handler</a></li>
+				<li><a href="class-WC_Shortcodes.html">WC_Shortcodes</a></li>
+				<li><a href="class-WC_Tax.html">WC_Tax</a></li>
+				<li><a href="class-WC_Validation.html">WC_Validation</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class WC_Query</h1>
+
+
+	<div class="description">
+	
+<p>Contains the query functions for WooCommerce which alter the front-end post
+queries and loops.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WooCommerce.html">WooCommerce</a>\<a href="package-WooCommerce.Classes.html">Classes</a><br />
+
+				<b>Category:</b>
+				Class<br />
+				<b>Author:</b>
+				WooThemes<br />
+				<b>Version:</b>
+				1.6.4<br />
+				<b>Class:</b>
+				WC_Query<br />
+		<b>Located at</b> <a href="source-class-WC_Query.html#2-480" title="Go to source code">classes/class-wc-query.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#___construct">#</a>
+			<code><a href="source-class-WC_Query.html#31-41" title="Go to source code">__construct</a>( )</code>
+
+			<div class="description short">
+				
+<p>Constructor for the query class. Hooks in methods.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Constructor for the query class. Hooks in methods.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="pre_get_posts" id="_pre_get_posts">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_pre_get_posts">#</a>
+			<code><a href="source-class-WC_Query.html#43-122" title="Go to source code">pre_get_posts</a>( <span>mixed <var>$q</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Hook into pre_get_posts to do the main product query</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Hook into pre_get_posts to do the main product query</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$q</var></dt>
+						<dd><code>mixed</code><br>$q query object</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="search_post_excerpt" id="_search_post_excerpt">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_search_post_excerpt">#</a>
+			<code><a href="source-class-WC_Query.html#124-143" title="Go to source code">search_post_excerpt</a>( <span>string <var>$where</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>search_post_excerpt function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>search_post_excerpt function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$where</var></dt>
+						<dd><code>string</code><br>$where (default: '')</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br>(modified where clause)<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="wpseo_metadesc" id="_wpseo_metadesc">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_wpseo_metadesc">#</a>
+			<code><a href="source-class-WC_Query.html#145-154" title="Go to source code">wpseo_metadesc</a>( )</code>
+
+			<div class="description short">
+				
+<p>wpseo_metadesc function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>wpseo_metadesc function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="wpseo_metakey" id="_wpseo_metakey">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_wpseo_metakey">#</a>
+			<code><a href="source-class-WC_Query.html#157-165" title="Go to source code">wpseo_metakey</a>( )</code>
+
+			<div class="description short">
+				
+<p>wpseo_metakey function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>wpseo_metakey function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="the_posts" id="_the_posts">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_the_posts">#</a>
+			<code><a href="source-class-WC_Query.html#168-223" title="Go to source code">the_posts</a>( <span>mixed <var>$posts</var></span>, <span>boolean <var>$query</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Hook into the_posts to do the main product query if needed - relevanssi
+compatibility</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Hook into the_posts to do the main product query if needed - relevanssi
+compatibility</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$posts</var></dt>
+						<dd><code>mixed</code><br>$posts</dd>
+						<dt><var>$query</var></dt>
+						<dd><code>boolean</code><br>$query (default: false)</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="product_query" id="_product_query">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_product_query">#</a>
+			<code><a href="source-class-WC_Query.html#226-267" title="Go to source code">product_query</a>( <span>mixed <var>$q</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Query the products, applying sorting/ordering etc. This applies to the main
+wordpress loop</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Query the products, applying sorting/ordering etc. This applies to the main
+wordpress loop</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$q</var></dt>
+						<dd><code>mixed</code><br>$q</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="remove_product_query" id="_remove_product_query">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_remove_product_query">#</a>
+			<code><a href="source-class-WC_Query.html#270-278" title="Go to source code">remove_product_query</a>( )</code>
+
+			<div class="description short">
+				
+<p>Remove the query</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Remove the query</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="remove_posts_where" id="_remove_posts_where">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_remove_posts_where">#</a>
+			<code><a href="source-class-WC_Query.html#280-288" title="Go to source code">remove_posts_where</a>( )</code>
+
+			<div class="description short">
+				
+<p>Remove the posts_where filter</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Remove the posts_where filter</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_products_in_view" id="_get_products_in_view">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_get_products_in_view">#</a>
+			<code><a href="source-class-WC_Query.html#291-348" title="Go to source code">get_products_in_view</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get an unpaginated list all product ID's (both filtered and unfiltered).
+Makes use of transients.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get an unpaginated list all product ID's (both filtered and unfiltered).
+Makes use of transients.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_catalog_ordering_args" id="_get_catalog_ordering_args">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_get_catalog_ordering_args">#</a>
+			<code><a href="source-class-WC_Query.html#351-412" title="Go to source code">get_catalog_ordering_args</a>( <span>mixed <var>$orderby</var> = <span class="php-quote">''</span></span>, <span>mixed <var>$order</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Returns an array of arguments for ordering products based on the selected
+values</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns an array of arguments for ordering products based on the selected
+values</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="order_by_rating_post_clauses" id="_order_by_rating_post_clauses">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_order_by_rating_post_clauses">#</a>
+			<code><a href="source-class-WC_Query.html#414-439" title="Go to source code">order_by_rating_post_clauses</a>( <span>array <var>$args</var></span> )</code>
+
+			<div class="description short">
+				
+<p>order_by_rating_post_clauses function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>order_by_rating_post_clauses function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$args</var></dt>
+						<dd><code>array</code><br>$args</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="visibility_meta_query" id="_visibility_meta_query">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_visibility_meta_query">#</a>
+			<code><a href="source-class-WC_Query.html#441-458" title="Go to source code">visibility_meta_query</a>( <span>string <var>$compare</var> = <span class="php-quote">'IN'</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Returns a meta query to handle product visibility</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns a meta query to handle product visibility</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$compare</var></dt>
+						<dd><code>string</code><br>$compare (default: 'IN')</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="stock_status_meta_query" id="_stock_status_meta_query">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Query.html#_stock_status_meta_query">#</a>
+			<code><a href="source-class-WC_Query.html#461-478" title="Go to source code">stock_status_meta_query</a>( <span>string <var>$status</var> = <span class="php-quote">'instock'</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Returns a meta query to handle product stock status</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns a meta query to handle product stock status</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$status</var></dt>
+						<dd><code>string</code><br>$status (default: 'instock')</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped" id="properties">
+		<tr data-order="unfiltered_product_ids" id="$unfiltered_product_ids">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Query.html#13-14" title="Go to source code"><var>$unfiltered_product_ids</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Query.html#$unfiltered_product_ids" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								array Unfiltered product ids (before layered nav etc)<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="filtered_product_ids" id="$filtered_product_ids">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Query.html#16-17" title="Go to source code"><var>$filtered_product_ids</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Query.html#$filtered_product_ids" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								array Filtered product ids (after layered nav)<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="post__in" id="$post__in">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Query.html#19-20" title="Go to source code"><var>$post__in</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Query.html#$post__in" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								array Product IDs that match the layered nav + price filter<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="meta_query" id="$meta_query">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Query.html#22-23" title="Go to source code"><var>$meta_query</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Query.html#$meta_query" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								array The meta query for the page<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="layered_nav_post__in" id="$layered_nav_post__in">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Query.html#25-26" title="Go to source code"><var>$layered_nav_post__in</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Query.html#$layered_nav_post__in" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								array Post IDs matching layered nav only<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="layered_nav_product_ids" id="$layered_nav_product_ids">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Query.html#28-29" title="Go to source code"><var>$layered_nav_product_ids</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Query.html#$layered_nav_product_ids" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								array Stores post IDs matching layered nav, so price filter can find max price
+in view<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

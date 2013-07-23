@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>File admin/post-types/writepanels/writepanel-product_images.php | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Admin.WritePanels.html" title="Summary of WooCommerce\Admin\WritePanels"><span>Package</span></a>
+						</li>
+						<li>
+							<a href="function-woocommerce_product_images_box.html" title="Summary of woocommerce_product_images_box"><span>Function</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-process_product_meta_variable.html">process_product_meta_variable</a></li>
+				<li><a href="function-variable_product_type_options.html">variable_product_type_options</a></li>
+				<li><a href="function-variable_product_type_options_tab.html">variable_product_type_options_tab</a></li>
+				<li><a href="function-variable_product_type_selector.html">variable_product_type_selector</a></li>
+				<li><a href="function-woocommerce_coupon_data_meta_box.html">woocommerce_coupon_data_meta_box</a></li>
+				<li><a href="function-woocommerce_enter_title_here.html">woocommerce_enter_title_here</a></li>
+				<li><a href="function-woocommerce_meta_boxes.html">woocommerce_meta_boxes</a></li>
+				<li><a href="function-woocommerce_meta_boxes_save.html">woocommerce_meta_boxes_save</a></li>
+				<li><a href="function-woocommerce_meta_boxes_save_errors.html">woocommerce_meta_boxes_save_errors</a></li>
+				<li><a href="function-woocommerce_meta_boxes_show_errors.html">woocommerce_meta_boxes_show_errors</a></li>
+				<li><a href="function-woocommerce_order_actions_meta_box.html">woocommerce_order_actions_meta_box</a></li>
+				<li><a href="function-woocommerce_order_data.html">woocommerce_order_data</a></li>
+				<li><a href="function-woocommerce_order_data_meta_box.html">woocommerce_order_data_meta_box</a></li>
+				<li><a href="function-woocommerce_order_downloads_meta_box.html">woocommerce_order_downloads_meta_box</a></li>
+				<li><a href="function-woocommerce_order_downloads_save.html">woocommerce_order_downloads_save</a></li>
+				<li><a href="function-woocommerce_order_items_meta_box.html">woocommerce_order_items_meta_box</a></li>
+				<li><a href="function-woocommerce_order_notes_meta_box.html">woocommerce_order_notes_meta_box</a></li>
+				<li><a href="function-woocommerce_order_totals_meta_box.html">woocommerce_order_totals_meta_box</a></li>
+				<li><a href="function-woocommerce_pre_post_update.html">woocommerce_pre_post_update</a></li>
+				<li><a href="function-woocommerce_process_product_file_download_paths.html">woocommerce_process_product_file_download_paths</a></li>
+				<li><a href="function-woocommerce_process_product_meta.html">woocommerce_process_product_meta</a></li>
+				<li><a href="function-woocommerce_process_shop_coupon_meta.html">woocommerce_process_shop_coupon_meta</a></li>
+				<li><a href="function-woocommerce_process_shop_order_meta.html">woocommerce_process_shop_order_meta</a></li>
+				<li><a href="function-woocommerce_product_data.html">woocommerce_product_data</a></li>
+				<li><a href="function-woocommerce_product_data_box.html">woocommerce_product_data_box</a></li>
+				<li><a href="function-woocommerce_product_data_visibility.html">woocommerce_product_data_visibility</a></li>
+				<li class="active"><a href="function-woocommerce_product_images_box.html">woocommerce_product_images_box</a></li>
+				<li><a href="function-woocommerce_product_review_status_meta_box.html">woocommerce_product_review_status_meta_box</a></li>
+				<li><a href="function-woocommerce_product_short_description_meta_box.html">woocommerce_product_short_description_meta_box</a></li>
+				<li><a href="function-woocommerce_wp_checkbox.html">woocommerce_wp_checkbox</a></li>
+				<li><a href="function-woocommerce_wp_hidden_input.html">woocommerce_wp_hidden_input</a></li>
+				<li><a href="function-woocommerce_wp_radio.html">woocommerce_wp_radio</a></li>
+				<li><a href="function-woocommerce_wp_select.html">woocommerce_wp_select</a></li>
+				<li><a href="function-woocommerce_wp_text_input.html">woocommerce_wp_text_input</a></li>
+				<li><a href="function-woocommerce_wp_textarea_input.html">woocommerce_wp_textarea_input</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#1">  1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#2">  2 </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#3">  3 </a><span class="php-comment"> * Product Images
+</span></span><span id="4" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#4">  4 </a><span class="php-comment"> *
+</span></span><span id="5" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#5">  5 </a><span class="php-comment"> * Function for displaying the product images meta box.
+</span></span><span id="6" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#6">  6 </a><span class="php-comment"> *
+</span></span><span id="7" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#7">  7 </a><span class="php-comment"> * @author      WooThemes
+</span></span><span id="8" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#8">  8 </a><span class="php-comment"> * @category    Admin
+</span></span><span id="9" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#9">  9 </a><span class="php-comment"> * @package     WooCommerce/Admin/WritePanels
+</span></span><span id="10" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#10"> 10 </a><span class="php-comment"> * @version     2.0.0
+</span></span><span id="11" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#11"> 11 </a><span class="php-comment"> */</span>
+</span><span id="12" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#12"> 12 </a>
+</span><span id="13" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#13"> 13 </a><span class="php-keyword1">if</span> ( ! <span class="php-keyword2">defined</span>( <span class="php-quote">'ABSPATH'</span> ) ) <span class="php-keyword1">exit</span>; <span class="php-comment">// Exit if accessed directly</span>
+</span><span id="14" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#14"> 14 </a>
+</span><span id="15" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#15"> 15 </a><span class="php-comment">/**
+</span></span><span id="16" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#16"> 16 </a><span class="php-comment"> * Display the product images meta box.
+</span></span><span id="17" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#17"> 17 </a><span class="php-comment"> *
+</span></span><span id="18" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#18"> 18 </a><span class="php-comment"> * @access public
+</span></span><span id="19" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#19"> 19 </a><span class="php-comment"> * @return void
+</span></span><span id="20" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#20"> 20 </a><span class="php-comment"> */</span>
+</span><span id="21" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#21"> 21 </a><span class="php-keyword1">function</span> <a id="_woocommerce_product_images_box" href="source-function-woocommerce_product_images_box.html#_woocommerce_product_images_box">woocommerce_product_images_box</a>() {
+</span><span id="22" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#22"> 22 </a>    <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
+</span><span id="23" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#23"> 23 </a>    <span class="xlang">?&gt;</span>
+</span><span id="24" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#24"> 24 </a>    &lt;div id=<span class="php-quote">&quot;product_images_container&quot;</span>&gt;
+</span><span id="25" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#25"> 25 </a>        &lt;ul <span class="php-keyword1">class</span>=<span class="php-quote">&quot;product_images&quot;</span>&gt;
+</span><span id="26" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#26"> 26 </a>            <span class="xlang">&lt;?php</span>
+</span><span id="27" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#27"> 27 </a>                <span class="php-keyword1">if</span> ( metadata_exists( <span class="php-quote">'post'</span>, <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_product_image_gallery'</span> ) ) {
+</span><span id="28" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#28"> 28 </a>                    <span class="php-var">$product_image_gallery</span> = get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_product_image_gallery'</span>, <span class="php-keyword1">true</span> );
+</span><span id="29" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#29"> 29 </a>                } <span class="php-keyword1">else</span> {
+</span><span id="30" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#30"> 30 </a>                    <span class="php-comment">// Backwards compat</span>
+</span><span id="31" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#31"> 31 </a>                    <span class="php-var">$attachment_ids</span> = <span class="php-keyword2">array_filter</span>( <span class="php-keyword2">array_diff</span>( get_posts( <span class="php-quote">'post_parent='</span> . <span class="php-var">$post</span>-&gt;ID . <span class="php-quote">'&amp;numberposts=-1&amp;post_type=attachment&amp;orderby=menu_order&amp;order=ASC&amp;post_mime_type=image&amp;fields=ids'</span> ), <span class="php-keyword1">array</span>( get_post_thumbnail_id() ) ) );
+</span><span id="32" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#32"> 32 </a>                    <span class="php-var">$product_image_gallery</span> = <span class="php-keyword2">implode</span>( <span class="php-quote">','</span>, <span class="php-var">$attachment_ids</span> );
+</span><span id="33" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#33"> 33 </a>                }
+</span><span id="34" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#34"> 34 </a>
+</span><span id="35" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#35"> 35 </a>                <span class="php-var">$attachments</span> = <span class="php-keyword2">array_filter</span>( <span class="php-keyword2">explode</span>( <span class="php-quote">','</span>, <span class="php-var">$product_image_gallery</span> ) );
+</span><span id="36" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#36"> 36 </a>
+</span><span id="37" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#37"> 37 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$attachments</span> )
+</span><span id="38" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#38"> 38 </a>                    <span class="php-keyword1">foreach</span> ( <span class="php-var">$attachments</span> <span class="php-keyword1">as</span> <span class="php-var">$attachment_id</span> ) {
+</span><span id="39" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#39"> 39 </a>                        <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;li class=&quot;image&quot; data-attachment_id=&quot;'</span> . <span class="php-var">$attachment_id</span> . <span class="php-quote">'&quot;&gt;
+</span></span><span id="40" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#40"> 40 </a><span class="php-quote">                            '</span> . wp_get_attachment_image( <span class="php-var">$attachment_id</span>, <span class="php-quote">'thumbnail'</span> ) . <span class="php-quote">'
+</span></span><span id="41" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#41"> 41 </a><span class="php-quote">                            &lt;ul class=&quot;actions&quot;&gt;
+</span></span><span id="42" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#42"> 42 </a><span class="php-quote">                                &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;delete&quot; title=&quot;'</span> . __( <span class="php-quote">'Delete image'</span>, <span class="php-quote">'woocommerce'</span> ) . <span class="php-quote">'&quot;&gt;'</span> . __( <span class="php-quote">'Delete'</span>, <span class="php-quote">'woocommerce'</span> ) . <span class="php-quote">'&lt;/a&gt;&lt;/li&gt;
+</span></span><span id="43" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#43"> 43 </a><span class="php-quote">                            &lt;/ul&gt;
+</span></span><span id="44" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#44"> 44 </a><span class="php-quote">                        &lt;/li&gt;'</span>;
+</span><span id="45" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#45"> 45 </a>                    }
+</span><span id="46" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#46"> 46 </a>            <span class="xlang">?&gt;</span>
+</span><span id="47" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#47"> 47 </a>        &lt;/ul&gt;
+</span><span id="48" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#48"> 48 </a>
+</span><span id="49" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#49"> 49 </a>        &lt;input type=<span class="php-quote">&quot;hidden&quot;</span> id=<span class="php-quote">&quot;product_image_gallery&quot;</span> name=<span class="php-quote">&quot;product_image_gallery&quot;</span> value=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$product_image_gallery</span><span class="php-quote"> ); ?&gt;&quot;</span> /&gt;
+</span><span id="50" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#50"> 50 </a>
+</span><span id="51" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#51"> 51 </a>    &lt;/div&gt;
+</span><span id="52" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#52"> 52 </a>    &lt;p <span class="php-keyword1">class</span>=<span class="php-quote">&quot;add_product_images hide-if-no-js&quot;</span>&gt;
+</span><span id="53" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#53"> 53 </a>        &lt;a href=<span class="php-quote">&quot;#&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Add product gallery images'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/a&gt;
+</span><span id="54" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#54"> 54 </a>    &lt;/p&gt;
+</span><span id="55" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#55"> 55 </a>    &lt;script type=<span class="php-quote">&quot;text/javascript&quot;</span>&gt;
+</span><span id="56" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#56"> 56 </a>        jQuery(document).ready(<span class="php-keyword1">function</span>(<span class="php-var">$</span>){
+</span><span id="57" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#57"> 57 </a>
+</span><span id="58" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#58"> 58 </a>            <span class="php-comment">// Uploading files</span>
+</span><span id="59" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#59"> 59 </a>            <span class="php-keyword1">var</span> product_gallery_frame;
+</span><span id="60" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#60"> 60 </a>            <span class="php-keyword1">var</span> <span class="php-var"><a id="$image_gallery_ids" href="source-function-woocommerce_product_images_box.html#$image_gallery_ids">$image_gallery_ids</a></span> = <span class="php-var">$</span>(<span class="php-quote">'#product_image_gallery'</span>);
+</span><span id="61" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#61"> 61 </a>            <span class="php-keyword1">var</span> <span class="php-var"><a id="$product_images" href="source-function-woocommerce_product_images_box.html#$product_images">$product_images</a></span> = <span class="php-var">$</span>(<span class="php-quote">'#product_images_container ul.product_images'</span>);
+</span><span id="62" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#62"> 62 </a>
+</span><span id="63" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#63"> 63 </a>            jQuery(<span class="php-quote">'.add_product_images'</span>).on( <span class="php-quote">'click'</span>, <span class="php-quote">'a'</span>, <span class="php-keyword1">function</span>( event ) {
+</span><span id="64" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#64"> 64 </a>
+</span><span id="65" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#65"> 65 </a>                <span class="php-keyword1">var</span> <span class="php-var"><a id="$el" href="source-function-woocommerce_product_images_box.html#$el">$el</a></span> = <span class="php-var">$</span>(this);
+</span><span id="66" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#66"> 66 </a>                <span class="php-keyword1">var</span> attachment_ids = <span class="php-var">$image_gallery_ids</span>.val();
+</span><span id="67" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#67"> 67 </a>
+</span><span id="68" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#68"> 68 </a>                event.preventDefault();
+</span><span id="69" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#69"> 69 </a>
+</span><span id="70" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#70"> 70 </a>                <span class="php-comment">// If the media frame already exists, reopen it.</span>
+</span><span id="71" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#71"> 71 </a>                <span class="php-keyword1">if</span> ( product_gallery_frame ) {
+</span><span id="72" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#72"> 72 </a>                    product_gallery_frame.open();
+</span><span id="73" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#73"> 73 </a>                    <span class="php-keyword1">return</span>;
+</span><span id="74" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#74"> 74 </a>                }
+</span><span id="75" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#75"> 75 </a>
+</span><span id="76" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#76"> 76 </a>                <span class="php-comment">// Create the media frame.</span>
+</span><span id="77" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#77"> 77 </a>                product_gallery_frame = wp.media.frames.downloadable_file = wp.media({
+</span><span id="78" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#78"> 78 </a>                    <span class="php-comment">// Set the title of the modal.</span>
+</span><span id="79" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#79"> 79 </a>                    title: <span class="php-quote">'&lt;?php _e( '</span>Add Images to Product Gallery<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>,
+</span><span id="80" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#80"> 80 </a>                    button: {
+</span><span id="81" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#81"> 81 </a>                        text: <span class="php-quote">'&lt;?php _e( '</span>Add to gallery<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>,
+</span><span id="82" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#82"> 82 </a>                    },
+</span><span id="83" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#83"> 83 </a>                    multiple: <span class="php-keyword1">true</span>
+</span><span id="84" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#84"> 84 </a>                });
+</span><span id="85" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#85"> 85 </a>
+</span><span id="86" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#86"> 86 </a>                <span class="php-comment">// When an image is selected, run a callback.</span>
+</span><span id="87" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#87"> 87 </a>                product_gallery_frame.on( <span class="php-quote">'select'</span>, <span class="php-keyword1">function</span>() {
+</span><span id="88" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#88"> 88 </a>
+</span><span id="89" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#89"> 89 </a>                    <span class="php-keyword1">var</span> selection = product_gallery_frame.state().get(<span class="php-quote">'selection'</span>);
+</span><span id="90" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#90"> 90 </a>
+</span><span id="91" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#91"> 91 </a>                    selection.map( <span class="php-keyword1">function</span>( attachment ) {
+</span><span id="92" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#92"> 92 </a>
+</span><span id="93" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#93"> 93 </a>                        attachment = attachment.toJSON();
+</span><span id="94" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#94"> 94 </a>
+</span><span id="95" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#95"> 95 </a>                        <span class="php-keyword1">if</span> ( attachment.id ) {
+</span><span id="96" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#96"> 96 </a>                            attachment_ids = attachment_ids ? attachment_ids + <span class="php-quote">&quot;,&quot;</span> + attachment.id : attachment.id;
+</span><span id="97" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#97"> 97 </a>
+</span><span id="98" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#98"> 98 </a>                            <span class="php-var">$product_images</span>.append(<span class="php-quote">'\
+</span></span><span id="99" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#99"> 99 </a><span class="php-quote">                                &lt;li class=&quot;image&quot; data-attachment_id=&quot;'</span> + attachment.id + <span class="php-quote">'&quot;&gt;\
+</span></span><span id="100" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#100">100 </a><span class="php-quote">                                    &lt;img src=&quot;'</span> + attachment.url + <span class="php-quote">'&quot; /&gt;\
+</span></span><span id="101" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#101">101 </a><span class="php-quote">                                    &lt;ul class=&quot;actions&quot;&gt;\
+</span></span><span id="102" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#102">102 </a><span class="php-quote">                                        &lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;delete&quot; title=&quot;&lt;?php _e( '</span><span class="php-keyword2">Delete</span> image<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;&quot;&gt;&lt;?php _e( '</span><span class="php-keyword2">Delete</span><span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;&lt;/a&gt;&lt;/li&gt;\
+</span></span><span id="103" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#103">103 </a><span class="php-quote">                                    &lt;/ul&gt;\
+</span></span><span id="104" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#104">104 </a><span class="php-quote">                                &lt;/li&gt;'</span>);
+</span><span id="105" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#105">105 </a>                        }
+</span><span id="106" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#106">106 </a>
+</span><span id="107" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#107">107 </a>                    } );
+</span><span id="108" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#108">108 </a>
+</span><span id="109" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#109">109 </a>                    <span class="php-var">$image_gallery_ids</span>.val( attachment_ids );
+</span><span id="110" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#110">110 </a>                });
+</span><span id="111" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#111">111 </a>
+</span><span id="112" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#112">112 </a>                <span class="php-comment">// Finally, open the modal.</span>
+</span><span id="113" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#113">113 </a>                product_gallery_frame.open();
+</span><span id="114" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#114">114 </a>            });
+</span><span id="115" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#115">115 </a>
+</span><span id="116" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#116">116 </a>            <span class="php-comment">// Image ordering</span>
+</span><span id="117" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#117">117 </a>            <span class="php-var">$product_images</span>.sortable({
+</span><span id="118" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#118">118 </a>                items: <span class="php-quote">'li.image'</span>,
+</span><span id="119" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#119">119 </a>                cursor: <span class="php-quote">'move'</span>,
+</span><span id="120" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#120">120 </a>                scrollSensitivity:<span class="php-num">40</span>,
+</span><span id="121" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#121">121 </a>                forcePlaceholderSize: <span class="php-keyword1">true</span>,
+</span><span id="122" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#122">122 </a>                forceHelperSize: <span class="php-keyword1">false</span>,
+</span><span id="123" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#123">123 </a>                helper: <span class="php-quote">'clone'</span>,
+</span><span id="124" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#124">124 </a>                opacity: <span class="php-num">0.65</span>,
+</span><span id="125" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#125">125 </a>                placeholder: <span class="php-quote">'wc-metabox-sortable-placeholder'</span>,
+</span><span id="126" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#126">126 </a>                start:<span class="php-keyword1">function</span>(event,ui){
+</span><span id="127" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#127">127 </a>                    ui.item.css(<span class="php-quote">'background-color'</span>,<span class="php-quote">'#f6f6f6'</span>);
+</span><span id="128" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#128">128 </a>                },
+</span><span id="129" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#129">129 </a>                stop:<span class="php-keyword1">function</span>(event,ui){
+</span><span id="130" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#130">130 </a>                    ui.item.removeAttr(<span class="php-quote">'style'</span>);
+</span><span id="131" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#131">131 </a>                },
+</span><span id="132" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#132">132 </a>                update: <span class="php-keyword1">function</span>(event, ui) {
+</span><span id="133" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#133">133 </a>                    <span class="php-keyword1">var</span> attachment_ids = <span class="php-quote">''</span>;
+</span><span id="134" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#134">134 </a>
+</span><span id="135" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#135">135 </a>                    <span class="php-var">$</span>(<span class="php-quote">'#product_images_container ul li.image'</span>).css(<span class="php-quote">'cursor'</span>,<span class="php-quote">'default'</span>).<span class="php-keyword2">each</span>(<span class="php-keyword1">function</span>() {
+</span><span id="136" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#136">136 </a>                        <span class="php-keyword1">var</span> attachment_id = jQuery(this).attr( <span class="php-quote">'data-attachment_id'</span> );
+</span><span id="137" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#137">137 </a>                        attachment_ids = attachment_ids + attachment_id + <span class="php-quote">','</span>;
+</span><span id="138" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#138">138 </a>                    });
+</span><span id="139" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#139">139 </a>
+</span><span id="140" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#140">140 </a>                    <span class="php-var">$image_gallery_ids</span>.val( attachment_ids );
+</span><span id="141" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#141">141 </a>                }
+</span><span id="142" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#142">142 </a>            });
+</span><span id="143" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#143">143 </a>
+</span><span id="144" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#144">144 </a>            <span class="php-comment">// Remove images</span>
+</span><span id="145" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#145">145 </a>            <span class="php-var">$</span>(<span class="php-quote">'#product_images_container'</span>).on( <span class="php-quote">'click'</span>, <span class="php-quote">'a.delete'</span>, <span class="php-keyword1">function</span>() {
+</span><span id="146" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#146">146 </a>
+</span><span id="147" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#147">147 </a>                <span class="php-var">$</span>(this).closest(<span class="php-quote">'li.image'</span>).remove();
+</span><span id="148" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#148">148 </a>
+</span><span id="149" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#149">149 </a>                <span class="php-keyword1">var</span> attachment_ids = <span class="php-quote">''</span>;
+</span><span id="150" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#150">150 </a>
+</span><span id="151" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#151">151 </a>                <span class="php-var">$</span>(<span class="php-quote">'#product_images_container ul li.image'</span>).css(<span class="php-quote">'cursor'</span>,<span class="php-quote">'default'</span>).<span class="php-keyword2">each</span>(<span class="php-keyword1">function</span>() {
+</span><span id="152" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#152">152 </a>                    <span class="php-keyword1">var</span> attachment_id = jQuery(this).attr( <span class="php-quote">'data-attachment_id'</span> );
+</span><span id="153" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#153">153 </a>                    attachment_ids = attachment_ids + attachment_id + <span class="php-quote">','</span>;
+</span><span id="154" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#154">154 </a>                });
+</span><span id="155" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#155">155 </a>
+</span><span id="156" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#156">156 </a>                <span class="php-var">$image_gallery_ids</span>.val( attachment_ids );
+</span><span id="157" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#157">157 </a>
+</span><span id="158" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#158">158 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="159" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#159">159 </a>            } );
+</span><span id="160" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#160">160 </a>
+</span><span id="161" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#161">161 </a>        });
+</span><span id="162" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#162">162 </a>    &lt;/script&gt;
+</span><span id="163" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#163">163 </a>    <span class="xlang">&lt;?php</span>
+</span><span id="164" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#164">164 </a>}
+</span><span id="165" class="l"><a class="l" href="source-function-woocommerce_product_images_box.html#165">165 </a></span></code></pre>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

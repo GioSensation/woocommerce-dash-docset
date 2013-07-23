@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>File admin/settings/settings-tax-rates.php | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Admin.Settings.html" title="Summary of WooCommerce\Admin\Settings"><span>Package</span></a>
+						</li>
+						<li>
+							<a href="function-woocommerce_tax_rates_setting_save.html" title="Summary of woocommerce_tax_rates_setting_save"><span>Function</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-woocommerce_admin_fields.html">woocommerce_admin_fields</a></li>
+				<li><a href="function-woocommerce_frontend_css_color_picker.html">woocommerce_frontend_css_color_picker</a></li>
+				<li><a href="function-woocommerce_frontend_styles_setting.html">woocommerce_frontend_styles_setting</a></li>
+				<li><a href="function-woocommerce_payment_gateways_setting.html">woocommerce_payment_gateways_setting</a></li>
+				<li><a href="function-woocommerce_settings.html">woocommerce_settings</a></li>
+				<li><a href="function-woocommerce_settings_get_option.html">woocommerce_settings_get_option</a></li>
+				<li><a href="function-woocommerce_shipping_methods_setting.html">woocommerce_shipping_methods_setting</a></li>
+				<li><a href="function-woocommerce_tax_rates_setting.html">woocommerce_tax_rates_setting</a></li>
+				<li class="active"><a href="function-woocommerce_tax_rates_setting_save.html">woocommerce_tax_rates_setting_save</a></li>
+				<li><a href="function-woocommerce_update_options.html">woocommerce_update_options</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#1">  1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#2">  2 </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#3">  3 </a><span class="php-comment"> * Additional tax settings
+</span></span><span id="4" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#4">  4 </a><span class="php-comment"> *
+</span></span><span id="5" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#5">  5 </a><span class="php-comment"> * @author      WooThemes
+</span></span><span id="6" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#6">  6 </a><span class="php-comment"> * @category    Admin
+</span></span><span id="7" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#7">  7 </a><span class="php-comment"> * @package     WooCommerce/Admin/Settings
+</span></span><span id="8" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#8">  8 </a><span class="php-comment"> * @version     2.0.0
+</span></span><span id="9" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#9">  9 </a><span class="php-comment"> */</span>
+</span><span id="10" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#10"> 10 </a>
+</span><span id="11" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#11"> 11 </a><span class="php-keyword1">if</span> ( ! <span class="php-keyword2">defined</span>( <span class="php-quote">'ABSPATH'</span> ) ) <span class="php-keyword1">exit</span>; <span class="php-comment">// Exit if accessed directly</span>
+</span><span id="12" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#12"> 12 </a>
+</span><span id="13" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#13"> 13 </a><span class="php-comment">/**
+</span></span><span id="14" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#14"> 14 </a><span class="php-comment"> * Output tax rate settings.
+</span></span><span id="15" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#15"> 15 </a><span class="php-comment"> *
+</span></span><span id="16" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#16"> 16 </a><span class="php-comment"> * @access public
+</span></span><span id="17" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#17"> 17 </a><span class="php-comment"> * @return void
+</span></span><span id="18" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#18"> 18 </a><span class="php-comment"> */</span>
+</span><span id="19" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#19"> 19 </a><span class="php-keyword1">function</span> <a id="_woocommerce_tax_rates_setting" href="source-function-woocommerce_tax_rates_setting_save.html#_woocommerce_tax_rates_setting">woocommerce_tax_rates_setting</a>() {
+</span><span id="20" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#20"> 20 </a>    <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>, <span class="php-var">$current_section</span>, <span class="php-var">$wpdb</span>;
+</span><span id="21" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#21"> 21 </a>
+</span><span id="22" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#22"> 22 </a>    <span class="php-var">$tax_classes</span>   = <span class="php-keyword2">array_filter</span>( <span class="php-keyword2">array_map</span>( <span class="php-quote">'trim'</span>, <span class="php-keyword2">explode</span>( <span class="php-quote">&quot;\n&quot;</span>, get_option(<span class="php-quote">'woocommerce_tax_classes'</span> ) ) ) );
+</span><span id="23" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#23"> 23 </a>    <span class="php-var">$current_class</span> = <span class="php-quote">''</span>;
+</span><span id="24" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#24"> 24 </a>
+</span><span id="25" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#25"> 25 </a>    <span class="php-keyword1">foreach</span>( <span class="php-var">$tax_classes</span> <span class="php-keyword1">as</span> <span class="php-var">$class</span> )
+</span><span id="26" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#26"> 26 </a>        <span class="php-keyword1">if</span> ( sanitize_title( <span class="php-var">$class</span> ) == <span class="php-var">$current_section</span> )
+</span><span id="27" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#27"> 27 </a>            <span class="php-var">$current_class</span> = <span class="php-var">$class</span>;
+</span><span id="28" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#28"> 28 </a>    <span class="xlang">?&gt;</span>
+</span><span id="29" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#29"> 29 </a>    &lt;h3&gt;<span class="xlang">&lt;?php</span> <span class="php-keyword2">printf</span>( __( <span class="php-quote">'Tax Rates for the &quot;%s&quot; Class'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-var">$current_class</span> ? esc_html( <span class="php-var">$current_class</span> ) : __( <span class="php-quote">'Standard'</span>, <span class="php-quote">'woocommerce'</span> ) ); <span class="xlang">?&gt;</span>&lt;/h3&gt;
+</span><span id="30" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#30"> 30 </a>    &lt;p&gt;<span class="xlang">&lt;?php</span> <span class="php-keyword2">printf</span>( __( <span class="php-quote">'Define tax rates for countries and states below. &lt;a href=&quot;%s&quot;&gt;See here&lt;/a&gt; for available alpha-2 country codes.'</span>, <span class="php-quote">'woocommerce'</span> ), <span class="php-quote">'http://en.wikipedia.org/wiki/ISO_3166-1#Current_codes'</span> ); <span class="xlang">?&gt;</span>&lt;/p&gt;
+</span><span id="31" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#31"> 31 </a>    &lt;table <span class="php-keyword1">class</span>=<span class="php-quote">&quot;wc_tax_rates widefat&quot;</span>&gt;
+</span><span id="32" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#32"> 32 </a>        &lt;thead&gt;
+</span><span id="33" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#33"> 33 </a>            &lt;tr&gt;
+</span><span id="34" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#34"> 34 </a>                &lt;th <span class="php-keyword1">class</span>=<span class="php-quote">&quot;sort&quot;</span>&gt;&amp;nbsp;&lt;/th&gt;
+</span><span id="35" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#35"> 35 </a>
+</span><span id="36" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#36"> 36 </a>                &lt;th width=<span class="php-quote">&quot;8%&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Country&amp;nbsp;Code'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&amp;nbsp;&lt;span <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tips&quot;</span> data-tip=<span class="php-quote">&quot;&lt;?php _e('A 2 digit country code, e.g. US. Leave blank to apply to all.', 'woocommerce'); ?&gt;&quot;</span>&gt;[?]&lt;/span&gt;&lt;/th&gt;
+</span><span id="37" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#37"> 37 </a>
+</span><span id="38" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#38"> 38 </a>                &lt;th width=<span class="php-quote">&quot;8%&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'State&amp;nbsp;Code'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&amp;nbsp;&lt;span <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tips&quot;</span> data-tip=<span class="php-quote">&quot;&lt;?php _e('A 2 digit state code, e.g. AL. Leave blank to apply to all.', 'woocommerce'); ?&gt;&quot;</span>&gt;[?]&lt;/span&gt;&lt;/th&gt;
+</span><span id="39" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#39"> 39 </a>
+</span><span id="40" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#40"> 40 </a>                &lt;th&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'ZIP/Postcode'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&amp;nbsp;&lt;span <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tips&quot;</span> data-tip=<span class="php-quote">&quot;&lt;?php _e('Postcode for this rule. Semi-colon (;) separate multiple values. Leave blank to apply to all areas. Wildcards (*) can be used. Ranges for numeric postcodes (e.g. 12345-12350) will be expanded into individual postcodes.', 'woocommerce'); ?&gt;&quot;</span>&gt;[?]&lt;/span&gt;&lt;/th&gt;
+</span><span id="41" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#41"> 41 </a>
+</span><span id="42" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#42"> 42 </a>                &lt;th&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'City'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&amp;nbsp;&lt;span <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tips&quot;</span> data-tip=<span class="php-quote">&quot;&lt;?php _e('Cities for this rule. Semi-colon (;) separate multiple values. Leave blank to apply to all cities.', 'woocommerce'); ?&gt;&quot;</span>&gt;[?]&lt;/span&gt;&lt;/th&gt;
+</span><span id="43" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#43"> 43 </a>
+</span><span id="44" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#44"> 44 </a>                &lt;th width=<span class="php-quote">&quot;8%&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Rate&amp;nbsp;%'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&amp;nbsp;&lt;span <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tips&quot;</span> data-tip=<span class="php-quote">&quot;&lt;?php _e( 'Enter a tax rate (percentage) to 4 decimal places.', 'woocommerce' ); ?&gt;&quot;</span>&gt;[?]&lt;/span&gt;&lt;/th&gt;
+</span><span id="45" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#45"> 45 </a>
+</span><span id="46" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#46"> 46 </a>                &lt;th width=<span class="php-quote">&quot;8%&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Tax&amp;nbsp;Name'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&amp;nbsp;&lt;span <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tips&quot;</span> data-tip=<span class="php-quote">&quot;&lt;?php _e('Enter a name for this tax rate.', 'woocommerce'); ?&gt;&quot;</span>&gt;[?]&lt;/span&gt;&lt;/th&gt;
+</span><span id="47" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#47"> 47 </a>
+</span><span id="48" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#48"> 48 </a>                &lt;th width=<span class="php-quote">&quot;8%&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Priority'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&amp;nbsp;&lt;span <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tips&quot;</span> data-tip=<span class="php-quote">&quot;&lt;?php _e('Choose a priority for this tax rate. Only 1 matching rate per priority will be used. To define multiple tax rates for a single area you need to specify a different priority per rate.', 'woocommerce'); ?&gt;&quot;</span>&gt;[?]&lt;/span&gt;&lt;/th&gt;
+</span><span id="49" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#49"> 49 </a>
+</span><span id="50" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#50"> 50 </a>                &lt;th width=<span class="php-quote">&quot;8%&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Compound'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&amp;nbsp;&lt;span <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tips&quot;</span> data-tip=<span class="php-quote">&quot;&lt;?php _e('Choose whether or not this is a compound rate. Compound tax rates are applied on top of other tax rates.', 'woocommerce'); ?&gt;&quot;</span>&gt;[?]&lt;/span&gt;&lt;/th&gt;
+</span><span id="51" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#51"> 51 </a>
+</span><span id="52" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#52"> 52 </a>                &lt;th width=<span class="php-quote">&quot;8%&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Shipping'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&amp;nbsp;&lt;span <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tips&quot;</span> data-tip=<span class="php-quote">&quot;&lt;?php _e('Choose whether or not this tax rate also gets applied to shipping.', 'woocommerce'); ?&gt;&quot;</span>&gt;[?]&lt;/span&gt;&lt;/th&gt;
+</span><span id="53" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#53"> 53 </a>
+</span><span id="54" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#54"> 54 </a>            &lt;/tr&gt;
+</span><span id="55" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#55"> 55 </a>        &lt;/thead&gt;
+</span><span id="56" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#56"> 56 </a>        &lt;tfoot&gt;
+</span><span id="57" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#57"> 57 </a>            &lt;tr&gt;
+</span><span id="58" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#58"> 58 </a>                &lt;th colspan=<span class="php-quote">&quot;10&quot;</span>&gt;
+</span><span id="59" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#59"> 59 </a>                    &lt;a href=<span class="php-quote">&quot;#&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;button plus insert&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Insert row'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/a&gt;
+</span><span id="60" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#60"> 60 </a>                    &lt;a href=<span class="php-quote">&quot;#&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;button minus remove&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Remove selected row(s)'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/a&gt;
+</span><span id="61" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#61"> 61 </a>
+</span><span id="62" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#62"> 62 </a>                    &lt;a href=<span class="php-quote">&quot;#&quot;</span> download=<span class="php-quote">&quot;tax_rates.csv&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;button export&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Export CSV'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/a&gt;
+</span><span id="63" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#63"> 63 </a>                    &lt;a href=<span class="php-quote">&quot;&lt;?php echo admin_url( 'admin.php?import=woocommerce_tax_rate_csv' ); ?&gt;&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;button import&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Import CSV'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/a&gt;
+</span><span id="64" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#64"> 64 </a>                &lt;/th&gt;
+</span><span id="65" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#65"> 65 </a>            &lt;/tr&gt;
+</span><span id="66" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#66"> 66 </a>        &lt;/tfoot&gt;
+</span><span id="67" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#67"> 67 </a>        &lt;tbody id=<span class="php-quote">&quot;rates&quot;</span>&gt;
+</span><span id="68" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#68"> 68 </a>            <span class="xlang">&lt;?php</span>
+</span><span id="69" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#69"> 69 </a>                <span class="php-var">$rates</span> = <span class="php-var">$wpdb</span>-&gt;get_results( <span class="php-var">$wpdb</span>-&gt;prepare(
+</span><span id="70" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#70"> 70 </a>                    <span class="php-quote">&quot;SELECT * FROM </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_tax_rates
+</span></span><span id="71" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#71"> 71 </a><span class="php-quote">                    WHERE tax_rate_class = %s
+</span></span><span id="72" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#72"> 72 </a><span class="php-quote">                    ORDER BY tax_rate_order
+</span></span><span id="73" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#73"> 73 </a><span class="php-quote">                    &quot;</span> , sanitize_title( <span class="php-var">$current_class</span> ) ) );
+</span><span id="74" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#74"> 74 </a>
+</span><span id="75" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#75"> 75 </a>                <span class="php-keyword1">foreach</span> ( <span class="php-var">$rates</span> <span class="php-keyword1">as</span> <span class="php-var">$rate</span> ) {
+</span><span id="76" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#76"> 76 </a>                    <span class="xlang">?&gt;</span>
+</span><span id="77" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#77"> 77 </a>                    &lt;tr&gt;
+</span><span id="78" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#78"> 78 </a>                        &lt;td <span class="php-keyword1">class</span>=<span class="php-quote">&quot;sort&quot;</span>&gt;&lt;input type=<span class="php-quote">&quot;hidden&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;remove_tax_rate&quot;</span> name=<span class="php-quote">&quot;remove_tax_rate[&lt;?php echo </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ?&gt;]&quot;</span> value=<span class="php-quote">&quot;0&quot;</span> /&gt;&lt;/td&gt;
+</span><span id="79" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#79"> 79 </a>
+</span><span id="80" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#80"> 80 </a>                        &lt;td <span class="php-keyword1">class</span>=<span class="php-quote">&quot;country&quot;</span> width=<span class="php-quote">&quot;8%&quot;</span>&gt;
+</span><span id="81" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#81"> 81 </a>                            &lt;input type=<span class="php-quote">&quot;text&quot;</span> value=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_country ) ?&gt;&quot;</span> placeholder=<span class="php-quote">&quot;*&quot;</span> name=<span class="php-quote">&quot;tax_rate_country[&lt;?php echo </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ?&gt;]&quot;</span> /&gt;
+</span><span id="82" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#82"> 82 </a>                        &lt;/td&gt;
+</span><span id="83" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#83"> 83 </a>
+</span><span id="84" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#84"> 84 </a>                        &lt;td <span class="php-keyword1">class</span>=<span class="php-quote">&quot;state&quot;</span> width=<span class="php-quote">&quot;8%&quot;</span>&gt;
+</span><span id="85" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#85"> 85 </a>                            &lt;input type=<span class="php-quote">&quot;text&quot;</span> value=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_state ) ?&gt;&quot;</span> placeholder=<span class="php-quote">&quot;*&quot;</span> name=<span class="php-quote">&quot;tax_rate_state[&lt;?php echo </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ?&gt;]&quot;</span> /&gt;
+</span><span id="86" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#86"> 86 </a>                        &lt;/td&gt;
+</span><span id="87" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#87"> 87 </a>
+</span><span id="88" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#88"> 88 </a>                        &lt;td <span class="php-keyword1">class</span>=<span class="php-quote">&quot;postcode&quot;</span>&gt;
+</span><span id="89" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#89"> 89 </a>                            &lt;input type=<span class="php-quote">&quot;text&quot;</span> value=<span class="php-quote">&quot;&lt;?php
+</span></span><span id="90" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#90"> 90 </a><span class="php-quote">                                </span><span class="php-var">$locations</span><span class="php-quote"> = </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;get_col( </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;prepare( &quot;</span>SELECT location_code FROM {<span class="php-var">$wpdb</span>-&gt;prefix}woocommerce_tax_rate_locations WHERE location_type=<span class="php-quote">'postcode'</span> <span class="php-keyword1">AND</span> tax_rate_id = %d ORDER BY location_code<span class="php-quote">&quot;, </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ) );
+</span></span><span id="91" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#91"> 91 </a><span class="php-quote">
+</span></span><span id="92" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#92"> 92 </a><span class="php-quote">                                echo esc_attr( implode( '; ', </span><span class="php-var">$locations</span><span class="php-quote"> ) );
+</span></span><span id="93" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#93"> 93 </a><span class="php-quote">                            ?&gt;&quot;</span> placeholder=<span class="php-quote">&quot;*&quot;</span> data-name=<span class="php-quote">&quot;tax_rate_postcode[&lt;?php echo </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ?&gt;]&quot;</span> /&gt;
+</span><span id="94" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#94"> 94 </a>                        &lt;/td&gt;
+</span><span id="95" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#95"> 95 </a>
+</span><span id="96" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#96"> 96 </a>                        &lt;td <span class="php-keyword1">class</span>=<span class="php-quote">&quot;city&quot;</span>&gt;
+</span><span id="97" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#97"> 97 </a>                            &lt;input type=<span class="php-quote">&quot;text&quot;</span> value=<span class="php-quote">&quot;&lt;?php
+</span></span><span id="98" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#98"> 98 </a><span class="php-quote">                                </span><span class="php-var">$locations</span><span class="php-quote"> = </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;get_col( </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;prepare( &quot;</span>SELECT location_code FROM {<span class="php-var">$wpdb</span>-&gt;prefix}woocommerce_tax_rate_locations WHERE location_type=<span class="php-quote">'city'</span> <span class="php-keyword1">AND</span> tax_rate_id = %d ORDER BY location_code<span class="php-quote">&quot;, </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ) );
+</span></span><span id="99" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#99"> 99 </a><span class="php-quote">                                echo esc_attr( implode( '; ', </span><span class="php-var">$locations</span><span class="php-quote"> ) );
+</span></span><span id="100" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#100">100 </a><span class="php-quote">                            ?&gt;&quot;</span> placeholder=<span class="php-quote">&quot;*&quot;</span> data-name=<span class="php-quote">&quot;tax_rate_city[&lt;?php echo </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ?&gt;]&quot;</span> /&gt;
+</span><span id="101" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#101">101 </a>                        &lt;/td&gt;
+</span><span id="102" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#102">102 </a>
+</span><span id="103" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#103">103 </a>                        &lt;td <span class="php-keyword1">class</span>=<span class="php-quote">&quot;rate&quot;</span> width=<span class="php-quote">&quot;8%&quot;</span>&gt;
+</span><span id="104" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#104">104 </a>                            &lt;input type=<span class="php-quote">&quot;number&quot;</span> step=<span class="php-quote">&quot;any&quot;</span> <span class="php-keyword2">min</span>=<span class="php-quote">&quot;0&quot;</span> value=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate ) ?&gt;&quot;</span> placeholder=<span class="php-quote">&quot;0&quot;</span> name=<span class="php-quote">&quot;tax_rate[&lt;?php echo </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ?&gt;]&quot;</span> /&gt;
+</span><span id="105" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#105">105 </a>                        &lt;/td&gt;
+</span><span id="106" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#106">106 </a>
+</span><span id="107" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#107">107 </a>                        &lt;td <span class="php-keyword1">class</span>=<span class="php-quote">&quot;name&quot;</span> width=<span class="php-quote">&quot;8%&quot;</span>&gt;
+</span><span id="108" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#108">108 </a>                            &lt;input type=<span class="php-quote">&quot;text&quot;</span> value=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_name ) ?&gt;&quot;</span> name=<span class="php-quote">&quot;tax_rate_name[&lt;?php echo </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ?&gt;]&quot;</span> /&gt;
+</span><span id="109" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#109">109 </a>                        &lt;/td&gt;
+</span><span id="110" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#110">110 </a>
+</span><span id="111" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#111">111 </a>                        &lt;td <span class="php-keyword1">class</span>=<span class="php-quote">&quot;priority&quot;</span> width=<span class="php-quote">&quot;8%&quot;</span>&gt;
+</span><span id="112" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#112">112 </a>                            &lt;input type=<span class="php-quote">&quot;number&quot;</span> step=<span class="php-quote">&quot;1&quot;</span> <span class="php-keyword2">min</span>=<span class="php-quote">&quot;1&quot;</span> value=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_priority ) ?&gt;&quot;</span> name=<span class="php-quote">&quot;tax_rate_priority[&lt;?php echo </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ?&gt;]&quot;</span> /&gt;
+</span><span id="113" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#113">113 </a>                        &lt;/td&gt;
+</span><span id="114" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#114">114 </a>
+</span><span id="115" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#115">115 </a>                        &lt;td <span class="php-keyword1">class</span>=<span class="php-quote">&quot;compound&quot;</span> width=<span class="php-quote">&quot;8%&quot;</span>&gt;
+</span><span id="116" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#116">116 </a>                            &lt;input type=<span class="php-quote">&quot;checkbox&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;checkbox&quot;</span> name=<span class="php-quote">&quot;tax_rate_compound[&lt;?php echo </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ?&gt;]&quot;</span> <span class="xlang">&lt;?php</span> checked( <span class="php-var">$rate</span>-&gt;tax_rate_compound, <span class="php-quote">'1'</span> ); <span class="xlang">?&gt;</span> /&gt;
+</span><span id="117" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#117">117 </a>                        &lt;/td&gt;
+</span><span id="118" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#118">118 </a>
+</span><span id="119" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#119">119 </a>                        &lt;td <span class="php-keyword1">class</span>=<span class="php-quote">&quot;apply_to_shipping&quot;</span> width=<span class="php-quote">&quot;8%&quot;</span>&gt;
+</span><span id="120" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#120">120 </a>                            &lt;input type=<span class="php-quote">&quot;checkbox&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;checkbox&quot;</span> name=<span class="php-quote">&quot;tax_rate_shipping[&lt;?php echo </span><span class="php-var">$rate</span><span class="php-quote">-&gt;tax_rate_id ?&gt;]&quot;</span> <span class="xlang">&lt;?php</span> checked(<span class="php-var">$rate</span>-&gt;tax_rate_shipping, <span class="php-quote">'1'</span> ); <span class="xlang">?&gt;</span> /&gt;
+</span><span id="121" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#121">121 </a>                        &lt;/td&gt;
+</span><span id="122" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#122">122 </a>                    &lt;/tr&gt;
+</span><span id="123" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#123">123 </a>                    <span class="xlang">&lt;?php</span>
+</span><span id="124" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#124">124 </a>                }
+</span><span id="125" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#125">125 </a>            <span class="xlang">?&gt;</span>
+</span><span id="126" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#126">126 </a>        &lt;/tbody&gt;
+</span><span id="127" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#127">127 </a>    &lt;/table&gt;
+</span><span id="128" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#128">128 </a>    &lt;script type=<span class="php-quote">&quot;text/javascript&quot;</span>&gt;
+</span><span id="129" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#129">129 </a>        jQuery( <span class="php-keyword1">function</span>() {
+</span><span id="130" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#130">130 </a>            jQuery(<span class="php-quote">'.wc_tax_rates tbody'</span>).sortable({
+</span><span id="131" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#131">131 </a>                items:<span class="php-quote">'tr'</span>,
+</span><span id="132" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#132">132 </a>                cursor:<span class="php-quote">'move'</span>,
+</span><span id="133" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#133">133 </a>                axis:<span class="php-quote">'y'</span>,
+</span><span id="134" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#134">134 </a>                scrollSensitivity:<span class="php-num">40</span>,
+</span><span id="135" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#135">135 </a>                forcePlaceholderSize: <span class="php-keyword1">true</span>,
+</span><span id="136" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#136">136 </a>                helper: <span class="php-quote">'clone'</span>,
+</span><span id="137" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#137">137 </a>                opacity: <span class="php-num">0.65</span>,
+</span><span id="138" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#138">138 </a>                placeholder: <span class="php-quote">'wc-metabox-sortable-placeholder'</span>,
+</span><span id="139" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#139">139 </a>                start:<span class="php-keyword1">function</span>(event,ui){
+</span><span id="140" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#140">140 </a>                    ui.item.css(<span class="php-quote">'background-color'</span>,<span class="php-quote">'#f6f6f6'</span>);
+</span><span id="141" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#141">141 </a>                },
+</span><span id="142" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#142">142 </a>                stop:<span class="php-keyword1">function</span>(event,ui){
+</span><span id="143" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#143">143 </a>                    ui.item.removeAttr(<span class="php-quote">'style'</span>);
+</span><span id="144" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#144">144 </a>                }
+</span><span id="145" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#145">145 </a>            });
+</span><span id="146" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#146">146 </a>
+</span><span id="147" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#147">147 </a>            jQuery(<span class="php-quote">'.wc_tax_rates .remove'</span>).click(<span class="php-keyword1">function</span>() {
+</span><span id="148" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#148">148 </a>                <span class="php-keyword1">var</span> <span class="php-var"><a id="$tbody" href="source-function-woocommerce_tax_rates_setting_save.html#$tbody">$tbody</a></span> = jQuery(<span class="php-quote">'.wc_tax_rates'</span>).find(<span class="php-quote">'tbody'</span>);
+</span><span id="149" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#149">149 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$tbody</span>.find(<span class="php-quote">'tr.current'</span>).size() &gt; <span class="php-num">0</span> ) {
+</span><span id="150" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#150">150 </a>                    <span class="php-var">$current</span> = <span class="php-var">$tbody</span>.find(<span class="php-quote">'tr.current'</span>);
+</span><span id="151" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#151">151 </a>                    <span class="php-var">$current</span>.find(<span class="php-quote">'input'</span>).val(<span class="php-quote">''</span>);
+</span><span id="152" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#152">152 </a>                    <span class="php-var">$current</span>.find(<span class="php-quote">'input.remove_tax_rate'</span>).val(<span class="php-quote">'1'</span>);
+</span><span id="153" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#153">153 </a>
+</span><span id="154" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#154">154 </a>                    <span class="php-var">$current</span>.<span class="php-keyword2">each</span>(<span class="php-keyword1">function</span>(){
+</span><span id="155" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#155">155 </a>
+</span><span id="156" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#156">156 </a>                        <span class="php-keyword1">if</span> ( jQuery(this).is(<span class="php-quote">'.new'</span>) )
+</span><span id="157" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#157">157 </a>                            jQuery(this).remove();
+</span><span id="158" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#158">158 </a>                        <span class="php-keyword1">else</span>
+</span><span id="159" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#159">159 </a>                            jQuery(this).hide();
+</span><span id="160" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#160">160 </a>
+</span><span id="161" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#161">161 </a>                    });
+</span><span id="162" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#162">162 </a>                } <span class="php-keyword1">else</span> {
+</span><span id="163" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#163">163 </a>                    alert(<span class="php-quote">'&lt;?php _e( '</span>No row(s) selected<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>);
+</span><span id="164" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#164">164 </a>                }
+</span><span id="165" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#165">165 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="166" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#166">166 </a>            });
+</span><span id="167" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#167">167 </a>
+</span><span id="168" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#168">168 </a>            <span class="php-keyword1">var</span> controlled = <span class="php-keyword1">false</span>;
+</span><span id="169" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#169">169 </a>            <span class="php-keyword1">var</span> shifted = <span class="php-keyword1">false</span>;
+</span><span id="170" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#170">170 </a>            <span class="php-keyword1">var</span> hasFocus = <span class="php-keyword1">false</span>;
+</span><span id="171" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#171">171 </a>
+</span><span id="172" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#172">172 </a>            jQuery(document).bind(<span class="php-quote">'keyup keydown'</span>, <span class="php-keyword1">function</span>(e){ shifted = e.shiftKey; controlled = e.ctrlKey || e.metaKey } );
+</span><span id="173" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#173">173 </a>
+</span><span id="174" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#174">174 </a>            jQuery(<span class="php-quote">'#rates'</span>).on( <span class="php-quote">'focus click'</span>, <span class="php-quote">'input'</span>, <span class="php-keyword1">function</span>( e ) {
+</span><span id="175" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#175">175 </a>
+</span><span id="176" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#176">176 </a>                <span class="php-var">$this_row</span> = jQuery(this).closest(<span class="php-quote">'tr'</span>);
+</span><span id="177" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#177">177 </a>
+</span><span id="178" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#178">178 </a>                <span class="php-keyword1">if</span> ( ( e.type == <span class="php-quote">'focus'</span> &amp;&amp; hasFocus != <span class="php-var">$this_row</span>.index() ) || ( e.type == <span class="php-quote">'click'</span> &amp;&amp; jQuery(this).is(<span class="php-quote">':focus'</span>) ) ) {
+</span><span id="179" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#179">179 </a>
+</span><span id="180" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#180">180 </a>                    hasFocus = <span class="php-var">$this_row</span>.index();
+</span><span id="181" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#181">181 </a>
+</span><span id="182" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#182">182 </a>                    <span class="php-keyword1">if</span> ( ! shifted &amp;&amp; ! controlled ) {
+</span><span id="183" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#183">183 </a>                        jQuery(<span class="php-quote">'#rates tr'</span>).removeClass(<span class="php-quote">'current'</span>).removeClass(<span class="php-quote">'last_selected'</span>);
+</span><span id="184" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#184">184 </a>                        <span class="php-var">$this_row</span>.addClass(<span class="php-quote">'current'</span>).addClass(<span class="php-quote">'last_selected'</span>);
+</span><span id="185" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#185">185 </a>                    } <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> ( shifted ) {
+</span><span id="186" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#186">186 </a>                        jQuery(<span class="php-quote">'#rates tr'</span>).removeClass(<span class="php-quote">'current'</span>);
+</span><span id="187" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#187">187 </a>                        <span class="php-var">$this_row</span>.addClass(<span class="php-quote">'selected_now'</span>).addClass(<span class="php-quote">'current'</span>);
+</span><span id="188" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#188">188 </a>
+</span><span id="189" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#189">189 </a>                        <span class="php-keyword1">if</span> ( jQuery(<span class="php-quote">'#rates tr.last_selected'</span>).size() &gt; <span class="php-num">0</span> ) {
+</span><span id="190" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#190">190 </a>                            <span class="php-keyword1">if</span> ( <span class="php-var">$this_row</span>.index() &gt; jQuery(<span class="php-quote">'#rates tr.last_selected'</span>).index() ) {
+</span><span id="191" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#191">191 </a>                                jQuery(<span class="php-quote">'#rates tr'</span>).slice( jQuery(<span class="php-quote">'#rates tr.last_selected'</span>).index(), <span class="php-var">$this_row</span>.index() ).addClass(<span class="php-quote">'current'</span>);
+</span><span id="192" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#192">192 </a>                            } <span class="php-keyword1">else</span> {
+</span><span id="193" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#193">193 </a>                                jQuery(<span class="php-quote">'#rates tr'</span>).slice( <span class="php-var">$this_row</span>.index(), jQuery(<span class="php-quote">'#rates tr.last_selected'</span>).index() + <span class="php-num">1</span> ).addClass(<span class="php-quote">'current'</span>);
+</span><span id="194" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#194">194 </a>                            }
+</span><span id="195" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#195">195 </a>                        }
+</span><span id="196" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#196">196 </a>
+</span><span id="197" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#197">197 </a>                        jQuery(<span class="php-quote">'#rates tr'</span>).removeClass(<span class="php-quote">'last_selected'</span>);
+</span><span id="198" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#198">198 </a>                        <span class="php-var">$this_row</span>.addClass(<span class="php-quote">'last_selected'</span>);
+</span><span id="199" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#199">199 </a>                    } <span class="php-keyword1">else</span> {
+</span><span id="200" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#200">200 </a>                        jQuery(<span class="php-quote">'#rates tr'</span>).removeClass(<span class="php-quote">'last_selected'</span>);
+</span><span id="201" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#201">201 </a>                        <span class="php-keyword1">if</span> ( controlled &amp;&amp; jQuery(this).closest(<span class="php-quote">'tr'</span>).is(<span class="php-quote">'.current'</span>) ) {
+</span><span id="202" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#202">202 </a>                            <span class="php-var">$this_row</span>.removeClass(<span class="php-quote">'current'</span>);
+</span><span id="203" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#203">203 </a>                        } <span class="php-keyword1">else</span> {
+</span><span id="204" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#204">204 </a>                            <span class="php-var">$this_row</span>.addClass(<span class="php-quote">'current'</span>).addClass(<span class="php-quote">'last_selected'</span>);
+</span><span id="205" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#205">205 </a>                        }
+</span><span id="206" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#206">206 </a>                    }
+</span><span id="207" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#207">207 </a>
+</span><span id="208" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#208">208 </a>                    jQuery(<span class="php-quote">'#rates tr'</span>).removeClass(<span class="php-quote">'selected_now'</span>);
+</span><span id="209" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#209">209 </a>
+</span><span id="210" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#210">210 </a>                }
+</span><span id="211" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#211">211 </a>            }).on( <span class="php-quote">'blur'</span>, <span class="php-quote">'input'</span>, <span class="php-keyword1">function</span>( e ) {
+</span><span id="212" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#212">212 </a>                hasFocus = <span class="php-keyword1">false</span>;
+</span><span id="213" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#213">213 </a>            });
+</span><span id="214" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#214">214 </a>
+</span><span id="215" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#215">215 </a>            jQuery(<span class="php-quote">'.wc_tax_rates .export'</span>).click(<span class="php-keyword1">function</span>() {
+</span><span id="216" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#216">216 </a>
+</span><span id="217" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#217">217 </a>                <span class="php-keyword1">var</span> csv_data = <span class="php-quote">&quot;data:application/csv;charset=utf-8,&lt;?php _e( 'Country Code', 'woocommerce' ); ?&gt;,&lt;?php _e( 'State Code', 'woocommerce' ); ?&gt;,&lt;?php _e( 'ZIP/Postcode', 'woocommerce' ); ?&gt;,&lt;?php _e( 'City', 'woocommerce' ); ?&gt;,&lt;?php _e( 'Rate %', 'woocommerce' ); ?&gt;,&lt;?php _e( 'Tax Name', 'woocommerce' ); ?&gt;,&lt;?php _e( 'Priority', 'woocommerce' ); ?&gt;,&lt;?php _e( 'Compound', 'woocommerce' ); ?&gt;,&lt;?php _e( 'Shipping', 'woocommerce' ); ?&gt;,&lt;?php _e( 'Tax Class', 'woocommerce' ); ?&gt;\n&quot;</span>;
+</span><span id="218" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#218">218 </a>
+</span><span id="219" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#219">219 </a>                jQuery(<span class="php-quote">'#rates tr:visible'</span>).<span class="php-keyword2">each</span>(<span class="php-keyword1">function</span>() {
+</span><span id="220" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#220">220 </a>                    <span class="php-keyword1">var</span> row = <span class="php-quote">''</span>;
+</span><span id="221" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#221">221 </a>                    jQuery(this).find(<span class="php-quote">'td:not(.sort) input'</span>).<span class="php-keyword2">each</span>(<span class="php-keyword1">function</span>() {
+</span><span id="222" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#222">222 </a>
+</span><span id="223" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#223">223 </a>                        <span class="php-keyword1">if</span> ( jQuery(this).is(<span class="php-quote">'.checkbox'</span>) ) {
+</span><span id="224" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#224">224 </a>
+</span><span id="225" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#225">225 </a>                            <span class="php-keyword1">if</span> ( jQuery(this).is(<span class="php-quote">':checked'</span>) ) {
+</span><span id="226" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#226">226 </a>                                val = <span class="php-num">1</span>;
+</span><span id="227" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#227">227 </a>                            } <span class="php-keyword1">else</span> {
+</span><span id="228" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#228">228 </a>                                val = <span class="php-num">0</span>;
+</span><span id="229" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#229">229 </a>                            }
+</span><span id="230" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#230">230 </a>
+</span><span id="231" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#231">231 </a>                        } <span class="php-keyword1">else</span> {
+</span><span id="232" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#232">232 </a>
+</span><span id="233" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#233">233 </a>                            <span class="php-keyword1">var</span> val = jQuery(this).val();
+</span><span id="234" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#234">234 </a>
+</span><span id="235" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#235">235 </a>                            <span class="php-keyword1">if</span> ( ! val )
+</span><span id="236" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#236">236 </a>                                val = jQuery(this).attr(<span class="php-quote">'placeholder'</span>);
+</span><span id="237" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#237">237 </a>                        }
+</span><span id="238" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#238">238 </a>
+</span><span id="239" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#239">239 </a>                        row = row + val + <span class="php-quote">','</span>;
+</span><span id="240" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#240">240 </a>                    });
+</span><span id="241" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#241">241 </a>                    row = row + <span class="php-quote">'&lt;?php echo $current_class; ?&gt;'</span>;
+</span><span id="242" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#242">242 </a>                    <span class="php-comment">//row.substring( 0, row.length - 1 );</span>
+</span><span id="243" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#243">243 </a>                    csv_data = csv_data + row + <span class="php-quote">&quot;\n&quot;</span>;
+</span><span id="244" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#244">244 </a>                });
+</span><span id="245" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#245">245 </a>
+</span><span id="246" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#246">246 </a>                jQuery(this).attr( <span class="php-quote">'href'</span>, encodeURI( csv_data ) );
+</span><span id="247" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#247">247 </a>
+</span><span id="248" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#248">248 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">true</span>;
+</span><span id="249" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#249">249 </a>            });
+</span><span id="250" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#250">250 </a>
+</span><span id="251" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#251">251 </a>            jQuery(<span class="php-quote">'.wc_tax_rates .insert'</span>).click(<span class="php-keyword1">function</span>() {
+</span><span id="252" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#252">252 </a>                <span class="php-keyword1">var</span> <span class="php-var"><a id="$tbody" href="source-function-woocommerce_tax_rates_setting_save.html#$tbody">$tbody</a></span> = jQuery(<span class="php-quote">'.wc_tax_rates'</span>).find(<span class="php-quote">'tbody'</span>);
+</span><span id="253" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#253">253 </a>                <span class="php-keyword1">var</span> size = <span class="php-var">$tbody</span>.find(<span class="php-quote">'tr'</span>).size();
+</span><span id="254" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#254">254 </a>                <span class="php-keyword1">var</span> code = <span class="php-quote">'&lt;tr class=&quot;new&quot;&gt;\
+</span></span><span id="255" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#255">255 </a><span class="php-quote">                        &lt;td class=&quot;sort&quot;&gt;&amp;nbsp;&lt;/td&gt;\
+</span></span><span id="256" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#256">256 </a><span class="php-quote">                        &lt;td class=&quot;country&quot; width=&quot;8%&quot;&gt;\
+</span></span><span id="257" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#257">257 </a><span class="php-quote">                            &lt;input type=&quot;text&quot; placeholder=&quot;*&quot; name=&quot;tax_rate_country[new]['</span> + size + <span class="php-quote">']&quot; /&gt;\
+</span></span><span id="258" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#258">258 </a><span class="php-quote">                        &lt;/td&gt;\
+</span></span><span id="259" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#259">259 </a><span class="php-quote">                        &lt;td class=&quot;state&quot; width=&quot;8%&quot;&gt;\
+</span></span><span id="260" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#260">260 </a><span class="php-quote">                            &lt;input type=&quot;text&quot; placeholder=&quot;*&quot; name=&quot;tax_rate_state[new]['</span> + size + <span class="php-quote">']&quot; /&gt;\
+</span></span><span id="261" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#261">261 </a><span class="php-quote">                        &lt;/td&gt;\
+</span></span><span id="262" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#262">262 </a><span class="php-quote">                        &lt;td class=&quot;postcode&quot;&gt;\
+</span></span><span id="263" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#263">263 </a><span class="php-quote">                            &lt;input type=&quot;text&quot; placeholder=&quot;*&quot; name=&quot;tax_rate_postcode[new]['</span> + size + <span class="php-quote">']&quot; /&gt;\
+</span></span><span id="264" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#264">264 </a><span class="php-quote">                        &lt;/td&gt;\
+</span></span><span id="265" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#265">265 </a><span class="php-quote">                        &lt;td class=&quot;city&quot;&gt;\
+</span></span><span id="266" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#266">266 </a><span class="php-quote">                            &lt;input type=&quot;text&quot; placeholder=&quot;*&quot; name=&quot;tax_rate_city[new]['</span> + size + <span class="php-quote">']&quot; /&gt;\
+</span></span><span id="267" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#267">267 </a><span class="php-quote">                        &lt;/td&gt;\
+</span></span><span id="268" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#268">268 </a><span class="php-quote">                        &lt;td class=&quot;rate&quot; width=&quot;8%&quot;&gt;\
+</span></span><span id="269" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#269">269 </a><span class="php-quote">                            &lt;input type=&quot;number&quot; step=&quot;any&quot; min=&quot;0&quot; placeholder=&quot;0&quot; name=&quot;tax_rate[new]['</span> + size + <span class="php-quote">']&quot; /&gt;\
+</span></span><span id="270" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#270">270 </a><span class="php-quote">                        &lt;/td&gt;\
+</span></span><span id="271" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#271">271 </a><span class="php-quote">                        &lt;td class=&quot;name&quot; width=&quot;8%&quot;&gt;\
+</span></span><span id="272" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#272">272 </a><span class="php-quote">                            &lt;input type=&quot;text&quot; name=&quot;tax_rate_name[new]['</span> + size + <span class="php-quote">']&quot; /&gt;\
+</span></span><span id="273" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#273">273 </a><span class="php-quote">                        &lt;/td&gt;\
+</span></span><span id="274" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#274">274 </a><span class="php-quote">                        &lt;td class=&quot;priority&quot; width=&quot;8%&quot;&gt;\
+</span></span><span id="275" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#275">275 </a><span class="php-quote">                            &lt;input type=&quot;number&quot; step=&quot;1&quot; min=&quot;1&quot; value=&quot;1&quot; name=&quot;tax_rate_priority[new]['</span> + size + <span class="php-quote">']&quot; /&gt;\
+</span></span><span id="276" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#276">276 </a><span class="php-quote">                        &lt;/td&gt;\
+</span></span><span id="277" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#277">277 </a><span class="php-quote">                        &lt;td class=&quot;compound&quot; width=&quot;8%&quot;&gt;\
+</span></span><span id="278" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#278">278 </a><span class="php-quote">                            &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot; name=&quot;tax_rate_compound[new]['</span> + size + <span class="php-quote">']&quot; /&gt;\
+</span></span><span id="279" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#279">279 </a><span class="php-quote">                        &lt;/td&gt;\
+</span></span><span id="280" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#280">280 </a><span class="php-quote">                        &lt;td class=&quot;apply_to_shipping&quot; width=&quot;8%&quot;&gt;\
+</span></span><span id="281" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#281">281 </a><span class="php-quote">                            &lt;input type=&quot;checkbox&quot; class=&quot;checkbox&quot; name=&quot;tax_rate_shipping[new]['</span> + size + <span class="php-quote">']&quot; checked=&quot;checked&quot; /&gt;\
+</span></span><span id="282" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#282">282 </a><span class="php-quote">                        &lt;/td&gt;\
+</span></span><span id="283" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#283">283 </a><span class="php-quote">                    &lt;/tr&gt;'</span>;
+</span><span id="284" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#284">284 </a>
+</span><span id="285" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#285">285 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$tbody</span>.find(<span class="php-quote">'tr.current'</span>).size() &gt; <span class="php-num">0</span> ) {
+</span><span id="286" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#286">286 </a>                    <span class="php-var">$tbody</span>.find(<span class="php-quote">'tr.current'</span>).after( code );
+</span><span id="287" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#287">287 </a>                } <span class="php-keyword1">else</span> {
+</span><span id="288" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#288">288 </a>                    <span class="php-var">$tbody</span>.append( code );
+</span><span id="289" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#289">289 </a>                }
+</span><span id="290" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#290">290 </a>
+</span><span id="291" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#291">291 </a>                jQuery( <span class="php-quote">&quot;td.country input&quot;</span> ).autocomplete({
+</span><span id="292" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#292">292 </a>                    source: availableCountries,
+</span><span id="293" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#293">293 </a>                    minLength: <span class="php-num">3</span>
+</span><span id="294" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#294">294 </a>                });
+</span><span id="295" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#295">295 </a>
+</span><span id="296" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#296">296 </a>                jQuery( <span class="php-quote">&quot;td.state input&quot;</span> ).autocomplete({
+</span><span id="297" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#297">297 </a>                    source: availableStates,
+</span><span id="298" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#298">298 </a>                    minLength: <span class="php-num">3</span>
+</span><span id="299" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#299">299 </a>                });
+</span><span id="300" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#300">300 </a>
+</span><span id="301" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#301">301 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="302" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#302">302 </a>            });
+</span><span id="303" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#303">303 </a>
+</span><span id="304" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#304">304 </a>            jQuery(<span class="php-quote">'.wc_tax_rates td.postcode, .wc_tax_rates td.city'</span>).find(<span class="php-quote">'input'</span>).change(<span class="php-keyword1">function</span>() {
+</span><span id="305" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#305">305 </a>                jQuery(this).attr( <span class="php-quote">'name'</span>, jQuery(this).attr( <span class="php-quote">'data-name'</span> ) );
+</span><span id="306" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#306">306 </a>            });
+</span><span id="307" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#307">307 </a>
+</span><span id="308" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#308">308 </a>            <span class="php-keyword1">var</span> availableCountries = [<span class="xlang">&lt;?php</span>
+</span><span id="309" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#309">309 </a>                <span class="php-var">$countries</span> = <span class="php-keyword1">array</span>();
+</span><span id="310" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#310">310 </a>                <span class="php-keyword1">foreach</span> ( <span class="php-var">$woocommerce</span>-&gt;countries-&gt;get_allowed_countries() <span class="php-keyword1">as</span> <span class="php-var">$value</span> =&gt; <span class="php-var">$label</span> )
+</span><span id="311" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#311">311 </a>                    <span class="php-var">$countries</span>[] = <span class="php-quote">'{ label: &quot;'</span> . <span class="php-var">$label</span> . <span class="php-quote">'&quot;, value: &quot;'</span> . <span class="php-var">$value</span> . <span class="php-quote">'&quot; }'</span>;
+</span><span id="312" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#312">312 </a>                <span class="php-keyword1">echo</span> <span class="php-keyword2">implode</span>( <span class="php-quote">', '</span>, <span class="php-var">$countries</span> );
+</span><span id="313" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#313">313 </a>            <span class="xlang">?&gt;</span>];
+</span><span id="314" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#314">314 </a>
+</span><span id="315" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#315">315 </a>            <span class="php-keyword1">var</span> availableStates = [<span class="xlang">&lt;?php</span>
+</span><span id="316" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#316">316 </a>                <span class="php-var">$countries</span> = <span class="php-keyword1">array</span>();
+</span><span id="317" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#317">317 </a>                <span class="php-keyword1">foreach</span> ( <span class="php-var">$woocommerce</span>-&gt;countries-&gt;get_allowed_country_states() <span class="php-keyword1">as</span> <span class="php-var">$value</span> =&gt; <span class="php-var">$label</span> )
+</span><span id="318" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#318">318 </a>                    <span class="php-keyword1">foreach</span> ( <span class="php-var">$label</span> <span class="php-keyword1">as</span> <span class="php-var">$code</span> =&gt; <span class="php-var">$state</span> )
+</span><span id="319" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#319">319 </a>                        <span class="php-var">$countries</span>[] = <span class="php-quote">'{ label: &quot;'</span> . <span class="php-var">$state</span> . <span class="php-quote">'&quot;, value: &quot;'</span> . <span class="php-var">$code</span> . <span class="php-quote">'&quot; }'</span>;
+</span><span id="320" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#320">320 </a>                <span class="php-keyword1">echo</span> <span class="php-keyword2">implode</span>( <span class="php-quote">', '</span>, <span class="php-var">$countries</span> );
+</span><span id="321" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#321">321 </a>            <span class="xlang">?&gt;</span>];
+</span><span id="322" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#322">322 </a>
+</span><span id="323" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#323">323 </a>            jQuery( <span class="php-quote">&quot;td.country input&quot;</span> ).autocomplete({
+</span><span id="324" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#324">324 </a>                source: availableCountries,
+</span><span id="325" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#325">325 </a>                minLength: <span class="php-num">3</span>
+</span><span id="326" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#326">326 </a>            });
+</span><span id="327" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#327">327 </a>
+</span><span id="328" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#328">328 </a>            jQuery( <span class="php-quote">&quot;td.state input&quot;</span> ).autocomplete({
+</span><span id="329" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#329">329 </a>                source: availableStates,
+</span><span id="330" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#330">330 </a>                minLength: <span class="php-num">3</span>
+</span><span id="331" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#331">331 </a>            });
+</span><span id="332" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#332">332 </a>        });
+</span><span id="333" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#333">333 </a>    &lt;/script&gt;
+</span><span id="334" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#334">334 </a>    <span class="xlang">&lt;?php</span>
+</span><span id="335" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#335">335 </a>}
+</span><span id="336" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#336">336 </a>
+</span><span id="337" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#337">337 </a><span class="php-comment">/**
+</span></span><span id="338" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#338">338 </a><span class="php-comment"> * woocommerce_tax_rates_setting_save function.
+</span></span><span id="339" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#339">339 </a><span class="php-comment"> *
+</span></span><span id="340" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#340">340 </a><span class="php-comment"> * @access public
+</span></span><span id="341" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#341">341 </a><span class="php-comment"> * @return void
+</span></span><span id="342" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#342">342 </a><span class="php-comment"> */</span>
+</span><span id="343" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#343">343 </a><span class="php-keyword1">function</span> <a id="_woocommerce_tax_rates_setting_save" href="source-function-woocommerce_tax_rates_setting_save.html#_woocommerce_tax_rates_setting_save">woocommerce_tax_rates_setting_save</a>() {
+</span><span id="344" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#344">344 </a>    <span class="php-keyword1">global</span> <span class="php-var">$wpdb</span>, <span class="php-var">$current_section</span>;
+</span><span id="345" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#345">345 </a>
+</span><span id="346" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#346">346 </a>    <span class="php-comment">// Get class</span>
+</span><span id="347" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#347">347 </a>    <span class="php-var">$tax_classes</span>   = <span class="php-keyword2">array_filter</span>( <span class="php-keyword2">array_map</span>( <span class="php-quote">'trim'</span>, <span class="php-keyword2">explode</span>( <span class="php-quote">&quot;\n&quot;</span>, get_option(<span class="php-quote">'woocommerce_tax_classes'</span> ) ) ) );
+</span><span id="348" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#348">348 </a>    <span class="php-var">$current_class</span> = <span class="php-quote">''</span>;
+</span><span id="349" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#349">349 </a>
+</span><span id="350" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#350">350 </a>    <span class="php-keyword1">foreach</span>( <span class="php-var">$tax_classes</span> <span class="php-keyword1">as</span> <span class="php-var">$class</span> )
+</span><span id="351" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#351">351 </a>        <span class="php-keyword1">if</span> ( sanitize_title( <span class="php-var">$class</span> ) == <span class="php-var">$current_section</span> )
+</span><span id="352" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#352">352 </a>            <span class="php-var">$current_class</span> = <span class="php-var">$class</span>;
+</span><span id="353" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#353">353 </a>
+</span><span id="354" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#354">354 </a>    <span class="php-comment">// Get POST data</span>
+</span><span id="355" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#355">355 </a>    <span class="php-var">$tax_rate_country</span>  = <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_country'</span>] ) ? <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_country'</span>] : <span class="php-keyword1">array</span>();
+</span><span id="356" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#356">356 </a>    <span class="php-var">$tax_rate_state</span>    = <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_state'</span>] ) ? <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_state'</span>] : <span class="php-keyword1">array</span>();
+</span><span id="357" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#357">357 </a>    <span class="php-var">$tax_rate_postcode</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_postcode'</span>] ) ? <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_postcode'</span>] : <span class="php-keyword1">array</span>();
+</span><span id="358" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#358">358 </a>    <span class="php-var">$tax_rate_city</span>     = <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_city'</span>] ) ? <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_city'</span>] : <span class="php-keyword1">array</span>();
+</span><span id="359" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#359">359 </a>    <span class="php-var">$tax_rate</span>          = <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate'</span>] ) ? <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate'</span>] : <span class="php-keyword1">array</span>();
+</span><span id="360" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#360">360 </a>    <span class="php-var">$tax_rate_name</span>     = <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_name'</span>] ) ? <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_name'</span>] : <span class="php-keyword1">array</span>();
+</span><span id="361" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#361">361 </a>    <span class="php-var">$tax_rate_priority</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_priority'</span>] ) ? <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_priority'</span>] : <span class="php-keyword1">array</span>();
+</span><span id="362" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#362">362 </a>    <span class="php-var">$tax_rate_compound</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_compound'</span>] ) ? <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_compound'</span>] : <span class="php-keyword1">array</span>();
+</span><span id="363" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#363">363 </a>    <span class="php-var">$tax_rate_shipping</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_shipping'</span>] ) ? <span class="php-var">$_POST</span>[<span class="php-quote">'tax_rate_shipping'</span>] : <span class="php-keyword1">array</span>();
+</span><span id="364" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#364">364 </a>
+</span><span id="365" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#365">365 </a>    <span class="php-var">$i</span> = <span class="php-num">0</span>;
+</span><span id="366" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#366">366 </a>
+</span><span id="367" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#367">367 </a>    <span class="php-comment">// Loop posted fields</span>
+</span><span id="368" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#368">368 </a>    <span class="php-keyword1">foreach</span> ( <span class="php-var">$tax_rate_country</span> <span class="php-keyword1">as</span> <span class="php-var">$key</span> =&gt; <span class="php-var">$value</span> ) {
+</span><span id="369" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#369">369 </a>
+</span><span id="370" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#370">370 </a>        <span class="php-comment">// new keys are inserted...</span>
+</span><span id="371" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#371">371 </a>        <span class="php-keyword1">if</span> ( <span class="php-var">$key</span> == <span class="php-quote">'new'</span> ) {
+</span><span id="372" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#372">372 </a>
+</span><span id="373" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#373">373 </a>            <span class="php-keyword1">foreach</span> ( <span class="php-var">$value</span> <span class="php-keyword1">as</span> <span class="php-var">$new_key</span> =&gt; <span class="php-var">$new_value</span> ) {
+</span><span id="374" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#374">374 </a>
+</span><span id="375" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#375">375 </a>                <span class="php-comment">// Sanitize + format</span>
+</span><span id="376" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#376">376 </a>                <span class="php-var">$country</span>  = <span class="php-keyword2">strtoupper</span>( woocommerce_clean( <span class="php-var">$tax_rate_country</span>[ <span class="php-var">$key</span> ][ <span class="php-var">$new_key</span> ] ) );
+</span><span id="377" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#377">377 </a>                <span class="php-var">$state</span>    = <span class="php-keyword2">strtoupper</span>( woocommerce_clean( <span class="php-var">$tax_rate_state</span>[ <span class="php-var">$key</span> ][ <span class="php-var">$new_key</span> ] ) );
+</span><span id="378" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#378">378 </a>                <span class="php-var">$postcode</span> = woocommerce_clean( <span class="php-var">$tax_rate_postcode</span>[ <span class="php-var">$key</span> ][ <span class="php-var">$new_key</span> ] );
+</span><span id="379" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#379">379 </a>                <span class="php-var">$city</span>     = woocommerce_clean( <span class="php-var">$tax_rate_city</span>[ <span class="php-var">$key</span> ][ <span class="php-var">$new_key</span> ] );
+</span><span id="380" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#380">380 </a>                <span class="php-var">$rate</span>     = <span class="php-keyword2">number_format</span>( woocommerce_clean( <span class="php-var">$tax_rate</span>[ <span class="php-var">$key</span> ][ <span class="php-var">$new_key</span> ] ), <span class="php-num">4</span>, <span class="php-quote">'.'</span>, <span class="php-quote">''</span> );
+</span><span id="381" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#381">381 </a>                <span class="php-var">$name</span>     = woocommerce_clean( <span class="php-var">$tax_rate_name</span>[ <span class="php-var">$key</span> ][ <span class="php-var">$new_key</span> ] );
+</span><span id="382" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#382">382 </a>                <span class="php-var">$priority</span> = absint( woocommerce_clean( <span class="php-var">$tax_rate_priority</span>[ <span class="php-var">$key</span> ][ <span class="php-var">$new_key</span> ] ) );
+</span><span id="383" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#383">383 </a>                <span class="php-var">$compound</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$tax_rate_compound</span>[ <span class="php-var">$key</span> ][ <span class="php-var">$new_key</span> ] ) ? <span class="php-num">1</span> : <span class="php-num">0</span>;
+</span><span id="384" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#384">384 </a>                <span class="php-var">$shipping</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$tax_rate_shipping</span>[ <span class="php-var">$key</span> ][ <span class="php-var">$new_key</span> ] ) ? <span class="php-num">1</span> : <span class="php-num">0</span>;
+</span><span id="385" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#385">385 </a>
+</span><span id="386" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#386">386 </a>                <span class="php-keyword1">if</span> ( ! <span class="php-var">$name</span> )
+</span><span id="387" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#387">387 </a>                    <span class="php-var">$name</span> = __( <span class="php-quote">'Tax'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="388" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#388">388 </a>
+</span><span id="389" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#389">389 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$country</span> == <span class="php-quote">'*'</span> )
+</span><span id="390" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#390">390 </a>                    <span class="php-var">$country</span> = <span class="php-quote">''</span>;
+</span><span id="391" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#391">391 </a>
+</span><span id="392" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#392">392 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$state</span> == <span class="php-quote">'*'</span> )
+</span><span id="393" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#393">393 </a>                    <span class="php-var">$state</span> = <span class="php-quote">''</span>;
+</span><span id="394" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#394">394 </a>
+</span><span id="395" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#395">395 </a>                <span class="php-var">$wpdb</span>-&gt;insert(
+</span><span id="396" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#396">396 </a>                    <span class="php-var">$wpdb</span>-&gt;prefix . <span class="php-quote">&quot;woocommerce_tax_rates&quot;</span>,
+</span><span id="397" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#397">397 </a>                    <span class="php-keyword1">array</span>(
+</span><span id="398" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#398">398 </a>                        <span class="php-quote">'tax_rate_country'</span>  =&gt; <span class="php-var">$country</span>,
+</span><span id="399" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#399">399 </a>                        <span class="php-quote">'tax_rate_state'</span>    =&gt; <span class="php-var">$state</span>,
+</span><span id="400" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#400">400 </a>                        <span class="php-quote">'tax_rate'</span>          =&gt; <span class="php-var">$rate</span>,
+</span><span id="401" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#401">401 </a>                        <span class="php-quote">'tax_rate_name'</span>     =&gt; <span class="php-var">$name</span>,
+</span><span id="402" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#402">402 </a>                        <span class="php-quote">'tax_rate_priority'</span> =&gt; <span class="php-var">$priority</span>,
+</span><span id="403" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#403">403 </a>                        <span class="php-quote">'tax_rate_compound'</span> =&gt; <span class="php-var">$compound</span>,
+</span><span id="404" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#404">404 </a>                        <span class="php-quote">'tax_rate_shipping'</span> =&gt; <span class="php-var">$shipping</span>,
+</span><span id="405" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#405">405 </a>                        <span class="php-quote">'tax_rate_order'</span>    =&gt; <span class="php-var">$i</span>,
+</span><span id="406" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#406">406 </a>                        <span class="php-quote">'tax_rate_class'</span>    =&gt; sanitize_title( <span class="php-var">$current_class</span> )
+</span><span id="407" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#407">407 </a>                    )
+</span><span id="408" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#408">408 </a>                );
+</span><span id="409" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#409">409 </a>
+</span><span id="410" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#410">410 </a>                <span class="php-var">$tax_rate_id</span> = <span class="php-var">$wpdb</span>-&gt;insert_id;
+</span><span id="411" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#411">411 </a>
+</span><span id="412" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#412">412 </a>                <span class="php-keyword1">if</span> ( ! <span class="php-keyword1">empty</span>( <span class="php-var">$postcode</span> ) ) {
+</span><span id="413" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#413">413 </a>                    <span class="php-var">$postcodes</span> = <span class="php-keyword2">explode</span>( <span class="php-quote">';'</span>, <span class="php-var">$postcode</span> );
+</span><span id="414" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#414">414 </a>                    <span class="php-var">$postcodes</span> = <span class="php-keyword2">array_map</span>( <span class="php-quote">'strtoupper'</span>, <span class="php-keyword2">array_map</span>( <span class="php-quote">'woocommerce_clean'</span>, <span class="php-var">$postcodes</span> ) );
+</span><span id="415" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#415">415 </a>
+</span><span id="416" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#416">416 </a>                    <span class="php-var">$postcode_query</span> = <span class="php-keyword1">array</span>();
+</span><span id="417" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#417">417 </a>
+</span><span id="418" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#418">418 </a>                    <span class="php-keyword1">foreach</span>( <span class="php-var">$postcodes</span> <span class="php-keyword1">as</span> <span class="php-var">$postcode</span> )
+</span><span id="419" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#419">419 </a>                        <span class="php-keyword1">if</span> ( <span class="php-keyword2">strstr</span>( <span class="php-var">$postcode</span>, <span class="php-quote">'-'</span> ) ) {
+</span><span id="420" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#420">420 </a>                            <span class="php-var">$postcode_parts</span> = <span class="php-keyword2">explode</span>( <span class="php-quote">'-'</span>, <span class="php-var">$postcode</span> );
+</span><span id="421" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#421">421 </a>
+</span><span id="422" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#422">422 </a>                            <span class="php-keyword1">if</span> ( <span class="php-keyword2">is_numeric</span>( <span class="php-var">$postcode_parts</span>[<span class="php-num">0</span>] ) &amp;&amp; <span class="php-keyword2">is_numeric</span>( <span class="php-var">$postcode_parts</span>[<span class="php-num">1</span>] ) &amp;&amp; <span class="php-var">$postcode_parts</span>[<span class="php-num">1</span>] &gt; <span class="php-var">$postcode_parts</span>[<span class="php-num">0</span>] ) {
+</span><span id="423" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#423">423 </a>                                <span class="php-keyword1">for</span> ( <span class="php-var">$i</span> = <span class="php-var">$postcode_parts</span>[<span class="php-num">0</span>]; <span class="php-var">$i</span> &lt;= <span class="php-var">$postcode_parts</span>[<span class="php-num">1</span>]; <span class="php-var">$i</span> ++ ) {
+</span><span id="424" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#424">424 </a>                                    <span class="php-keyword1">if</span> ( <span class="php-var">$i</span> )
+</span><span id="425" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#425">425 </a>                                        <span class="php-var">$postcode_query</span>[] = <span class="php-quote">&quot;( '</span><span class="php-var">$i</span><span class="php-quote">', </span><span class="php-var">$tax_rate_id</span><span class="php-quote">, 'postcode' )&quot;</span>;
+</span><span id="426" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#426">426 </a>                                }
+</span><span id="427" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#427">427 </a>                            }
+</span><span id="428" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#428">428 </a>                        } <span class="php-keyword1">else</span> {
+</span><span id="429" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#429">429 </a>                            <span class="php-keyword1">if</span> ( <span class="php-var">$postcode</span> )
+</span><span id="430" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#430">430 </a>                                <span class="php-var">$postcode_query</span>[] = <span class="php-quote">&quot;( '</span><span class="php-var">$postcode</span><span class="php-quote">', </span><span class="php-var">$tax_rate_id</span><span class="php-quote">, 'postcode' )&quot;</span>;
+</span><span id="431" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#431">431 </a>                        }
+</span><span id="432" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#432">432 </a>
+</span><span id="433" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#433">433 </a>                    <span class="php-var">$wpdb</span>-&gt;query( <span class="php-quote">&quot;INSERT INTO </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_tax_rate_locations ( location_code, tax_rate_id, location_type ) VALUES &quot;</span> . <span class="php-keyword2">implode</span>( <span class="php-quote">','</span>, <span class="php-var">$postcode_query</span> ) );
+</span><span id="434" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#434">434 </a>                }
+</span><span id="435" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#435">435 </a>
+</span><span id="436" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#436">436 </a>                <span class="php-keyword1">if</span> ( ! <span class="php-keyword1">empty</span>( <span class="php-var">$city</span> ) ) {
+</span><span id="437" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#437">437 </a>                    <span class="php-var">$cities</span> = <span class="php-keyword2">explode</span>( <span class="php-quote">';'</span>, <span class="php-var">$city</span> );
+</span><span id="438" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#438">438 </a>                    <span class="php-var">$cities</span> = <span class="php-keyword2">array_map</span>( <span class="php-quote">'strtoupper'</span>, <span class="php-keyword2">array_map</span>( <span class="php-quote">'woocommerce_clean'</span>, <span class="php-var">$cities</span> ) );
+</span><span id="439" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#439">439 </a>                    <span class="php-keyword1">foreach</span>( <span class="php-var">$cities</span> <span class="php-keyword1">as</span> <span class="php-var">$city</span> ) {
+</span><span id="440" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#440">440 </a>                        <span class="php-var">$wpdb</span>-&gt;insert(
+</span><span id="441" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#441">441 </a>                        <span class="php-var">$wpdb</span>-&gt;prefix . <span class="php-quote">&quot;woocommerce_tax_rate_locations&quot;</span>,
+</span><span id="442" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#442">442 </a>                            <span class="php-keyword1">array</span>(
+</span><span id="443" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#443">443 </a>                                <span class="php-quote">'location_code'</span> =&gt; <span class="php-var">$city</span>,
+</span><span id="444" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#444">444 </a>                                <span class="php-quote">'tax_rate_id'</span>   =&gt; <span class="php-var">$tax_rate_id</span>,
+</span><span id="445" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#445">445 </a>                                <span class="php-quote">'location_type'</span> =&gt; <span class="php-quote">'city'</span>,
+</span><span id="446" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#446">446 </a>                            )
+</span><span id="447" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#447">447 </a>                        );
+</span><span id="448" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#448">448 </a>                    }
+</span><span id="449" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#449">449 </a>                }
+</span><span id="450" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#450">450 </a>
+</span><span id="451" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#451">451 </a>                <span class="php-var">$i</span>++;
+</span><span id="452" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#452">452 </a>            }
+</span><span id="453" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#453">453 </a>
+</span><span id="454" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#454">454 </a>        <span class="php-comment">// ...whereas the others are updated</span>
+</span><span id="455" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#455">455 </a>        } <span class="php-keyword1">else</span> {
+</span><span id="456" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#456">456 </a>
+</span><span id="457" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#457">457 </a>            <span class="php-var">$tax_rate_id</span> = absint( <span class="php-var">$key</span> );
+</span><span id="458" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#458">458 </a>
+</span><span id="459" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#459">459 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$_POST</span>[<span class="php-quote">'remove_tax_rate'</span>][ <span class="php-var">$key</span> ] == <span class="php-num">1</span> ) {
+</span><span id="460" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#460">460 </a>                <span class="php-var">$wpdb</span>-&gt;query( <span class="php-var">$wpdb</span>-&gt;prepare( <span class="php-quote">&quot;DELETE FROM </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_tax_rate_locations WHERE tax_rate_id = %d;&quot;</span>, <span class="php-var">$tax_rate_id</span> ) );
+</span><span id="461" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#461">461 </a>                <span class="php-var">$wpdb</span>-&gt;query( <span class="php-var">$wpdb</span>-&gt;prepare( <span class="php-quote">&quot;DELETE FROM </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_tax_rates WHERE tax_rate_id = %d;&quot;</span>, <span class="php-var">$tax_rate_id</span> ) );
+</span><span id="462" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#462">462 </a>                <span class="php-keyword1">continue</span>;
+</span><span id="463" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#463">463 </a>            }
+</span><span id="464" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#464">464 </a>
+</span><span id="465" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#465">465 </a>            <span class="php-comment">// Sanitize + format</span>
+</span><span id="466" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#466">466 </a>            <span class="php-var">$country</span>  = <span class="php-keyword2">strtoupper</span>( woocommerce_clean( <span class="php-var">$tax_rate_country</span>[ <span class="php-var">$key</span> ] ) );
+</span><span id="467" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#467">467 </a>            <span class="php-var">$state</span>    = <span class="php-keyword2">strtoupper</span>( woocommerce_clean( <span class="php-var">$tax_rate_state</span>[ <span class="php-var">$key</span> ] ) );
+</span><span id="468" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#468">468 </a>            <span class="php-var">$rate</span>     = <span class="php-keyword2">number_format</span>( woocommerce_clean( <span class="php-var">$tax_rate</span>[ <span class="php-var">$key</span> ] ), <span class="php-num">4</span>, <span class="php-quote">'.'</span>, <span class="php-quote">''</span> );
+</span><span id="469" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#469">469 </a>            <span class="php-var">$name</span>     = woocommerce_clean( <span class="php-var">$tax_rate_name</span>[ <span class="php-var">$key</span> ] );
+</span><span id="470" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#470">470 </a>            <span class="php-var">$priority</span> = absint( woocommerce_clean( <span class="php-var">$tax_rate_priority</span>[ <span class="php-var">$key</span> ] ) );
+</span><span id="471" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#471">471 </a>            <span class="php-var">$compound</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$tax_rate_compound</span>[ <span class="php-var">$key</span> ] ) ? <span class="php-num">1</span> : <span class="php-num">0</span>;
+</span><span id="472" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#472">472 </a>            <span class="php-var">$shipping</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$tax_rate_shipping</span>[ <span class="php-var">$key</span> ] ) ? <span class="php-num">1</span> : <span class="php-num">0</span>;
+</span><span id="473" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#473">473 </a>
+</span><span id="474" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#474">474 </a>            <span class="php-keyword1">if</span> ( ! <span class="php-var">$name</span> )
+</span><span id="475" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#475">475 </a>                <span class="php-var">$name</span> = __( <span class="php-quote">'Tax'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="476" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#476">476 </a>
+</span><span id="477" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#477">477 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$country</span> == <span class="php-quote">'*'</span> )
+</span><span id="478" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#478">478 </a>                <span class="php-var">$country</span> = <span class="php-quote">''</span>;
+</span><span id="479" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#479">479 </a>
+</span><span id="480" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#480">480 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$state</span> == <span class="php-quote">'*'</span> )
+</span><span id="481" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#481">481 </a>                <span class="php-var">$state</span> = <span class="php-quote">''</span>;
+</span><span id="482" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#482">482 </a>
+</span><span id="483" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#483">483 </a>            <span class="php-var">$wpdb</span>-&gt;update(
+</span><span id="484" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#484">484 </a>                <span class="php-var">$wpdb</span>-&gt;prefix . <span class="php-quote">&quot;woocommerce_tax_rates&quot;</span>,
+</span><span id="485" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#485">485 </a>                <span class="php-keyword1">array</span>(
+</span><span id="486" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#486">486 </a>                    <span class="php-quote">'tax_rate_country'</span>  =&gt; <span class="php-var">$country</span>,
+</span><span id="487" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#487">487 </a>                    <span class="php-quote">'tax_rate_state'</span>    =&gt; <span class="php-var">$state</span>,
+</span><span id="488" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#488">488 </a>                    <span class="php-quote">'tax_rate'</span>          =&gt; <span class="php-var">$rate</span>,
+</span><span id="489" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#489">489 </a>                    <span class="php-quote">'tax_rate_name'</span>     =&gt; <span class="php-var">$name</span>,
+</span><span id="490" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#490">490 </a>                    <span class="php-quote">'tax_rate_priority'</span> =&gt; <span class="php-var">$priority</span>,
+</span><span id="491" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#491">491 </a>                    <span class="php-quote">'tax_rate_compound'</span> =&gt; <span class="php-var">$compound</span>,
+</span><span id="492" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#492">492 </a>                    <span class="php-quote">'tax_rate_shipping'</span> =&gt; <span class="php-var">$shipping</span>,
+</span><span id="493" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#493">493 </a>                    <span class="php-quote">'tax_rate_order'</span>    =&gt; <span class="php-var">$i</span>,
+</span><span id="494" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#494">494 </a>                    <span class="php-quote">'tax_rate_class'</span>    =&gt; sanitize_title( <span class="php-var">$current_class</span> )
+</span><span id="495" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#495">495 </a>                ),
+</span><span id="496" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#496">496 </a>                <span class="php-keyword1">array</span>(
+</span><span id="497" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#497">497 </a>                    <span class="php-quote">'tax_rate_id'</span>       =&gt; <span class="php-var">$tax_rate_id</span>
+</span><span id="498" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#498">498 </a>                )
+</span><span id="499" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#499">499 </a>            );
+</span><span id="500" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#500">500 </a>
+</span><span id="501" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#501">501 </a>            <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$tax_rate_postcode</span>[ <span class="php-var">$key</span> ] ) ) {
+</span><span id="502" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#502">502 </a>                <span class="php-comment">// Delete old</span>
+</span><span id="503" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#503">503 </a>                <span class="php-var">$wpdb</span>-&gt;query( <span class="php-var">$wpdb</span>-&gt;prepare( <span class="php-quote">&quot;DELETE FROM </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_tax_rate_locations WHERE tax_rate_id = %d AND location_type = 'postcode';&quot;</span>, <span class="php-var">$tax_rate_id</span> ) );
+</span><span id="504" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#504">504 </a>
+</span><span id="505" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#505">505 </a>                <span class="php-comment">// Add changed</span>
+</span><span id="506" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#506">506 </a>                <span class="php-var">$postcode</span>  = woocommerce_clean( <span class="php-var">$tax_rate_postcode</span>[ <span class="php-var">$key</span> ] );
+</span><span id="507" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#507">507 </a>                <span class="php-var">$postcodes</span> = <span class="php-keyword2">explode</span>( <span class="php-quote">';'</span>, <span class="php-var">$postcode</span> );
+</span><span id="508" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#508">508 </a>                <span class="php-var">$postcodes</span> = <span class="php-keyword2">array_map</span>( <span class="php-quote">'strtoupper'</span>, <span class="php-keyword2">array_map</span>( <span class="php-quote">'woocommerce_clean'</span>, <span class="php-var">$postcodes</span> ) );
+</span><span id="509" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#509">509 </a>
+</span><span id="510" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#510">510 </a>                <span class="php-var">$postcode_query</span> = <span class="php-keyword1">array</span>();
+</span><span id="511" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#511">511 </a>
+</span><span id="512" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#512">512 </a>                <span class="php-keyword1">foreach</span>( <span class="php-var">$postcodes</span> <span class="php-keyword1">as</span> <span class="php-var">$postcode</span> )
+</span><span id="513" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#513">513 </a>                    <span class="php-keyword1">if</span> ( <span class="php-keyword2">strstr</span>( <span class="php-var">$postcode</span>, <span class="php-quote">'-'</span> ) ) {
+</span><span id="514" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#514">514 </a>                        <span class="php-var">$postcode_parts</span> = <span class="php-keyword2">explode</span>( <span class="php-quote">'-'</span>, <span class="php-var">$postcode</span> );
+</span><span id="515" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#515">515 </a>
+</span><span id="516" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#516">516 </a>                        <span class="php-keyword1">if</span> ( <span class="php-keyword2">is_numeric</span>( <span class="php-var">$postcode_parts</span>[<span class="php-num">0</span>] ) &amp;&amp; <span class="php-keyword2">is_numeric</span>( <span class="php-var">$postcode_parts</span>[<span class="php-num">1</span>] ) &amp;&amp; <span class="php-var">$postcode_parts</span>[<span class="php-num">1</span>] &gt; <span class="php-var">$postcode_parts</span>[<span class="php-num">0</span>] ) {
+</span><span id="517" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#517">517 </a>                            <span class="php-keyword1">for</span> ( <span class="php-var">$i</span> = <span class="php-var">$postcode_parts</span>[<span class="php-num">0</span>]; <span class="php-var">$i</span> &lt;= <span class="php-var">$postcode_parts</span>[<span class="php-num">1</span>]; <span class="php-var">$i</span> ++ ) {
+</span><span id="518" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#518">518 </a>                                <span class="php-keyword1">if</span> ( <span class="php-var">$i</span> )
+</span><span id="519" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#519">519 </a>                                    <span class="php-var">$postcode_query</span>[] = <span class="php-quote">&quot;( '</span><span class="php-var">$i</span><span class="php-quote">', </span><span class="php-var">$tax_rate_id</span><span class="php-quote">, 'postcode' )&quot;</span>;
+</span><span id="520" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#520">520 </a>                            }
+</span><span id="521" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#521">521 </a>                        }
+</span><span id="522" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#522">522 </a>                    } <span class="php-keyword1">else</span> {
+</span><span id="523" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#523">523 </a>                        <span class="php-keyword1">if</span> ( <span class="php-var">$postcode</span> )
+</span><span id="524" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#524">524 </a>                            <span class="php-var">$postcode_query</span>[] = <span class="php-quote">&quot;( '</span><span class="php-var">$postcode</span><span class="php-quote">', </span><span class="php-var">$tax_rate_id</span><span class="php-quote">, 'postcode' )&quot;</span>;
+</span><span id="525" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#525">525 </a>                    }
+</span><span id="526" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#526">526 </a>
+</span><span id="527" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#527">527 </a>                <span class="php-var">$wpdb</span>-&gt;query( <span class="php-quote">&quot;INSERT INTO </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_tax_rate_locations ( location_code, tax_rate_id, location_type ) VALUES &quot;</span> . <span class="php-keyword2">implode</span>( <span class="php-quote">','</span>, <span class="php-var">$postcode_query</span> ) );
+</span><span id="528" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#528">528 </a>
+</span><span id="529" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#529">529 </a>            }
+</span><span id="530" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#530">530 </a>
+</span><span id="531" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#531">531 </a>            <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$tax_rate_city</span>[ <span class="php-var">$key</span> ] ) ) {
+</span><span id="532" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#532">532 </a>                <span class="php-comment">// Delete old</span>
+</span><span id="533" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#533">533 </a>                <span class="php-var">$wpdb</span>-&gt;query( <span class="php-var">$wpdb</span>-&gt;prepare( <span class="php-quote">&quot;DELETE FROM </span><span class="php-var">{$wpdb-&gt;prefix}</span><span class="php-quote">woocommerce_tax_rate_locations WHERE tax_rate_id = %d AND location_type = 'city';&quot;</span>, <span class="php-var">$tax_rate_id</span> ) );
+</span><span id="534" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#534">534 </a>
+</span><span id="535" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#535">535 </a>                <span class="php-comment">// Add changed</span>
+</span><span id="536" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#536">536 </a>                <span class="php-var">$city</span>   = woocommerce_clean( <span class="php-var">$tax_rate_city</span>[ <span class="php-var">$key</span> ] );
+</span><span id="537" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#537">537 </a>                <span class="php-var">$cities</span> = <span class="php-keyword2">explode</span>( <span class="php-quote">';'</span>, <span class="php-var">$city</span> );
+</span><span id="538" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#538">538 </a>                <span class="php-var">$cities</span> = <span class="php-keyword2">array_map</span>( <span class="php-quote">'strtoupper'</span>, <span class="php-keyword2">array_map</span>( <span class="php-quote">'woocommerce_clean'</span>, <span class="php-var">$cities</span> ) );
+</span><span id="539" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#539">539 </a>                <span class="php-keyword1">foreach</span>( <span class="php-var">$cities</span> <span class="php-keyword1">as</span> <span class="php-var">$city</span> ) {
+</span><span id="540" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#540">540 </a>                    <span class="php-keyword1">if</span> ( <span class="php-var">$city</span> ) {
+</span><span id="541" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#541">541 </a>                        <span class="php-var">$wpdb</span>-&gt;insert(
+</span><span id="542" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#542">542 </a>                        <span class="php-var">$wpdb</span>-&gt;prefix . <span class="php-quote">&quot;woocommerce_tax_rate_locations&quot;</span>,
+</span><span id="543" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#543">543 </a>                            <span class="php-keyword1">array</span>(
+</span><span id="544" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#544">544 </a>                                <span class="php-quote">'location_code'</span> =&gt; <span class="php-var">$city</span>,
+</span><span id="545" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#545">545 </a>                                <span class="php-quote">'tax_rate_id'</span>   =&gt; <span class="php-var">$tax_rate_id</span>,
+</span><span id="546" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#546">546 </a>                                <span class="php-quote">'location_type'</span> =&gt; <span class="php-quote">'city'</span>,
+</span><span id="547" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#547">547 </a>                            )
+</span><span id="548" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#548">548 </a>                        );
+</span><span id="549" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#549">549 </a>                    }
+</span><span id="550" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#550">550 </a>                }
+</span><span id="551" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#551">551 </a>            }
+</span><span id="552" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#552">552 </a>
+</span><span id="553" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#553">553 </a>            <span class="php-var">$i</span>++;
+</span><span id="554" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#554">554 </a>        }
+</span><span id="555" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#555">555 </a>    }
+</span><span id="556" class="l"><a class="l" href="source-function-woocommerce_tax_rates_setting_save.html#556">556 </a></span>}</code></pre>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

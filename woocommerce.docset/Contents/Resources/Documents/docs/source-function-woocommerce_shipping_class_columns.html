@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>File admin/woocommerce-admin-taxonomies.php | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Admin.Taxonomies.html" title="Summary of WooCommerce\Admin\Taxonomies"><span>Package</span></a>
+						</li>
+						<li>
+							<a href="function-woocommerce_shipping_class_columns.html" title="Summary of woocommerce_shipping_class_columns"><span>Function</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-woocommerce_add_category_fields.html">woocommerce_add_category_fields</a></li>
+				<li><a href="function-woocommerce_category_fields_save.html">woocommerce_category_fields_save</a></li>
+				<li><a href="function-woocommerce_edit_category_fields.html">woocommerce_edit_category_fields</a></li>
+				<li><a href="function-woocommerce_fix_edit_posts_per_page.html">woocommerce_fix_edit_posts_per_page</a></li>
+				<li><a href="function-woocommerce_product_cat_column.html">woocommerce_product_cat_column</a></li>
+				<li><a href="function-woocommerce_product_cat_columns.html">woocommerce_product_cat_columns</a></li>
+				<li><a href="function-woocommerce_product_cat_description.html">woocommerce_product_cat_description</a></li>
+				<li><a href="function-woocommerce_shipping_class_column.html">woocommerce_shipping_class_column</a></li>
+				<li class="active"><a href="function-woocommerce_shipping_class_columns.html">woocommerce_shipping_class_columns</a></li>
+				<li><a href="function-woocommerce_shipping_class_description.html">woocommerce_shipping_class_description</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#1">  1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#2">  2 </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#3">  3 </a><span class="php-comment"> * Admin taxonomy functions
+</span></span><span id="4" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#4">  4 </a><span class="php-comment"> *
+</span></span><span id="5" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#5">  5 </a><span class="php-comment"> * These functions control admin interface bits like category ordering.
+</span></span><span id="6" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#6">  6 </a><span class="php-comment"> *
+</span></span><span id="7" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#7">  7 </a><span class="php-comment"> * @author      WooThemes
+</span></span><span id="8" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#8">  8 </a><span class="php-comment"> * @category    Admin
+</span></span><span id="9" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#9">  9 </a><span class="php-comment"> * @package     WooCommerce/Admin/Taxonomies
+</span></span><span id="10" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#10"> 10 </a><span class="php-comment"> * @version     1.6.4
+</span></span><span id="11" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#11"> 11 </a><span class="php-comment"> */</span>
+</span><span id="12" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#12"> 12 </a>
+</span><span id="13" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#13"> 13 </a><span class="php-keyword1">if</span> ( ! <span class="php-keyword2">defined</span>( <span class="php-quote">'ABSPATH'</span> ) ) <span class="php-keyword1">exit</span>; <span class="php-comment">// Exit if accessed directly</span>
+</span><span id="14" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#14"> 14 </a>
+</span><span id="15" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#15"> 15 </a><span class="php-comment">/**
+</span></span><span id="16" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#16"> 16 </a><span class="php-comment"> * Category thumbnail fields.
+</span></span><span id="17" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#17"> 17 </a><span class="php-comment"> *
+</span></span><span id="18" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#18"> 18 </a><span class="php-comment"> * @access public
+</span></span><span id="19" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#19"> 19 </a><span class="php-comment"> * @return void
+</span></span><span id="20" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#20"> 20 </a><span class="php-comment"> */</span>
+</span><span id="21" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#21"> 21 </a><span class="php-keyword1">function</span> <a id="_woocommerce_add_category_fields" href="source-function-woocommerce_shipping_class_columns.html#_woocommerce_add_category_fields">woocommerce_add_category_fields</a>() {
+</span><span id="22" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#22"> 22 </a>    <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>;
+</span><span id="23" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#23"> 23 </a>    <span class="xlang">?&gt;</span>
+</span><span id="24" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#24"> 24 </a>    &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;form-field&quot;</span>&gt;
+</span><span id="25" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#25"> 25 </a>        &lt;label <span class="php-keyword1">for</span>=<span class="php-quote">&quot;display_type&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Display type'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/label&gt;
+</span><span id="26" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#26"> 26 </a>        &lt;select id=<span class="php-quote">&quot;display_type&quot;</span> name=<span class="php-quote">&quot;display_type&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;postform&quot;</span>&gt;
+</span><span id="27" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#27"> 27 </a>            &lt;option value=<span class="php-quote">&quot;&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Default'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="28" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#28"> 28 </a>            &lt;option value=<span class="php-quote">&quot;products&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Products'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="29" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#29"> 29 </a>            &lt;option value=<span class="php-quote">&quot;subcategories&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Subcategories'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="30" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#30"> 30 </a>            &lt;option value=<span class="php-quote">&quot;both&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Both'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="31" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#31"> 31 </a>        &lt;/select&gt;
+</span><span id="32" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#32"> 32 </a>    &lt;/div&gt;
+</span><span id="33" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#33"> 33 </a>    &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;form-field&quot;</span>&gt;
+</span><span id="34" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#34"> 34 </a>        &lt;label&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Thumbnail'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/label&gt;
+</span><span id="35" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#35"> 35 </a>        &lt;div id=<span class="php-quote">&quot;product_cat_thumbnail&quot;</span> style=<span class="php-quote">&quot;float:left;margin-right:10px;&quot;</span>&gt;&lt;img src=<span class="php-quote">&quot;&lt;?php echo woocommerce_placeholder_img_src(); ?&gt;&quot;</span> width=<span class="php-quote">&quot;60px&quot;</span> height=<span class="php-quote">&quot;60px&quot;</span> /&gt;&lt;/div&gt;
+</span><span id="36" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#36"> 36 </a>        &lt;div style=<span class="php-quote">&quot;line-height:60px;&quot;</span>&gt;
+</span><span id="37" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#37"> 37 </a>            &lt;input type=<span class="php-quote">&quot;hidden&quot;</span> id=<span class="php-quote">&quot;product_cat_thumbnail_id&quot;</span> name=<span class="php-quote">&quot;product_cat_thumbnail_id&quot;</span> /&gt;
+</span><span id="38" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#38"> 38 </a>            &lt;button type=<span class="php-quote">&quot;submit&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;upload_image_button button&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Upload/Add image'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/button&gt;
+</span><span id="39" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#39"> 39 </a>            &lt;button type=<span class="php-quote">&quot;submit&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;remove_image_button button&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Remove image'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/button&gt;
+</span><span id="40" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#40"> 40 </a>        &lt;/div&gt;
+</span><span id="41" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#41"> 41 </a>        &lt;script type=<span class="php-quote">&quot;text/javascript&quot;</span>&gt;
+</span><span id="42" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#42"> 42 </a>
+</span><span id="43" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#43"> 43 </a>             <span class="php-comment">// Only show the &quot;remove image&quot; button when needed</span>
+</span><span id="44" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#44"> 44 </a>             <span class="php-keyword1">if</span> ( ! jQuery(<span class="php-quote">'#product_cat_thumbnail_id'</span>).val() )
+</span><span id="45" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#45"> 45 </a>                 jQuery(<span class="php-quote">'.remove_image_button'</span>).hide();
+</span><span id="46" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#46"> 46 </a>
+</span><span id="47" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#47"> 47 </a>            <span class="php-comment">// Uploading files</span>
+</span><span id="48" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#48"> 48 </a>            <span class="php-keyword1">var</span> file_frame;
+</span><span id="49" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#49"> 49 </a>
+</span><span id="50" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#50"> 50 </a>            jQuery(document).on( <span class="php-quote">'click'</span>, <span class="php-quote">'.upload_image_button'</span>, <span class="php-keyword1">function</span>( event ){
+</span><span id="51" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#51"> 51 </a>
+</span><span id="52" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#52"> 52 </a>                event.preventDefault();
+</span><span id="53" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#53"> 53 </a>
+</span><span id="54" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#54"> 54 </a>                <span class="php-comment">// If the media frame already exists, reopen it.</span>
+</span><span id="55" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#55"> 55 </a>                <span class="php-keyword1">if</span> ( file_frame ) {
+</span><span id="56" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#56"> 56 </a>                    file_frame.open();
+</span><span id="57" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#57"> 57 </a>                    <span class="php-keyword1">return</span>;
+</span><span id="58" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#58"> 58 </a>                }
+</span><span id="59" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#59"> 59 </a>
+</span><span id="60" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#60"> 60 </a>                <span class="php-comment">// Create the media frame.</span>
+</span><span id="61" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#61"> 61 </a>                file_frame = wp.media.frames.downloadable_file = wp.media({
+</span><span id="62" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#62"> 62 </a>                    title: <span class="php-quote">'&lt;?php _e( '</span>Choose an image<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>,
+</span><span id="63" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#63"> 63 </a>                    button: {
+</span><span id="64" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#64"> 64 </a>                        text: <span class="php-quote">'&lt;?php _e( '</span><span class="php-keyword1">Use</span> image<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>,
+</span><span id="65" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#65"> 65 </a>                    },
+</span><span id="66" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#66"> 66 </a>                    multiple: <span class="php-keyword1">false</span>
+</span><span id="67" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#67"> 67 </a>                });
+</span><span id="68" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#68"> 68 </a>
+</span><span id="69" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#69"> 69 </a>                <span class="php-comment">// When an image is selected, run a callback.</span>
+</span><span id="70" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#70"> 70 </a>                file_frame.on( <span class="php-quote">'select'</span>, <span class="php-keyword1">function</span>() {
+</span><span id="71" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#71"> 71 </a>                    attachment = file_frame.state().get(<span class="php-quote">'selection'</span>).first().toJSON();
+</span><span id="72" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#72"> 72 </a>
+</span><span id="73" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#73"> 73 </a>                    jQuery(<span class="php-quote">'#product_cat_thumbnail_id'</span>).val( attachment.id );
+</span><span id="74" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#74"> 74 </a>                    jQuery(<span class="php-quote">'#product_cat_thumbnail img'</span>).attr(<span class="php-quote">'src'</span>, attachment.url );
+</span><span id="75" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#75"> 75 </a>                    jQuery(<span class="php-quote">'.remove_image_button'</span>).show();
+</span><span id="76" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#76"> 76 </a>                });
+</span><span id="77" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#77"> 77 </a>
+</span><span id="78" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#78"> 78 </a>                <span class="php-comment">// Finally, open the modal.</span>
+</span><span id="79" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#79"> 79 </a>                file_frame.open();
+</span><span id="80" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#80"> 80 </a>            });
+</span><span id="81" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#81"> 81 </a>
+</span><span id="82" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#82"> 82 </a>            jQuery(document).on( <span class="php-quote">'click'</span>, <span class="php-quote">'.remove_image_button'</span>, <span class="php-keyword1">function</span>( event ){
+</span><span id="83" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#83"> 83 </a>                jQuery(<span class="php-quote">'#product_cat_thumbnail img'</span>).attr(<span class="php-quote">'src'</span>, <span class="php-quote">'&lt;?php echo woocommerce_placeholder_img_src(); ?&gt;'</span>);
+</span><span id="84" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#84"> 84 </a>                jQuery(<span class="php-quote">'#product_cat_thumbnail_id'</span>).val(<span class="php-quote">''</span>);
+</span><span id="85" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#85"> 85 </a>                jQuery(<span class="php-quote">'.remove_image_button'</span>).hide();
+</span><span id="86" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#86"> 86 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="87" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#87"> 87 </a>            });
+</span><span id="88" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#88"> 88 </a>
+</span><span id="89" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#89"> 89 </a>        &lt;/script&gt;
+</span><span id="90" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#90"> 90 </a>        &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;clear&quot;</span>&gt;&lt;/div&gt;
+</span><span id="91" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#91"> 91 </a>    &lt;/div&gt;
+</span><span id="92" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#92"> 92 </a>    <span class="xlang">&lt;?php</span>
+</span><span id="93" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#93"> 93 </a>}
+</span><span id="94" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#94"> 94 </a>
+</span><span id="95" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#95"> 95 </a>add_action( <span class="php-quote">'product_cat_add_form_fields'</span>, <span class="php-quote">'woocommerce_add_category_fields'</span> );
+</span><span id="96" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#96"> 96 </a>
+</span><span id="97" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#97"> 97 </a><span class="php-comment">/**
+</span></span><span id="98" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#98"> 98 </a><span class="php-comment"> * Edit category thumbnail field.
+</span></span><span id="99" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#99"> 99 </a><span class="php-comment"> *
+</span></span><span id="100" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#100">100 </a><span class="php-comment"> * @access public
+</span></span><span id="101" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#101">101 </a><span class="php-comment"> * @param mixed $term Term (category) being edited
+</span></span><span id="102" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#102">102 </a><span class="php-comment"> * @param mixed $taxonomy Taxonomy of the term being edited
+</span></span><span id="103" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#103">103 </a><span class="php-comment"> * @return void
+</span></span><span id="104" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#104">104 </a><span class="php-comment"> */</span>
+</span><span id="105" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#105">105 </a><span class="php-keyword1">function</span> <a id="_woocommerce_edit_category_fields" href="source-function-woocommerce_shipping_class_columns.html#_woocommerce_edit_category_fields">woocommerce_edit_category_fields</a>( <span class="php-var">$term</span>, <span class="php-var">$taxonomy</span> ) {
+</span><span id="106" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#106">106 </a>    <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>;
+</span><span id="107" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#107">107 </a>
+</span><span id="108" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#108">108 </a>    <span class="php-var">$display_type</span>   = get_woocommerce_term_meta( <span class="php-var">$term</span>-&gt;term_id, <span class="php-quote">'display_type'</span>, <span class="php-keyword1">true</span> );
+</span><span id="109" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#109">109 </a>    <span class="php-var">$image</span>          = <span class="php-quote">''</span>;
+</span><span id="110" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#110">110 </a>    <span class="php-var">$thumbnail_id</span>   = absint( get_woocommerce_term_meta( <span class="php-var">$term</span>-&gt;term_id, <span class="php-quote">'thumbnail_id'</span>, <span class="php-keyword1">true</span> ) );
+</span><span id="111" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#111">111 </a>    <span class="php-keyword1">if</span> (<span class="php-var">$thumbnail_id</span>) :
+</span><span id="112" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#112">112 </a>        <span class="php-var">$image</span> = wp_get_attachment_url( <span class="php-var">$thumbnail_id</span> );
+</span><span id="113" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#113">113 </a>    <span class="php-keyword1">else</span> :
+</span><span id="114" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#114">114 </a>        <span class="php-var">$image</span> = woocommerce_placeholder_img_src();
+</span><span id="115" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#115">115 </a>    <span class="php-keyword1">endif</span>;
+</span><span id="116" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#116">116 </a>    <span class="xlang">?&gt;</span>
+</span><span id="117" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#117">117 </a>    &lt;tr <span class="php-keyword1">class</span>=<span class="php-quote">&quot;form-field&quot;</span>&gt;
+</span><span id="118" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#118">118 </a>        &lt;th scope=<span class="php-quote">&quot;row&quot;</span> valign=<span class="php-quote">&quot;top&quot;</span>&gt;&lt;label&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Display type'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/label&gt;&lt;/th&gt;
+</span><span id="119" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#119">119 </a>        &lt;td&gt;
+</span><span id="120" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#120">120 </a>            &lt;select id=<span class="php-quote">&quot;display_type&quot;</span> name=<span class="php-quote">&quot;display_type&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;postform&quot;</span>&gt;
+</span><span id="121" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#121">121 </a>                &lt;option value=<span class="php-quote">&quot;&quot;</span> <span class="xlang">&lt;?php</span> selected( <span class="php-quote">''</span>, <span class="php-var">$display_type</span> ); <span class="xlang">?&gt;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Default'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="122" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#122">122 </a>                &lt;option value=<span class="php-quote">&quot;products&quot;</span> <span class="xlang">&lt;?php</span> selected( <span class="php-quote">'products'</span>, <span class="php-var">$display_type</span> ); <span class="xlang">?&gt;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Products'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="123" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#123">123 </a>                &lt;option value=<span class="php-quote">&quot;subcategories&quot;</span> <span class="xlang">&lt;?php</span> selected( <span class="php-quote">'subcategories'</span>, <span class="php-var">$display_type</span> ); <span class="xlang">?&gt;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Subcategories'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="124" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#124">124 </a>                &lt;option value=<span class="php-quote">&quot;both&quot;</span> <span class="xlang">&lt;?php</span> selected( <span class="php-quote">'both'</span>, <span class="php-var">$display_type</span> ); <span class="xlang">?&gt;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Both'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="125" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#125">125 </a>            &lt;/select&gt;
+</span><span id="126" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#126">126 </a>        &lt;/td&gt;
+</span><span id="127" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#127">127 </a>    &lt;/tr&gt;
+</span><span id="128" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#128">128 </a>    &lt;tr <span class="php-keyword1">class</span>=<span class="php-quote">&quot;form-field&quot;</span>&gt;
+</span><span id="129" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#129">129 </a>        &lt;th scope=<span class="php-quote">&quot;row&quot;</span> valign=<span class="php-quote">&quot;top&quot;</span>&gt;&lt;label&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Thumbnail'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/label&gt;&lt;/th&gt;
+</span><span id="130" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#130">130 </a>        &lt;td&gt;
+</span><span id="131" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#131">131 </a>            &lt;div id=<span class="php-quote">&quot;product_cat_thumbnail&quot;</span> style=<span class="php-quote">&quot;float:left;margin-right:10px;&quot;</span>&gt;&lt;img src=<span class="php-quote">&quot;&lt;?php echo </span><span class="php-var">$image</span><span class="php-quote">; ?&gt;&quot;</span> width=<span class="php-quote">&quot;60px&quot;</span> height=<span class="php-quote">&quot;60px&quot;</span> /&gt;&lt;/div&gt;
+</span><span id="132" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#132">132 </a>            &lt;div style=<span class="php-quote">&quot;line-height:60px;&quot;</span>&gt;
+</span><span id="133" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#133">133 </a>                &lt;input type=<span class="php-quote">&quot;hidden&quot;</span> id=<span class="php-quote">&quot;product_cat_thumbnail_id&quot;</span> name=<span class="php-quote">&quot;product_cat_thumbnail_id&quot;</span> value=<span class="php-quote">&quot;&lt;?php echo </span><span class="php-var">$thumbnail_id</span><span class="php-quote">; ?&gt;&quot;</span> /&gt;
+</span><span id="134" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#134">134 </a>                &lt;button type=<span class="php-quote">&quot;submit&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;upload_image_button button&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Upload/Add image'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/button&gt;
+</span><span id="135" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#135">135 </a>                &lt;button type=<span class="php-quote">&quot;submit&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;remove_image_button button&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Remove image'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/button&gt;
+</span><span id="136" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#136">136 </a>            &lt;/div&gt;
+</span><span id="137" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#137">137 </a>            &lt;script type=<span class="php-quote">&quot;text/javascript&quot;</span>&gt;
+</span><span id="138" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#138">138 </a>
+</span><span id="139" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#139">139 </a>                <span class="php-comment">// Uploading files</span>
+</span><span id="140" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#140">140 </a>                <span class="php-keyword1">var</span> file_frame;
+</span><span id="141" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#141">141 </a>
+</span><span id="142" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#142">142 </a>                jQuery(document).on( <span class="php-quote">'click'</span>, <span class="php-quote">'.upload_image_button'</span>, <span class="php-keyword1">function</span>( event ){
+</span><span id="143" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#143">143 </a>
+</span><span id="144" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#144">144 </a>                    event.preventDefault();
+</span><span id="145" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#145">145 </a>
+</span><span id="146" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#146">146 </a>                    <span class="php-comment">// If the media frame already exists, reopen it.</span>
+</span><span id="147" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#147">147 </a>                    <span class="php-keyword1">if</span> ( file_frame ) {
+</span><span id="148" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#148">148 </a>                        file_frame.open();
+</span><span id="149" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#149">149 </a>                        <span class="php-keyword1">return</span>;
+</span><span id="150" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#150">150 </a>                    }
+</span><span id="151" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#151">151 </a>
+</span><span id="152" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#152">152 </a>                    <span class="php-comment">// Create the media frame.</span>
+</span><span id="153" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#153">153 </a>                    file_frame = wp.media.frames.downloadable_file = wp.media({
+</span><span id="154" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#154">154 </a>                        title: <span class="php-quote">'&lt;?php _e( '</span>Choose an image<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>,
+</span><span id="155" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#155">155 </a>                        button: {
+</span><span id="156" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#156">156 </a>                            text: <span class="php-quote">'&lt;?php _e( '</span><span class="php-keyword1">Use</span> image<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>,
+</span><span id="157" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#157">157 </a>                        },
+</span><span id="158" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#158">158 </a>                        multiple: <span class="php-keyword1">false</span>
+</span><span id="159" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#159">159 </a>                    });
+</span><span id="160" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#160">160 </a>
+</span><span id="161" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#161">161 </a>                    <span class="php-comment">// When an image is selected, run a callback.</span>
+</span><span id="162" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#162">162 </a>                    file_frame.on( <span class="php-quote">'select'</span>, <span class="php-keyword1">function</span>() {
+</span><span id="163" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#163">163 </a>                        attachment = file_frame.state().get(<span class="php-quote">'selection'</span>).first().toJSON();
+</span><span id="164" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#164">164 </a>
+</span><span id="165" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#165">165 </a>                        jQuery(<span class="php-quote">'#product_cat_thumbnail_id'</span>).val( attachment.id );
+</span><span id="166" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#166">166 </a>                        jQuery(<span class="php-quote">'#product_cat_thumbnail img'</span>).attr(<span class="php-quote">'src'</span>, attachment.url );
+</span><span id="167" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#167">167 </a>                        jQuery(<span class="php-quote">'.remove_image_button'</span>).show();
+</span><span id="168" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#168">168 </a>                    });
+</span><span id="169" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#169">169 </a>
+</span><span id="170" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#170">170 </a>                    <span class="php-comment">// Finally, open the modal.</span>
+</span><span id="171" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#171">171 </a>                    file_frame.open();
+</span><span id="172" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#172">172 </a>                });
+</span><span id="173" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#173">173 </a>
+</span><span id="174" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#174">174 </a>                jQuery(document).on( <span class="php-quote">'click'</span>, <span class="php-quote">'.remove_image_button'</span>, <span class="php-keyword1">function</span>( event ){
+</span><span id="175" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#175">175 </a>                    jQuery(<span class="php-quote">'#product_cat_thumbnail img'</span>).attr(<span class="php-quote">'src'</span>, <span class="php-quote">'&lt;?php echo woocommerce_placeholder_img_src(); ?&gt;'</span>);
+</span><span id="176" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#176">176 </a>                    jQuery(<span class="php-quote">'#product_cat_thumbnail_id'</span>).val(<span class="php-quote">''</span>);
+</span><span id="177" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#177">177 </a>                    jQuery(<span class="php-quote">'.remove_image_button'</span>).hide();
+</span><span id="178" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#178">178 </a>                    <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="179" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#179">179 </a>                });
+</span><span id="180" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#180">180 </a>
+</span><span id="181" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#181">181 </a>            &lt;/script&gt;
+</span><span id="182" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#182">182 </a>            &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;clear&quot;</span>&gt;&lt;/div&gt;
+</span><span id="183" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#183">183 </a>        &lt;/td&gt;
+</span><span id="184" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#184">184 </a>    &lt;/tr&gt;
+</span><span id="185" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#185">185 </a>    <span class="xlang">&lt;?php</span>
+</span><span id="186" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#186">186 </a>}
+</span><span id="187" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#187">187 </a>
+</span><span id="188" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#188">188 </a>add_action( <span class="php-quote">'product_cat_edit_form_fields'</span>, <span class="php-quote">'woocommerce_edit_category_fields'</span>, <span class="php-num">10</span>,<span class="php-num">2</span> );
+</span><span id="189" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#189">189 </a>
+</span><span id="190" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#190">190 </a>
+</span><span id="191" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#191">191 </a><span class="php-comment">/**
+</span></span><span id="192" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#192">192 </a><span class="php-comment"> * woocommerce_category_fields_save function.
+</span></span><span id="193" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#193">193 </a><span class="php-comment"> *
+</span></span><span id="194" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#194">194 </a><span class="php-comment"> * @access public
+</span></span><span id="195" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#195">195 </a><span class="php-comment"> * @param mixed $term_id Term ID being saved
+</span></span><span id="196" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#196">196 </a><span class="php-comment"> * @param mixed $tt_id
+</span></span><span id="197" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#197">197 </a><span class="php-comment"> * @param mixed $taxonomy Taxonomy of the term being saved
+</span></span><span id="198" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#198">198 </a><span class="php-comment"> * @return void
+</span></span><span id="199" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#199">199 </a><span class="php-comment"> */</span>
+</span><span id="200" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#200">200 </a><span class="php-keyword1">function</span> <a id="_woocommerce_category_fields_save" href="source-function-woocommerce_shipping_class_columns.html#_woocommerce_category_fields_save">woocommerce_category_fields_save</a>( <span class="php-var">$term_id</span>, <span class="php-var">$tt_id</span>, <span class="php-var">$taxonomy</span> ) {
+</span><span id="201" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#201">201 </a>    <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'display_type'</span>] ) )
+</span><span id="202" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#202">202 </a>        update_woocommerce_term_meta( <span class="php-var">$term_id</span>, <span class="php-quote">'display_type'</span>, esc_attr( <span class="php-var">$_POST</span>[<span class="php-quote">'display_type'</span>] ) );
+</span><span id="203" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#203">203 </a>
+</span><span id="204" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#204">204 </a>    <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'product_cat_thumbnail_id'</span>] ) )
+</span><span id="205" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#205">205 </a>        update_woocommerce_term_meta( <span class="php-var">$term_id</span>, <span class="php-quote">'thumbnail_id'</span>, absint( <span class="php-var">$_POST</span>[<span class="php-quote">'product_cat_thumbnail_id'</span>] ) );
+</span><span id="206" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#206">206 </a>
+</span><span id="207" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#207">207 </a>    delete_transient( <span class="php-quote">'wc_term_counts'</span> );
+</span><span id="208" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#208">208 </a>}
+</span><span id="209" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#209">209 </a>
+</span><span id="210" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#210">210 </a>add_action( <span class="php-quote">'created_term'</span>, <span class="php-quote">'woocommerce_category_fields_save'</span>, <span class="php-num">10</span>,<span class="php-num">3</span> );
+</span><span id="211" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#211">211 </a>add_action( <span class="php-quote">'edit_term'</span>, <span class="php-quote">'woocommerce_category_fields_save'</span>, <span class="php-num">10</span>,<span class="php-num">3</span> );
+</span><span id="212" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#212">212 </a>
+</span><span id="213" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#213">213 </a>
+</span><span id="214" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#214">214 </a><span class="php-comment">/**
+</span></span><span id="215" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#215">215 </a><span class="php-comment"> * Description for product_cat page to aid users.
+</span></span><span id="216" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#216">216 </a><span class="php-comment"> *
+</span></span><span id="217" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#217">217 </a><span class="php-comment"> * @access public
+</span></span><span id="218" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#218">218 </a><span class="php-comment"> * @return void
+</span></span><span id="219" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#219">219 </a><span class="php-comment"> */</span>
+</span><span id="220" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#220">220 </a><span class="php-keyword1">function</span> <a id="_woocommerce_product_cat_description" href="source-function-woocommerce_shipping_class_columns.html#_woocommerce_product_cat_description">woocommerce_product_cat_description</a>() {
+</span><span id="221" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#221">221 </a>
+</span><span id="222" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#222">222 </a>    <span class="php-keyword1">echo</span> wpautop( __( <span class="php-quote">'Product categories for your store can be managed here. To change the order of categories on the front-end you can drag and drop to sort them. To see more categories listed click the &quot;screen options&quot; link at the top of the page.'</span>, <span class="php-quote">'woocommerce'</span> ) );
+</span><span id="223" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#223">223 </a>
+</span><span id="224" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#224">224 </a>}
+</span><span id="225" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#225">225 </a>
+</span><span id="226" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#226">226 </a>add_action( <span class="php-quote">'product_cat_pre_add_form'</span>, <span class="php-quote">'woocommerce_product_cat_description'</span> );
+</span><span id="227" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#227">227 </a>
+</span><span id="228" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#228">228 </a>
+</span><span id="229" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#229">229 </a><span class="php-comment">/**
+</span></span><span id="230" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#230">230 </a><span class="php-comment"> * Description for shipping class page to aid users.
+</span></span><span id="231" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#231">231 </a><span class="php-comment"> *
+</span></span><span id="232" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#232">232 </a><span class="php-comment"> * @access public
+</span></span><span id="233" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#233">233 </a><span class="php-comment"> * @return void
+</span></span><span id="234" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#234">234 </a><span class="php-comment"> */</span>
+</span><span id="235" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#235">235 </a><span class="php-keyword1">function</span> <a id="_woocommerce_shipping_class_description" href="source-function-woocommerce_shipping_class_columns.html#_woocommerce_shipping_class_description">woocommerce_shipping_class_description</a>() {
+</span><span id="236" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#236">236 </a>
+</span><span id="237" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#237">237 </a>    <span class="php-keyword1">echo</span> wpautop(__( <span class="php-quote">'Shipping classes can be used to group products of similar type. These groups can then be used by certain shipping methods to provide different rates to different products.'</span>, <span class="php-quote">'woocommerce'</span> ));
+</span><span id="238" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#238">238 </a>
+</span><span id="239" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#239">239 </a>}
+</span><span id="240" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#240">240 </a>
+</span><span id="241" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#241">241 </a>add_action( <span class="php-quote">'product_shipping_class_pre_add_form'</span>, <span class="php-quote">'woocommerce_shipping_class_description'</span> );
+</span><span id="242" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#242">242 </a>
+</span><span id="243" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#243">243 </a>
+</span><span id="244" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#244">244 </a><span class="php-comment">/**
+</span></span><span id="245" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#245">245 </a><span class="php-comment"> * Fix for the per_page option
+</span></span><span id="246" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#246">246 </a><span class="php-comment"> *
+</span></span><span id="247" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#247">247 </a><span class="php-comment"> * Trac: http://core.trac.wordpress.org/ticket/19465
+</span></span><span id="248" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#248">248 </a><span class="php-comment"> *
+</span></span><span id="249" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#249">249 </a><span class="php-comment"> * @access public
+</span></span><span id="250" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#250">250 </a><span class="php-comment"> * @param mixed $per_page
+</span></span><span id="251" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#251">251 </a><span class="php-comment"> * @param mixed $post_type
+</span></span><span id="252" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#252">252 </a><span class="php-comment"> * @return void
+</span></span><span id="253" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#253">253 </a><span class="php-comment"> */</span>
+</span><span id="254" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#254">254 </a><span class="php-keyword1">function</span> <a id="_woocommerce_fix_edit_posts_per_page" href="source-function-woocommerce_shipping_class_columns.html#_woocommerce_fix_edit_posts_per_page">woocommerce_fix_edit_posts_per_page</a>( <span class="php-var">$per_page</span>, <span class="php-var">$post_type</span> ) {
+</span><span id="255" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#255">255 </a>
+</span><span id="256" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#256">256 </a>    <span class="php-keyword1">if</span> ( <span class="php-var">$post_type</span> !== <span class="php-quote">'product'</span> )
+</span><span id="257" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#257">257 </a>        <span class="php-keyword1">return</span> <span class="php-var">$per_page</span>;
+</span><span id="258" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#258">258 </a>
+</span><span id="259" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#259">259 </a>    <span class="php-var">$screen</span> = get_current_screen();
+</span><span id="260" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#260">260 </a>
+</span><span id="261" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#261">261 </a>    <span class="php-keyword1">if</span> ( <span class="php-keyword2">strstr</span>( <span class="php-var">$screen</span>-&gt;id, <span class="php-quote">'-'</span> ) ) {
+</span><span id="262" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#262">262 </a>
+</span><span id="263" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#263">263 </a>        <span class="php-var">$option</span> = <span class="php-quote">'edit_'</span> . <span class="php-keyword2">str_replace</span>( <span class="php-quote">'edit-'</span>, <span class="php-quote">''</span>, <span class="php-var">$screen</span>-&gt;id ) . <span class="php-quote">'_per_page'</span>;
+</span><span id="264" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#264">264 </a>
+</span><span id="265" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#265">265 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'wp_screen_options'</span>][<span class="php-quote">'option'</span>] ) &amp;&amp; <span class="php-var">$_POST</span>[<span class="php-quote">'wp_screen_options'</span>][<span class="php-quote">'option'</span>] == <span class="php-var">$option</span> ) {
+</span><span id="266" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#266">266 </a>
+</span><span id="267" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#267">267 </a>            update_user_meta( get_current_user_id(), <span class="php-var">$option</span>, <span class="php-var">$_POST</span>[<span class="php-quote">'wp_screen_options'</span>][<span class="php-quote">'value'</span>] );
+</span><span id="268" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#268">268 </a>
+</span><span id="269" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#269">269 </a>            wp_redirect( remove_query_arg( <span class="php-keyword1">array</span>(<span class="php-quote">'pagenum'</span>, <span class="php-quote">'apage'</span>, <span class="php-quote">'paged'</span>), wp_get_referer() ) );
+</span><span id="270" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#270">270 </a>            <span class="php-keyword1">exit</span>;
+</span><span id="271" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#271">271 </a>
+</span><span id="272" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#272">272 </a>        }
+</span><span id="273" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#273">273 </a>
+</span><span id="274" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#274">274 </a>        <span class="php-var">$user_per_page</span> = (int) get_user_meta( get_current_user_id(), <span class="php-var">$option</span>, <span class="php-keyword1">true</span> );
+</span><span id="275" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#275">275 </a>
+</span><span id="276" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#276">276 </a>        <span class="php-keyword1">if</span> ( <span class="php-var">$user_per_page</span> )
+</span><span id="277" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#277">277 </a>            <span class="php-var">$per_page</span> = <span class="php-var">$user_per_page</span>;
+</span><span id="278" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#278">278 </a>
+</span><span id="279" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#279">279 </a>    }
+</span><span id="280" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#280">280 </a>
+</span><span id="281" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#281">281 </a>    <span class="php-keyword1">return</span> <span class="php-var">$per_page</span>;
+</span><span id="282" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#282">282 </a>}
+</span><span id="283" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#283">283 </a>
+</span><span id="284" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#284">284 </a>add_filter( <span class="php-quote">'edit_posts_per_page'</span>, <span class="php-quote">'woocommerce_fix_edit_posts_per_page'</span>, <span class="php-num">1</span>, <span class="php-num">2</span> );
+</span><span id="285" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#285">285 </a>
+</span><span id="286" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#286">286 </a>
+</span><span id="287" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#287">287 </a><span class="php-comment">/**
+</span></span><span id="288" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#288">288 </a><span class="php-comment"> * Thumbnail column added to category admin.
+</span></span><span id="289" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#289">289 </a><span class="php-comment"> *
+</span></span><span id="290" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#290">290 </a><span class="php-comment"> * @access public
+</span></span><span id="291" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#291">291 </a><span class="php-comment"> * @param mixed $columns
+</span></span><span id="292" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#292">292 </a><span class="php-comment"> * @return void
+</span></span><span id="293" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#293">293 </a><span class="php-comment"> */</span>
+</span><span id="294" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#294">294 </a><span class="php-keyword1">function</span> <a id="_woocommerce_product_cat_columns" href="source-function-woocommerce_shipping_class_columns.html#_woocommerce_product_cat_columns">woocommerce_product_cat_columns</a>( <span class="php-var">$columns</span> ) {
+</span><span id="295" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#295">295 </a>    <span class="php-var">$new_columns</span> = <span class="php-keyword1">array</span>();
+</span><span id="296" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#296">296 </a>    <span class="php-var">$new_columns</span>[<span class="php-quote">'cb'</span>] = <span class="php-var">$columns</span>[<span class="php-quote">'cb'</span>];
+</span><span id="297" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#297">297 </a>    <span class="php-var">$new_columns</span>[<span class="php-quote">'thumb'</span>] = __( <span class="php-quote">'Image'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="298" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#298">298 </a>
+</span><span id="299" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#299">299 </a>    <span class="php-keyword1">unset</span>( <span class="php-var">$columns</span>[<span class="php-quote">'cb'</span>] );
+</span><span id="300" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#300">300 </a>
+</span><span id="301" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#301">301 </a>    <span class="php-keyword1">return</span> <span class="php-keyword2">array_merge</span>( <span class="php-var">$new_columns</span>, <span class="php-var">$columns</span> );
+</span><span id="302" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#302">302 </a>}
+</span><span id="303" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#303">303 </a>
+</span><span id="304" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#304">304 </a>add_filter( <span class="php-quote">'manage_edit-product_cat_columns'</span>, <span class="php-quote">'woocommerce_product_cat_columns'</span> );
+</span><span id="305" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#305">305 </a>
+</span><span id="306" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#306">306 </a>
+</span><span id="307" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#307">307 </a><span class="php-comment">/**
+</span></span><span id="308" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#308">308 </a><span class="php-comment"> * Thumbnail column value added to category admin.
+</span></span><span id="309" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#309">309 </a><span class="php-comment"> *
+</span></span><span id="310" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#310">310 </a><span class="php-comment"> * @access public
+</span></span><span id="311" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#311">311 </a><span class="php-comment"> * @param mixed $columns
+</span></span><span id="312" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#312">312 </a><span class="php-comment"> * @param mixed $column
+</span></span><span id="313" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#313">313 </a><span class="php-comment"> * @param mixed $id
+</span></span><span id="314" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#314">314 </a><span class="php-comment"> * @return void
+</span></span><span id="315" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#315">315 </a><span class="php-comment"> */</span>
+</span><span id="316" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#316">316 </a><span class="php-keyword1">function</span> <a id="_woocommerce_product_cat_column" href="source-function-woocommerce_shipping_class_columns.html#_woocommerce_product_cat_column">woocommerce_product_cat_column</a>( <span class="php-var">$columns</span>, <span class="php-var">$column</span>, <span class="php-var">$id</span> ) {
+</span><span id="317" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#317">317 </a>    <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>;
+</span><span id="318" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#318">318 </a>
+</span><span id="319" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#319">319 </a>    <span class="php-keyword1">if</span> ( <span class="php-var">$column</span> == <span class="php-quote">'thumb'</span> ) {
+</span><span id="320" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#320">320 </a>
+</span><span id="321" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#321">321 </a>        <span class="php-var">$image</span>          = <span class="php-quote">''</span>;
+</span><span id="322" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#322">322 </a>        <span class="php-var">$thumbnail_id</span>   = get_woocommerce_term_meta( <span class="php-var">$id</span>, <span class="php-quote">'thumbnail_id'</span>, <span class="php-keyword1">true</span> );
+</span><span id="323" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#323">323 </a>
+</span><span id="324" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#324">324 </a>        <span class="php-keyword1">if</span> (<span class="php-var">$thumbnail_id</span>)
+</span><span id="325" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#325">325 </a>            <span class="php-var">$image</span> = wp_get_attachment_url( <span class="php-var">$thumbnail_id</span> );
+</span><span id="326" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#326">326 </a>        <span class="php-keyword1">else</span>
+</span><span id="327" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#327">327 </a>            <span class="php-var">$image</span> = woocommerce_placeholder_img_src();
+</span><span id="328" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#328">328 </a>
+</span><span id="329" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#329">329 </a>        <span class="php-var">$columns</span> .= <span class="php-quote">'&lt;img src=&quot;'</span> . <span class="php-var">$image</span> . <span class="php-quote">'&quot; alt=&quot;Thumbnail&quot; class=&quot;wp-post-image&quot; height=&quot;48&quot; width=&quot;48&quot; /&gt;'</span>;
+</span><span id="330" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#330">330 </a>
+</span><span id="331" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#331">331 </a>    }
+</span><span id="332" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#332">332 </a>
+</span><span id="333" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#333">333 </a>    <span class="php-keyword1">return</span> <span class="php-var">$columns</span>;
+</span><span id="334" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#334">334 </a>}
+</span><span id="335" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#335">335 </a>
+</span><span id="336" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#336">336 </a>add_filter( <span class="php-quote">'manage_product_cat_custom_column'</span>, <span class="php-quote">'woocommerce_product_cat_column'</span>, <span class="php-num">10</span>, <span class="php-num">3</span> );
+</span><span id="337" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#337">337 </a>
+</span><span id="338" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#338">338 </a>
+</span><span id="339" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#339">339 </a><span class="php-comment">/**
+</span></span><span id="340" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#340">340 </a><span class="php-comment"> * Add a configure button column for the shipping classes page.
+</span></span><span id="341" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#341">341 </a><span class="php-comment"> *
+</span></span><span id="342" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#342">342 </a><span class="php-comment"> * @access public
+</span></span><span id="343" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#343">343 </a><span class="php-comment"> * @param mixed $columns
+</span></span><span id="344" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#344">344 </a><span class="php-comment"> * @return void
+</span></span><span id="345" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#345">345 </a><span class="php-comment"> */</span>
+</span><span id="346" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#346">346 </a><span class="php-keyword1">function</span> <a id="_woocommerce_shipping_class_columns" href="source-function-woocommerce_shipping_class_columns.html#_woocommerce_shipping_class_columns">woocommerce_shipping_class_columns</a>( <span class="php-var">$columns</span> ) {
+</span><span id="347" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#347">347 </a>    <span class="php-var">$columns</span>[<span class="php-quote">'edit'</span>] = <span class="php-quote">'&amp;nbsp;'</span>;
+</span><span id="348" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#348">348 </a>    <span class="php-keyword1">return</span> <span class="php-var">$columns</span>;
+</span><span id="349" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#349">349 </a>}
+</span><span id="350" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#350">350 </a>
+</span><span id="351" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#351">351 </a>add_filter( <span class="php-quote">'manage_edit-product_shipping_class_columns'</span>, <span class="php-quote">'woocommerce_shipping_class_columns'</span> );
+</span><span id="352" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#352">352 </a>
+</span><span id="353" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#353">353 </a>
+</span><span id="354" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#354">354 </a><span class="php-comment">/**
+</span></span><span id="355" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#355">355 </a><span class="php-comment"> * Add a configure button for the shipping classes page.
+</span></span><span id="356" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#356">356 </a><span class="php-comment"> *
+</span></span><span id="357" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#357">357 </a><span class="php-comment"> * @access public
+</span></span><span id="358" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#358">358 </a><span class="php-comment"> * @param mixed $columns
+</span></span><span id="359" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#359">359 </a><span class="php-comment"> * @param mixed $column
+</span></span><span id="360" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#360">360 </a><span class="php-comment"> * @param mixed $id
+</span></span><span id="361" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#361">361 </a><span class="php-comment"> * @return void
+</span></span><span id="362" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#362">362 </a><span class="php-comment"> */</span>
+</span><span id="363" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#363">363 </a><span class="php-keyword1">function</span> <a id="_woocommerce_shipping_class_column" href="source-function-woocommerce_shipping_class_columns.html#_woocommerce_shipping_class_column">woocommerce_shipping_class_column</a>( <span class="php-var">$columns</span>, <span class="php-var">$column</span>, <span class="php-var">$id</span> ) {
+</span><span id="364" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#364">364 </a>    <span class="php-keyword1">if</span> ( <span class="php-var">$column</span> == <span class="php-quote">'edit'</span> )
+</span><span id="365" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#365">365 </a>        <span class="php-var">$columns</span> .= <span class="php-quote">'&lt;a href=&quot;'</span>. admin_url( <span class="php-quote">'edit-tags.php?action=edit&amp;taxonomy=product_shipping_class&amp;tag_ID='</span>. <span class="php-var">$id</span> .<span class="php-quote">'&amp;post_type=product'</span> ) .<span class="php-quote">'&quot; class=&quot;button alignright&quot;&gt;'</span>.__( <span class="php-quote">'Edit Class'</span>, <span class="php-quote">'woocommerce'</span> ).<span class="php-quote">'&lt;/a&gt;'</span>;
+</span><span id="366" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#366">366 </a>
+</span><span id="367" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#367">367 </a>    <span class="php-keyword1">return</span> <span class="php-var">$columns</span>;
+</span><span id="368" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#368">368 </a>}
+</span><span id="369" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#369">369 </a>
+</span><span id="370" class="l"><a class="l" href="source-function-woocommerce_shipping_class_columns.html#370">370 </a></span>add_filter( <span class="php-quote">'manage_product_shipping_class_custom_column'</span>, <span class="php-quote">'woocommerce_shipping_class_column'</span>, <span class="php-num">10</span>, <span class="php-num">3</span> );</code></pre>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

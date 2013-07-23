@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>File admin/woocommerce-admin-users.php | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Admin.Users.html" title="Summary of WooCommerce\Admin\Users"><span>Package</span></a>
+						</li>
+						<li>
+							<a href="function-woocommerce_user_columns.html" title="Summary of woocommerce_user_columns"><span>Function</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-woocommerce_customer_meta_fields.html">woocommerce_customer_meta_fields</a></li>
+				<li><a href="function-woocommerce_get_customer_meta_fields.html">woocommerce_get_customer_meta_fields</a></li>
+				<li><a href="function-woocommerce_save_customer_meta_fields.html">woocommerce_save_customer_meta_fields</a></li>
+				<li><a href="function-woocommerce_user_column_values.html">woocommerce_user_column_values</a></li>
+				<li class="active"><a href="function-woocommerce_user_columns.html">woocommerce_user_columns</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#1">  1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#2">  2 </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#3">  3 </a><span class="php-comment"> * Admin user functions
+</span></span><span id="4" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#4">  4 </a><span class="php-comment"> *
+</span></span><span id="5" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#5">  5 </a><span class="php-comment"> * Functions used for modifying the users panel in admin.
+</span></span><span id="6" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#6">  6 </a><span class="php-comment"> *
+</span></span><span id="7" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#7">  7 </a><span class="php-comment"> * @author      WooThemes
+</span></span><span id="8" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#8">  8 </a><span class="php-comment"> * @category    Admin
+</span></span><span id="9" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#9">  9 </a><span class="php-comment"> * @package     WooCommerce/Admin/Users
+</span></span><span id="10" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#10"> 10 </a><span class="php-comment"> * @version     1.6.4
+</span></span><span id="11" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#11"> 11 </a><span class="php-comment"> */</span>
+</span><span id="12" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#12"> 12 </a>
+</span><span id="13" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#13"> 13 </a><span class="php-keyword1">if</span> ( ! <span class="php-keyword2">defined</span>( <span class="php-quote">'ABSPATH'</span> ) ) <span class="php-keyword1">exit</span>; <span class="php-comment">// Exit if accessed directly</span>
+</span><span id="14" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#14"> 14 </a>
+</span><span id="15" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#15"> 15 </a><span class="php-comment">/**
+</span></span><span id="16" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#16"> 16 </a><span class="php-comment"> * Define columns to show on the users page.
+</span></span><span id="17" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#17"> 17 </a><span class="php-comment"> *
+</span></span><span id="18" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#18"> 18 </a><span class="php-comment"> * @access public
+</span></span><span id="19" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#19"> 19 </a><span class="php-comment"> * @param array $columns Columns on the manage users page
+</span></span><span id="20" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#20"> 20 </a><span class="php-comment"> * @return array The modified columns
+</span></span><span id="21" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#21"> 21 </a><span class="php-comment"> */</span>
+</span><span id="22" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#22"> 22 </a><span class="php-keyword1">function</span> <a id="_woocommerce_user_columns" href="source-function-woocommerce_user_columns.html#_woocommerce_user_columns">woocommerce_user_columns</a>( <span class="php-var">$columns</span> ) {
+</span><span id="23" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#23"> 23 </a>    <span class="php-keyword1">if</span> ( ! current_user_can( <span class="php-quote">'manage_woocommerce'</span> ) )
+</span><span id="24" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#24"> 24 </a>        <span class="php-keyword1">return</span> <span class="php-var">$columns</span>;
+</span><span id="25" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#25"> 25 </a>
+</span><span id="26" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#26"> 26 </a>    <span class="php-var">$columns</span>[<span class="php-quote">'woocommerce_billing_address'</span>] = __( <span class="php-quote">'Billing Address'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="27" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#27"> 27 </a>    <span class="php-var">$columns</span>[<span class="php-quote">'woocommerce_shipping_address'</span>] = __( <span class="php-quote">'Shipping Address'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="28" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#28"> 28 </a>    <span class="php-var">$columns</span>[<span class="php-quote">'woocommerce_paying_customer'</span>] = __( <span class="php-quote">'Paying Customer?'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="29" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#29"> 29 </a>    <span class="php-var">$columns</span>[<span class="php-quote">'woocommerce_order_count'</span>] = __( <span class="php-quote">'Completed Orders'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="30" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#30"> 30 </a>    <span class="php-keyword1">return</span> <span class="php-var">$columns</span>;
+</span><span id="31" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#31"> 31 </a>}
+</span><span id="32" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#32"> 32 </a>
+</span><span id="33" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#33"> 33 </a>add_filter( <span class="php-quote">'manage_users_columns'</span>, <span class="php-quote">'woocommerce_user_columns'</span>, <span class="php-num">10</span>, <span class="php-num">1</span> );
+</span><span id="34" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#34"> 34 </a>
+</span><span id="35" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#35"> 35 </a>
+</span><span id="36" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#36"> 36 </a><span class="php-comment">/**
+</span></span><span id="37" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#37"> 37 </a><span class="php-comment"> * Define values for custom columns.
+</span></span><span id="38" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#38"> 38 </a><span class="php-comment"> *
+</span></span><span id="39" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#39"> 39 </a><span class="php-comment"> * @access public
+</span></span><span id="40" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#40"> 40 </a><span class="php-comment"> * @param mixed $value The value of the column being displayed
+</span></span><span id="41" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#41"> 41 </a><span class="php-comment"> * @param mixed $column_name The name of the column being displayed
+</span></span><span id="42" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#42"> 42 </a><span class="php-comment"> * @param mixed $user_id The ID of the user being displayed
+</span></span><span id="43" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#43"> 43 </a><span class="php-comment"> * @return string Value for the column
+</span></span><span id="44" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#44"> 44 </a><span class="php-comment"> */</span>
+</span><span id="45" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#45"> 45 </a><span class="php-keyword1">function</span> <a id="_woocommerce_user_column_values" href="source-function-woocommerce_user_columns.html#_woocommerce_user_column_values">woocommerce_user_column_values</a>( <span class="php-var">$value</span>, <span class="php-var">$column_name</span>, <span class="php-var">$user_id</span> ) {
+</span><span id="46" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#46"> 46 </a>    <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>, <span class="php-var">$wpdb</span>;
+</span><span id="47" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#47"> 47 </a>    <span class="php-keyword1">switch</span> ( <span class="php-var">$column_name</span> ) :
+</span><span id="48" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#48"> 48 </a>        <span class="php-keyword1">case</span> <span class="php-quote">&quot;woocommerce_order_count&quot;</span> :
+</span><span id="49" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#49"> 49 </a>
+</span><span id="50" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#50"> 50 </a>            <span class="php-keyword1">if</span> ( ! <span class="php-var">$count</span> = get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'_order_count'</span>, <span class="php-keyword1">true</span> ) ) {
+</span><span id="51" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#51"> 51 </a>
+</span><span id="52" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#52"> 52 </a>                <span class="php-var">$count</span> = <span class="php-var">$wpdb</span>-&gt;get_var( <span class="php-quote">&quot;SELECT COUNT(*)
+</span></span><span id="53" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#53"> 53 </a><span class="php-quote">                    FROM </span><span class="php-var">$wpdb</span><span class="php-quote">-&gt;posts as posts
+</span></span><span id="54" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#54"> 54 </a><span class="php-quote">
+</span></span><span id="55" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#55"> 55 </a><span class="php-quote">                    LEFT JOIN </span><span class="php-var">{$wpdb-&gt;postmeta}</span><span class="php-quote"> AS meta ON posts.ID = meta.post_id
+</span></span><span id="56" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#56"> 56 </a><span class="php-quote">                    LEFT JOIN </span><span class="php-var">{$wpdb-&gt;term_relationships}</span><span class="php-quote"> AS rel ON posts.ID=rel.object_ID
+</span></span><span id="57" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#57"> 57 </a><span class="php-quote">                    LEFT JOIN </span><span class="php-var">{$wpdb-&gt;term_taxonomy}</span><span class="php-quote"> AS tax USING( term_taxonomy_id )
+</span></span><span id="58" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#58"> 58 </a><span class="php-quote">                    LEFT JOIN </span><span class="php-var">{$wpdb-&gt;terms}</span><span class="php-quote"> AS term USING( term_id )
+</span></span><span id="59" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#59"> 59 </a><span class="php-quote">
+</span></span><span id="60" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#60"> 60 </a><span class="php-quote">                    WHERE   meta.meta_key       = '_customer_user'
+</span></span><span id="61" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#61"> 61 </a><span class="php-quote">                    AND     posts.post_type     = 'shop_order'
+</span></span><span id="62" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#62"> 62 </a><span class="php-quote">                    AND     posts.post_status   = 'publish'
+</span></span><span id="63" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#63"> 63 </a><span class="php-quote">                    AND     tax.taxonomy        = 'shop_order_status'
+</span></span><span id="64" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#64"> 64 </a><span class="php-quote">                    AND     term.slug           IN ( 'completed' )
+</span></span><span id="65" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#65"> 65 </a><span class="php-quote">                    AND     meta_value          = </span><span class="php-var">$user_id</span><span class="php-quote">
+</span></span><span id="66" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#66"> 66 </a><span class="php-quote">                &quot;</span> );
+</span><span id="67" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#67"> 67 </a>
+</span><span id="68" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#68"> 68 </a>                update_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'_order_count'</span>, <span class="php-var">$count</span> );
+</span><span id="69" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#69"> 69 </a>            }
+</span><span id="70" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#70"> 70 </a>
+</span><span id="71" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#71"> 71 </a>            <span class="php-var">$value</span> = <span class="php-quote">'&lt;a href=&quot;'</span> . admin_url( <span class="php-quote">'edit.php?post_status=all&amp;post_type=shop_order&amp;shop_order_status=completed&amp;_customer_user='</span> . absint( <span class="php-var">$user_id</span> ) . <span class="php-quote">''</span> ) . <span class="php-quote">'&quot;&gt;'</span> . absint( <span class="php-var">$count</span> ) . <span class="php-quote">'&lt;/a&gt;'</span>;
+</span><span id="72" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#72"> 72 </a>
+</span><span id="73" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#73"> 73 </a>        <span class="php-keyword1">break</span>;
+</span><span id="74" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#74"> 74 </a>        <span class="php-keyword1">case</span> <span class="php-quote">&quot;woocommerce_billing_address&quot;</span> :
+</span><span id="75" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#75"> 75 </a>            <span class="php-var">$address</span> = apply_filters( <span class="php-quote">'woocommerce_user_column_billing_address'</span>, <span class="php-keyword1">array</span>(
+</span><span id="76" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#76"> 76 </a>                <span class="php-quote">'first_name'</span>    =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'billing_first_name'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="77" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#77"> 77 </a>                <span class="php-quote">'last_name'</span>     =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'billing_last_name'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="78" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#78"> 78 </a>                <span class="php-quote">'company'</span>       =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'billing_company'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="79" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#79"> 79 </a>                <span class="php-quote">'address_1'</span>     =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'billing_address_1'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="80" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#80"> 80 </a>                <span class="php-quote">'address_2'</span>     =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'billing_address_2'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="81" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#81"> 81 </a>                <span class="php-quote">'city'</span>          =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'billing_city'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="82" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#82"> 82 </a>                <span class="php-quote">'state'</span>         =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'billing_state'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="83" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#83"> 83 </a>                <span class="php-quote">'postcode'</span>      =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'billing_postcode'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="84" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#84"> 84 </a>                <span class="php-quote">'country'</span>       =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'billing_country'</span>, <span class="php-keyword1">true</span> )
+</span><span id="85" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#85"> 85 </a>            ), <span class="php-var">$user_id</span> );
+</span><span id="86" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#86"> 86 </a>
+</span><span id="87" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#87"> 87 </a>            <span class="php-var">$formatted_address</span> = <span class="php-var">$woocommerce</span>-&gt;countries-&gt;get_formatted_address( <span class="php-var">$address</span> );
+</span><span id="88" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#88"> 88 </a>
+</span><span id="89" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#89"> 89 </a>            <span class="php-keyword1">if</span> ( ! <span class="php-var">$formatted_address</span> )
+</span><span id="90" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#90"> 90 </a>                <span class="php-var">$value</span> = __( <span class="php-quote">'N/A'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="91" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#91"> 91 </a>            <span class="php-keyword1">else</span>
+</span><span id="92" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#92"> 92 </a>                <span class="php-var">$value</span> = <span class="php-var">$formatted_address</span>;
+</span><span id="93" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#93"> 93 </a>
+</span><span id="94" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#94"> 94 </a>            <span class="php-var">$value</span> = wpautop( <span class="php-var">$value</span> );
+</span><span id="95" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#95"> 95 </a>        <span class="php-keyword1">break</span>;
+</span><span id="96" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#96"> 96 </a>        <span class="php-keyword1">case</span> <span class="php-quote">&quot;woocommerce_shipping_address&quot;</span> :
+</span><span id="97" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#97"> 97 </a>            <span class="php-var">$address</span> = apply_filters( <span class="php-quote">'woocommerce_user_column_shipping_address'</span>, <span class="php-keyword1">array</span>(
+</span><span id="98" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#98"> 98 </a>                <span class="php-quote">'first_name'</span>    =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'shipping_first_name'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="99" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#99"> 99 </a>                <span class="php-quote">'last_name'</span>     =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'shipping_last_name'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="100" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#100">100 </a>                <span class="php-quote">'company'</span>       =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'shipping_company'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="101" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#101">101 </a>                <span class="php-quote">'address_1'</span>     =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'shipping_address_1'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="102" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#102">102 </a>                <span class="php-quote">'address_2'</span>     =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'shipping_address_2'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="103" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#103">103 </a>                <span class="php-quote">'city'</span>          =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'shipping_city'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="104" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#104">104 </a>                <span class="php-quote">'state'</span>         =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'shipping_state'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="105" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#105">105 </a>                <span class="php-quote">'postcode'</span>      =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'shipping_postcode'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="106" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#106">106 </a>                <span class="php-quote">'country'</span>       =&gt; get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'shipping_country'</span>, <span class="php-keyword1">true</span> )
+</span><span id="107" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#107">107 </a>            ), <span class="php-var">$user_id</span> );
+</span><span id="108" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#108">108 </a>
+</span><span id="109" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#109">109 </a>            <span class="php-var">$formatted_address</span> = <span class="php-var">$woocommerce</span>-&gt;countries-&gt;get_formatted_address( <span class="php-var">$address</span> );
+</span><span id="110" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#110">110 </a>
+</span><span id="111" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#111">111 </a>            <span class="php-keyword1">if</span> ( ! <span class="php-var">$formatted_address</span> )
+</span><span id="112" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#112">112 </a>                <span class="php-var">$value</span> = __( <span class="php-quote">'N/A'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="113" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#113">113 </a>            <span class="php-keyword1">else</span>
+</span><span id="114" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#114">114 </a>                <span class="php-var">$value</span> = <span class="php-var">$formatted_address</span>;
+</span><span id="115" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#115">115 </a>
+</span><span id="116" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#116">116 </a>            <span class="php-var">$value</span> = wpautop( <span class="php-var">$value</span> );
+</span><span id="117" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#117">117 </a>        <span class="php-keyword1">break</span>;
+</span><span id="118" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#118">118 </a>        <span class="php-keyword1">case</span> <span class="php-quote">&quot;woocommerce_paying_customer&quot;</span> :
+</span><span id="119" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#119">119 </a>
+</span><span id="120" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#120">120 </a>            <span class="php-var">$paying_customer</span> = get_user_meta( <span class="php-var">$user_id</span>, <span class="php-quote">'paying_customer'</span>, <span class="php-keyword1">true</span> );
+</span><span id="121" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#121">121 </a>
+</span><span id="122" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#122">122 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$paying_customer</span> )
+</span><span id="123" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#123">123 </a>                <span class="php-var">$value</span> = <span class="php-quote">'&lt;img src=&quot;'</span> . <span class="php-var">$woocommerce</span>-&gt;plugin_url() . <span class="php-quote">'/assets/images/success@2x.png&quot; alt=&quot;yes&quot; width=&quot;16px&quot; /&gt;'</span>;
+</span><span id="124" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#124">124 </a>            <span class="php-keyword1">else</span>
+</span><span id="125" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#125">125 </a>                <span class="php-var">$value</span> = <span class="php-quote">'&lt;img src=&quot;'</span> . <span class="php-var">$woocommerce</span>-&gt;plugin_url() . <span class="php-quote">'/assets/images/success-off@2x.png&quot; alt=&quot;no&quot; width=&quot;16px&quot; /&gt;'</span>;
+</span><span id="126" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#126">126 </a>
+</span><span id="127" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#127">127 </a>        <span class="php-keyword1">break</span>;
+</span><span id="128" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#128">128 </a>    <span class="php-keyword1">endswitch</span>;
+</span><span id="129" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#129">129 </a>    <span class="php-keyword1">return</span> <span class="php-var">$value</span>;
+</span><span id="130" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#130">130 </a>}
+</span><span id="131" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#131">131 </a>
+</span><span id="132" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#132">132 </a>add_action( <span class="php-quote">'manage_users_custom_column'</span>, <span class="php-quote">'woocommerce_user_column_values'</span>, <span class="php-num">10</span>, <span class="php-num">3</span> );
+</span><span id="133" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#133">133 </a>
+</span><span id="134" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#134">134 </a>
+</span><span id="135" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#135">135 </a><span class="php-comment">/**
+</span></span><span id="136" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#136">136 </a><span class="php-comment"> * Get Address Fields for the edit user pages.
+</span></span><span id="137" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#137">137 </a><span class="php-comment"> *
+</span></span><span id="138" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#138">138 </a><span class="php-comment"> * @access public
+</span></span><span id="139" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#139">139 </a><span class="php-comment"> * @return array Fields to display which are filtered through woocommerce_customer_meta_fields before being returned
+</span></span><span id="140" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#140">140 </a><span class="php-comment"> */</span>
+</span><span id="141" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#141">141 </a><span class="php-keyword1">function</span> <a id="_woocommerce_get_customer_meta_fields" href="source-function-woocommerce_user_columns.html#_woocommerce_get_customer_meta_fields">woocommerce_get_customer_meta_fields</a>() {
+</span><span id="142" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#142">142 </a>    <span class="php-var">$show_fields</span> = apply_filters(<span class="php-quote">'woocommerce_customer_meta_fields'</span>, <span class="php-keyword1">array</span>(
+</span><span id="143" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#143">143 </a>        <span class="php-quote">'billing'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="144" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#144">144 </a>            <span class="php-quote">'title'</span> =&gt; __( <span class="php-quote">'Customer Billing Address'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="145" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#145">145 </a>            <span class="php-quote">'fields'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="146" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#146">146 </a>                <span class="php-quote">'billing_first_name'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="147" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#147">147 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'First name'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="148" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#148">148 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="149" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#149">149 </a>                    ),
+</span><span id="150" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#150">150 </a>                <span class="php-quote">'billing_last_name'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="151" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#151">151 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Last name'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="152" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#152">152 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="153" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#153">153 </a>                    ),
+</span><span id="154" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#154">154 </a>                <span class="php-quote">'billing_company'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="155" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#155">155 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Company'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="156" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#156">156 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="157" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#157">157 </a>                    ),
+</span><span id="158" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#158">158 </a>                <span class="php-quote">'billing_address_1'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="159" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#159">159 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Address 1'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="160" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#160">160 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="161" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#161">161 </a>                    ),
+</span><span id="162" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#162">162 </a>                <span class="php-quote">'billing_address_2'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="163" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#163">163 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Address 2'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="164" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#164">164 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="165" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#165">165 </a>                    ),
+</span><span id="166" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#166">166 </a>                <span class="php-quote">'billing_city'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="167" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#167">167 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'City'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="168" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#168">168 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="169" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#169">169 </a>                    ),
+</span><span id="170" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#170">170 </a>                <span class="php-quote">'billing_postcode'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="171" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#171">171 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Postcode'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="172" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#172">172 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="173" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#173">173 </a>                    ),
+</span><span id="174" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#174">174 </a>                <span class="php-quote">'billing_state'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="175" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#175">175 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'State/County'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="176" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#176">176 </a>                        <span class="php-quote">'description'</span> =&gt; __( <span class="php-quote">'Country or state code'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="177" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#177">177 </a>                    ),
+</span><span id="178" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#178">178 </a>                <span class="php-quote">'billing_country'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="179" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#179">179 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Country'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="180" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#180">180 </a>                        <span class="php-quote">'description'</span> =&gt; __( <span class="php-quote">'2 letter Country code'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="181" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#181">181 </a>                    ),
+</span><span id="182" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#182">182 </a>                <span class="php-quote">'billing_phone'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="183" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#183">183 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Telephone'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="184" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#184">184 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="185" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#185">185 </a>                    ),
+</span><span id="186" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#186">186 </a>                <span class="php-quote">'billing_email'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="187" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#187">187 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Email'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="188" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#188">188 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="189" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#189">189 </a>                    )
+</span><span id="190" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#190">190 </a>            )
+</span><span id="191" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#191">191 </a>        ),
+</span><span id="192" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#192">192 </a>        <span class="php-quote">'shipping'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="193" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#193">193 </a>            <span class="php-quote">'title'</span> =&gt; __( <span class="php-quote">'Customer Shipping Address'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="194" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#194">194 </a>            <span class="php-quote">'fields'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="195" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#195">195 </a>                <span class="php-quote">'shipping_first_name'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="196" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#196">196 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'First name'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="197" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#197">197 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="198" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#198">198 </a>                    ),
+</span><span id="199" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#199">199 </a>                <span class="php-quote">'shipping_last_name'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="200" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#200">200 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Last name'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="201" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#201">201 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="202" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#202">202 </a>                    ),
+</span><span id="203" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#203">203 </a>                <span class="php-quote">'shipping_company'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="204" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#204">204 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Company'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="205" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#205">205 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="206" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#206">206 </a>                    ),
+</span><span id="207" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#207">207 </a>                <span class="php-quote">'shipping_address_1'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="208" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#208">208 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Address 1'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="209" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#209">209 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="210" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#210">210 </a>                    ),
+</span><span id="211" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#211">211 </a>                <span class="php-quote">'shipping_address_2'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="212" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#212">212 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Address 2'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="213" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#213">213 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="214" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#214">214 </a>                    ),
+</span><span id="215" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#215">215 </a>                <span class="php-quote">'shipping_city'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="216" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#216">216 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'City'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="217" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#217">217 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="218" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#218">218 </a>                    ),
+</span><span id="219" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#219">219 </a>                <span class="php-quote">'shipping_postcode'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="220" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#220">220 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Postcode'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="221" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#221">221 </a>                        <span class="php-quote">'description'</span> =&gt; <span class="php-quote">''</span>
+</span><span id="222" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#222">222 </a>                    ),
+</span><span id="223" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#223">223 </a>                <span class="php-quote">'shipping_state'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="224" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#224">224 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'State/County'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="225" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#225">225 </a>                        <span class="php-quote">'description'</span> =&gt; __( <span class="php-quote">'State/County or state code'</span>, <span class="php-quote">'woocommerce'</span> )
+</span><span id="226" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#226">226 </a>                    ),
+</span><span id="227" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#227">227 </a>                <span class="php-quote">'shipping_country'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="228" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#228">228 </a>                        <span class="php-quote">'label'</span> =&gt; __( <span class="php-quote">'Country'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="229" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#229">229 </a>                        <span class="php-quote">'description'</span> =&gt; __( <span class="php-quote">'2 letter Country code'</span>, <span class="php-quote">'woocommerce'</span> )
+</span><span id="230" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#230">230 </a>                    )
+</span><span id="231" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#231">231 </a>            )
+</span><span id="232" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#232">232 </a>        )
+</span><span id="233" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#233">233 </a>    ));
+</span><span id="234" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#234">234 </a>    <span class="php-keyword1">return</span> <span class="php-var">$show_fields</span>;
+</span><span id="235" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#235">235 </a>}
+</span><span id="236" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#236">236 </a>
+</span><span id="237" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#237">237 </a>
+</span><span id="238" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#238">238 </a><span class="php-comment">/**
+</span></span><span id="239" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#239">239 </a><span class="php-comment"> * Show Address Fields on edit user pages.
+</span></span><span id="240" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#240">240 </a><span class="php-comment"> *
+</span></span><span id="241" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#241">241 </a><span class="php-comment"> * @access public
+</span></span><span id="242" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#242">242 </a><span class="php-comment"> * @param mixed $user User (object) being displayed
+</span></span><span id="243" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#243">243 </a><span class="php-comment"> * @return void
+</span></span><span id="244" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#244">244 </a><span class="php-comment"> */</span>
+</span><span id="245" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#245">245 </a><span class="php-keyword1">function</span> <a id="_woocommerce_customer_meta_fields" href="source-function-woocommerce_user_columns.html#_woocommerce_customer_meta_fields">woocommerce_customer_meta_fields</a>( <span class="php-var">$user</span> ) {
+</span><span id="246" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#246">246 </a>    <span class="php-keyword1">if</span> ( ! current_user_can( <span class="php-quote">'manage_woocommerce'</span> ) )
+</span><span id="247" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#247">247 </a>        <span class="php-keyword1">return</span>;
+</span><span id="248" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#248">248 </a>
+</span><span id="249" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#249">249 </a>    <span class="php-var">$show_fields</span> = woocommerce_get_customer_meta_fields();
+</span><span id="250" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#250">250 </a>
+</span><span id="251" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#251">251 </a>    <span class="php-keyword1">foreach</span>( <span class="php-var">$show_fields</span> <span class="php-keyword1">as</span> <span class="php-var">$fieldset</span> ) :
+</span><span id="252" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#252">252 </a>        <span class="xlang">?&gt;</span>
+</span><span id="253" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#253">253 </a>        &lt;h3&gt;<span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> <span class="php-var">$fieldset</span>[<span class="php-quote">'title'</span>]; <span class="xlang">?&gt;</span>&lt;/h3&gt;
+</span><span id="254" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#254">254 </a>        &lt;table <span class="php-keyword1">class</span>=<span class="php-quote">&quot;form-table&quot;</span>&gt;
+</span><span id="255" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#255">255 </a>            <span class="xlang">&lt;?php</span>
+</span><span id="256" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#256">256 </a>            <span class="php-keyword1">foreach</span>( <span class="php-var">$fieldset</span>[<span class="php-quote">'fields'</span>] <span class="php-keyword1">as</span> <span class="php-var">$key</span> =&gt; <span class="php-var">$field</span> ) :
+</span><span id="257" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#257">257 </a>                <span class="xlang">?&gt;</span>
+</span><span id="258" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#258">258 </a>                &lt;tr&gt;
+</span><span id="259" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#259">259 </a>                    &lt;th&gt;&lt;label <span class="php-keyword1">for</span>=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$key</span><span class="php-quote"> ); ?&gt;&quot;</span>&gt;<span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> esc_html( <span class="php-var">$field</span>[<span class="php-quote">'label'</span>] ); <span class="xlang">?&gt;</span>&lt;/label&gt;&lt;/th&gt;
+</span><span id="260" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#260">260 </a>                    &lt;td&gt;
+</span><span id="261" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#261">261 </a>                        &lt;input type=<span class="php-quote">&quot;text&quot;</span> name=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$key</span><span class="php-quote"> ); ?&gt;&quot;</span> id=<span class="php-quote">&quot;&lt;?php echo esc_attr( </span><span class="php-var">$key</span><span class="php-quote"> ); ?&gt;&quot;</span> value=<span class="php-quote">&quot;&lt;?php echo esc_attr( get_user_meta( </span><span class="php-var">$user</span><span class="php-quote">-&gt;ID, </span><span class="php-var">$key</span><span class="php-quote">, true ) ); ?&gt;&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;regular-text&quot;</span> /&gt;&lt;br/&gt;
+</span><span id="262" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#262">262 </a>                        &lt;span <span class="php-keyword1">class</span>=<span class="php-quote">&quot;description&quot;</span>&gt;<span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> wp_kses_post( <span class="php-var">$field</span>[<span class="php-quote">'description'</span>] ); <span class="xlang">?&gt;</span>&lt;/span&gt;
+</span><span id="263" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#263">263 </a>                    &lt;/td&gt;
+</span><span id="264" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#264">264 </a>                &lt;/tr&gt;
+</span><span id="265" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#265">265 </a>                <span class="xlang">&lt;?php</span>
+</span><span id="266" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#266">266 </a>            <span class="php-keyword1">endforeach</span>;
+</span><span id="267" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#267">267 </a>            <span class="xlang">?&gt;</span>
+</span><span id="268" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#268">268 </a>        &lt;/table&gt;
+</span><span id="269" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#269">269 </a>        <span class="xlang">&lt;?php</span>
+</span><span id="270" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#270">270 </a>    <span class="php-keyword1">endforeach</span>;
+</span><span id="271" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#271">271 </a>}
+</span><span id="272" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#272">272 </a>
+</span><span id="273" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#273">273 </a>add_action( <span class="php-quote">'show_user_profile'</span>, <span class="php-quote">'woocommerce_customer_meta_fields'</span> );
+</span><span id="274" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#274">274 </a>add_action( <span class="php-quote">'edit_user_profile'</span>, <span class="php-quote">'woocommerce_customer_meta_fields'</span> );
+</span><span id="275" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#275">275 </a>
+</span><span id="276" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#276">276 </a>
+</span><span id="277" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#277">277 </a><span class="php-comment">/**
+</span></span><span id="278" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#278">278 </a><span class="php-comment"> * Save Address Fields on edit user pages
+</span></span><span id="279" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#279">279 </a><span class="php-comment"> *
+</span></span><span id="280" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#280">280 </a><span class="php-comment"> * @access public
+</span></span><span id="281" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#281">281 </a><span class="php-comment"> * @param mixed $user_id User ID of the user being saved
+</span></span><span id="282" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#282">282 </a><span class="php-comment"> * @return void
+</span></span><span id="283" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#283">283 </a><span class="php-comment"> */</span>
+</span><span id="284" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#284">284 </a><span class="php-keyword1">function</span> <a id="_woocommerce_save_customer_meta_fields" href="source-function-woocommerce_user_columns.html#_woocommerce_save_customer_meta_fields">woocommerce_save_customer_meta_fields</a>( <span class="php-var">$user_id</span> ) {
+</span><span id="285" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#285">285 </a>    <span class="php-keyword1">if</span> ( ! current_user_can( <span class="php-quote">'manage_woocommerce'</span> ) )
+</span><span id="286" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#286">286 </a>        <span class="php-keyword1">return</span> <span class="php-var">$columns</span>;
+</span><span id="287" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#287">287 </a>
+</span><span id="288" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#288">288 </a>    <span class="php-var">$save_fields</span> = woocommerce_get_customer_meta_fields();
+</span><span id="289" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#289">289 </a>
+</span><span id="290" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#290">290 </a>    <span class="php-keyword1">foreach</span>( <span class="php-var">$save_fields</span> <span class="php-keyword1">as</span> <span class="php-var">$fieldset</span> )
+</span><span id="291" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#291">291 </a>        <span class="php-keyword1">foreach</span>( <span class="php-var">$fieldset</span>[<span class="php-quote">'fields'</span>] <span class="php-keyword1">as</span> <span class="php-var">$key</span> =&gt; <span class="php-var">$field</span> )
+</span><span id="292" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#292">292 </a>            <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[ <span class="php-var">$key</span> ] ) )
+</span><span id="293" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#293">293 </a>                update_user_meta( <span class="php-var">$user_id</span>, <span class="php-var">$key</span>, woocommerce_clean( <span class="php-var">$_POST</span>[ <span class="php-var">$key</span> ] ) );
+</span><span id="294" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#294">294 </a>}
+</span><span id="295" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#295">295 </a>
+</span><span id="296" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#296">296 </a>add_action( <span class="php-quote">'personal_options_update'</span>, <span class="php-quote">'woocommerce_save_customer_meta_fields'</span> );
+</span><span id="297" class="l"><a class="l" href="source-function-woocommerce_user_columns.html#297">297 </a></span>add_action( <span class="php-quote">'edit_user_profile_update'</span>, <span class="php-quote">'woocommerce_save_customer_meta_fields'</span> );</code></pre>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

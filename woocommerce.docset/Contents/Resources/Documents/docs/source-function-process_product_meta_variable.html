@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>File admin/post-types/writepanels/writepanel-product-type-variable.php | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Admin.WritePanels.html" title="Summary of WooCommerce\Admin\WritePanels"><span>Package</span></a>
+						</li>
+						<li>
+							<a href="function-process_product_meta_variable.html" title="Summary of process_product_meta_variable"><span>Function</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li class="active"><a href="function-process_product_meta_variable.html">process_product_meta_variable</a></li>
+				<li><a href="function-variable_product_type_options.html">variable_product_type_options</a></li>
+				<li><a href="function-variable_product_type_options_tab.html">variable_product_type_options_tab</a></li>
+				<li><a href="function-variable_product_type_selector.html">variable_product_type_selector</a></li>
+				<li><a href="function-woocommerce_coupon_data_meta_box.html">woocommerce_coupon_data_meta_box</a></li>
+				<li><a href="function-woocommerce_enter_title_here.html">woocommerce_enter_title_here</a></li>
+				<li><a href="function-woocommerce_meta_boxes.html">woocommerce_meta_boxes</a></li>
+				<li><a href="function-woocommerce_meta_boxes_save.html">woocommerce_meta_boxes_save</a></li>
+				<li><a href="function-woocommerce_meta_boxes_save_errors.html">woocommerce_meta_boxes_save_errors</a></li>
+				<li><a href="function-woocommerce_meta_boxes_show_errors.html">woocommerce_meta_boxes_show_errors</a></li>
+				<li><a href="function-woocommerce_order_actions_meta_box.html">woocommerce_order_actions_meta_box</a></li>
+				<li><a href="function-woocommerce_order_data.html">woocommerce_order_data</a></li>
+				<li><a href="function-woocommerce_order_data_meta_box.html">woocommerce_order_data_meta_box</a></li>
+				<li><a href="function-woocommerce_order_downloads_meta_box.html">woocommerce_order_downloads_meta_box</a></li>
+				<li><a href="function-woocommerce_order_downloads_save.html">woocommerce_order_downloads_save</a></li>
+				<li><a href="function-woocommerce_order_items_meta_box.html">woocommerce_order_items_meta_box</a></li>
+				<li><a href="function-woocommerce_order_notes_meta_box.html">woocommerce_order_notes_meta_box</a></li>
+				<li><a href="function-woocommerce_order_totals_meta_box.html">woocommerce_order_totals_meta_box</a></li>
+				<li><a href="function-woocommerce_pre_post_update.html">woocommerce_pre_post_update</a></li>
+				<li><a href="function-woocommerce_process_product_file_download_paths.html">woocommerce_process_product_file_download_paths</a></li>
+				<li><a href="function-woocommerce_process_product_meta.html">woocommerce_process_product_meta</a></li>
+				<li><a href="function-woocommerce_process_shop_coupon_meta.html">woocommerce_process_shop_coupon_meta</a></li>
+				<li><a href="function-woocommerce_process_shop_order_meta.html">woocommerce_process_shop_order_meta</a></li>
+				<li><a href="function-woocommerce_product_data.html">woocommerce_product_data</a></li>
+				<li><a href="function-woocommerce_product_data_box.html">woocommerce_product_data_box</a></li>
+				<li><a href="function-woocommerce_product_data_visibility.html">woocommerce_product_data_visibility</a></li>
+				<li><a href="function-woocommerce_product_images_box.html">woocommerce_product_images_box</a></li>
+				<li><a href="function-woocommerce_product_review_status_meta_box.html">woocommerce_product_review_status_meta_box</a></li>
+				<li><a href="function-woocommerce_product_short_description_meta_box.html">woocommerce_product_short_description_meta_box</a></li>
+				<li><a href="function-woocommerce_wp_checkbox.html">woocommerce_wp_checkbox</a></li>
+				<li><a href="function-woocommerce_wp_hidden_input.html">woocommerce_wp_hidden_input</a></li>
+				<li><a href="function-woocommerce_wp_radio.html">woocommerce_wp_radio</a></li>
+				<li><a href="function-woocommerce_wp_select.html">woocommerce_wp_select</a></li>
+				<li><a href="function-woocommerce_wp_text_input.html">woocommerce_wp_text_input</a></li>
+				<li><a href="function-woocommerce_wp_textarea_input.html">woocommerce_wp_textarea_input</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a class="l" href="source-function-process_product_meta_variable.html#1">  1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="source-function-process_product_meta_variable.html#2">  2 </a><span class="php-comment">/**
+</span></span><span id="3" class="l"><a class="l" href="source-function-process_product_meta_variable.html#3">  3 </a><span class="php-comment"> * Variable Product Type
+</span></span><span id="4" class="l"><a class="l" href="source-function-process_product_meta_variable.html#4">  4 </a><span class="php-comment"> *
+</span></span><span id="5" class="l"><a class="l" href="source-function-process_product_meta_variable.html#5">  5 </a><span class="php-comment"> * Functions specific to variable products (for the write panels).
+</span></span><span id="6" class="l"><a class="l" href="source-function-process_product_meta_variable.html#6">  6 </a><span class="php-comment"> *
+</span></span><span id="7" class="l"><a class="l" href="source-function-process_product_meta_variable.html#7">  7 </a><span class="php-comment"> * @author      WooThemes
+</span></span><span id="8" class="l"><a class="l" href="source-function-process_product_meta_variable.html#8">  8 </a><span class="php-comment"> * @category    Admin
+</span></span><span id="9" class="l"><a class="l" href="source-function-process_product_meta_variable.html#9">  9 </a><span class="php-comment"> * @package     WooCommerce/Admin/WritePanels
+</span></span><span id="10" class="l"><a class="l" href="source-function-process_product_meta_variable.html#10"> 10 </a><span class="php-comment"> * @version     2.0.0
+</span></span><span id="11" class="l"><a class="l" href="source-function-process_product_meta_variable.html#11"> 11 </a><span class="php-comment"> */</span>
+</span><span id="12" class="l"><a class="l" href="source-function-process_product_meta_variable.html#12"> 12 </a>
+</span><span id="13" class="l"><a class="l" href="source-function-process_product_meta_variable.html#13"> 13 </a><span class="php-keyword1">if</span> ( ! <span class="php-keyword2">defined</span>( <span class="php-quote">'ABSPATH'</span> ) ) <span class="php-keyword1">exit</span>; <span class="php-comment">// Exit if accessed directly</span>
+</span><span id="14" class="l"><a class="l" href="source-function-process_product_meta_variable.html#14"> 14 </a>
+</span><span id="15" class="l"><a class="l" href="source-function-process_product_meta_variable.html#15"> 15 </a><span class="php-comment">/**
+</span></span><span id="16" class="l"><a class="l" href="source-function-process_product_meta_variable.html#16"> 16 </a><span class="php-comment"> * Display the variation tab in product data.
+</span></span><span id="17" class="l"><a class="l" href="source-function-process_product_meta_variable.html#17"> 17 </a><span class="php-comment"> *
+</span></span><span id="18" class="l"><a class="l" href="source-function-process_product_meta_variable.html#18"> 18 </a><span class="php-comment"> * @access public
+</span></span><span id="19" class="l"><a class="l" href="source-function-process_product_meta_variable.html#19"> 19 </a><span class="php-comment"> * @return void
+</span></span><span id="20" class="l"><a class="l" href="source-function-process_product_meta_variable.html#20"> 20 </a><span class="php-comment"> */</span>
+</span><span id="21" class="l"><a class="l" href="source-function-process_product_meta_variable.html#21"> 21 </a><span class="php-keyword1">function</span> <a id="_variable_product_type_options_tab" href="source-function-process_product_meta_variable.html#_variable_product_type_options_tab">variable_product_type_options_tab</a>() {
+</span><span id="22" class="l"><a class="l" href="source-function-process_product_meta_variable.html#22"> 22 </a>    <span class="xlang">?&gt;</span>
+</span><span id="23" class="l"><a class="l" href="source-function-process_product_meta_variable.html#23"> 23 </a>    &lt;li <span class="php-keyword1">class</span>=<span class="php-quote">&quot;variations_tab show_if_variable variation_options&quot;</span>&gt;&lt;a href=<span class="php-quote">&quot;#variable_product_options&quot;</span> title=<span class="php-quote">&quot;&lt;?php _e( 'Variations for variable products are defined here.', 'woocommerce' ); ?&gt;&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Variations'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/a&gt;&lt;/li&gt;
+</span><span id="24" class="l"><a class="l" href="source-function-process_product_meta_variable.html#24"> 24 </a>    <span class="xlang">&lt;?php</span>
+</span><span id="25" class="l"><a class="l" href="source-function-process_product_meta_variable.html#25"> 25 </a>}
+</span><span id="26" class="l"><a class="l" href="source-function-process_product_meta_variable.html#26"> 26 </a>
+</span><span id="27" class="l"><a class="l" href="source-function-process_product_meta_variable.html#27"> 27 </a>add_action( <span class="php-quote">'woocommerce_product_write_panel_tabs'</span>, <span class="php-quote">'variable_product_type_options_tab'</span> );
+</span><span id="28" class="l"><a class="l" href="source-function-process_product_meta_variable.html#28"> 28 </a>
+</span><span id="29" class="l"><a class="l" href="source-function-process_product_meta_variable.html#29"> 29 </a>
+</span><span id="30" class="l"><a class="l" href="source-function-process_product_meta_variable.html#30"> 30 </a><span class="php-comment">/**
+</span></span><span id="31" class="l"><a class="l" href="source-function-process_product_meta_variable.html#31"> 31 </a><span class="php-comment"> * Show the variable product options.
+</span></span><span id="32" class="l"><a class="l" href="source-function-process_product_meta_variable.html#32"> 32 </a><span class="php-comment"> *
+</span></span><span id="33" class="l"><a class="l" href="source-function-process_product_meta_variable.html#33"> 33 </a><span class="php-comment"> * @access public
+</span></span><span id="34" class="l"><a class="l" href="source-function-process_product_meta_variable.html#34"> 34 </a><span class="php-comment"> * @return void
+</span></span><span id="35" class="l"><a class="l" href="source-function-process_product_meta_variable.html#35"> 35 </a><span class="php-comment"> */</span>
+</span><span id="36" class="l"><a class="l" href="source-function-process_product_meta_variable.html#36"> 36 </a><span class="php-keyword1">function</span> <a id="_variable_product_type_options" href="source-function-process_product_meta_variable.html#_variable_product_type_options">variable_product_type_options</a>() {
+</span><span id="37" class="l"><a class="l" href="source-function-process_product_meta_variable.html#37"> 37 </a>    <span class="php-keyword1">global</span> <span class="php-var">$post</span>, <span class="php-var">$woocommerce</span>;
+</span><span id="38" class="l"><a class="l" href="source-function-process_product_meta_variable.html#38"> 38 </a>
+</span><span id="39" class="l"><a class="l" href="source-function-process_product_meta_variable.html#39"> 39 </a>    <span class="php-var">$attributes</span> = maybe_unserialize( get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_product_attributes'</span>, <span class="php-keyword1">true</span> ) );
+</span><span id="40" class="l"><a class="l" href="source-function-process_product_meta_variable.html#40"> 40 </a>
+</span><span id="41" class="l"><a class="l" href="source-function-process_product_meta_variable.html#41"> 41 </a>    <span class="php-comment">// See if any are set</span>
+</span><span id="42" class="l"><a class="l" href="source-function-process_product_meta_variable.html#42"> 42 </a>    <span class="php-var">$variation_attribute_found</span> = <span class="php-keyword1">false</span>;
+</span><span id="43" class="l"><a class="l" href="source-function-process_product_meta_variable.html#43"> 43 </a>    <span class="php-keyword1">if</span> ( <span class="php-var">$attributes</span> ) <span class="php-keyword1">foreach</span>( <span class="php-var">$attributes</span> <span class="php-keyword1">as</span> <span class="php-var">$attribute</span> ) {
+</span><span id="44" class="l"><a class="l" href="source-function-process_product_meta_variable.html#44"> 44 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$attribute</span>[<span class="php-quote">'is_variation'</span>] ) ) {
+</span><span id="45" class="l"><a class="l" href="source-function-process_product_meta_variable.html#45"> 45 </a>            <span class="php-var">$variation_attribute_found</span> = <span class="php-keyword1">true</span>;
+</span><span id="46" class="l"><a class="l" href="source-function-process_product_meta_variable.html#46"> 46 </a>            <span class="php-keyword1">break</span>;
+</span><span id="47" class="l"><a class="l" href="source-function-process_product_meta_variable.html#47"> 47 </a>        }
+</span><span id="48" class="l"><a class="l" href="source-function-process_product_meta_variable.html#48"> 48 </a>    }
+</span><span id="49" class="l"><a class="l" href="source-function-process_product_meta_variable.html#49"> 49 </a>
+</span><span id="50" class="l"><a class="l" href="source-function-process_product_meta_variable.html#50"> 50 </a>    <span class="php-comment">// Get tax classes</span>
+</span><span id="51" class="l"><a class="l" href="source-function-process_product_meta_variable.html#51"> 51 </a>    <span class="php-var">$tax_classes</span> = <span class="php-keyword2">array_filter</span>( <span class="php-keyword2">array_map</span>(<span class="php-quote">'trim'</span>, <span class="php-keyword2">explode</span>( <span class="php-quote">&quot;\n&quot;</span>, get_option( <span class="php-quote">'woocommerce_tax_classes'</span> ) ) ) );
+</span><span id="52" class="l"><a class="l" href="source-function-process_product_meta_variable.html#52"> 52 </a>    <span class="php-var">$tax_class_options</span> = <span class="php-keyword1">array</span>();
+</span><span id="53" class="l"><a class="l" href="source-function-process_product_meta_variable.html#53"> 53 </a>    <span class="php-var">$tax_class_options</span>[<span class="php-quote">'parent'</span>] = __( <span class="php-quote">'Same as parent'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="54" class="l"><a class="l" href="source-function-process_product_meta_variable.html#54"> 54 </a>    <span class="php-var">$tax_class_options</span>[<span class="php-quote">''</span>] = __( <span class="php-quote">'Standard'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="55" class="l"><a class="l" href="source-function-process_product_meta_variable.html#55"> 55 </a>    <span class="php-keyword1">if</span> ( <span class="php-var">$tax_classes</span> )
+</span><span id="56" class="l"><a class="l" href="source-function-process_product_meta_variable.html#56"> 56 </a>        <span class="php-keyword1">foreach</span> ( <span class="php-var">$tax_classes</span> <span class="php-keyword1">as</span> <span class="php-var">$class</span> )
+</span><span id="57" class="l"><a class="l" href="source-function-process_product_meta_variable.html#57"> 57 </a>            <span class="php-var">$tax_class_options</span>[ sanitize_title( <span class="php-var">$class</span> ) ] = esc_attr( <span class="php-var">$class</span> );
+</span><span id="58" class="l"><a class="l" href="source-function-process_product_meta_variable.html#58"> 58 </a>    <span class="xlang">?&gt;</span>
+</span><span id="59" class="l"><a class="l" href="source-function-process_product_meta_variable.html#59"> 59 </a>    &lt;div id=<span class="php-quote">&quot;variable_product_options&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;panel wc-metaboxes-wrapper&quot;</span>&gt;&lt;div id=<span class="php-quote">&quot;variable_product_options_inner&quot;</span>&gt;
+</span><span id="60" class="l"><a class="l" href="source-function-process_product_meta_variable.html#60"> 60 </a>
+</span><span id="61" class="l"><a class="l" href="source-function-process_product_meta_variable.html#61"> 61 </a>        <span class="xlang">&lt;?php</span> <span class="php-keyword1">if</span> ( ! <span class="php-var">$variation_attribute_found</span> ) : <span class="xlang">?&gt;</span>
+</span><span id="62" class="l"><a class="l" href="source-function-process_product_meta_variable.html#62"> 62 </a>
+</span><span id="63" class="l"><a class="l" href="source-function-process_product_meta_variable.html#63"> 63 </a>            &lt;div id=<span class="php-quote">&quot;message&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;inline woocommerce-message&quot;</span>&gt;
+</span><span id="64" class="l"><a class="l" href="source-function-process_product_meta_variable.html#64"> 64 </a>                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;squeezer&quot;</span>&gt;
+</span><span id="65" class="l"><a class="l" href="source-function-process_product_meta_variable.html#65"> 65 </a>                    &lt;h4&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Before adding variations, add and save some attributes on the &lt;strong&gt;Attributes&lt;/strong&gt; tab.'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/h4&gt;
+</span><span id="66" class="l"><a class="l" href="source-function-process_product_meta_variable.html#66"> 66 </a>
+</span><span id="67" class="l"><a class="l" href="source-function-process_product_meta_variable.html#67"> 67 </a>                    &lt;p <span class="php-keyword1">class</span>=<span class="php-quote">&quot;submit&quot;</span>&gt;&lt;a <span class="php-keyword1">class</span>=<span class="php-quote">&quot;button-primary&quot;</span> href=<span class="php-quote">&quot;http://docs.woothemes.com/document/product-variations/&quot;</span> target=<span class="php-quote">&quot;_blank&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Learn more'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/a&gt;&lt;/p&gt;
+</span><span id="68" class="l"><a class="l" href="source-function-process_product_meta_variable.html#68"> 68 </a>                &lt;/div&gt;
+</span><span id="69" class="l"><a class="l" href="source-function-process_product_meta_variable.html#69"> 69 </a>            &lt;/div&gt;
+</span><span id="70" class="l"><a class="l" href="source-function-process_product_meta_variable.html#70"> 70 </a>
+</span><span id="71" class="l"><a class="l" href="source-function-process_product_meta_variable.html#71"> 71 </a>        <span class="xlang">&lt;?php</span> <span class="php-keyword1">else</span> : <span class="xlang">?&gt;</span>
+</span><span id="72" class="l"><a class="l" href="source-function-process_product_meta_variable.html#72"> 72 </a>
+</span><span id="73" class="l"><a class="l" href="source-function-process_product_meta_variable.html#73"> 73 </a>            &lt;p <span class="php-keyword1">class</span>=<span class="php-quote">&quot;toolbar&quot;</span>&gt;
+</span><span id="74" class="l"><a class="l" href="source-function-process_product_meta_variable.html#74"> 74 </a>                &lt;a href=<span class="php-quote">&quot;#&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;close_all&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Close all'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/a&gt;&lt;a href=<span class="php-quote">&quot;#&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;expand_all&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Expand all'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/a&gt;
+</span><span id="75" class="l"><a class="l" href="source-function-process_product_meta_variable.html#75"> 75 </a>                &lt;strong&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Bulk edit:'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/strong&gt;
+</span><span id="76" class="l"><a class="l" href="source-function-process_product_meta_variable.html#76"> 76 </a>                &lt;select id=<span class="php-quote">&quot;field_to_edit&quot;</span>&gt;
+</span><span id="77" class="l"><a class="l" href="source-function-process_product_meta_variable.html#77"> 77 </a>                    &lt;option value=<span class="php-quote">&quot;toggle_enabled&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Toggle &amp;quot;Enabled&amp;quot;'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="78" class="l"><a class="l" href="source-function-process_product_meta_variable.html#78"> 78 </a>                    &lt;option value=<span class="php-quote">&quot;toggle_downloadable&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Toggle &amp;quot;Downloadable&amp;quot;'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="79" class="l"><a class="l" href="source-function-process_product_meta_variable.html#79"> 79 </a>                    &lt;option value=<span class="php-quote">&quot;toggle_virtual&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Toggle &amp;quot;Virtual&amp;quot;'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="80" class="l"><a class="l" href="source-function-process_product_meta_variable.html#80"> 80 </a>                    &lt;option value=<span class="php-quote">&quot;delete_all&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Delete all variations'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="81" class="l"><a class="l" href="source-function-process_product_meta_variable.html#81"> 81 </a>                    &lt;option value=<span class="php-quote">&quot;variable_regular_price&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Prices'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="82" class="l"><a class="l" href="source-function-process_product_meta_variable.html#82"> 82 </a>                    &lt;option value=<span class="php-quote">&quot;variable_sale_price&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Sale prices'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="83" class="l"><a class="l" href="source-function-process_product_meta_variable.html#83"> 83 </a>                    &lt;option value=<span class="php-quote">&quot;variable_stock&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Stock'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="84" class="l"><a class="l" href="source-function-process_product_meta_variable.html#84"> 84 </a>                    &lt;option value=<span class="php-quote">&quot;variable_weight&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Weight'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="85" class="l"><a class="l" href="source-function-process_product_meta_variable.html#85"> 85 </a>                    &lt;option value=<span class="php-quote">&quot;variable_length&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Length'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="86" class="l"><a class="l" href="source-function-process_product_meta_variable.html#86"> 86 </a>                    &lt;option value=<span class="php-quote">&quot;variable_width&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Width'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="87" class="l"><a class="l" href="source-function-process_product_meta_variable.html#87"> 87 </a>                    &lt;option value=<span class="php-quote">&quot;variable_height&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Height'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="88" class="l"><a class="l" href="source-function-process_product_meta_variable.html#88"> 88 </a>                    &lt;option value=<span class="php-quote">&quot;variable_file_paths&quot;</span> rel=<span class="php-quote">&quot;textarea&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'File Path'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="89" class="l"><a class="l" href="source-function-process_product_meta_variable.html#89"> 89 </a>                    &lt;option value=<span class="php-quote">&quot;variable_download_limit&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Download limit'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="90" class="l"><a class="l" href="source-function-process_product_meta_variable.html#90"> 90 </a>                    &lt;option value=<span class="php-quote">&quot;variable_download_expiry&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Download Expiry'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/option&gt;
+</span><span id="91" class="l"><a class="l" href="source-function-process_product_meta_variable.html#91"> 91 </a>                    <span class="xlang">&lt;?php</span> do_action( <span class="php-quote">'woocommerce_variable_product_bulk_edit_actions'</span> ); <span class="xlang">?&gt;</span>
+</span><span id="92" class="l"><a class="l" href="source-function-process_product_meta_variable.html#92"> 92 </a>                &lt;/select&gt;
+</span><span id="93" class="l"><a class="l" href="source-function-process_product_meta_variable.html#93"> 93 </a>                &lt;a <span class="php-keyword1">class</span>=<span class="php-quote">&quot;button bulk_edit&quot;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Go'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/a&gt;
+</span><span id="94" class="l"><a class="l" href="source-function-process_product_meta_variable.html#94"> 94 </a>            &lt;/p&gt;
+</span><span id="95" class="l"><a class="l" href="source-function-process_product_meta_variable.html#95"> 95 </a>
+</span><span id="96" class="l"><a class="l" href="source-function-process_product_meta_variable.html#96"> 96 </a>            &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;woocommerce_variations wc-metaboxes&quot;</span>&gt;
+</span><span id="97" class="l"><a class="l" href="source-function-process_product_meta_variable.html#97"> 97 </a>                <span class="xlang">&lt;?php</span>
+</span><span id="98" class="l"><a class="l" href="source-function-process_product_meta_variable.html#98"> 98 </a>                <span class="php-comment">// Get parent data</span>
+</span><span id="99" class="l"><a class="l" href="source-function-process_product_meta_variable.html#99"> 99 </a>                <span class="php-var">$parent_data</span> = <span class="php-keyword1">array</span>(
+</span><span id="100" class="l"><a class="l" href="source-function-process_product_meta_variable.html#100">100 </a>                    <span class="php-quote">'id'</span>        =&gt; <span class="php-var">$post</span>-&gt;ID,
+</span><span id="101" class="l"><a class="l" href="source-function-process_product_meta_variable.html#101">101 </a>                    <span class="php-quote">'attributes'</span> =&gt; <span class="php-var">$attributes</span>,
+</span><span id="102" class="l"><a class="l" href="source-function-process_product_meta_variable.html#102">102 </a>                    <span class="php-quote">'tax_class_options'</span> =&gt; <span class="php-var">$tax_class_options</span>,
+</span><span id="103" class="l"><a class="l" href="source-function-process_product_meta_variable.html#103">103 </a>                    <span class="php-quote">'sku'</span>       =&gt; get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_sku'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="104" class="l"><a class="l" href="source-function-process_product_meta_variable.html#104">104 </a>                    <span class="php-quote">'weight'</span>    =&gt; get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_weight'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="105" class="l"><a class="l" href="source-function-process_product_meta_variable.html#105">105 </a>                    <span class="php-quote">'length'</span>    =&gt; get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_length'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="106" class="l"><a class="l" href="source-function-process_product_meta_variable.html#106">106 </a>                    <span class="php-quote">'width'</span>     =&gt; get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_width'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="107" class="l"><a class="l" href="source-function-process_product_meta_variable.html#107">107 </a>                    <span class="php-quote">'height'</span>    =&gt; get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_height'</span>, <span class="php-keyword1">true</span> ),
+</span><span id="108" class="l"><a class="l" href="source-function-process_product_meta_variable.html#108">108 </a>                    <span class="php-quote">'tax_class'</span> =&gt; get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_tax_class'</span>, <span class="php-keyword1">true</span> )
+</span><span id="109" class="l"><a class="l" href="source-function-process_product_meta_variable.html#109">109 </a>                );
+</span><span id="110" class="l"><a class="l" href="source-function-process_product_meta_variable.html#110">110 </a>
+</span><span id="111" class="l"><a class="l" href="source-function-process_product_meta_variable.html#111">111 </a>                <span class="php-keyword1">if</span> ( ! <span class="php-var">$parent_data</span>[<span class="php-quote">'weight'</span>] )
+</span><span id="112" class="l"><a class="l" href="source-function-process_product_meta_variable.html#112">112 </a>                    <span class="php-var">$parent_data</span>[<span class="php-quote">'weight'</span>] = <span class="php-quote">'0.00'</span>;
+</span><span id="113" class="l"><a class="l" href="source-function-process_product_meta_variable.html#113">113 </a>
+</span><span id="114" class="l"><a class="l" href="source-function-process_product_meta_variable.html#114">114 </a>                <span class="php-keyword1">if</span> ( ! <span class="php-var">$parent_data</span>[<span class="php-quote">'length'</span>] )
+</span><span id="115" class="l"><a class="l" href="source-function-process_product_meta_variable.html#115">115 </a>                    <span class="php-var">$parent_data</span>[<span class="php-quote">'length'</span>] = <span class="php-quote">'0'</span>;
+</span><span id="116" class="l"><a class="l" href="source-function-process_product_meta_variable.html#116">116 </a>
+</span><span id="117" class="l"><a class="l" href="source-function-process_product_meta_variable.html#117">117 </a>                <span class="php-keyword1">if</span> ( ! <span class="php-var">$parent_data</span>[<span class="php-quote">'width'</span>] )
+</span><span id="118" class="l"><a class="l" href="source-function-process_product_meta_variable.html#118">118 </a>                    <span class="php-var">$parent_data</span>[<span class="php-quote">'width'</span>] = <span class="php-quote">'0'</span>;
+</span><span id="119" class="l"><a class="l" href="source-function-process_product_meta_variable.html#119">119 </a>
+</span><span id="120" class="l"><a class="l" href="source-function-process_product_meta_variable.html#120">120 </a>                <span class="php-keyword1">if</span> ( ! <span class="php-var">$parent_data</span>[<span class="php-quote">'height'</span>] )
+</span><span id="121" class="l"><a class="l" href="source-function-process_product_meta_variable.html#121">121 </a>                    <span class="php-var">$parent_data</span>[<span class="php-quote">'height'</span>] = <span class="php-quote">'0'</span>;
+</span><span id="122" class="l"><a class="l" href="source-function-process_product_meta_variable.html#122">122 </a>
+</span><span id="123" class="l"><a class="l" href="source-function-process_product_meta_variable.html#123">123 </a>                <span class="php-comment">// Get variations</span>
+</span><span id="124" class="l"><a class="l" href="source-function-process_product_meta_variable.html#124">124 </a>                <span class="php-var">$args</span> = <span class="php-keyword1">array</span>(
+</span><span id="125" class="l"><a class="l" href="source-function-process_product_meta_variable.html#125">125 </a>                    <span class="php-quote">'post_type'</span>     =&gt; <span class="php-quote">'product_variation'</span>,
+</span><span id="126" class="l"><a class="l" href="source-function-process_product_meta_variable.html#126">126 </a>                    <span class="php-quote">'post_status'</span>   =&gt; <span class="php-keyword1">array</span>( <span class="php-quote">'private'</span>, <span class="php-quote">'publish'</span> ),
+</span><span id="127" class="l"><a class="l" href="source-function-process_product_meta_variable.html#127">127 </a>                    <span class="php-quote">'numberposts'</span>   =&gt; -<span class="php-num">1</span>,
+</span><span id="128" class="l"><a class="l" href="source-function-process_product_meta_variable.html#128">128 </a>                    <span class="php-quote">'orderby'</span>       =&gt; <span class="php-quote">'menu_order'</span>,
+</span><span id="129" class="l"><a class="l" href="source-function-process_product_meta_variable.html#129">129 </a>                    <span class="php-quote">'order'</span>         =&gt; <span class="php-quote">'asc'</span>,
+</span><span id="130" class="l"><a class="l" href="source-function-process_product_meta_variable.html#130">130 </a>                    <span class="php-quote">'post_parent'</span>   =&gt; <span class="php-var">$post</span>-&gt;ID
+</span><span id="131" class="l"><a class="l" href="source-function-process_product_meta_variable.html#131">131 </a>                );
+</span><span id="132" class="l"><a class="l" href="source-function-process_product_meta_variable.html#132">132 </a>                <span class="php-var">$variations</span> = get_posts( <span class="php-var">$args</span> );
+</span><span id="133" class="l"><a class="l" href="source-function-process_product_meta_variable.html#133">133 </a>                <span class="php-var">$loop</span> = <span class="php-num">0</span>;
+</span><span id="134" class="l"><a class="l" href="source-function-process_product_meta_variable.html#134">134 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$variations</span> ) <span class="php-keyword1">foreach</span> ( <span class="php-var">$variations</span> <span class="php-keyword1">as</span> <span class="php-var">$variation</span> ) {
+</span><span id="135" class="l"><a class="l" href="source-function-process_product_meta_variable.html#135">135 </a>
+</span><span id="136" class="l"><a class="l" href="source-function-process_product_meta_variable.html#136">136 </a>                    <span class="php-var">$variation_id</span>           = absint( <span class="php-var">$variation</span>-&gt;ID );
+</span><span id="137" class="l"><a class="l" href="source-function-process_product_meta_variable.html#137">137 </a>                    <span class="php-var">$variation_post_status</span>  = esc_attr( <span class="php-var">$variation</span>-&gt;post_status );
+</span><span id="138" class="l"><a class="l" href="source-function-process_product_meta_variable.html#138">138 </a>                    <span class="php-var">$variation_data</span>         = get_post_meta( <span class="php-var">$variation_id</span> );
+</span><span id="139" class="l"><a class="l" href="source-function-process_product_meta_variable.html#139">139 </a>                    <span class="php-var">$variation_data</span>[<span class="php-quote">'variation_post_id'</span>] = <span class="php-var">$variation_id</span>;
+</span><span id="140" class="l"><a class="l" href="source-function-process_product_meta_variable.html#140">140 </a>
+</span><span id="141" class="l"><a class="l" href="source-function-process_product_meta_variable.html#141">141 </a>                    <span class="php-comment">// Grab shipping classes</span>
+</span><span id="142" class="l"><a class="l" href="source-function-process_product_meta_variable.html#142">142 </a>                    <span class="php-var">$shipping_classes</span> = get_the_terms( <span class="php-var">$variation_id</span>, <span class="php-quote">'product_shipping_class'</span> );
+</span><span id="143" class="l"><a class="l" href="source-function-process_product_meta_variable.html#143">143 </a>                    <span class="php-var">$shipping_class</span> = ( <span class="php-var">$shipping_classes</span> &amp;&amp; ! is_wp_error( <span class="php-var">$shipping_classes</span> ) ) ? <span class="php-keyword2">current</span>( <span class="php-var">$shipping_classes</span> )-&gt;term_id : <span class="php-quote">''</span>;
+</span><span id="144" class="l"><a class="l" href="source-function-process_product_meta_variable.html#144">144 </a>
+</span><span id="145" class="l"><a class="l" href="source-function-process_product_meta_variable.html#145">145 </a>                    <span class="php-var">$variation_fields</span> = <span class="php-keyword1">array</span>(
+</span><span id="146" class="l"><a class="l" href="source-function-process_product_meta_variable.html#146">146 </a>                        <span class="php-quote">'_sku'</span>,
+</span><span id="147" class="l"><a class="l" href="source-function-process_product_meta_variable.html#147">147 </a>                        <span class="php-quote">'_stock'</span>,
+</span><span id="148" class="l"><a class="l" href="source-function-process_product_meta_variable.html#148">148 </a>                        <span class="php-quote">'_price'</span>,
+</span><span id="149" class="l"><a class="l" href="source-function-process_product_meta_variable.html#149">149 </a>                        <span class="php-quote">'_regular_price'</span>,
+</span><span id="150" class="l"><a class="l" href="source-function-process_product_meta_variable.html#150">150 </a>                        <span class="php-quote">'_sale_price'</span>,
+</span><span id="151" class="l"><a class="l" href="source-function-process_product_meta_variable.html#151">151 </a>                        <span class="php-quote">'_weight'</span>,
+</span><span id="152" class="l"><a class="l" href="source-function-process_product_meta_variable.html#152">152 </a>                        <span class="php-quote">'_length'</span>,
+</span><span id="153" class="l"><a class="l" href="source-function-process_product_meta_variable.html#153">153 </a>                        <span class="php-quote">'_width'</span>,
+</span><span id="154" class="l"><a class="l" href="source-function-process_product_meta_variable.html#154">154 </a>                        <span class="php-quote">'_height'</span>,
+</span><span id="155" class="l"><a class="l" href="source-function-process_product_meta_variable.html#155">155 </a>                        <span class="php-quote">'_tax_class'</span>,
+</span><span id="156" class="l"><a class="l" href="source-function-process_product_meta_variable.html#156">156 </a>                        <span class="php-quote">'_download_limit'</span>,
+</span><span id="157" class="l"><a class="l" href="source-function-process_product_meta_variable.html#157">157 </a>                        <span class="php-quote">'_download_expiry'</span>,
+</span><span id="158" class="l"><a class="l" href="source-function-process_product_meta_variable.html#158">158 </a>                        <span class="php-quote">'_file_paths'</span>,
+</span><span id="159" class="l"><a class="l" href="source-function-process_product_meta_variable.html#159">159 </a>                        <span class="php-quote">'_downloadable'</span>,
+</span><span id="160" class="l"><a class="l" href="source-function-process_product_meta_variable.html#160">160 </a>                        <span class="php-quote">'_virtual'</span>,
+</span><span id="161" class="l"><a class="l" href="source-function-process_product_meta_variable.html#161">161 </a>                        <span class="php-quote">'_thumbnail_id'</span>,
+</span><span id="162" class="l"><a class="l" href="source-function-process_product_meta_variable.html#162">162 </a>                        <span class="php-quote">'_sale_price_dates_from'</span>,
+</span><span id="163" class="l"><a class="l" href="source-function-process_product_meta_variable.html#163">163 </a>                        <span class="php-quote">'_sale_price_dates_to'</span>
+</span><span id="164" class="l"><a class="l" href="source-function-process_product_meta_variable.html#164">164 </a>                    );
+</span><span id="165" class="l"><a class="l" href="source-function-process_product_meta_variable.html#165">165 </a>
+</span><span id="166" class="l"><a class="l" href="source-function-process_product_meta_variable.html#166">166 </a>                    <span class="php-keyword1">foreach</span> ( <span class="php-var">$variation_fields</span> <span class="php-keyword1">as</span> <span class="php-var">$field</span> )
+</span><span id="167" class="l"><a class="l" href="source-function-process_product_meta_variable.html#167">167 </a>                        <span class="php-var">$$field</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$variation_data</span>[ <span class="php-var">$field</span> ][<span class="php-num">0</span>] ) ? <span class="php-var">$variation_data</span>[ <span class="php-var">$field</span> ][<span class="php-num">0</span>] : <span class="php-quote">''</span>;
+</span><span id="168" class="l"><a class="l" href="source-function-process_product_meta_variable.html#168">168 </a>
+</span><span id="169" class="l"><a class="l" href="source-function-process_product_meta_variable.html#169">169 </a>                    <span class="php-comment">// Price backwards compat</span>
+</span><span id="170" class="l"><a class="l" href="source-function-process_product_meta_variable.html#170">170 </a>                    <span class="php-keyword1">if</span> ( <span class="php-var">$_regular_price</span> == <span class="php-quote">''</span> &amp;&amp; <span class="php-var">$_price</span> )
+</span><span id="171" class="l"><a class="l" href="source-function-process_product_meta_variable.html#171">171 </a>                        <span class="php-var">$_regular_price</span> = <span class="php-var">$_price</span>;
+</span><span id="172" class="l"><a class="l" href="source-function-process_product_meta_variable.html#172">172 </a>
+</span><span id="173" class="l"><a class="l" href="source-function-process_product_meta_variable.html#173">173 </a>                    <span class="php-comment">// Get image</span>
+</span><span id="174" class="l"><a class="l" href="source-function-process_product_meta_variable.html#174">174 </a>                    <span class="php-var">$image</span> = <span class="php-quote">''</span>;
+</span><span id="175" class="l"><a class="l" href="source-function-process_product_meta_variable.html#175">175 </a>                    <span class="php-var">$image_id</span> = absint( <span class="php-var">$_thumbnail_id</span> );
+</span><span id="176" class="l"><a class="l" href="source-function-process_product_meta_variable.html#176">176 </a>                    <span class="php-keyword1">if</span> ( <span class="php-var">$image_id</span> )
+</span><span id="177" class="l"><a class="l" href="source-function-process_product_meta_variable.html#177">177 </a>                        <span class="php-var">$image</span> = wp_get_attachment_url( <span class="php-var">$image_id</span> );
+</span><span id="178" class="l"><a class="l" href="source-function-process_product_meta_variable.html#178">178 </a>
+</span><span id="179" class="l"><a class="l" href="source-function-process_product_meta_variable.html#179">179 </a>                    <span class="php-comment">// Format file paths</span>
+</span><span id="180" class="l"><a class="l" href="source-function-process_product_meta_variable.html#180">180 </a>                    <span class="php-var">$_file_paths</span> = maybe_unserialize( <span class="php-var">$_file_paths</span> );
+</span><span id="181" class="l"><a class="l" href="source-function-process_product_meta_variable.html#181">181 </a>                    <span class="php-keyword1">if</span> ( <span class="php-keyword2">is_array</span>( <span class="php-var">$_file_paths</span> ) )
+</span><span id="182" class="l"><a class="l" href="source-function-process_product_meta_variable.html#182">182 </a>                        <span class="php-var">$_file_paths</span> = <span class="php-keyword2">implode</span>( <span class="php-quote">&quot;\n&quot;</span>, <span class="php-var">$_file_paths</span> );
+</span><span id="183" class="l"><a class="l" href="source-function-process_product_meta_variable.html#183">183 </a>
+</span><span id="184" class="l"><a class="l" href="source-function-process_product_meta_variable.html#184">184 </a>                    <span class="php-keyword1">include</span>( <span class="php-quote">'variation-admin-html.php'</span> );
+</span><span id="185" class="l"><a class="l" href="source-function-process_product_meta_variable.html#185">185 </a>
+</span><span id="186" class="l"><a class="l" href="source-function-process_product_meta_variable.html#186">186 </a>                    <span class="php-var">$loop</span>++;
+</span><span id="187" class="l"><a class="l" href="source-function-process_product_meta_variable.html#187">187 </a>                }
+</span><span id="188" class="l"><a class="l" href="source-function-process_product_meta_variable.html#188">188 </a>                <span class="xlang">?&gt;</span>
+</span><span id="189" class="l"><a class="l" href="source-function-process_product_meta_variable.html#189">189 </a>            &lt;/div&gt;
+</span><span id="190" class="l"><a class="l" href="source-function-process_product_meta_variable.html#190">190 </a>
+</span><span id="191" class="l"><a class="l" href="source-function-process_product_meta_variable.html#191">191 </a>            &lt;p <span class="php-keyword1">class</span>=<span class="php-quote">&quot;toolbar&quot;</span>&gt;
+</span><span id="192" class="l"><a class="l" href="source-function-process_product_meta_variable.html#192">192 </a>
+</span><span id="193" class="l"><a class="l" href="source-function-process_product_meta_variable.html#193">193 </a>                &lt;button type=<span class="php-quote">&quot;button&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;button button-primary add_variation&quot;</span> <span class="xlang">&lt;?php</span> disabled( <span class="php-var">$variation_attribute_found</span>, <span class="php-keyword1">false</span> ); <span class="xlang">?&gt;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Add Variation'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/button&gt;
+</span><span id="194" class="l"><a class="l" href="source-function-process_product_meta_variable.html#194">194 </a>
+</span><span id="195" class="l"><a class="l" href="source-function-process_product_meta_variable.html#195">195 </a>                &lt;button type=<span class="php-quote">&quot;button&quot;</span> <span class="php-keyword1">class</span>=<span class="php-quote">&quot;button link_all_variations&quot;</span> <span class="xlang">&lt;?php</span> disabled( <span class="php-var">$variation_attribute_found</span>, <span class="php-keyword1">false</span> ); <span class="xlang">?&gt;</span>&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Link all variations'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/button&gt;
+</span><span id="196" class="l"><a class="l" href="source-function-process_product_meta_variable.html#196">196 </a>
+</span><span id="197" class="l"><a class="l" href="source-function-process_product_meta_variable.html#197">197 </a>                &lt;strong&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Default selections:'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/strong&gt;
+</span><span id="198" class="l"><a class="l" href="source-function-process_product_meta_variable.html#198">198 </a>                <span class="xlang">&lt;?php</span>
+</span><span id="199" class="l"><a class="l" href="source-function-process_product_meta_variable.html#199">199 </a>                    <span class="php-var">$default_attributes</span> = maybe_unserialize( get_post_meta( <span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'_default_attributes'</span>, <span class="php-keyword1">true</span> ) );
+</span><span id="200" class="l"><a class="l" href="source-function-process_product_meta_variable.html#200">200 </a>                    <span class="php-keyword1">foreach</span> ( <span class="php-var">$attributes</span> <span class="php-keyword1">as</span> <span class="php-var">$attribute</span> ) {
+</span><span id="201" class="l"><a class="l" href="source-function-process_product_meta_variable.html#201">201 </a>
+</span><span id="202" class="l"><a class="l" href="source-function-process_product_meta_variable.html#202">202 </a>                        <span class="php-comment">// Only deal with attributes that are variations</span>
+</span><span id="203" class="l"><a class="l" href="source-function-process_product_meta_variable.html#203">203 </a>                        <span class="php-keyword1">if</span> ( ! <span class="php-var">$attribute</span>[<span class="php-quote">'is_variation'</span>] )
+</span><span id="204" class="l"><a class="l" href="source-function-process_product_meta_variable.html#204">204 </a>                            <span class="php-keyword1">continue</span>;
+</span><span id="205" class="l"><a class="l" href="source-function-process_product_meta_variable.html#205">205 </a>
+</span><span id="206" class="l"><a class="l" href="source-function-process_product_meta_variable.html#206">206 </a>                        <span class="php-comment">// Get current value for variation (if set)</span>
+</span><span id="207" class="l"><a class="l" href="source-function-process_product_meta_variable.html#207">207 </a>                        <span class="php-var">$variation_selected_value</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$default_attributes</span>[ sanitize_title( <span class="php-var">$attribute</span>[<span class="php-quote">'name'</span>] ) ] ) ? <span class="php-var">$default_attributes</span>[ sanitize_title( <span class="php-var">$attribute</span>[<span class="php-quote">'name'</span>] ) ] : <span class="php-quote">''</span>;
+</span><span id="208" class="l"><a class="l" href="source-function-process_product_meta_variable.html#208">208 </a>
+</span><span id="209" class="l"><a class="l" href="source-function-process_product_meta_variable.html#209">209 </a>                        <span class="php-comment">// Name will be something like attribute_pa_color</span>
+</span><span id="210" class="l"><a class="l" href="source-function-process_product_meta_variable.html#210">210 </a>                        <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;select name=&quot;default_attribute_'</span> . sanitize_title( <span class="php-var">$attribute</span>[<span class="php-quote">'name'</span>] ) . <span class="php-quote">'&quot;&gt;&lt;option value=&quot;&quot;&gt;'</span> . __( <span class="php-quote">'No default'</span>, <span class="php-quote">'woocommerce'</span> ) . <span class="php-quote">' '</span> . esc_html( <span class="php-var">$woocommerce</span>-&gt;attribute_label( <span class="php-var">$attribute</span>[<span class="php-quote">'name'</span>] ) ) . <span class="php-quote">'&amp;hellip;&lt;/option&gt;'</span>;
+</span><span id="211" class="l"><a class="l" href="source-function-process_product_meta_variable.html#211">211 </a>
+</span><span id="212" class="l"><a class="l" href="source-function-process_product_meta_variable.html#212">212 </a>                        <span class="php-comment">// Get terms for attribute taxonomy or value if its a custom attribute</span>
+</span><span id="213" class="l"><a class="l" href="source-function-process_product_meta_variable.html#213">213 </a>                        <span class="php-keyword1">if</span> ( <span class="php-var">$attribute</span>[<span class="php-quote">'is_taxonomy'</span>] ) {
+</span><span id="214" class="l"><a class="l" href="source-function-process_product_meta_variable.html#214">214 </a>
+</span><span id="215" class="l"><a class="l" href="source-function-process_product_meta_variable.html#215">215 </a>                            <span class="php-var">$post_terms</span> = wp_get_post_terms( <span class="php-var">$post</span>-&gt;ID, <span class="php-var">$attribute</span>[<span class="php-quote">'name'</span>] );
+</span><span id="216" class="l"><a class="l" href="source-function-process_product_meta_variable.html#216">216 </a>
+</span><span id="217" class="l"><a class="l" href="source-function-process_product_meta_variable.html#217">217 </a>                            <span class="php-keyword1">foreach</span> ( <span class="php-var">$post_terms</span> <span class="php-keyword1">as</span> <span class="php-var">$term</span> )
+</span><span id="218" class="l"><a class="l" href="source-function-process_product_meta_variable.html#218">218 </a>                                <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;option '</span> . selected( <span class="php-var">$variation_selected_value</span>, <span class="php-var">$term</span>-&gt;slug, <span class="php-keyword1">false</span> ) . <span class="php-quote">' value=&quot;'</span> . esc_attr( <span class="php-var">$term</span>-&gt;slug ) . <span class="php-quote">'&quot;&gt;'</span> . apply_filters( <span class="php-quote">'woocommerce_variation_option_name'</span>, esc_html( <span class="php-var">$term</span>-&gt;name ) ) . <span class="php-quote">'&lt;/option&gt;'</span>;
+</span><span id="219" class="l"><a class="l" href="source-function-process_product_meta_variable.html#219">219 </a>
+</span><span id="220" class="l"><a class="l" href="source-function-process_product_meta_variable.html#220">220 </a>                        } <span class="php-keyword1">else</span> {
+</span><span id="221" class="l"><a class="l" href="source-function-process_product_meta_variable.html#221">221 </a>
+</span><span id="222" class="l"><a class="l" href="source-function-process_product_meta_variable.html#222">222 </a>                            <span class="php-var">$options</span> = <span class="php-keyword2">array_map</span>( <span class="php-quote">'trim'</span>, <span class="php-keyword2">explode</span>( <span class="php-quote">'|'</span>, <span class="php-var">$attribute</span>[<span class="php-quote">'value'</span>] ) );
+</span><span id="223" class="l"><a class="l" href="source-function-process_product_meta_variable.html#223">223 </a>
+</span><span id="224" class="l"><a class="l" href="source-function-process_product_meta_variable.html#224">224 </a>                            <span class="php-keyword1">foreach</span> ( <span class="php-var">$options</span> <span class="php-keyword1">as</span> <span class="php-var">$option</span> )
+</span><span id="225" class="l"><a class="l" href="source-function-process_product_meta_variable.html#225">225 </a>                                <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;option '</span> . selected( sanitize_title( <span class="php-var">$variation_selected_value</span> ), sanitize_title( <span class="php-var">$option</span> ), <span class="php-keyword1">false</span> ) . <span class="php-quote">' value=&quot;'</span> . esc_attr( sanitize_title( <span class="php-var">$option</span> ) ) . <span class="php-quote">'&quot;&gt;'</span> . esc_html( apply_filters( <span class="php-quote">'woocommerce_variation_option_name'</span>, <span class="php-var">$option</span> ) )  . <span class="php-quote">'&lt;/option&gt;'</span>;
+</span><span id="226" class="l"><a class="l" href="source-function-process_product_meta_variable.html#226">226 </a>
+</span><span id="227" class="l"><a class="l" href="source-function-process_product_meta_variable.html#227">227 </a>                        }
+</span><span id="228" class="l"><a class="l" href="source-function-process_product_meta_variable.html#228">228 </a>
+</span><span id="229" class="l"><a class="l" href="source-function-process_product_meta_variable.html#229">229 </a>                        <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;/select&gt;'</span>;
+</span><span id="230" class="l"><a class="l" href="source-function-process_product_meta_variable.html#230">230 </a>                    }
+</span><span id="231" class="l"><a class="l" href="source-function-process_product_meta_variable.html#231">231 </a>                <span class="xlang">?&gt;</span>
+</span><span id="232" class="l"><a class="l" href="source-function-process_product_meta_variable.html#232">232 </a>            &lt;/p&gt;
+</span><span id="233" class="l"><a class="l" href="source-function-process_product_meta_variable.html#233">233 </a>
+</span><span id="234" class="l"><a class="l" href="source-function-process_product_meta_variable.html#234">234 </a>        <span class="xlang">&lt;?php</span> <span class="php-keyword1">endif</span>; <span class="xlang">?&gt;</span>
+</span><span id="235" class="l"><a class="l" href="source-function-process_product_meta_variable.html#235">235 </a>    &lt;/div&gt;&lt;/div&gt;
+</span><span id="236" class="l"><a class="l" href="source-function-process_product_meta_variable.html#236">236 </a>    <span class="xlang">&lt;?php</span>
+</span><span id="237" class="l"><a class="l" href="source-function-process_product_meta_variable.html#237">237 </a>    <span class="php-comment">/**
+</span></span><span id="238" class="l"><a class="l" href="source-function-process_product_meta_variable.html#238">238 </a><span class="php-comment">     * Product Type Javascript
+</span></span><span id="239" class="l"><a class="l" href="source-function-process_product_meta_variable.html#239">239 </a><span class="php-comment">     */</span>
+</span><span id="240" class="l"><a class="l" href="source-function-process_product_meta_variable.html#240">240 </a>    <span class="php-keyword2">ob_start</span>();
+</span><span id="241" class="l"><a class="l" href="source-function-process_product_meta_variable.html#241">241 </a>    <span class="xlang">?&gt;</span>
+</span><span id="242" class="l"><a class="l" href="source-function-process_product_meta_variable.html#242">242 </a>    jQuery(<span class="php-keyword1">function</span>(){
+</span><span id="243" class="l"><a class="l" href="source-function-process_product_meta_variable.html#243">243 </a>
+</span><span id="244" class="l"><a class="l" href="source-function-process_product_meta_variable.html#244">244 </a>        <span class="php-keyword1">var</span> variation_sortable_options = {
+</span><span id="245" class="l"><a class="l" href="source-function-process_product_meta_variable.html#245">245 </a>            items:<span class="php-quote">'.woocommerce_variation'</span>,
+</span><span id="246" class="l"><a class="l" href="source-function-process_product_meta_variable.html#246">246 </a>            cursor:<span class="php-quote">'move'</span>,
+</span><span id="247" class="l"><a class="l" href="source-function-process_product_meta_variable.html#247">247 </a>            axis:<span class="php-quote">'y'</span>,
+</span><span id="248" class="l"><a class="l" href="source-function-process_product_meta_variable.html#248">248 </a>            handle: <span class="php-quote">'h3'</span>,
+</span><span id="249" class="l"><a class="l" href="source-function-process_product_meta_variable.html#249">249 </a>            scrollSensitivity:<span class="php-num">40</span>,
+</span><span id="250" class="l"><a class="l" href="source-function-process_product_meta_variable.html#250">250 </a>            forcePlaceholderSize: <span class="php-keyword1">true</span>,
+</span><span id="251" class="l"><a class="l" href="source-function-process_product_meta_variable.html#251">251 </a>            helper: <span class="php-quote">'clone'</span>,
+</span><span id="252" class="l"><a class="l" href="source-function-process_product_meta_variable.html#252">252 </a>            opacity: <span class="php-num">0.65</span>,
+</span><span id="253" class="l"><a class="l" href="source-function-process_product_meta_variable.html#253">253 </a>            placeholder: <span class="php-quote">'wc-metabox-sortable-placeholder'</span>,
+</span><span id="254" class="l"><a class="l" href="source-function-process_product_meta_variable.html#254">254 </a>            start:<span class="php-keyword1">function</span>(event,ui){
+</span><span id="255" class="l"><a class="l" href="source-function-process_product_meta_variable.html#255">255 </a>                ui.item.css(<span class="php-quote">'background-color'</span>,<span class="php-quote">'#f6f6f6'</span>);
+</span><span id="256" class="l"><a class="l" href="source-function-process_product_meta_variable.html#256">256 </a>            },
+</span><span id="257" class="l"><a class="l" href="source-function-process_product_meta_variable.html#257">257 </a>            stop:<span class="php-keyword1">function</span>(event,ui){
+</span><span id="258" class="l"><a class="l" href="source-function-process_product_meta_variable.html#258">258 </a>                ui.item.removeAttr(<span class="php-quote">'style'</span>);
+</span><span id="259" class="l"><a class="l" href="source-function-process_product_meta_variable.html#259">259 </a>                variation_row_indexes();
+</span><span id="260" class="l"><a class="l" href="source-function-process_product_meta_variable.html#260">260 </a>            }
+</span><span id="261" class="l"><a class="l" href="source-function-process_product_meta_variable.html#261">261 </a>        };
+</span><span id="262" class="l"><a class="l" href="source-function-process_product_meta_variable.html#262">262 </a>
+</span><span id="263" class="l"><a class="l" href="source-function-process_product_meta_variable.html#263">263 </a>        <span class="php-comment">// Add a variation</span>
+</span><span id="264" class="l"><a class="l" href="source-function-process_product_meta_variable.html#264">264 </a>        jQuery(<span class="php-quote">'#variable_product_options'</span>).on(<span class="php-quote">'click'</span>, <span class="php-quote">'button.add_variation'</span>, <span class="php-keyword1">function</span>(){
+</span><span id="265" class="l"><a class="l" href="source-function-process_product_meta_variable.html#265">265 </a>
+</span><span id="266" class="l"><a class="l" href="source-function-process_product_meta_variable.html#266">266 </a>            jQuery(<span class="php-quote">'.woocommerce_variations'</span>).block({ message: <span class="php-keyword1">null</span>, overlayCSS: { background: <span class="php-quote">'#fff url(&lt;?php echo $woocommerce-&gt;plugin_url(); ?&gt;/assets/images/ajax-loader.gif) no-repeat center'</span>, opacity: <span class="php-num">0.6</span> } });
+</span><span id="267" class="l"><a class="l" href="source-function-process_product_meta_variable.html#267">267 </a>
+</span><span id="268" class="l"><a class="l" href="source-function-process_product_meta_variable.html#268">268 </a>            <span class="php-keyword1">var</span> loop = jQuery(<span class="php-quote">'.woocommerce_variation'</span>).size();
+</span><span id="269" class="l"><a class="l" href="source-function-process_product_meta_variable.html#269">269 </a>
+</span><span id="270" class="l"><a class="l" href="source-function-process_product_meta_variable.html#270">270 </a>            <span class="php-keyword1">var</span> data = {
+</span><span id="271" class="l"><a class="l" href="source-function-process_product_meta_variable.html#271">271 </a>                action: <span class="php-quote">'woocommerce_add_variation'</span>,
+</span><span id="272" class="l"><a class="l" href="source-function-process_product_meta_variable.html#272">272 </a>                post_id: <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> <span class="php-var">$post</span>-&gt;ID; <span class="xlang">?&gt;</span>,
+</span><span id="273" class="l"><a class="l" href="source-function-process_product_meta_variable.html#273">273 </a>                loop: loop,
+</span><span id="274" class="l"><a class="l" href="source-function-process_product_meta_variable.html#274">274 </a>                security: <span class="php-quote">'&lt;?php echo wp_create_nonce(&quot;add-variation&quot;); ?&gt;'</span>
+</span><span id="275" class="l"><a class="l" href="source-function-process_product_meta_variable.html#275">275 </a>            };
+</span><span id="276" class="l"><a class="l" href="source-function-process_product_meta_variable.html#276">276 </a>
+</span><span id="277" class="l"><a class="l" href="source-function-process_product_meta_variable.html#277">277 </a>            jQuery.post(<span class="php-quote">'&lt;?php echo admin_url('</span>admin-ajax.php<span class="php-quote">'); ?&gt;'</span>, data, <span class="php-keyword1">function</span>(response) {
+</span><span id="278" class="l"><a class="l" href="source-function-process_product_meta_variable.html#278">278 </a>
+</span><span id="279" class="l"><a class="l" href="source-function-process_product_meta_variable.html#279">279 </a>                jQuery(<span class="php-quote">'.woocommerce_variations'</span>).append( response );
+</span><span id="280" class="l"><a class="l" href="source-function-process_product_meta_variable.html#280">280 </a>
+</span><span id="281" class="l"><a class="l" href="source-function-process_product_meta_variable.html#281">281 </a>                jQuery(<span class="php-quote">&quot;.tips&quot;</span>).tipTip({
+</span><span id="282" class="l"><a class="l" href="source-function-process_product_meta_variable.html#282">282 </a>                    <span class="php-quote">'attribute'</span> : <span class="php-quote">'data-tip'</span>,
+</span><span id="283" class="l"><a class="l" href="source-function-process_product_meta_variable.html#283">283 </a>                    <span class="php-quote">'fadeIn'</span> : <span class="php-num">50</span>,
+</span><span id="284" class="l"><a class="l" href="source-function-process_product_meta_variable.html#284">284 </a>                    <span class="php-quote">'fadeOut'</span> : <span class="php-num">50</span>
+</span><span id="285" class="l"><a class="l" href="source-function-process_product_meta_variable.html#285">285 </a>                });
+</span><span id="286" class="l"><a class="l" href="source-function-process_product_meta_variable.html#286">286 </a>
+</span><span id="287" class="l"><a class="l" href="source-function-process_product_meta_variable.html#287">287 </a>                jQuery(<span class="php-quote">'input.variable_is_downloadable, input.variable_is_virtual'</span>).change();
+</span><span id="288" class="l"><a class="l" href="source-function-process_product_meta_variable.html#288">288 </a>
+</span><span id="289" class="l"><a class="l" href="source-function-process_product_meta_variable.html#289">289 </a>                jQuery(<span class="php-quote">'.woocommerce_variations'</span>).unblock();
+</span><span id="290" class="l"><a class="l" href="source-function-process_product_meta_variable.html#290">290 </a>                jQuery(<span class="php-quote">'#variable_product_options'</span>).trigger(<span class="php-quote">'woocommerce_variations_added'</span>);
+</span><span id="291" class="l"><a class="l" href="source-function-process_product_meta_variable.html#291">291 </a>            });
+</span><span id="292" class="l"><a class="l" href="source-function-process_product_meta_variable.html#292">292 </a>
+</span><span id="293" class="l"><a class="l" href="source-function-process_product_meta_variable.html#293">293 </a>            <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="294" class="l"><a class="l" href="source-function-process_product_meta_variable.html#294">294 </a>
+</span><span id="295" class="l"><a class="l" href="source-function-process_product_meta_variable.html#295">295 </a>        });
+</span><span id="296" class="l"><a class="l" href="source-function-process_product_meta_variable.html#296">296 </a>
+</span><span id="297" class="l"><a class="l" href="source-function-process_product_meta_variable.html#297">297 </a>        jQuery(<span class="php-quote">'#variable_product_options'</span>).on(<span class="php-quote">'click'</span>, <span class="php-quote">'button.link_all_variations'</span>, <span class="php-keyword1">function</span>(){
+</span><span id="298" class="l"><a class="l" href="source-function-process_product_meta_variable.html#298">298 </a>
+</span><span id="299" class="l"><a class="l" href="source-function-process_product_meta_variable.html#299">299 </a>            <span class="php-keyword1">var</span> answer = confirm(<span class="php-quote">'&lt;?php _e( '</span>Are you sure you want to <span class="php-keyword2">link</span> all variations? This will create a <span class="php-keyword1">new</span> variation <span class="php-keyword1">for</span> <span class="php-keyword2">each</span> <span class="php-keyword1">and</span> every possible combination of variation attributes (<span class="php-keyword2">max</span> <span class="php-num">50</span> per run).<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>);
+</span><span id="300" class="l"><a class="l" href="source-function-process_product_meta_variable.html#300">300 </a>
+</span><span id="301" class="l"><a class="l" href="source-function-process_product_meta_variable.html#301">301 </a>            <span class="php-keyword1">if</span> (answer) {
+</span><span id="302" class="l"><a class="l" href="source-function-process_product_meta_variable.html#302">302 </a>
+</span><span id="303" class="l"><a class="l" href="source-function-process_product_meta_variable.html#303">303 </a>                jQuery(<span class="php-quote">'#variable_product_options'</span>).block({ message: <span class="php-keyword1">null</span>, overlayCSS: { background: <span class="php-quote">'#fff url(&lt;?php echo $woocommerce-&gt;plugin_url(); ?&gt;/assets/images/ajax-loader.gif) no-repeat center'</span>, opacity: <span class="php-num">0.6</span> } });
+</span><span id="304" class="l"><a class="l" href="source-function-process_product_meta_variable.html#304">304 </a>
+</span><span id="305" class="l"><a class="l" href="source-function-process_product_meta_variable.html#305">305 </a>                <span class="php-keyword1">var</span> data = {
+</span><span id="306" class="l"><a class="l" href="source-function-process_product_meta_variable.html#306">306 </a>                    action: <span class="php-quote">'woocommerce_link_all_variations'</span>,
+</span><span id="307" class="l"><a class="l" href="source-function-process_product_meta_variable.html#307">307 </a>                    post_id: <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> <span class="php-var">$post</span>-&gt;ID; <span class="xlang">?&gt;</span>,
+</span><span id="308" class="l"><a class="l" href="source-function-process_product_meta_variable.html#308">308 </a>                    security: <span class="php-quote">'&lt;?php echo wp_create_nonce(&quot;link-variations&quot;); ?&gt;'</span>
+</span><span id="309" class="l"><a class="l" href="source-function-process_product_meta_variable.html#309">309 </a>                };
+</span><span id="310" class="l"><a class="l" href="source-function-process_product_meta_variable.html#310">310 </a>
+</span><span id="311" class="l"><a class="l" href="source-function-process_product_meta_variable.html#311">311 </a>                jQuery.post(<span class="php-quote">'&lt;?php echo admin_url('</span>admin-ajax.php<span class="php-quote">'); ?&gt;'</span>, data, <span class="php-keyword1">function</span>(response) {
+</span><span id="312" class="l"><a class="l" href="source-function-process_product_meta_variable.html#312">312 </a>
+</span><span id="313" class="l"><a class="l" href="source-function-process_product_meta_variable.html#313">313 </a>                    <span class="php-keyword1">var</span> <span class="php-keyword2">count</span> = parseInt( response );
+</span><span id="314" class="l"><a class="l" href="source-function-process_product_meta_variable.html#314">314 </a>
+</span><span id="315" class="l"><a class="l" href="source-function-process_product_meta_variable.html#315">315 </a>                    <span class="php-keyword1">if</span> (<span class="php-keyword2">count</span>==<span class="php-num">1</span>) {
+</span><span id="316" class="l"><a class="l" href="source-function-process_product_meta_variable.html#316">316 </a>                        alert( <span class="php-keyword2">count</span> + <span class="php-quote">' &lt;?php _e( &quot;variation added&quot;, '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>);
+</span><span id="317" class="l"><a class="l" href="source-function-process_product_meta_variable.html#317">317 </a>                    } <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> (<span class="php-keyword2">count</span>==<span class="php-num">0</span> || <span class="php-keyword2">count</span>&gt;<span class="php-num">1</span>) {
+</span><span id="318" class="l"><a class="l" href="source-function-process_product_meta_variable.html#318">318 </a>                        alert( <span class="php-keyword2">count</span> + <span class="php-quote">' &lt;?php _e( &quot;variations added&quot;, '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>);
+</span><span id="319" class="l"><a class="l" href="source-function-process_product_meta_variable.html#319">319 </a>                    } <span class="php-keyword1">else</span> {
+</span><span id="320" class="l"><a class="l" href="source-function-process_product_meta_variable.html#320">320 </a>                        alert(<span class="php-quote">'&lt;?php _e( &quot;No variations added&quot;, '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>);
+</span><span id="321" class="l"><a class="l" href="source-function-process_product_meta_variable.html#321">321 </a>                    }
+</span><span id="322" class="l"><a class="l" href="source-function-process_product_meta_variable.html#322">322 </a>
+</span><span id="323" class="l"><a class="l" href="source-function-process_product_meta_variable.html#323">323 </a>                    <span class="php-keyword1">if</span> (<span class="php-keyword2">count</span>&gt;<span class="php-num">0</span>) {
+</span><span id="324" class="l"><a class="l" href="source-function-process_product_meta_variable.html#324">324 </a>                        <span class="php-keyword1">var</span> this_page = window.location.toString();
+</span><span id="325" class="l"><a class="l" href="source-function-process_product_meta_variable.html#325">325 </a>
+</span><span id="326" class="l"><a class="l" href="source-function-process_product_meta_variable.html#326">326 </a>                        this_page = this_page.replace( <span class="php-quote">'post-new.php?'</span>, <span class="php-quote">'post.php?post=&lt;?php echo $post-&gt;ID; ?&gt;&amp;action=edit&amp;'</span> );
+</span><span id="327" class="l"><a class="l" href="source-function-process_product_meta_variable.html#327">327 </a>
+</span><span id="328" class="l"><a class="l" href="source-function-process_product_meta_variable.html#328">328 </a>                        <span class="php-var">$</span>(<span class="php-quote">'#variable_product_options'</span>).load( this_page + <span class="php-quote">' #variable_product_options_inner'</span>, <span class="php-keyword1">function</span>() {
+</span><span id="329" class="l"><a class="l" href="source-function-process_product_meta_variable.html#329">329 </a>                            <span class="php-var">$</span>(<span class="php-quote">'#variable_product_options'</span>).unblock();
+</span><span id="330" class="l"><a class="l" href="source-function-process_product_meta_variable.html#330">330 </a>                            jQuery(<span class="php-quote">'#variable_product_options'</span>).trigger(<span class="php-quote">'woocommerce_variations_added'</span>);
+</span><span id="331" class="l"><a class="l" href="source-function-process_product_meta_variable.html#331">331 </a>                        } );
+</span><span id="332" class="l"><a class="l" href="source-function-process_product_meta_variable.html#332">332 </a>                    } <span class="php-keyword1">else</span> {
+</span><span id="333" class="l"><a class="l" href="source-function-process_product_meta_variable.html#333">333 </a>                        <span class="php-var">$</span>(<span class="php-quote">'#variable_product_options'</span>).unblock();
+</span><span id="334" class="l"><a class="l" href="source-function-process_product_meta_variable.html#334">334 </a>                    }
+</span><span id="335" class="l"><a class="l" href="source-function-process_product_meta_variable.html#335">335 </a>
+</span><span id="336" class="l"><a class="l" href="source-function-process_product_meta_variable.html#336">336 </a>                });
+</span><span id="337" class="l"><a class="l" href="source-function-process_product_meta_variable.html#337">337 </a>            }
+</span><span id="338" class="l"><a class="l" href="source-function-process_product_meta_variable.html#338">338 </a>            <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="339" class="l"><a class="l" href="source-function-process_product_meta_variable.html#339">339 </a>        });
+</span><span id="340" class="l"><a class="l" href="source-function-process_product_meta_variable.html#340">340 </a>
+</span><span id="341" class="l"><a class="l" href="source-function-process_product_meta_variable.html#341">341 </a>        jQuery(<span class="php-quote">'#variable_product_options'</span>).on(<span class="php-quote">'click'</span>, <span class="php-quote">'button.remove_variation'</span>, <span class="php-keyword1">function</span>(e){
+</span><span id="342" class="l"><a class="l" href="source-function-process_product_meta_variable.html#342">342 </a>            e.preventDefault();
+</span><span id="343" class="l"><a class="l" href="source-function-process_product_meta_variable.html#343">343 </a>            <span class="php-keyword1">var</span> answer = confirm(<span class="php-quote">'&lt;?php _e( '</span>Are you sure you want to remove this variation?<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>);
+</span><span id="344" class="l"><a class="l" href="source-function-process_product_meta_variable.html#344">344 </a>            <span class="php-keyword1">if</span> (answer){
+</span><span id="345" class="l"><a class="l" href="source-function-process_product_meta_variable.html#345">345 </a>
+</span><span id="346" class="l"><a class="l" href="source-function-process_product_meta_variable.html#346">346 </a>                <span class="php-keyword1">var</span> el = jQuery(this).parent().parent();
+</span><span id="347" class="l"><a class="l" href="source-function-process_product_meta_variable.html#347">347 </a>
+</span><span id="348" class="l"><a class="l" href="source-function-process_product_meta_variable.html#348">348 </a>                <span class="php-keyword1">var</span> variation = jQuery(this).attr(<span class="php-quote">'rel'</span>);
+</span><span id="349" class="l"><a class="l" href="source-function-process_product_meta_variable.html#349">349 </a>
+</span><span id="350" class="l"><a class="l" href="source-function-process_product_meta_variable.html#350">350 </a>                <span class="php-keyword1">if</span> (variation&gt;<span class="php-num">0</span>) {
+</span><span id="351" class="l"><a class="l" href="source-function-process_product_meta_variable.html#351">351 </a>
+</span><span id="352" class="l"><a class="l" href="source-function-process_product_meta_variable.html#352">352 </a>                    jQuery(el).block({ message: <span class="php-keyword1">null</span>, overlayCSS: { background: <span class="php-quote">'#fff url(&lt;?php echo $woocommerce-&gt;plugin_url(); ?&gt;/assets/images/ajax-loader.gif) no-repeat center'</span>, opacity: <span class="php-num">0.6</span> } });
+</span><span id="353" class="l"><a class="l" href="source-function-process_product_meta_variable.html#353">353 </a>
+</span><span id="354" class="l"><a class="l" href="source-function-process_product_meta_variable.html#354">354 </a>                    <span class="php-keyword1">var</span> data = {
+</span><span id="355" class="l"><a class="l" href="source-function-process_product_meta_variable.html#355">355 </a>                        action: <span class="php-quote">'woocommerce_remove_variation'</span>,
+</span><span id="356" class="l"><a class="l" href="source-function-process_product_meta_variable.html#356">356 </a>                        variation_id: variation,
+</span><span id="357" class="l"><a class="l" href="source-function-process_product_meta_variable.html#357">357 </a>                        security: <span class="php-quote">'&lt;?php echo wp_create_nonce(&quot;delete-variation&quot;); ?&gt;'</span>
+</span><span id="358" class="l"><a class="l" href="source-function-process_product_meta_variable.html#358">358 </a>                    };
+</span><span id="359" class="l"><a class="l" href="source-function-process_product_meta_variable.html#359">359 </a>
+</span><span id="360" class="l"><a class="l" href="source-function-process_product_meta_variable.html#360">360 </a>                    jQuery.post(<span class="php-quote">'&lt;?php echo admin_url('</span>admin-ajax.php<span class="php-quote">'); ?&gt;'</span>, data, <span class="php-keyword1">function</span>(response) {
+</span><span id="361" class="l"><a class="l" href="source-function-process_product_meta_variable.html#361">361 </a>                        <span class="php-comment">// Success</span>
+</span><span id="362" class="l"><a class="l" href="source-function-process_product_meta_variable.html#362">362 </a>                        jQuery(el).fadeOut(<span class="php-quote">'300'</span>, <span class="php-keyword1">function</span>(){
+</span><span id="363" class="l"><a class="l" href="source-function-process_product_meta_variable.html#363">363 </a>                            jQuery(el).remove();
+</span><span id="364" class="l"><a class="l" href="source-function-process_product_meta_variable.html#364">364 </a>                        });
+</span><span id="365" class="l"><a class="l" href="source-function-process_product_meta_variable.html#365">365 </a>                    });
+</span><span id="366" class="l"><a class="l" href="source-function-process_product_meta_variable.html#366">366 </a>
+</span><span id="367" class="l"><a class="l" href="source-function-process_product_meta_variable.html#367">367 </a>                } <span class="php-keyword1">else</span> {
+</span><span id="368" class="l"><a class="l" href="source-function-process_product_meta_variable.html#368">368 </a>                    jQuery(el).fadeOut(<span class="php-quote">'300'</span>, <span class="php-keyword1">function</span>(){
+</span><span id="369" class="l"><a class="l" href="source-function-process_product_meta_variable.html#369">369 </a>                        jQuery(el).remove();
+</span><span id="370" class="l"><a class="l" href="source-function-process_product_meta_variable.html#370">370 </a>                    });
+</span><span id="371" class="l"><a class="l" href="source-function-process_product_meta_variable.html#371">371 </a>                }
+</span><span id="372" class="l"><a class="l" href="source-function-process_product_meta_variable.html#372">372 </a>
+</span><span id="373" class="l"><a class="l" href="source-function-process_product_meta_variable.html#373">373 </a>            }
+</span><span id="374" class="l"><a class="l" href="source-function-process_product_meta_variable.html#374">374 </a>            <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="375" class="l"><a class="l" href="source-function-process_product_meta_variable.html#375">375 </a>        });
+</span><span id="376" class="l"><a class="l" href="source-function-process_product_meta_variable.html#376">376 </a>
+</span><span id="377" class="l"><a class="l" href="source-function-process_product_meta_variable.html#377">377 </a>        jQuery(<span class="php-quote">'.wc-metaboxes-wrapper'</span>).on(<span class="php-quote">'click'</span>, <span class="php-quote">'a.bulk_edit'</span>, <span class="php-keyword1">function</span>(event){
+</span><span id="378" class="l"><a class="l" href="source-function-process_product_meta_variable.html#378">378 </a>            <span class="php-keyword1">var</span> field_to_edit = jQuery(<span class="php-quote">'select#field_to_edit'</span>).val();
+</span><span id="379" class="l"><a class="l" href="source-function-process_product_meta_variable.html#379">379 </a>
+</span><span id="380" class="l"><a class="l" href="source-function-process_product_meta_variable.html#380">380 </a>            <span class="php-keyword1">if</span> ( field_to_edit == <span class="php-quote">'toggle_enabled'</span> ) {
+</span><span id="381" class="l"><a class="l" href="source-function-process_product_meta_variable.html#381">381 </a>                <span class="php-keyword1">var</span> checkbox = jQuery(<span class="php-quote">'input[name^=&quot;variable_enabled&quot;]'</span>);
+</span><span id="382" class="l"><a class="l" href="source-function-process_product_meta_variable.html#382">382 </a>                checkbox.attr(<span class="php-quote">'checked'</span>, !checkbox.attr(<span class="php-quote">'checked'</span>));
+</span><span id="383" class="l"><a class="l" href="source-function-process_product_meta_variable.html#383">383 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="384" class="l"><a class="l" href="source-function-process_product_meta_variable.html#384">384 </a>            }
+</span><span id="385" class="l"><a class="l" href="source-function-process_product_meta_variable.html#385">385 </a>            <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> ( field_to_edit == <span class="php-quote">'toggle_downloadable'</span> ) {
+</span><span id="386" class="l"><a class="l" href="source-function-process_product_meta_variable.html#386">386 </a>                <span class="php-keyword1">var</span> checkbox = jQuery(<span class="php-quote">'input[name^=&quot;variable_is_downloadable&quot;]'</span>);
+</span><span id="387" class="l"><a class="l" href="source-function-process_product_meta_variable.html#387">387 </a>                checkbox.attr(<span class="php-quote">'checked'</span>, !checkbox.attr(<span class="php-quote">'checked'</span>));
+</span><span id="388" class="l"><a class="l" href="source-function-process_product_meta_variable.html#388">388 </a>                jQuery(<span class="php-quote">'input.variable_is_downloadable'</span>).change();
+</span><span id="389" class="l"><a class="l" href="source-function-process_product_meta_variable.html#389">389 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="390" class="l"><a class="l" href="source-function-process_product_meta_variable.html#390">390 </a>            }
+</span><span id="391" class="l"><a class="l" href="source-function-process_product_meta_variable.html#391">391 </a>            <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> ( field_to_edit == <span class="php-quote">'toggle_virtual'</span> ) {
+</span><span id="392" class="l"><a class="l" href="source-function-process_product_meta_variable.html#392">392 </a>                <span class="php-keyword1">var</span> checkbox = jQuery(<span class="php-quote">'input[name^=&quot;variable_is_virtual&quot;]'</span>);
+</span><span id="393" class="l"><a class="l" href="source-function-process_product_meta_variable.html#393">393 </a>                checkbox.attr(<span class="php-quote">'checked'</span>, !checkbox.attr(<span class="php-quote">'checked'</span>));
+</span><span id="394" class="l"><a class="l" href="source-function-process_product_meta_variable.html#394">394 </a>                jQuery(<span class="php-quote">'input.variable_is_virtual'</span>).change();
+</span><span id="395" class="l"><a class="l" href="source-function-process_product_meta_variable.html#395">395 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="396" class="l"><a class="l" href="source-function-process_product_meta_variable.html#396">396 </a>            }
+</span><span id="397" class="l"><a class="l" href="source-function-process_product_meta_variable.html#397">397 </a>            <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> ( field_to_edit == <span class="php-quote">'delete_all'</span> ) {
+</span><span id="398" class="l"><a class="l" href="source-function-process_product_meta_variable.html#398">398 </a>
+</span><span id="399" class="l"><a class="l" href="source-function-process_product_meta_variable.html#399">399 </a>                <span class="php-keyword1">var</span> answer = confirm(<span class="php-quote">'&lt;?php _e( '</span>Are you sure you want to <span class="php-keyword2">delete</span> all variations? This cannot be undone.<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>);
+</span><span id="400" class="l"><a class="l" href="source-function-process_product_meta_variable.html#400">400 </a>                <span class="php-keyword1">if</span> (answer){
+</span><span id="401" class="l"><a class="l" href="source-function-process_product_meta_variable.html#401">401 </a>
+</span><span id="402" class="l"><a class="l" href="source-function-process_product_meta_variable.html#402">402 </a>                    <span class="php-keyword1">var</span> answer = confirm(<span class="php-quote">'&lt;?php _e( '</span>Last warning, are you sure?<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>);
+</span><span id="403" class="l"><a class="l" href="source-function-process_product_meta_variable.html#403">403 </a>
+</span><span id="404" class="l"><a class="l" href="source-function-process_product_meta_variable.html#404">404 </a>                    <span class="php-keyword1">if</span> (answer) {
+</span><span id="405" class="l"><a class="l" href="source-function-process_product_meta_variable.html#405">405 </a>
+</span><span id="406" class="l"><a class="l" href="source-function-process_product_meta_variable.html#406">406 </a>                        <span class="php-keyword1">var</span> variation_ids = [];
+</span><span id="407" class="l"><a class="l" href="source-function-process_product_meta_variable.html#407">407 </a>
+</span><span id="408" class="l"><a class="l" href="source-function-process_product_meta_variable.html#408">408 </a>                        jQuery(<span class="php-quote">'.woocommerce_variations .woocommerce_variation'</span>).block({ message: <span class="php-keyword1">null</span>, overlayCSS: { background: <span class="php-quote">'#fff url(&lt;?php echo $woocommerce-&gt;plugin_url(); ?&gt;/assets/images/ajax-loader.gif) no-repeat center'</span>, opacity: <span class="php-num">0.6</span> } });
+</span><span id="409" class="l"><a class="l" href="source-function-process_product_meta_variable.html#409">409 </a>
+</span><span id="410" class="l"><a class="l" href="source-function-process_product_meta_variable.html#410">410 </a>                        jQuery(<span class="php-quote">'.woocommerce_variations .woocommerce_variation .remove_variation'</span>).<span class="php-keyword2">each</span>(<span class="php-keyword1">function</span>(){
+</span><span id="411" class="l"><a class="l" href="source-function-process_product_meta_variable.html#411">411 </a>
+</span><span id="412" class="l"><a class="l" href="source-function-process_product_meta_variable.html#412">412 </a>                            <span class="php-keyword1">var</span> variation = jQuery(this).attr(<span class="php-quote">'rel'</span>);
+</span><span id="413" class="l"><a class="l" href="source-function-process_product_meta_variable.html#413">413 </a>                            <span class="php-keyword1">if</span> (variation&gt;<span class="php-num">0</span>) {
+</span><span id="414" class="l"><a class="l" href="source-function-process_product_meta_variable.html#414">414 </a>                                variation_ids.push(variation);
+</span><span id="415" class="l"><a class="l" href="source-function-process_product_meta_variable.html#415">415 </a>                            }
+</span><span id="416" class="l"><a class="l" href="source-function-process_product_meta_variable.html#416">416 </a>                        });
+</span><span id="417" class="l"><a class="l" href="source-function-process_product_meta_variable.html#417">417 </a>
+</span><span id="418" class="l"><a class="l" href="source-function-process_product_meta_variable.html#418">418 </a>                        <span class="php-keyword1">var</span> data = {
+</span><span id="419" class="l"><a class="l" href="source-function-process_product_meta_variable.html#419">419 </a>                            action: <span class="php-quote">'woocommerce_remove_variations'</span>,
+</span><span id="420" class="l"><a class="l" href="source-function-process_product_meta_variable.html#420">420 </a>                            variation_ids: variation_ids,
+</span><span id="421" class="l"><a class="l" href="source-function-process_product_meta_variable.html#421">421 </a>                            security: <span class="php-quote">'&lt;?php echo wp_create_nonce(&quot;delete-variations&quot;); ?&gt;'</span>
+</span><span id="422" class="l"><a class="l" href="source-function-process_product_meta_variable.html#422">422 </a>                        };
+</span><span id="423" class="l"><a class="l" href="source-function-process_product_meta_variable.html#423">423 </a>
+</span><span id="424" class="l"><a class="l" href="source-function-process_product_meta_variable.html#424">424 </a>                        jQuery.post(<span class="php-quote">'&lt;?php echo admin_url('</span>admin-ajax.php<span class="php-quote">'); ?&gt;'</span>, data, <span class="php-keyword1">function</span>(response) {
+</span><span id="425" class="l"><a class="l" href="source-function-process_product_meta_variable.html#425">425 </a>                            jQuery(<span class="php-quote">'.woocommerce_variations .woocommerce_variation'</span>).fadeOut(<span class="php-quote">'300'</span>, <span class="php-keyword1">function</span>(){
+</span><span id="426" class="l"><a class="l" href="source-function-process_product_meta_variable.html#426">426 </a>                                jQuery(<span class="php-quote">'.woocommerce_variations .woocommerce_variation'</span>).remove();
+</span><span id="427" class="l"><a class="l" href="source-function-process_product_meta_variable.html#427">427 </a>                            });
+</span><span id="428" class="l"><a class="l" href="source-function-process_product_meta_variable.html#428">428 </a>                        });
+</span><span id="429" class="l"><a class="l" href="source-function-process_product_meta_variable.html#429">429 </a>
+</span><span id="430" class="l"><a class="l" href="source-function-process_product_meta_variable.html#430">430 </a>                    }
+</span><span id="431" class="l"><a class="l" href="source-function-process_product_meta_variable.html#431">431 </a>
+</span><span id="432" class="l"><a class="l" href="source-function-process_product_meta_variable.html#432">432 </a>                }
+</span><span id="433" class="l"><a class="l" href="source-function-process_product_meta_variable.html#433">433 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="434" class="l"><a class="l" href="source-function-process_product_meta_variable.html#434">434 </a>            }
+</span><span id="435" class="l"><a class="l" href="source-function-process_product_meta_variable.html#435">435 </a>            <span class="php-keyword1">else</span> {
+</span><span id="436" class="l"><a class="l" href="source-function-process_product_meta_variable.html#436">436 </a>
+</span><span id="437" class="l"><a class="l" href="source-function-process_product_meta_variable.html#437">437 </a>                <span class="php-keyword1">var</span> input_tag = jQuery(<span class="php-quote">'select#field_to_edit :selected'</span>).attr(<span class="php-quote">'rel'</span>) ? jQuery(<span class="php-quote">'select#field_to_edit :selected'</span>).attr(<span class="php-quote">'rel'</span>) : <span class="php-quote">'input'</span>;
+</span><span id="438" class="l"><a class="l" href="source-function-process_product_meta_variable.html#438">438 </a>
+</span><span id="439" class="l"><a class="l" href="source-function-process_product_meta_variable.html#439">439 </a>                <span class="php-keyword1">var</span> value = prompt(<span class="php-quote">&quot;&lt;?php _e( 'Enter a value', 'woocommerce' ); ?&gt;&quot;</span>);
+</span><span id="440" class="l"><a class="l" href="source-function-process_product_meta_variable.html#440">440 </a>                jQuery(input_tag + <span class="php-quote">'[name^=&quot;'</span> + field_to_edit + <span class="php-quote">'[&quot;]'</span>).val( value ).change();
+</span><span id="441" class="l"><a class="l" href="source-function-process_product_meta_variable.html#441">441 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="442" class="l"><a class="l" href="source-function-process_product_meta_variable.html#442">442 </a>
+</span><span id="443" class="l"><a class="l" href="source-function-process_product_meta_variable.html#443">443 </a>            }
+</span><span id="444" class="l"><a class="l" href="source-function-process_product_meta_variable.html#444">444 </a>        });
+</span><span id="445" class="l"><a class="l" href="source-function-process_product_meta_variable.html#445">445 </a>
+</span><span id="446" class="l"><a class="l" href="source-function-process_product_meta_variable.html#446">446 </a>        jQuery(<span class="php-quote">'#variable_product_options'</span>).on(<span class="php-quote">'change'</span>, <span class="php-quote">'input.variable_is_downloadable'</span>, <span class="php-keyword1">function</span>(){
+</span><span id="447" class="l"><a class="l" href="source-function-process_product_meta_variable.html#447">447 </a>
+</span><span id="448" class="l"><a class="l" href="source-function-process_product_meta_variable.html#448">448 </a>            jQuery(this).closest(<span class="php-quote">'.woocommerce_variation'</span>).find(<span class="php-quote">'.show_if_variation_downloadable'</span>).hide();
+</span><span id="449" class="l"><a class="l" href="source-function-process_product_meta_variable.html#449">449 </a>
+</span><span id="450" class="l"><a class="l" href="source-function-process_product_meta_variable.html#450">450 </a>            <span class="php-keyword1">if</span> (jQuery(this).is(<span class="php-quote">':checked'</span>)) {
+</span><span id="451" class="l"><a class="l" href="source-function-process_product_meta_variable.html#451">451 </a>                jQuery(this).closest(<span class="php-quote">'.woocommerce_variation'</span>).find(<span class="php-quote">'.show_if_variation_downloadable'</span>).show();
+</span><span id="452" class="l"><a class="l" href="source-function-process_product_meta_variable.html#452">452 </a>            }
+</span><span id="453" class="l"><a class="l" href="source-function-process_product_meta_variable.html#453">453 </a>
+</span><span id="454" class="l"><a class="l" href="source-function-process_product_meta_variable.html#454">454 </a>        });
+</span><span id="455" class="l"><a class="l" href="source-function-process_product_meta_variable.html#455">455 </a>
+</span><span id="456" class="l"><a class="l" href="source-function-process_product_meta_variable.html#456">456 </a>        jQuery(<span class="php-quote">'#variable_product_options'</span>).on(<span class="php-quote">'change'</span>, <span class="php-quote">'input.variable_is_virtual'</span>, <span class="php-keyword1">function</span>(){
+</span><span id="457" class="l"><a class="l" href="source-function-process_product_meta_variable.html#457">457 </a>
+</span><span id="458" class="l"><a class="l" href="source-function-process_product_meta_variable.html#458">458 </a>            jQuery(this).closest(<span class="php-quote">'.woocommerce_variation'</span>).find(<span class="php-quote">'.hide_if_variation_virtual'</span>).show();
+</span><span id="459" class="l"><a class="l" href="source-function-process_product_meta_variable.html#459">459 </a>
+</span><span id="460" class="l"><a class="l" href="source-function-process_product_meta_variable.html#460">460 </a>            <span class="php-keyword1">if</span> (jQuery(this).is(<span class="php-quote">':checked'</span>)) {
+</span><span id="461" class="l"><a class="l" href="source-function-process_product_meta_variable.html#461">461 </a>                jQuery(this).closest(<span class="php-quote">'.woocommerce_variation'</span>).find(<span class="php-quote">'.hide_if_variation_virtual'</span>).hide();
+</span><span id="462" class="l"><a class="l" href="source-function-process_product_meta_variable.html#462">462 </a>            }
+</span><span id="463" class="l"><a class="l" href="source-function-process_product_meta_variable.html#463">463 </a>
+</span><span id="464" class="l"><a class="l" href="source-function-process_product_meta_variable.html#464">464 </a>        });
+</span><span id="465" class="l"><a class="l" href="source-function-process_product_meta_variable.html#465">465 </a>
+</span><span id="466" class="l"><a class="l" href="source-function-process_product_meta_variable.html#466">466 </a>        jQuery(<span class="php-quote">'input.variable_is_downloadable, input.variable_is_virtual'</span>).change();
+</span><span id="467" class="l"><a class="l" href="source-function-process_product_meta_variable.html#467">467 </a>
+</span><span id="468" class="l"><a class="l" href="source-function-process_product_meta_variable.html#468">468 </a>        <span class="php-comment">// Ordering</span>
+</span><span id="469" class="l"><a class="l" href="source-function-process_product_meta_variable.html#469">469 </a>        <span class="php-var">$</span>(<span class="php-quote">'#variable_product_options'</span>).on( <span class="php-quote">'woocommerce_variations_added'</span>, <span class="php-keyword1">function</span>() {
+</span><span id="470" class="l"><a class="l" href="source-function-process_product_meta_variable.html#470">470 </a>            <span class="php-var">$</span>(<span class="php-quote">'.woocommerce_variations'</span>).sortable( variation_sortable_options );
+</span><span id="471" class="l"><a class="l" href="source-function-process_product_meta_variable.html#471">471 </a>        } );
+</span><span id="472" class="l"><a class="l" href="source-function-process_product_meta_variable.html#472">472 </a>
+</span><span id="473" class="l"><a class="l" href="source-function-process_product_meta_variable.html#473">473 </a>        <span class="php-var">$</span>(<span class="php-quote">'.woocommerce_variations'</span>).sortable( variation_sortable_options );
+</span><span id="474" class="l"><a class="l" href="source-function-process_product_meta_variable.html#474">474 </a>
+</span><span id="475" class="l"><a class="l" href="source-function-process_product_meta_variable.html#475">475 </a>        <span class="php-keyword1">function</span> <a id="_variation_row_indexes" href="source-function-process_product_meta_variable.html#_variation_row_indexes">variation_row_indexes</a>() {
+</span><span id="476" class="l"><a class="l" href="source-function-process_product_meta_variable.html#476">476 </a>            <span class="php-var">$</span>(<span class="php-quote">'.woocommerce_variations .woocommerce_variation'</span>).<span class="php-keyword2">each</span>(<span class="php-keyword1">function</span>(index, el){
+</span><span id="477" class="l"><a class="l" href="source-function-process_product_meta_variable.html#477">477 </a>                <span class="php-var">$</span>(<span class="php-quote">'.variation_menu_order'</span>, el).val( parseInt( <span class="php-var">$</span>(el).index(<span class="php-quote">'.woocommerce_variations .woocommerce_variation'</span>) ) );
+</span><span id="478" class="l"><a class="l" href="source-function-process_product_meta_variable.html#478">478 </a>            });
+</span><span id="479" class="l"><a class="l" href="source-function-process_product_meta_variable.html#479">479 </a>        };
+</span><span id="480" class="l"><a class="l" href="source-function-process_product_meta_variable.html#480">480 </a>
+</span><span id="481" class="l"><a class="l" href="source-function-process_product_meta_variable.html#481">481 </a>        <span class="php-comment">// Uploader</span>
+</span><span id="482" class="l"><a class="l" href="source-function-process_product_meta_variable.html#482">482 </a>        <span class="php-keyword1">var</span> variable_image_frame;
+</span><span id="483" class="l"><a class="l" href="source-function-process_product_meta_variable.html#483">483 </a>        <span class="php-keyword1">var</span> setting_variation_image_id;
+</span><span id="484" class="l"><a class="l" href="source-function-process_product_meta_variable.html#484">484 </a>        <span class="php-keyword1">var</span> setting_variation_image;
+</span><span id="485" class="l"><a class="l" href="source-function-process_product_meta_variable.html#485">485 </a>        <span class="php-keyword1">var</span> wp_media_post_id = wp.media.model.settings.post.id;
+</span><span id="486" class="l"><a class="l" href="source-function-process_product_meta_variable.html#486">486 </a>
+</span><span id="487" class="l"><a class="l" href="source-function-process_product_meta_variable.html#487">487 </a>        jQuery(<span class="php-quote">'#variable_product_options'</span>).on(<span class="php-quote">'click'</span>, <span class="php-quote">'.upload_image_button'</span>, <span class="php-keyword1">function</span>( event ) {
+</span><span id="488" class="l"><a class="l" href="source-function-process_product_meta_variable.html#488">488 </a>
+</span><span id="489" class="l"><a class="l" href="source-function-process_product_meta_variable.html#489">489 </a>            <span class="php-keyword1">var</span> <span class="php-var"><a id="$button" href="source-function-process_product_meta_variable.html#$button">$button</a></span>                = jQuery( this );
+</span><span id="490" class="l"><a class="l" href="source-function-process_product_meta_variable.html#490">490 </a>            <span class="php-keyword1">var</span> post_id                = <span class="php-var">$button</span>.attr(<span class="php-quote">'rel'</span>);
+</span><span id="491" class="l"><a class="l" href="source-function-process_product_meta_variable.html#491">491 </a>            <span class="php-keyword1">var</span> <span class="php-var"><a id="$parent" href="source-function-process_product_meta_variable.html#$parent">$parent</a></span>                = <span class="php-var"><a id="$button" href="source-function-process_product_meta_variable.html#$button">$button</a></span>.closest(<span class="php-quote">'.upload_image'</span>);
+</span><span id="492" class="l"><a class="l" href="source-function-process_product_meta_variable.html#492">492 </a>            setting_variation_image    = <span class="php-var">$parent</span>;
+</span><span id="493" class="l"><a class="l" href="source-function-process_product_meta_variable.html#493">493 </a>            setting_variation_image_id = post_id;
+</span><span id="494" class="l"><a class="l" href="source-function-process_product_meta_variable.html#494">494 </a>
+</span><span id="495" class="l"><a class="l" href="source-function-process_product_meta_variable.html#495">495 </a>            event.preventDefault();
+</span><span id="496" class="l"><a class="l" href="source-function-process_product_meta_variable.html#496">496 </a>
+</span><span id="497" class="l"><a class="l" href="source-function-process_product_meta_variable.html#497">497 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$button</span>.is(<span class="php-quote">'.remove'</span>) ) {
+</span><span id="498" class="l"><a class="l" href="source-function-process_product_meta_variable.html#498">498 </a>
+</span><span id="499" class="l"><a class="l" href="source-function-process_product_meta_variable.html#499">499 </a>                setting_variation_image.find( <span class="php-quote">'.upload_image_id'</span> ).val( <span class="php-quote">''</span> );
+</span><span id="500" class="l"><a class="l" href="source-function-process_product_meta_variable.html#500">500 </a>                setting_variation_image.find( <span class="php-quote">'img'</span> ).attr( <span class="php-quote">'src'</span>, <span class="php-quote">'&lt;?php echo woocommerce_placeholder_img_src(); ?&gt;'</span> );
+</span><span id="501" class="l"><a class="l" href="source-function-process_product_meta_variable.html#501">501 </a>                setting_variation_image.find( <span class="php-quote">'.upload_image_button'</span> ).removeClass( <span class="php-quote">'remove'</span> );
+</span><span id="502" class="l"><a class="l" href="source-function-process_product_meta_variable.html#502">502 </a>
+</span><span id="503" class="l"><a class="l" href="source-function-process_product_meta_variable.html#503">503 </a>            } <span class="php-keyword1">else</span> {
+</span><span id="504" class="l"><a class="l" href="source-function-process_product_meta_variable.html#504">504 </a>
+</span><span id="505" class="l"><a class="l" href="source-function-process_product_meta_variable.html#505">505 </a>                <span class="php-comment">// If the media frame already exists, reopen it.</span>
+</span><span id="506" class="l"><a class="l" href="source-function-process_product_meta_variable.html#506">506 </a>                <span class="php-keyword1">if</span> ( variable_image_frame ) {
+</span><span id="507" class="l"><a class="l" href="source-function-process_product_meta_variable.html#507">507 </a>                    variable_image_frame.uploader.uploader.param( <span class="php-quote">'post_id'</span>, setting_variation_image_id );
+</span><span id="508" class="l"><a class="l" href="source-function-process_product_meta_variable.html#508">508 </a>                    variable_image_frame.open();
+</span><span id="509" class="l"><a class="l" href="source-function-process_product_meta_variable.html#509">509 </a>                    <span class="php-keyword1">return</span>;
+</span><span id="510" class="l"><a class="l" href="source-function-process_product_meta_variable.html#510">510 </a>                } <span class="php-keyword1">else</span> {
+</span><span id="511" class="l"><a class="l" href="source-function-process_product_meta_variable.html#511">511 </a>                    wp.media.model.settings.post.id = setting_variation_image_id;
+</span><span id="512" class="l"><a class="l" href="source-function-process_product_meta_variable.html#512">512 </a>                }
+</span><span id="513" class="l"><a class="l" href="source-function-process_product_meta_variable.html#513">513 </a>
+</span><span id="514" class="l"><a class="l" href="source-function-process_product_meta_variable.html#514">514 </a>                <span class="php-comment">// Create the media frame.</span>
+</span><span id="515" class="l"><a class="l" href="source-function-process_product_meta_variable.html#515">515 </a>                variable_image_frame = wp.media.frames.variable_image = wp.media({
+</span><span id="516" class="l"><a class="l" href="source-function-process_product_meta_variable.html#516">516 </a>                    <span class="php-comment">// Set the title of the modal.</span>
+</span><span id="517" class="l"><a class="l" href="source-function-process_product_meta_variable.html#517">517 </a>                    title: <span class="php-quote">'&lt;?php _e( '</span>Choose an image<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>,
+</span><span id="518" class="l"><a class="l" href="source-function-process_product_meta_variable.html#518">518 </a>                    button: {
+</span><span id="519" class="l"><a class="l" href="source-function-process_product_meta_variable.html#519">519 </a>                        text: <span class="php-quote">'&lt;?php _e( '</span>Set variation image<span class="php-quote">', '</span>woocommerce<span class="php-quote">' ); ?&gt;'</span>
+</span><span id="520" class="l"><a class="l" href="source-function-process_product_meta_variable.html#520">520 </a>                    }
+</span><span id="521" class="l"><a class="l" href="source-function-process_product_meta_variable.html#521">521 </a>                });
+</span><span id="522" class="l"><a class="l" href="source-function-process_product_meta_variable.html#522">522 </a>
+</span><span id="523" class="l"><a class="l" href="source-function-process_product_meta_variable.html#523">523 </a>                <span class="php-comment">// When an image is selected, run a callback.</span>
+</span><span id="524" class="l"><a class="l" href="source-function-process_product_meta_variable.html#524">524 </a>                variable_image_frame.on( <span class="php-quote">'select'</span>, <span class="php-keyword1">function</span>() {
+</span><span id="525" class="l"><a class="l" href="source-function-process_product_meta_variable.html#525">525 </a>
+</span><span id="526" class="l"><a class="l" href="source-function-process_product_meta_variable.html#526">526 </a>                    attachment = variable_image_frame.state().get(<span class="php-quote">'selection'</span>).first().toJSON();
+</span><span id="527" class="l"><a class="l" href="source-function-process_product_meta_variable.html#527">527 </a>
+</span><span id="528" class="l"><a class="l" href="source-function-process_product_meta_variable.html#528">528 </a>                    setting_variation_image.find( <span class="php-quote">'.upload_image_id'</span> ).val( attachment.id );
+</span><span id="529" class="l"><a class="l" href="source-function-process_product_meta_variable.html#529">529 </a>                    setting_variation_image.find( <span class="php-quote">'.upload_image_button'</span> ).addClass( <span class="php-quote">'remove'</span> );
+</span><span id="530" class="l"><a class="l" href="source-function-process_product_meta_variable.html#530">530 </a>                    setting_variation_image.find( <span class="php-quote">'img'</span> ).attr( <span class="php-quote">'src'</span>, attachment.url );
+</span><span id="531" class="l"><a class="l" href="source-function-process_product_meta_variable.html#531">531 </a>
+</span><span id="532" class="l"><a class="l" href="source-function-process_product_meta_variable.html#532">532 </a>                    wp.media.model.settings.post.id = wp_media_post_id;
+</span><span id="533" class="l"><a class="l" href="source-function-process_product_meta_variable.html#533">533 </a>                });
+</span><span id="534" class="l"><a class="l" href="source-function-process_product_meta_variable.html#534">534 </a>
+</span><span id="535" class="l"><a class="l" href="source-function-process_product_meta_variable.html#535">535 </a>                <span class="php-comment">// Finally, open the modal.</span>
+</span><span id="536" class="l"><a class="l" href="source-function-process_product_meta_variable.html#536">536 </a>                variable_image_frame.open();
+</span><span id="537" class="l"><a class="l" href="source-function-process_product_meta_variable.html#537">537 </a>            }
+</span><span id="538" class="l"><a class="l" href="source-function-process_product_meta_variable.html#538">538 </a>        });
+</span><span id="539" class="l"><a class="l" href="source-function-process_product_meta_variable.html#539">539 </a>
+</span><span id="540" class="l"><a class="l" href="source-function-process_product_meta_variable.html#540">540 </a>        <span class="php-comment">// Restore ID</span>
+</span><span id="541" class="l"><a class="l" href="source-function-process_product_meta_variable.html#541">541 </a>        jQuery(<span class="php-quote">'a.add_media'</span>).on(<span class="php-quote">'click'</span>, <span class="php-keyword1">function</span>() {
+</span><span id="542" class="l"><a class="l" href="source-function-process_product_meta_variable.html#542">542 </a>            wp.media.model.settings.post.id = wp_media_post_id;
+</span><span id="543" class="l"><a class="l" href="source-function-process_product_meta_variable.html#543">543 </a>        } );
+</span><span id="544" class="l"><a class="l" href="source-function-process_product_meta_variable.html#544">544 </a>
+</span><span id="545" class="l"><a class="l" href="source-function-process_product_meta_variable.html#545">545 </a>    });
+</span><span id="546" class="l"><a class="l" href="source-function-process_product_meta_variable.html#546">546 </a>    <span class="xlang">&lt;?php</span>
+</span><span id="547" class="l"><a class="l" href="source-function-process_product_meta_variable.html#547">547 </a>    <span class="php-var">$javascript</span> = <span class="php-keyword2">ob_get_clean</span>();
+</span><span id="548" class="l"><a class="l" href="source-function-process_product_meta_variable.html#548">548 </a>    <span class="php-var">$woocommerce</span>-&gt;add_inline_js( <span class="php-var">$javascript</span> );
+</span><span id="549" class="l"><a class="l" href="source-function-process_product_meta_variable.html#549">549 </a>}
+</span><span id="550" class="l"><a class="l" href="source-function-process_product_meta_variable.html#550">550 </a>
+</span><span id="551" class="l"><a class="l" href="source-function-process_product_meta_variable.html#551">551 </a>add_action(<span class="php-quote">'woocommerce_product_write_panels'</span>, <span class="php-quote">'variable_product_type_options'</span>);
+</span><span id="552" class="l"><a class="l" href="source-function-process_product_meta_variable.html#552">552 </a>
+</span><span id="553" class="l"><a class="l" href="source-function-process_product_meta_variable.html#553">553 </a>
+</span><span id="554" class="l"><a class="l" href="source-function-process_product_meta_variable.html#554">554 </a><span class="php-comment">/**
+</span></span><span id="555" class="l"><a class="l" href="source-function-process_product_meta_variable.html#555">555 </a><span class="php-comment"> * Show the variable product selector in the dropdown in admin.
+</span></span><span id="556" class="l"><a class="l" href="source-function-process_product_meta_variable.html#556">556 </a><span class="php-comment"> *
+</span></span><span id="557" class="l"><a class="l" href="source-function-process_product_meta_variable.html#557">557 </a><span class="php-comment"> * @access public
+</span></span><span id="558" class="l"><a class="l" href="source-function-process_product_meta_variable.html#558">558 </a><span class="php-comment"> * @param mixed $types
+</span></span><span id="559" class="l"><a class="l" href="source-function-process_product_meta_variable.html#559">559 </a><span class="php-comment"> * @param mixed $product_type
+</span></span><span id="560" class="l"><a class="l" href="source-function-process_product_meta_variable.html#560">560 </a><span class="php-comment"> * @return array
+</span></span><span id="561" class="l"><a class="l" href="source-function-process_product_meta_variable.html#561">561 </a><span class="php-comment"> */</span>
+</span><span id="562" class="l"><a class="l" href="source-function-process_product_meta_variable.html#562">562 </a><span class="php-keyword1">function</span> <a id="_variable_product_type_selector" href="source-function-process_product_meta_variable.html#_variable_product_type_selector">variable_product_type_selector</a>( <span class="php-var">$types</span>, <span class="php-var">$product_type</span> ) {
+</span><span id="563" class="l"><a class="l" href="source-function-process_product_meta_variable.html#563">563 </a>    <span class="php-var">$types</span>[<span class="php-quote">'variable'</span>] = __( <span class="php-quote">'Variable product'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="564" class="l"><a class="l" href="source-function-process_product_meta_variable.html#564">564 </a>    <span class="php-keyword1">return</span> <span class="php-var">$types</span>;
+</span><span id="565" class="l"><a class="l" href="source-function-process_product_meta_variable.html#565">565 </a>}
+</span><span id="566" class="l"><a class="l" href="source-function-process_product_meta_variable.html#566">566 </a>
+</span><span id="567" class="l"><a class="l" href="source-function-process_product_meta_variable.html#567">567 </a>add_filter(<span class="php-quote">'product_type_selector'</span>, <span class="php-quote">'variable_product_type_selector'</span>, <span class="php-num">1</span>, <span class="php-num">2</span>);
+</span><span id="568" class="l"><a class="l" href="source-function-process_product_meta_variable.html#568">568 </a>
+</span><span id="569" class="l"><a class="l" href="source-function-process_product_meta_variable.html#569">569 </a>
+</span><span id="570" class="l"><a class="l" href="source-function-process_product_meta_variable.html#570">570 </a><span class="php-comment">/**
+</span></span><span id="571" class="l"><a class="l" href="source-function-process_product_meta_variable.html#571">571 </a><span class="php-comment"> * Save the variable product options.
+</span></span><span id="572" class="l"><a class="l" href="source-function-process_product_meta_variable.html#572">572 </a><span class="php-comment"> *
+</span></span><span id="573" class="l"><a class="l" href="source-function-process_product_meta_variable.html#573">573 </a><span class="php-comment"> * @access public
+</span></span><span id="574" class="l"><a class="l" href="source-function-process_product_meta_variable.html#574">574 </a><span class="php-comment"> * @param mixed $post_id
+</span></span><span id="575" class="l"><a class="l" href="source-function-process_product_meta_variable.html#575">575 </a><span class="php-comment"> * @return void
+</span></span><span id="576" class="l"><a class="l" href="source-function-process_product_meta_variable.html#576">576 </a><span class="php-comment"> */</span>
+</span><span id="577" class="l"><a class="l" href="source-function-process_product_meta_variable.html#577">577 </a><span class="php-keyword1">function</span> <a id="_process_product_meta_variable" href="source-function-process_product_meta_variable.html#_process_product_meta_variable">process_product_meta_variable</a>( <span class="php-var">$post_id</span> ) {
+</span><span id="578" class="l"><a class="l" href="source-function-process_product_meta_variable.html#578">578 </a>    <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>, <span class="php-var">$wpdb</span>;
+</span><span id="579" class="l"><a class="l" href="source-function-process_product_meta_variable.html#579">579 </a>
+</span><span id="580" class="l"><a class="l" href="source-function-process_product_meta_variable.html#580">580 </a>    <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'variable_sku'</span>] ) ) {
+</span><span id="581" class="l"><a class="l" href="source-function-process_product_meta_variable.html#581">581 </a>
+</span><span id="582" class="l"><a class="l" href="source-function-process_product_meta_variable.html#582">582 </a>        <span class="php-var">$variable_post_id</span>                   = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_post_id'</span>];
+</span><span id="583" class="l"><a class="l" href="source-function-process_product_meta_variable.html#583">583 </a>        <span class="php-var">$variable_sku</span>                       = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_sku'</span>];
+</span><span id="584" class="l"><a class="l" href="source-function-process_product_meta_variable.html#584">584 </a>        <span class="php-var">$variable_weight</span>                    = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_weight'</span>];
+</span><span id="585" class="l"><a class="l" href="source-function-process_product_meta_variable.html#585">585 </a>        <span class="php-var">$variable_length</span>                    = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_length'</span>];
+</span><span id="586" class="l"><a class="l" href="source-function-process_product_meta_variable.html#586">586 </a>        <span class="php-var">$variable_width</span>                     = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_width'</span>];
+</span><span id="587" class="l"><a class="l" href="source-function-process_product_meta_variable.html#587">587 </a>        <span class="php-var">$variable_height</span>                    = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_height'</span>];
+</span><span id="588" class="l"><a class="l" href="source-function-process_product_meta_variable.html#588">588 </a>        <span class="php-var">$variable_stock</span>                     = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_stock'</span>];
+</span><span id="589" class="l"><a class="l" href="source-function-process_product_meta_variable.html#589">589 </a>        <span class="php-var">$variable_regular_price</span>             = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_regular_price'</span>];
+</span><span id="590" class="l"><a class="l" href="source-function-process_product_meta_variable.html#590">590 </a>        <span class="php-var">$variable_sale_price</span>                = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_sale_price'</span>];
+</span><span id="591" class="l"><a class="l" href="source-function-process_product_meta_variable.html#591">591 </a>        <span class="php-var">$upload_image_id</span>                    = <span class="php-var">$_POST</span>[<span class="php-quote">'upload_image_id'</span>];
+</span><span id="592" class="l"><a class="l" href="source-function-process_product_meta_variable.html#592">592 </a>        <span class="php-var">$variable_file_paths</span>                = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_file_paths'</span>];
+</span><span id="593" class="l"><a class="l" href="source-function-process_product_meta_variable.html#593">593 </a>        <span class="php-var">$variable_download_limit</span>            = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_download_limit'</span>];
+</span><span id="594" class="l"><a class="l" href="source-function-process_product_meta_variable.html#594">594 </a>        <span class="php-var">$variable_download_expiry</span>           = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_download_expiry'</span>];
+</span><span id="595" class="l"><a class="l" href="source-function-process_product_meta_variable.html#595">595 </a>        <span class="php-var">$variable_shipping_class</span>            = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_shipping_class'</span>];
+</span><span id="596" class="l"><a class="l" href="source-function-process_product_meta_variable.html#596">596 </a>        <span class="php-var">$variable_tax_class</span>                 = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_tax_class'</span>];
+</span><span id="597" class="l"><a class="l" href="source-function-process_product_meta_variable.html#597">597 </a>        <span class="php-var">$variable_menu_order</span>                = <span class="php-var">$_POST</span>[<span class="php-quote">'variation_menu_order'</span>];
+</span><span id="598" class="l"><a class="l" href="source-function-process_product_meta_variable.html#598">598 </a>        <span class="php-var">$variable_sale_price_dates_from</span>     = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_sale_price_dates_from'</span>];
+</span><span id="599" class="l"><a class="l" href="source-function-process_product_meta_variable.html#599">599 </a>        <span class="php-var">$variable_sale_price_dates_to</span>       = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_sale_price_dates_to'</span>];
+</span><span id="600" class="l"><a class="l" href="source-function-process_product_meta_variable.html#600">600 </a>
+</span><span id="601" class="l"><a class="l" href="source-function-process_product_meta_variable.html#601">601 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'variable_enabled'</span>] ) )
+</span><span id="602" class="l"><a class="l" href="source-function-process_product_meta_variable.html#602">602 </a>            <span class="php-var">$variable_enabled</span>               = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_enabled'</span>];
+</span><span id="603" class="l"><a class="l" href="source-function-process_product_meta_variable.html#603">603 </a>
+</span><span id="604" class="l"><a class="l" href="source-function-process_product_meta_variable.html#604">604 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'variable_is_virtual'</span>] ) )
+</span><span id="605" class="l"><a class="l" href="source-function-process_product_meta_variable.html#605">605 </a>            <span class="php-var">$variable_is_virtual</span>            = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_is_virtual'</span>];
+</span><span id="606" class="l"><a class="l" href="source-function-process_product_meta_variable.html#606">606 </a>
+</span><span id="607" class="l"><a class="l" href="source-function-process_product_meta_variable.html#607">607 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'variable_is_downloadable'</span>] ) )
+</span><span id="608" class="l"><a class="l" href="source-function-process_product_meta_variable.html#608">608 </a>            <span class="php-var">$variable_is_downloadable</span>       = <span class="php-var">$_POST</span>[<span class="php-quote">'variable_is_downloadable'</span>];
+</span><span id="609" class="l"><a class="l" href="source-function-process_product_meta_variable.html#609">609 </a>
+</span><span id="610" class="l"><a class="l" href="source-function-process_product_meta_variable.html#610">610 </a>        <span class="php-var">$attributes</span> = (<span class="php-keyword1">array</span>) maybe_unserialize( get_post_meta( <span class="php-var">$post_id</span>, <span class="php-quote">'_product_attributes'</span>, <span class="php-keyword1">true</span> ) );
+</span><span id="611" class="l"><a class="l" href="source-function-process_product_meta_variable.html#611">611 </a>
+</span><span id="612" class="l"><a class="l" href="source-function-process_product_meta_variable.html#612">612 </a>        <span class="php-var">$max_loop</span> = <span class="php-keyword2">max</span>( <span class="php-keyword2">array_keys</span>( <span class="php-var">$_POST</span>[<span class="php-quote">'variable_post_id'</span>] ) );
+</span><span id="613" class="l"><a class="l" href="source-function-process_product_meta_variable.html#613">613 </a>
+</span><span id="614" class="l"><a class="l" href="source-function-process_product_meta_variable.html#614">614 </a>        <span class="php-keyword1">for</span> ( <span class="php-var">$i</span> = <span class="php-num">0</span>; <span class="php-var">$i</span> &lt;= <span class="php-var">$max_loop</span>; <span class="php-var">$i</span> ++ ) {
+</span><span id="615" class="l"><a class="l" href="source-function-process_product_meta_variable.html#615">615 </a>
+</span><span id="616" class="l"><a class="l" href="source-function-process_product_meta_variable.html#616">616 </a>            <span class="php-keyword1">if</span> ( ! <span class="php-keyword1">isset</span>( <span class="php-var">$variable_post_id</span>[ <span class="php-var">$i</span> ] ) )
+</span><span id="617" class="l"><a class="l" href="source-function-process_product_meta_variable.html#617">617 </a>                <span class="php-keyword1">continue</span>;
+</span><span id="618" class="l"><a class="l" href="source-function-process_product_meta_variable.html#618">618 </a>
+</span><span id="619" class="l"><a class="l" href="source-function-process_product_meta_variable.html#619">619 </a>            <span class="php-var">$variation_id</span> = absint( <span class="php-var">$variable_post_id</span>[ <span class="php-var">$i</span> ] );
+</span><span id="620" class="l"><a class="l" href="source-function-process_product_meta_variable.html#620">620 </a>
+</span><span id="621" class="l"><a class="l" href="source-function-process_product_meta_variable.html#621">621 </a>            <span class="php-comment">// Virtal/Downloadable</span>
+</span><span id="622" class="l"><a class="l" href="source-function-process_product_meta_variable.html#622">622 </a>            <span class="php-var">$is_virtual</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$variable_is_virtual</span>[ <span class="php-var">$i</span> ] ) ? <span class="php-quote">'yes'</span> : <span class="php-quote">'no'</span>;
+</span><span id="623" class="l"><a class="l" href="source-function-process_product_meta_variable.html#623">623 </a>            <span class="php-var">$is_downloadable</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$variable_is_downloadable</span>[ <span class="php-var">$i</span> ] ) ? <span class="php-quote">'yes'</span> : <span class="php-quote">'no'</span>;
+</span><span id="624" class="l"><a class="l" href="source-function-process_product_meta_variable.html#624">624 </a>
+</span><span id="625" class="l"><a class="l" href="source-function-process_product_meta_variable.html#625">625 </a>            <span class="php-comment">// Enabled or disabled</span>
+</span><span id="626" class="l"><a class="l" href="source-function-process_product_meta_variable.html#626">626 </a>            <span class="php-var">$post_status</span> = <span class="php-keyword1">isset</span>( <span class="php-var">$variable_enabled</span>[ <span class="php-var">$i</span> ] ) ? <span class="php-quote">'publish'</span> : <span class="php-quote">'private'</span>;
+</span><span id="627" class="l"><a class="l" href="source-function-process_product_meta_variable.html#627">627 </a>
+</span><span id="628" class="l"><a class="l" href="source-function-process_product_meta_variable.html#628">628 </a>            <span class="php-comment">// Generate a useful post title</span>
+</span><span id="629" class="l"><a class="l" href="source-function-process_product_meta_variable.html#629">629 </a>            <span class="php-var">$variation_post_title</span> = <span class="php-keyword2">sprintf</span>( __( <span class="php-quote">'Variation #%s of %s'</span>, <span class="php-quote">'woocommerce'</span> ), absint( <span class="php-var">$variation_id</span> ), esc_html( get_the_title( <span class="php-var">$post_id</span> ) ) );
+</span><span id="630" class="l"><a class="l" href="source-function-process_product_meta_variable.html#630">630 </a>
+</span><span id="631" class="l"><a class="l" href="source-function-process_product_meta_variable.html#631">631 </a>            <span class="php-comment">// Update or Add post</span>
+</span><span id="632" class="l"><a class="l" href="source-function-process_product_meta_variable.html#632">632 </a>            <span class="php-keyword1">if</span> ( ! <span class="php-var">$variation_id</span> ) {
+</span><span id="633" class="l"><a class="l" href="source-function-process_product_meta_variable.html#633">633 </a>
+</span><span id="634" class="l"><a class="l" href="source-function-process_product_meta_variable.html#634">634 </a>                <span class="php-var">$variation</span> = <span class="php-keyword1">array</span>(
+</span><span id="635" class="l"><a class="l" href="source-function-process_product_meta_variable.html#635">635 </a>                    <span class="php-quote">'post_title'</span>    =&gt; <span class="php-var">$variation_post_title</span>,
+</span><span id="636" class="l"><a class="l" href="source-function-process_product_meta_variable.html#636">636 </a>                    <span class="php-quote">'post_content'</span>  =&gt; <span class="php-quote">''</span>,
+</span><span id="637" class="l"><a class="l" href="source-function-process_product_meta_variable.html#637">637 </a>                    <span class="php-quote">'post_status'</span>   =&gt; <span class="php-var">$post_status</span>,
+</span><span id="638" class="l"><a class="l" href="source-function-process_product_meta_variable.html#638">638 </a>                    <span class="php-quote">'post_author'</span>   =&gt; get_current_user_id(),
+</span><span id="639" class="l"><a class="l" href="source-function-process_product_meta_variable.html#639">639 </a>                    <span class="php-quote">'post_parent'</span>   =&gt; <span class="php-var">$post_id</span>,
+</span><span id="640" class="l"><a class="l" href="source-function-process_product_meta_variable.html#640">640 </a>                    <span class="php-quote">'post_type'</span>     =&gt; <span class="php-quote">'product_variation'</span>,
+</span><span id="641" class="l"><a class="l" href="source-function-process_product_meta_variable.html#641">641 </a>                    <span class="php-quote">'menu_order'</span>    =&gt; <span class="php-var">$variable_menu_order</span>[ <span class="php-var">$i</span> ]
+</span><span id="642" class="l"><a class="l" href="source-function-process_product_meta_variable.html#642">642 </a>                );
+</span><span id="643" class="l"><a class="l" href="source-function-process_product_meta_variable.html#643">643 </a>
+</span><span id="644" class="l"><a class="l" href="source-function-process_product_meta_variable.html#644">644 </a>                <span class="php-var">$variation_id</span> = wp_insert_post( <span class="php-var">$variation</span> );
+</span><span id="645" class="l"><a class="l" href="source-function-process_product_meta_variable.html#645">645 </a>
+</span><span id="646" class="l"><a class="l" href="source-function-process_product_meta_variable.html#646">646 </a>                do_action( <span class="php-quote">'woocommerce_create_product_variation'</span>, <span class="php-var">$variation_id</span> );
+</span><span id="647" class="l"><a class="l" href="source-function-process_product_meta_variable.html#647">647 </a>
+</span><span id="648" class="l"><a class="l" href="source-function-process_product_meta_variable.html#648">648 </a>            } <span class="php-keyword1">else</span> {
+</span><span id="649" class="l"><a class="l" href="source-function-process_product_meta_variable.html#649">649 </a>
+</span><span id="650" class="l"><a class="l" href="source-function-process_product_meta_variable.html#650">650 </a>                <span class="php-var">$wpdb</span>-&gt;update( <span class="php-var">$wpdb</span>-&gt;posts, <span class="php-keyword1">array</span>( <span class="php-quote">'post_status'</span> =&gt; <span class="php-var">$post_status</span>, <span class="php-quote">'post_title'</span> =&gt; <span class="php-var">$variation_post_title</span>, <span class="php-quote">'menu_order'</span> =&gt; <span class="php-var">$variable_menu_order</span>[ <span class="php-var">$i</span> ] ), <span class="php-keyword1">array</span>( <span class="php-quote">'ID'</span> =&gt; <span class="php-var">$variation_id</span> ) );
+</span><span id="651" class="l"><a class="l" href="source-function-process_product_meta_variable.html#651">651 </a>
+</span><span id="652" class="l"><a class="l" href="source-function-process_product_meta_variable.html#652">652 </a>                do_action( <span class="php-quote">'woocommerce_update_product_variation'</span>, <span class="php-var">$variation_id</span> );
+</span><span id="653" class="l"><a class="l" href="source-function-process_product_meta_variable.html#653">653 </a>
+</span><span id="654" class="l"><a class="l" href="source-function-process_product_meta_variable.html#654">654 </a>            }
+</span><span id="655" class="l"><a class="l" href="source-function-process_product_meta_variable.html#655">655 </a>
+</span><span id="656" class="l"><a class="l" href="source-function-process_product_meta_variable.html#656">656 </a>            <span class="php-comment">// Update post meta</span>
+</span><span id="657" class="l"><a class="l" href="source-function-process_product_meta_variable.html#657">657 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_sku'</span>, woocommerce_clean( <span class="php-var">$variable_sku</span>[ <span class="php-var">$i</span> ] ) );
+</span><span id="658" class="l"><a class="l" href="source-function-process_product_meta_variable.html#658">658 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_weight'</span>, woocommerce_clean( <span class="php-var">$variable_weight</span>[ <span class="php-var">$i</span> ] ) );
+</span><span id="659" class="l"><a class="l" href="source-function-process_product_meta_variable.html#659">659 </a>
+</span><span id="660" class="l"><a class="l" href="source-function-process_product_meta_variable.html#660">660 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_length'</span>, woocommerce_clean( <span class="php-var">$variable_length</span>[ <span class="php-var">$i</span> ] ) );
+</span><span id="661" class="l"><a class="l" href="source-function-process_product_meta_variable.html#661">661 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_width'</span>, woocommerce_clean( <span class="php-var">$variable_width</span>[ <span class="php-var">$i</span> ] ) );
+</span><span id="662" class="l"><a class="l" href="source-function-process_product_meta_variable.html#662">662 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_height'</span>, woocommerce_clean( <span class="php-var">$variable_height</span>[ <span class="php-var">$i</span> ] ) );
+</span><span id="663" class="l"><a class="l" href="source-function-process_product_meta_variable.html#663">663 </a>
+</span><span id="664" class="l"><a class="l" href="source-function-process_product_meta_variable.html#664">664 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_stock'</span>, woocommerce_clean( <span class="php-var">$variable_stock</span>[ <span class="php-var">$i</span> ] ) );
+</span><span id="665" class="l"><a class="l" href="source-function-process_product_meta_variable.html#665">665 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_thumbnail_id'</span>, absint( <span class="php-var">$upload_image_id</span>[ <span class="php-var">$i</span> ] ) );
+</span><span id="666" class="l"><a class="l" href="source-function-process_product_meta_variable.html#666">666 </a>
+</span><span id="667" class="l"><a class="l" href="source-function-process_product_meta_variable.html#667">667 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_virtual'</span>, woocommerce_clean( <span class="php-var">$is_virtual</span> ) );
+</span><span id="668" class="l"><a class="l" href="source-function-process_product_meta_variable.html#668">668 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_downloadable'</span>, woocommerce_clean( <span class="php-var">$is_downloadable</span> ) );
+</span><span id="669" class="l"><a class="l" href="source-function-process_product_meta_variable.html#669">669 </a>
+</span><span id="670" class="l"><a class="l" href="source-function-process_product_meta_variable.html#670">670 </a>            <span class="php-comment">// Price handling</span>
+</span><span id="671" class="l"><a class="l" href="source-function-process_product_meta_variable.html#671">671 </a>            <span class="php-var">$regular_price</span>  = woocommerce_clean( <span class="php-var">$variable_regular_price</span>[ <span class="php-var">$i</span> ] );
+</span><span id="672" class="l"><a class="l" href="source-function-process_product_meta_variable.html#672">672 </a>            <span class="php-var">$sale_price</span>     = woocommerce_clean( <span class="php-var">$variable_sale_price</span>[ <span class="php-var">$i</span> ] );
+</span><span id="673" class="l"><a class="l" href="source-function-process_product_meta_variable.html#673">673 </a>            <span class="php-var">$date_from</span>      = woocommerce_clean( <span class="php-var">$variable_sale_price_dates_from</span>[ <span class="php-var">$i</span> ] );
+</span><span id="674" class="l"><a class="l" href="source-function-process_product_meta_variable.html#674">674 </a>            <span class="php-var">$date_to</span>        = woocommerce_clean( <span class="php-var">$variable_sale_price_dates_to</span>[ <span class="php-var">$i</span> ] );
+</span><span id="675" class="l"><a class="l" href="source-function-process_product_meta_variable.html#675">675 </a>
+</span><span id="676" class="l"><a class="l" href="source-function-process_product_meta_variable.html#676">676 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_regular_price'</span>, <span class="php-var">$regular_price</span> );
+</span><span id="677" class="l"><a class="l" href="source-function-process_product_meta_variable.html#677">677 </a>            update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_sale_price'</span>, <span class="php-var">$sale_price</span> );
+</span><span id="678" class="l"><a class="l" href="source-function-process_product_meta_variable.html#678">678 </a>
+</span><span id="679" class="l"><a class="l" href="source-function-process_product_meta_variable.html#679">679 </a>            <span class="php-comment">// Save Dates</span>
+</span><span id="680" class="l"><a class="l" href="source-function-process_product_meta_variable.html#680">680 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$date_from</span> )
+</span><span id="681" class="l"><a class="l" href="source-function-process_product_meta_variable.html#681">681 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_sale_price_dates_from'</span>, <span class="php-keyword2">strtotime</span>( <span class="php-var">$date_from</span> ) );
+</span><span id="682" class="l"><a class="l" href="source-function-process_product_meta_variable.html#682">682 </a>            <span class="php-keyword1">else</span>
+</span><span id="683" class="l"><a class="l" href="source-function-process_product_meta_variable.html#683">683 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_sale_price_dates_from'</span>, <span class="php-quote">''</span> );
+</span><span id="684" class="l"><a class="l" href="source-function-process_product_meta_variable.html#684">684 </a>
+</span><span id="685" class="l"><a class="l" href="source-function-process_product_meta_variable.html#685">685 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$date_to</span> )
+</span><span id="686" class="l"><a class="l" href="source-function-process_product_meta_variable.html#686">686 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_sale_price_dates_to'</span>, <span class="php-keyword2">strtotime</span>( <span class="php-var">$date_to</span> ) );
+</span><span id="687" class="l"><a class="l" href="source-function-process_product_meta_variable.html#687">687 </a>            <span class="php-keyword1">else</span>
+</span><span id="688" class="l"><a class="l" href="source-function-process_product_meta_variable.html#688">688 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_sale_price_dates_to'</span>, <span class="php-quote">''</span> );
+</span><span id="689" class="l"><a class="l" href="source-function-process_product_meta_variable.html#689">689 </a>
+</span><span id="690" class="l"><a class="l" href="source-function-process_product_meta_variable.html#690">690 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$date_to</span> &amp;&amp; ! <span class="php-var">$date_from</span> )
+</span><span id="691" class="l"><a class="l" href="source-function-process_product_meta_variable.html#691">691 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_sale_price_dates_from'</span>, <span class="php-keyword2">strtotime</span>( <span class="php-quote">'NOW'</span>, current_time( <span class="php-quote">'timestamp'</span> ) ) );
+</span><span id="692" class="l"><a class="l" href="source-function-process_product_meta_variable.html#692">692 </a>
+</span><span id="693" class="l"><a class="l" href="source-function-process_product_meta_variable.html#693">693 </a>            <span class="php-comment">// Update price if on sale</span>
+</span><span id="694" class="l"><a class="l" href="source-function-process_product_meta_variable.html#694">694 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$sale_price</span> != <span class="php-quote">''</span> &amp;&amp; <span class="php-var">$date_to</span> == <span class="php-quote">''</span> &amp;&amp; <span class="php-var">$date_from</span> == <span class="php-quote">''</span> )
+</span><span id="695" class="l"><a class="l" href="source-function-process_product_meta_variable.html#695">695 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_price'</span>, <span class="php-var">$sale_price</span> );
+</span><span id="696" class="l"><a class="l" href="source-function-process_product_meta_variable.html#696">696 </a>            <span class="php-keyword1">else</span>
+</span><span id="697" class="l"><a class="l" href="source-function-process_product_meta_variable.html#697">697 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_price'</span>, <span class="php-var">$regular_price</span> );
+</span><span id="698" class="l"><a class="l" href="source-function-process_product_meta_variable.html#698">698 </a>
+</span><span id="699" class="l"><a class="l" href="source-function-process_product_meta_variable.html#699">699 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$sale_price</span> != <span class="php-quote">''</span> &amp;&amp; <span class="php-var">$date_from</span> &amp;&amp; <span class="php-keyword2">strtotime</span>( <span class="php-var">$date_from</span> ) &lt; <span class="php-keyword2">strtotime</span>( <span class="php-quote">'NOW'</span>, current_time( <span class="php-quote">'timestamp'</span> ) ) )
+</span><span id="700" class="l"><a class="l" href="source-function-process_product_meta_variable.html#700">700 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_price'</span>, <span class="php-var">$sale_price</span> );
+</span><span id="701" class="l"><a class="l" href="source-function-process_product_meta_variable.html#701">701 </a>
+</span><span id="702" class="l"><a class="l" href="source-function-process_product_meta_variable.html#702">702 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$date_to</span> &amp;&amp; <span class="php-keyword2">strtotime</span>( <span class="php-var">$date_to</span> ) &lt; <span class="php-keyword2">strtotime</span>( <span class="php-quote">'NOW'</span>, current_time( <span class="php-quote">'timestamp'</span> ) ) ) {
+</span><span id="703" class="l"><a class="l" href="source-function-process_product_meta_variable.html#703">703 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_price'</span>, <span class="php-var">$regular_price</span> );
+</span><span id="704" class="l"><a class="l" href="source-function-process_product_meta_variable.html#704">704 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_sale_price_dates_from'</span>, <span class="php-quote">''</span> );
+</span><span id="705" class="l"><a class="l" href="source-function-process_product_meta_variable.html#705">705 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_sale_price_dates_to'</span>, <span class="php-quote">''</span> );
+</span><span id="706" class="l"><a class="l" href="source-function-process_product_meta_variable.html#706">706 </a>            }
+</span><span id="707" class="l"><a class="l" href="source-function-process_product_meta_variable.html#707">707 </a>
+</span><span id="708" class="l"><a class="l" href="source-function-process_product_meta_variable.html#708">708 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$variable_tax_class</span>[ <span class="php-var">$i</span> ] !== <span class="php-quote">'parent'</span> )
+</span><span id="709" class="l"><a class="l" href="source-function-process_product_meta_variable.html#709">709 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_tax_class'</span>, woocommerce_clean( <span class="php-var">$variable_tax_class</span>[ <span class="php-var">$i</span> ] ) );
+</span><span id="710" class="l"><a class="l" href="source-function-process_product_meta_variable.html#710">710 </a>            <span class="php-keyword1">else</span>
+</span><span id="711" class="l"><a class="l" href="source-function-process_product_meta_variable.html#711">711 </a>                delete_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_tax_class'</span> );
+</span><span id="712" class="l"><a class="l" href="source-function-process_product_meta_variable.html#712">712 </a>
+</span><span id="713" class="l"><a class="l" href="source-function-process_product_meta_variable.html#713">713 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$is_downloadable</span> == <span class="php-quote">'yes'</span> ) {
+</span><span id="714" class="l"><a class="l" href="source-function-process_product_meta_variable.html#714">714 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_download_limit'</span>, woocommerce_clean( <span class="php-var">$variable_download_limit</span>[ <span class="php-var">$i</span> ] ) );
+</span><span id="715" class="l"><a class="l" href="source-function-process_product_meta_variable.html#715">715 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_download_expiry'</span>, woocommerce_clean( <span class="php-var">$variable_download_expiry</span>[ <span class="php-var">$i</span> ] ) );
+</span><span id="716" class="l"><a class="l" href="source-function-process_product_meta_variable.html#716">716 </a>
+</span><span id="717" class="l"><a class="l" href="source-function-process_product_meta_variable.html#717">717 </a>                <span class="php-var">$_file_paths</span> = <span class="php-keyword1">array</span>();
+</span><span id="718" class="l"><a class="l" href="source-function-process_product_meta_variable.html#718">718 </a>                <span class="php-var">$file_paths</span> = <span class="php-keyword2">str_replace</span>( <span class="php-quote">&quot;\r\n&quot;</span>, <span class="php-quote">&quot;\n&quot;</span>, <span class="php-var">$variable_file_paths</span>[ <span class="php-var">$i</span> ] );
+</span><span id="719" class="l"><a class="l" href="source-function-process_product_meta_variable.html#719">719 </a>                <span class="php-var">$file_paths</span> = <span class="php-keyword2">trim</span>( <span class="php-keyword2">preg_replace</span>( <span class="php-quote">&quot;/\n+/&quot;</span>, <span class="php-quote">&quot;\n&quot;</span>, <span class="php-var">$file_paths</span> ) );
+</span><span id="720" class="l"><a class="l" href="source-function-process_product_meta_variable.html#720">720 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$file_paths</span> ) {
+</span><span id="721" class="l"><a class="l" href="source-function-process_product_meta_variable.html#721">721 </a>                    <span class="php-var">$file_paths</span> = <span class="php-keyword2">explode</span>( <span class="php-quote">&quot;\n&quot;</span>, <span class="php-var">$file_paths</span> );
+</span><span id="722" class="l"><a class="l" href="source-function-process_product_meta_variable.html#722">722 </a>
+</span><span id="723" class="l"><a class="l" href="source-function-process_product_meta_variable.html#723">723 </a>                    <span class="php-keyword1">foreach</span> ( <span class="php-var">$file_paths</span> <span class="php-keyword1">as</span> <span class="php-var">$file_path</span> ) {
+</span><span id="724" class="l"><a class="l" href="source-function-process_product_meta_variable.html#724">724 </a>                        <span class="php-var">$file_path</span> = <span class="php-keyword2">trim</span>( <span class="php-var">$file_path</span> );
+</span><span id="725" class="l"><a class="l" href="source-function-process_product_meta_variable.html#725">725 </a>                        <span class="php-var">$_file_paths</span>[ <span class="php-keyword2">md5</span>( <span class="php-var">$file_path</span> ) ] = <span class="php-var">$file_path</span>;
+</span><span id="726" class="l"><a class="l" href="source-function-process_product_meta_variable.html#726">726 </a>                    }
+</span><span id="727" class="l"><a class="l" href="source-function-process_product_meta_variable.html#727">727 </a>                }
+</span><span id="728" class="l"><a class="l" href="source-function-process_product_meta_variable.html#728">728 </a>
+</span><span id="729" class="l"><a class="l" href="source-function-process_product_meta_variable.html#729">729 </a>                <span class="php-comment">// grant permission to any newly added files on any existing orders for this product</span>
+</span><span id="730" class="l"><a class="l" href="source-function-process_product_meta_variable.html#730">730 </a>                do_action( <span class="php-quote">'woocommerce_process_product_file_download_paths'</span>, <span class="php-var">$post_id</span>, <span class="php-var">$variation_id</span>, <span class="php-var">$_file_paths</span> );
+</span><span id="731" class="l"><a class="l" href="source-function-process_product_meta_variable.html#731">731 </a>
+</span><span id="732" class="l"><a class="l" href="source-function-process_product_meta_variable.html#732">732 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_file_paths'</span>, <span class="php-var">$_file_paths</span> );
+</span><span id="733" class="l"><a class="l" href="source-function-process_product_meta_variable.html#733">733 </a>            } <span class="php-keyword1">else</span> {
+</span><span id="734" class="l"><a class="l" href="source-function-process_product_meta_variable.html#734">734 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_download_limit'</span>, <span class="php-quote">''</span> );
+</span><span id="735" class="l"><a class="l" href="source-function-process_product_meta_variable.html#735">735 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_download_expiry'</span>, <span class="php-quote">''</span> );
+</span><span id="736" class="l"><a class="l" href="source-function-process_product_meta_variable.html#736">736 </a>                update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'_file_paths'</span>, <span class="php-quote">''</span> );
+</span><span id="737" class="l"><a class="l" href="source-function-process_product_meta_variable.html#737">737 </a>            }
+</span><span id="738" class="l"><a class="l" href="source-function-process_product_meta_variable.html#738">738 </a>
+</span><span id="739" class="l"><a class="l" href="source-function-process_product_meta_variable.html#739">739 </a>            <span class="php-comment">// Save shipping class</span>
+</span><span id="740" class="l"><a class="l" href="source-function-process_product_meta_variable.html#740">740 </a>            <span class="php-var">$variable_shipping_class</span>[ <span class="php-var">$i</span> ] = <span class="php-var">$variable_shipping_class</span>[ <span class="php-var">$i</span> ] &gt; <span class="php-num">0</span> ? (int) <span class="php-var">$variable_shipping_class</span>[ <span class="php-var">$i</span> ] : <span class="php-quote">''</span>;
+</span><span id="741" class="l"><a class="l" href="source-function-process_product_meta_variable.html#741">741 </a>            wp_set_object_terms( <span class="php-var">$variation_id</span>, <span class="php-var">$variable_shipping_class</span>[ <span class="php-var">$i</span> ], <span class="php-quote">'product_shipping_class'</span>);
+</span><span id="742" class="l"><a class="l" href="source-function-process_product_meta_variable.html#742">742 </a>
+</span><span id="743" class="l"><a class="l" href="source-function-process_product_meta_variable.html#743">743 </a>            <span class="php-comment">// Remove old taxonomies attributes so data is kept up to date</span>
+</span><span id="744" class="l"><a class="l" href="source-function-process_product_meta_variable.html#744">744 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$variation_id</span> ) {
+</span><span id="745" class="l"><a class="l" href="source-function-process_product_meta_variable.html#745">745 </a>                <span class="php-var">$wpdb</span>-&gt;query( <span class="php-var">$wpdb</span>-&gt;prepare( <span class="php-quote">&quot;DELETE FROM </span><span class="php-var">{$wpdb-&gt;postmeta}</span><span class="php-quote"> WHERE meta_key LIKE 'attribute_%%' AND post_id = %d;&quot;</span>, <span class="php-var">$variation_id</span> ) );
+</span><span id="746" class="l"><a class="l" href="source-function-process_product_meta_variable.html#746">746 </a>                wp_cache_delete( <span class="php-var">$variation_id</span>, <span class="php-quote">'post_meta'</span>);
+</span><span id="747" class="l"><a class="l" href="source-function-process_product_meta_variable.html#747">747 </a>            }
+</span><span id="748" class="l"><a class="l" href="source-function-process_product_meta_variable.html#748">748 </a>
+</span><span id="749" class="l"><a class="l" href="source-function-process_product_meta_variable.html#749">749 </a>            <span class="php-comment">// Update taxonomies</span>
+</span><span id="750" class="l"><a class="l" href="source-function-process_product_meta_variable.html#750">750 </a>            <span class="php-keyword1">foreach</span> ( <span class="php-var">$attributes</span> <span class="php-keyword1">as</span> <span class="php-var">$attribute</span> ) {
+</span><span id="751" class="l"><a class="l" href="source-function-process_product_meta_variable.html#751">751 </a>
+</span><span id="752" class="l"><a class="l" href="source-function-process_product_meta_variable.html#752">752 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$attribute</span>[<span class="php-quote">'is_variation'</span>] ) {
+</span><span id="753" class="l"><a class="l" href="source-function-process_product_meta_variable.html#753">753 </a>
+</span><span id="754" class="l"><a class="l" href="source-function-process_product_meta_variable.html#754">754 </a>                    <span class="php-comment">// Don't use woocommerce_clean as it destroys sanitized characters</span>
+</span><span id="755" class="l"><a class="l" href="source-function-process_product_meta_variable.html#755">755 </a>                    <span class="php-var">$value</span> = sanitize_title( <span class="php-keyword2">trim</span>( <span class="php-keyword2">stripslashes</span>( <span class="php-var">$_POST</span>[ <span class="php-quote">'attribute_'</span> . sanitize_title( <span class="php-var">$attribute</span>[<span class="php-quote">'name'</span>] ) ][ <span class="php-var">$i</span> ] ) ) );
+</span><span id="756" class="l"><a class="l" href="source-function-process_product_meta_variable.html#756">756 </a>
+</span><span id="757" class="l"><a class="l" href="source-function-process_product_meta_variable.html#757">757 </a>                    update_post_meta( <span class="php-var">$variation_id</span>, <span class="php-quote">'attribute_'</span> . sanitize_title( <span class="php-var">$attribute</span>[<span class="php-quote">'name'</span>] ), <span class="php-var">$value</span> );
+</span><span id="758" class="l"><a class="l" href="source-function-process_product_meta_variable.html#758">758 </a>                }
+</span><span id="759" class="l"><a class="l" href="source-function-process_product_meta_variable.html#759">759 </a>
+</span><span id="760" class="l"><a class="l" href="source-function-process_product_meta_variable.html#760">760 </a>            }
+</span><span id="761" class="l"><a class="l" href="source-function-process_product_meta_variable.html#761">761 </a>
+</span><span id="762" class="l"><a class="l" href="source-function-process_product_meta_variable.html#762">762 </a>            do_action( <span class="php-quote">'woocommerce_save_product_variation'</span>, <span class="php-var">$variation_id</span> );
+</span><span id="763" class="l"><a class="l" href="source-function-process_product_meta_variable.html#763">763 </a>
+</span><span id="764" class="l"><a class="l" href="source-function-process_product_meta_variable.html#764">764 </a>         }
+</span><span id="765" class="l"><a class="l" href="source-function-process_product_meta_variable.html#765">765 </a>
+</span><span id="766" class="l"><a class="l" href="source-function-process_product_meta_variable.html#766">766 </a>    }
+</span><span id="767" class="l"><a class="l" href="source-function-process_product_meta_variable.html#767">767 </a>
+</span><span id="768" class="l"><a class="l" href="source-function-process_product_meta_variable.html#768">768 </a>    <span class="php-comment">// Update parent if variable so price sorting works and stays in sync with the cheapest child</span>
+</span><span id="769" class="l"><a class="l" href="source-function-process_product_meta_variable.html#769">769 </a>    <span class="php-var">$post_parent</span> = <span class="php-var">$post_id</span>;
+</span><span id="770" class="l"><a class="l" href="source-function-process_product_meta_variable.html#770">770 </a>
+</span><span id="771" class="l"><a class="l" href="source-function-process_product_meta_variable.html#771">771 </a>    <span class="php-var">$children</span> = get_posts( <span class="php-keyword1">array</span>(
+</span><span id="772" class="l"><a class="l" href="source-function-process_product_meta_variable.html#772">772 </a>        <span class="php-quote">'post_parent'</span>   =&gt; <span class="php-var">$post_parent</span>,
+</span><span id="773" class="l"><a class="l" href="source-function-process_product_meta_variable.html#773">773 </a>        <span class="php-quote">'posts_per_page'</span>=&gt; -<span class="php-num">1</span>,
+</span><span id="774" class="l"><a class="l" href="source-function-process_product_meta_variable.html#774">774 </a>        <span class="php-quote">'post_type'</span>     =&gt; <span class="php-quote">'product_variation'</span>,
+</span><span id="775" class="l"><a class="l" href="source-function-process_product_meta_variable.html#775">775 </a>        <span class="php-quote">'fields'</span>        =&gt; <span class="php-quote">'ids'</span>,
+</span><span id="776" class="l"><a class="l" href="source-function-process_product_meta_variable.html#776">776 </a>        <span class="php-quote">'post_status'</span>   =&gt; <span class="php-quote">'publish'</span>
+</span><span id="777" class="l"><a class="l" href="source-function-process_product_meta_variable.html#777">777 </a>    ) );
+</span><span id="778" class="l"><a class="l" href="source-function-process_product_meta_variable.html#778">778 </a>
+</span><span id="779" class="l"><a class="l" href="source-function-process_product_meta_variable.html#779">779 </a>    <span class="php-var">$lowest_price</span> = <span class="php-var">$lowest_regular_price</span> = <span class="php-var">$lowest_sale_price</span> = <span class="php-var">$highest_price</span> = <span class="php-var">$highest_regular_price</span> = <span class="php-var">$highest_sale_price</span> = <span class="php-quote">''</span>;
+</span><span id="780" class="l"><a class="l" href="source-function-process_product_meta_variable.html#780">780 </a>
+</span><span id="781" class="l"><a class="l" href="source-function-process_product_meta_variable.html#781">781 </a>    <span class="php-keyword1">if</span> ( <span class="php-var">$children</span> ) {
+</span><span id="782" class="l"><a class="l" href="source-function-process_product_meta_variable.html#782">782 </a>        <span class="php-keyword1">foreach</span> ( <span class="php-var">$children</span> <span class="php-keyword1">as</span> <span class="php-var">$child</span> ) {
+</span><span id="783" class="l"><a class="l" href="source-function-process_product_meta_variable.html#783">783 </a>
+</span><span id="784" class="l"><a class="l" href="source-function-process_product_meta_variable.html#784">784 </a>            <span class="php-var">$child_price</span>            = get_post_meta( <span class="php-var">$child</span>, <span class="php-quote">'_price'</span>, <span class="php-keyword1">true</span> );
+</span><span id="785" class="l"><a class="l" href="source-function-process_product_meta_variable.html#785">785 </a>            <span class="php-var">$child_regular_price</span>    = get_post_meta( <span class="php-var">$child</span>, <span class="php-quote">'_regular_price'</span>, <span class="php-keyword1">true</span> );
+</span><span id="786" class="l"><a class="l" href="source-function-process_product_meta_variable.html#786">786 </a>            <span class="php-var">$child_sale_price</span>       = get_post_meta( <span class="php-var">$child</span>, <span class="php-quote">'_sale_price'</span>, <span class="php-keyword1">true</span> );
+</span><span id="787" class="l"><a class="l" href="source-function-process_product_meta_variable.html#787">787 </a>
+</span><span id="788" class="l"><a class="l" href="source-function-process_product_meta_variable.html#788">788 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$child_price</span> === <span class="php-quote">''</span> &amp;&amp; <span class="php-var">$child_regular_price</span> === <span class="php-quote">''</span> )
+</span><span id="789" class="l"><a class="l" href="source-function-process_product_meta_variable.html#789">789 </a>                <span class="php-keyword1">continue</span>;
+</span><span id="790" class="l"><a class="l" href="source-function-process_product_meta_variable.html#790">790 </a>
+</span><span id="791" class="l"><a class="l" href="source-function-process_product_meta_variable.html#791">791 </a>            <span class="php-comment">// Regular prices</span>
+</span><span id="792" class="l"><a class="l" href="source-function-process_product_meta_variable.html#792">792 </a>            <span class="php-keyword1">if</span> ( ! <span class="php-keyword2">is_numeric</span>( <span class="php-var">$lowest_regular_price</span> ) || <span class="php-var">$child_regular_price</span> &lt; <span class="php-var">$lowest_regular_price</span> )
+</span><span id="793" class="l"><a class="l" href="source-function-process_product_meta_variable.html#793">793 </a>                <span class="php-var">$lowest_regular_price</span> = <span class="php-var">$child_regular_price</span>;
+</span><span id="794" class="l"><a class="l" href="source-function-process_product_meta_variable.html#794">794 </a>
+</span><span id="795" class="l"><a class="l" href="source-function-process_product_meta_variable.html#795">795 </a>            <span class="php-keyword1">if</span> ( ! <span class="php-keyword2">is_numeric</span>( <span class="php-var">$highest_regular_price</span> ) || <span class="php-var">$child_regular_price</span> &gt; <span class="php-var">$highest_regular_price</span> )
+</span><span id="796" class="l"><a class="l" href="source-function-process_product_meta_variable.html#796">796 </a>                <span class="php-var">$highest_regular_price</span> = <span class="php-var">$child_regular_price</span>;
+</span><span id="797" class="l"><a class="l" href="source-function-process_product_meta_variable.html#797">797 </a>
+</span><span id="798" class="l"><a class="l" href="source-function-process_product_meta_variable.html#798">798 </a>            <span class="php-comment">// Sale prices</span>
+</span><span id="799" class="l"><a class="l" href="source-function-process_product_meta_variable.html#799">799 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$child_price</span> == <span class="php-var">$child_sale_price</span> ) {
+</span><span id="800" class="l"><a class="l" href="source-function-process_product_meta_variable.html#800">800 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$child_sale_price</span> !== <span class="php-quote">''</span> &amp;&amp; ( ! <span class="php-keyword2">is_numeric</span>( <span class="php-var">$lowest_sale_price</span> ) || <span class="php-var">$child_sale_price</span> &lt; <span class="php-var">$lowest_sale_price</span> ) )
+</span><span id="801" class="l"><a class="l" href="source-function-process_product_meta_variable.html#801">801 </a>                    <span class="php-var">$lowest_sale_price</span> = <span class="php-var">$child_sale_price</span>;
+</span><span id="802" class="l"><a class="l" href="source-function-process_product_meta_variable.html#802">802 </a>
+</span><span id="803" class="l"><a class="l" href="source-function-process_product_meta_variable.html#803">803 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$child_sale_price</span> !== <span class="php-quote">''</span> &amp;&amp; ( ! <span class="php-keyword2">is_numeric</span>( <span class="php-var">$highest_sale_price</span> ) || <span class="php-var">$child_sale_price</span> &gt; <span class="php-var">$highest_sale_price</span> ) )
+</span><span id="804" class="l"><a class="l" href="source-function-process_product_meta_variable.html#804">804 </a>                    <span class="php-var">$highest_sale_price</span> = <span class="php-var">$child_sale_price</span>;
+</span><span id="805" class="l"><a class="l" href="source-function-process_product_meta_variable.html#805">805 </a>            }
+</span><span id="806" class="l"><a class="l" href="source-function-process_product_meta_variable.html#806">806 </a>        }
+</span><span id="807" class="l"><a class="l" href="source-function-process_product_meta_variable.html#807">807 </a>
+</span><span id="808" class="l"><a class="l" href="source-function-process_product_meta_variable.html#808">808 </a>        <span class="php-var">$lowest_price</span>   = <span class="php-var">$lowest_sale_price</span> === <span class="php-quote">''</span> || <span class="php-var">$lowest_regular_price</span> &lt; <span class="php-var">$lowest_sale_price</span> ? <span class="php-var">$lowest_regular_price</span> : <span class="php-var">$lowest_sale_price</span>;
+</span><span id="809" class="l"><a class="l" href="source-function-process_product_meta_variable.html#809">809 </a>        <span class="php-var">$highest_price</span>  = <span class="php-var">$highest_sale_price</span> === <span class="php-quote">''</span> || <span class="php-var">$highest_regular_price</span> &gt; <span class="php-var">$highest_sale_price</span> ? <span class="php-var">$highest_regular_price</span> : <span class="php-var">$highest_sale_price</span>;
+</span><span id="810" class="l"><a class="l" href="source-function-process_product_meta_variable.html#810">810 </a>    }
+</span><span id="811" class="l"><a class="l" href="source-function-process_product_meta_variable.html#811">811 </a>
+</span><span id="812" class="l"><a class="l" href="source-function-process_product_meta_variable.html#812">812 </a>    update_post_meta( <span class="php-var">$post_parent</span>, <span class="php-quote">'_price'</span>, <span class="php-var">$lowest_price</span> );
+</span><span id="813" class="l"><a class="l" href="source-function-process_product_meta_variable.html#813">813 </a>    update_post_meta( <span class="php-var">$post_parent</span>, <span class="php-quote">'_min_variation_price'</span>, <span class="php-var">$lowest_price</span> );
+</span><span id="814" class="l"><a class="l" href="source-function-process_product_meta_variable.html#814">814 </a>    update_post_meta( <span class="php-var">$post_parent</span>, <span class="php-quote">'_max_variation_price'</span>, <span class="php-var">$highest_price</span> );
+</span><span id="815" class="l"><a class="l" href="source-function-process_product_meta_variable.html#815">815 </a>    update_post_meta( <span class="php-var">$post_parent</span>, <span class="php-quote">'_min_variation_regular_price'</span>, <span class="php-var">$lowest_regular_price</span> );
+</span><span id="816" class="l"><a class="l" href="source-function-process_product_meta_variable.html#816">816 </a>    update_post_meta( <span class="php-var">$post_parent</span>, <span class="php-quote">'_max_variation_regular_price'</span>, <span class="php-var">$highest_regular_price</span> );
+</span><span id="817" class="l"><a class="l" href="source-function-process_product_meta_variable.html#817">817 </a>    update_post_meta( <span class="php-var">$post_parent</span>, <span class="php-quote">'_min_variation_sale_price'</span>, <span class="php-var">$lowest_sale_price</span> );
+</span><span id="818" class="l"><a class="l" href="source-function-process_product_meta_variable.html#818">818 </a>    update_post_meta( <span class="php-var">$post_parent</span>, <span class="php-quote">'_max_variation_sale_price'</span>, <span class="php-var">$highest_sale_price</span> );
+</span><span id="819" class="l"><a class="l" href="source-function-process_product_meta_variable.html#819">819 </a>
+</span><span id="820" class="l"><a class="l" href="source-function-process_product_meta_variable.html#820">820 </a>    <span class="php-comment">// Update default attribute options setting</span>
+</span><span id="821" class="l"><a class="l" href="source-function-process_product_meta_variable.html#821">821 </a>    <span class="php-var">$default_attributes</span> = <span class="php-keyword1">array</span>();
+</span><span id="822" class="l"><a class="l" href="source-function-process_product_meta_variable.html#822">822 </a>
+</span><span id="823" class="l"><a class="l" href="source-function-process_product_meta_variable.html#823">823 </a>    <span class="php-keyword1">foreach</span> ( <span class="php-var">$attributes</span> <span class="php-keyword1">as</span> <span class="php-var">$attribute</span> ) {
+</span><span id="824" class="l"><a class="l" href="source-function-process_product_meta_variable.html#824">824 </a>        <span class="php-keyword1">if</span> ( <span class="php-var">$attribute</span>[<span class="php-quote">'is_variation'</span>] ) {
+</span><span id="825" class="l"><a class="l" href="source-function-process_product_meta_variable.html#825">825 </a>
+</span><span id="826" class="l"><a class="l" href="source-function-process_product_meta_variable.html#826">826 </a>            <span class="php-comment">// Don't use woocommerce_clean as it destroys sanitized characters</span>
+</span><span id="827" class="l"><a class="l" href="source-function-process_product_meta_variable.html#827">827 </a>            <span class="php-var">$value</span> = sanitize_title( <span class="php-keyword2">trim</span>( <span class="php-keyword2">stripslashes</span>( <span class="php-var">$_POST</span>[ <span class="php-quote">'default_attribute_'</span> . sanitize_title( <span class="php-var">$attribute</span>[<span class="php-quote">'name'</span>] ) ] ) ) );
+</span><span id="828" class="l"><a class="l" href="source-function-process_product_meta_variable.html#828">828 </a>
+</span><span id="829" class="l"><a class="l" href="source-function-process_product_meta_variable.html#829">829 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$value</span> )
+</span><span id="830" class="l"><a class="l" href="source-function-process_product_meta_variable.html#830">830 </a>                <span class="php-var">$default_attributes</span>[ sanitize_title( <span class="php-var">$attribute</span>[<span class="php-quote">'name'</span>] ) ] = <span class="php-var">$value</span>;
+</span><span id="831" class="l"><a class="l" href="source-function-process_product_meta_variable.html#831">831 </a>        }
+</span><span id="832" class="l"><a class="l" href="source-function-process_product_meta_variable.html#832">832 </a>    }
+</span><span id="833" class="l"><a class="l" href="source-function-process_product_meta_variable.html#833">833 </a>
+</span><span id="834" class="l"><a class="l" href="source-function-process_product_meta_variable.html#834">834 </a>    update_post_meta( <span class="php-var">$post_parent</span>, <span class="php-quote">'_default_attributes'</span>, <span class="php-var">$default_attributes</span> );
+</span><span id="835" class="l"><a class="l" href="source-function-process_product_meta_variable.html#835">835 </a>}
+</span><span id="836" class="l"><a class="l" href="source-function-process_product_meta_variable.html#836">836 </a>
+</span><span id="837" class="l"><a class="l" href="source-function-process_product_meta_variable.html#837">837 </a></span>add_action( <span class="php-quote">'woocommerce_process_product_meta_variable'</span>, <span class="php-quote">'process_product_meta_variable'</span> );</code></pre>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class WC_Shipping | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Classes.Shipping.html" title="Summary of WooCommerce\Classes\Shipping"><span>Package</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-WC_Shipping.html">WC_Shipping</a></li>
+				<li><a href="class-WC_Shipping_Flat_Rate.html">WC_Shipping_Flat_Rate</a></li>
+				<li><a href="class-WC_Shipping_Free_Shipping.html">WC_Shipping_Free_Shipping</a></li>
+				<li><a href="class-WC_Shipping_International_Delivery.html">WC_Shipping_International_Delivery</a></li>
+				<li><a href="class-WC_Shipping_Local_Delivery.html">WC_Shipping_Local_Delivery</a></li>
+				<li><a href="class-WC_Shipping_Local_Pickup.html">WC_Shipping_Local_Pickup</a></li>
+				<li><a href="class-WC_Shipping_Rate.html">WC_Shipping_Rate</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-woocommerce_register_shipping_method.html">woocommerce_register_shipping_method</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class WC_Shipping</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WooCommerce.html">WooCommerce</a>\<a href="package-WooCommerce.Classes.html">Classes</a>\<a href="package-WooCommerce.Classes.Shipping.html">Shipping</a><br />
+
+				<b>Author:</b>
+				WooThemes<br />
+		<b>Located at</b> <a href="source-class-WC_Shipping.html#16-403" title="Go to source code">classes/class-wc-shipping.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#___construct">#</a>
+			<code><a href="source-class-WC_Shipping.html#39-47" title="Go to source code">__construct</a>( )</code>
+
+			<div class="description short">
+				
+<p>__construct function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>__construct function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="init" id="_init">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_init">#</a>
+			<code><a href="source-class-WC_Shipping.html#49-58" title="Go to source code">init</a>( )</code>
+
+			<div class="description short">
+				
+<p>init function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>init function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="load_shipping_methods" id="_load_shipping_methods">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_load_shipping_methods">#</a>
+			<code><a href="source-class-WC_Shipping.html#60-86" title="Go to source code">load_shipping_methods</a>( <span>mixed <var>$package</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>load_shipping_methods function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>load_shipping_methods function.</p>
+
+<p>Loads all shipping methods which are hooked in. If a $package is passed some
+methods may add themselves conditionally.</p>
+
+<p>Methods are sorted into their user-defined order after being loaded.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="register_shipping_method" id="_register_shipping_method">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_register_shipping_method">#</a>
+			<code><a href="source-class-WC_Shipping.html#88-102" title="Go to source code">register_shipping_method</a>( <span>mixed <var>$method</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Register a shipping method for use in calculations.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Register a shipping method for use in calculations.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="unregister_shipping_methods" id="_unregister_shipping_methods">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_unregister_shipping_methods">#</a>
+			<code><a href="source-class-WC_Shipping.html#104-112" title="Go to source code">unregister_shipping_methods</a>( )</code>
+
+			<div class="description short">
+				
+<p>unregister_shipping_methods function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>unregister_shipping_methods function.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="sort_shipping_methods" id="_sort_shipping_methods">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_sort_shipping_methods">#</a>
+			<code><a href="source-class-WC_Shipping.html#114-153" title="Go to source code">sort_shipping_methods</a>( )</code>
+
+			<div class="description short">
+				
+<p>sort_shipping_methods function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>sort_shipping_methods function.</p>
+
+<p>Sorts shipping methods into the user defined order.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_methods" id="_get_shipping_methods">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_get_shipping_methods">#</a>
+			<code><a href="source-class-WC_Shipping.html#155-166" title="Go to source code">get_shipping_methods</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_shipping_methods function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_shipping_methods function.</p>
+
+<p>Returns all registered shipping methods for usage.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_classes" id="_get_shipping_classes">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_get_shipping_classes">#</a>
+			<code><a href="source-class-WC_Shipping.html#168-181" title="Go to source code">get_shipping_classes</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_shipping_classes function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_shipping_classes function.</p>
+
+<p>Load shipping classes taxonomy terms.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="calculate_shipping" id="_calculate_shipping">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_calculate_shipping">#</a>
+			<code><a href="source-class-WC_Shipping.html#183-261" title="Go to source code">calculate_shipping</a>( <span>array <var>$packages</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+			<div class="description short">
+				
+<p>calculate_shipping function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>calculate_shipping function.</p>
+
+<p>Calculate shipping for (multiple) packages of cart items.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$packages</var></dt>
+						<dd><code>array</code><br>$packages multi-dimensional array of cart items to calc shipping for</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="calculate_shipping_for_package" id="_calculate_shipping_for_package">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_calculate_shipping_for_package">#</a>
+			<code><a href="source-class-WC_Shipping.html#263-314" title="Go to source code">calculate_shipping_for_package</a>( <span>array <var>$package</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+			<div class="description short">
+				
+<p>calculate_shipping_for_package function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>calculate_shipping_for_package function.</p>
+
+<p>Calculates each shipping methods cost. Rates are cached based on the package
+to speed up calculations.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$package</var></dt>
+						<dd><code>array</code><br>$package cart items</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_available_shipping_methods" id="_get_available_shipping_methods">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_get_available_shipping_methods">#</a>
+			<code><a href="source-class-WC_Shipping.html#316-355" title="Go to source code">get_available_shipping_methods</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_available_shipping_methods function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_available_shipping_methods function.</p>
+
+<p>Gets all available shipping methods which have rates.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="reset_shipping" id="_reset_shipping">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_reset_shipping">#</a>
+			<code><a href="source-class-WC_Shipping.html#358-373" title="Go to source code">reset_shipping</a>( )</code>
+
+			<div class="description short">
+				
+<p>reset_shipping function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>reset_shipping function.</p>
+
+<p>Reset the totals for shipping as a whole.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="process_admin_options" id="_process_admin_options">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Shipping.html#_process_admin_options">#</a>
+			<code><a href="source-class-WC_Shipping.html#376-401" title="Go to source code">process_admin_options</a>( )</code>
+
+			<div class="description short">
+				
+<p>process_admin_options function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>process_admin_options function.</p>
+
+<p>Saves options on the shipping setting page.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped" id="properties">
+		<tr data-order="enabled" id="$enabled">
+			<td class="attributes"><code>
+				public  
+				boolean
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Shipping.html#18-19" title="Go to source code"><var>$enabled</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Shipping.html#$enabled" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>True if shipping is enabled.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>True if shipping is enabled.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_methods" id="$shipping_methods">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Shipping.html#21-22" title="Go to source code"><var>$shipping_methods</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Shipping.html#$shipping_methods" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Stores methods loaded into woocommerce.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Stores methods loaded into woocommerce.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_total" id="$shipping_total">
+			<td class="attributes"><code>
+				public  
+				float
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Shipping.html#24-25" title="Go to source code"><var>$shipping_total</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Shipping.html#$shipping_total" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Stores the cost of shipping</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Stores the cost of shipping</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_taxes" id="$shipping_taxes">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Shipping.html#27-28" title="Go to source code"><var>$shipping_taxes</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Shipping.html#$shipping_taxes" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Stores an array of shipping taxes.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Stores an array of shipping taxes.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_label" id="$shipping_label">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Shipping.html#30-31" title="Go to source code"><var>$shipping_label</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Shipping.html#$shipping_label" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Stores the label for the chosen method.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Stores the label for the chosen method.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_classes" id="$shipping_classes">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Shipping.html#33-34" title="Go to source code"><var>$shipping_classes</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Shipping.html#$shipping_classes" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Stores the shipping classes.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Stores the shipping classes.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="packages" id="$packages">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Shipping.html#36-37" title="Go to source code"><var>$packages</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Shipping.html#$packages" class="anchor">#</a>
+
+				<div class="description short">
+					
+<p>Stores packages to ship and to get quotes for.</p>
+
+				</div>
+
+				<div class="description detailed hidden">
+					
+<p>Stores packages to ship and to get quotes for.</p>
+
+
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

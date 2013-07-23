@@ -1,0 +1,3659 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class WC_Order | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Classes.html" title="Summary of WooCommerce\Classes"><span>Package</span></a>
+						</li>
+						<li class="active">
+<span>Class</span>						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WC_API.html">WC_API</a></li>
+				<li><a href="class-WC_Cache_Helper.html">WC_Cache_Helper</a></li>
+				<li><a href="class-WC_Cart.html">WC_Cart</a></li>
+				<li><a href="class-WC_Checkout.html">WC_Checkout</a></li>
+				<li><a href="class-WC_Countries.html">WC_Countries</a></li>
+				<li><a href="class-WC_Coupon.html">WC_Coupon</a></li>
+				<li><a href="class-WC_Customer.html">WC_Customer</a></li>
+				<li><a href="class-WC_Logger.html">WC_Logger</a></li>
+				<li class="active"><a href="class-WC_Order.html">WC_Order</a></li>
+				<li><a href="class-WC_Order_Item_Meta.html">WC_Order_Item_Meta</a></li>
+				<li><a href="class-WC_Product_Factory.html">WC_Product_Factory</a></li>
+				<li><a href="class-WC_Product_Variation.html">WC_Product_Variation</a></li>
+				<li><a href="class-WC_Query.html">WC_Query</a></li>
+				<li><a href="class-WC_Session_Handler.html">WC_Session_Handler</a></li>
+				<li><a href="class-WC_Shortcodes.html">WC_Shortcodes</a></li>
+				<li><a href="class-WC_Tax.html">WC_Tax</a></li>
+				<li><a href="class-WC_Validation.html">WC_Validation</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class WC_Order</h1>
+
+
+	<div class="description">
+	
+<p>Order</p>
+
+<p>The WooCommerce order class handles order data.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WooCommerce.html">WooCommerce</a>\<a href="package-WooCommerce.Classes.html">Classes</a><br />
+
+				<b>Category:</b>
+				Class<br />
+				<b>Author:</b>
+				WooThemes<br />
+				<b>Version:</b>
+				1.6.4<br />
+				<b>Class:</b>
+				WC_Order<br />
+		<b>Located at</b> <a href="source-class-WC_Order.html#2-1533" title="Go to source code">classes/class-wc-order.php</a><br />
+	</div>
+
+
+
+		<h2>Methods summary</h2>
+		<table class="summary table table-bordered table-striped" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#___construct">#</a>
+			<code><a href="source-class-WC_Order.html#153-169" title="Go to source code">__construct</a>( <span>string <var>$id</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Get the order if ID is passed, otherwise the order is new and empty.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the order if ID is passed, otherwise the order is new and empty.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$id</var></dt>
+						<dd><code>string</code><br>$id (default: '')</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_order" id="_get_order">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_order">#</a>
+			<code><a href="source-class-WC_Order.html#172-187" title="Go to source code">get_order</a>( <span>integer <var>$id</var> = <span class="php-num">0</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Gets an order from the database.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets an order from the database.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$id</var></dt>
+						<dd><code>integer</code><br>$id (default: 0)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="populate" id="_populate">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_populate">#</a>
+			<code><a href="source-class-WC_Order.html#190-258" title="Go to source code">populate</a>( <span>mixed <var>$result</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Populates an order from the loaded post data.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Populates an order from the loaded post data.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$result</var></dt>
+						<dd><code>mixed</code><br>$result</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="key_is_valid" id="_key_is_valid">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_key_is_valid">#</a>
+			<code><a href="source-class-WC_Order.html#261-271" title="Go to source code">key_is_valid</a>( <span>mixed <var>$key</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Check if an order key is valid.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Check if an order key is valid.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$key</var></dt>
+						<dd><code>mixed</code><br>$key</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_order_number" id="_get_order_number">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_order_number">#</a>
+			<code><a href="source-class-WC_Order.html#274-284" title="Go to source code">get_order_number</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_order_number function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_order_number function.</p>
+
+<p>Gets the order number for display (by default, order ID)</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_formatted_billing_address" id="_get_formatted_billing_address">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_formatted_billing_address">#</a>
+			<code><a href="source-class-WC_Order.html#286-312" title="Go to source code">get_formatted_billing_address</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get a formatted billing address for the order.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get a formatted billing address for the order.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_billing_address" id="_get_billing_address">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_billing_address">#</a>
+			<code><a href="source-class-WC_Order.html#314-336" title="Go to source code">get_billing_address</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the billing address in an array.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the billing address in an array.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_formatted_shipping_address" id="_get_formatted_shipping_address">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_formatted_shipping_address">#</a>
+			<code><a href="source-class-WC_Order.html#338-366" title="Go to source code">get_formatted_shipping_address</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get a formatted shipping address for the order.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get a formatted shipping address for the order.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_address" id="_get_shipping_address">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_shipping_address">#</a>
+			<code><a href="source-class-WC_Order.html#369-393" title="Go to source code">get_shipping_address</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get the shipping address in an array.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get the shipping address in an array.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_items" id="_get_items">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_items">#</a>
+			<code><a href="source-class-WC_Order.html#395-438" title="Go to source code">get_items</a>( <span>string <var>$type</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Return an array of items/products within this order.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Return an array of items/products within this order.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$type</var></dt>
+						<dd><code>string</code><br>$type Types of line items to get (array or string)</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_item_count" id="_get_item_count">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_item_count">#</a>
+			<code><a href="source-class-WC_Order.html#440-467" title="Go to source code">get_item_count</a>( <span>mixed <var>$type</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Gets order total - formatted for display.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets order total - formatted for display.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_fees" id="_get_fees">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_fees">#</a>
+			<code><a href="source-class-WC_Order.html#469-477" title="Go to source code">get_fees</a>( )</code>
+
+			<div class="description short">
+				
+<p>Return an array of fees within this order.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Return an array of fees within this order.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_taxes" id="_get_taxes">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_taxes">#</a>
+			<code><a href="source-class-WC_Order.html#479-487" title="Go to source code">get_taxes</a>( )</code>
+
+			<div class="description short">
+				
+<p>Return an array of taxes within this order.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Return an array of taxes within this order.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_tax_totals" id="_get_tax_totals">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_tax_totals">#</a>
+			<code><a href="source-class-WC_Order.html#489-515" title="Go to source code">get_tax_totals</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get taxes, merged by code, formatted ready for output.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get taxes, merged by code, formatted ready for output.</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="has_meta" id="_has_meta">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_has_meta">#</a>
+			<code><a href="source-class-WC_Order.html#517-529" title="Go to source code">has_meta</a>( <span>mixed <var>$order_item_id</var></span> )</code>
+
+			<div class="description short">
+				
+<p>has_meta function for order items.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>has_meta function for order items.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br>of meta data<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_item_meta" id="_get_item_meta">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_item_meta">#</a>
+			<code><a href="source-class-WC_Order.html#531-542" title="Go to source code">get_item_meta</a>( <span>mixed <var>$order_item_id</var></span>, <span>string <var>$key</var> = <span class="php-quote">''</span></span>, <span>boolean <var>$single</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Get order item meta.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get order item meta.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$order_item_id</var></dt>
+						<dd><code>mixed</code><br>$item_id</dd>
+						<dt><var>$key</var></dt>
+						<dd><code>string</code><br>$key (default: '')</dd>
+						<dt><var>$single</var></dt>
+						<dd><code>boolean</code><br>$single (default: false)</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_total_tax" id="_get_total_tax">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_total_tax">#</a>
+			<code><a href="source-class-WC_Order.html#547-555" title="Go to source code">get_total_tax</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets shipping and product tax.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets shipping and product tax.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_discount" id="_get_cart_discount">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_cart_discount">#</a>
+			<code><a href="source-class-WC_Order.html#558-566" title="Go to source code">get_cart_discount</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the total (product) discount amount - these are applied before tax.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the total (product) discount amount - these are applied before tax.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_order_discount" id="_get_order_discount">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_order_discount">#</a>
+			<code><a href="source-class-WC_Order.html#569-577" title="Go to source code">get_order_discount</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the total (product) discount amount - these are applied before tax.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the total (product) discount amount - these are applied before tax.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_total_discount" id="_get_total_discount">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_total_discount">#</a>
+			<code><a href="source-class-WC_Order.html#580-589" title="Go to source code">get_total_discount</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets the total discount amount - both kinds</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets the total discount amount - both kinds</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping" id="_get_shipping">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_shipping">#</a>
+			<code><a href="source-class-WC_Order.html#592-600" title="Go to source code">get_shipping</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets shipping total.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets shipping total.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_tax" id="_get_shipping_tax">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_shipping_tax">#</a>
+			<code><a href="source-class-WC_Order.html#603-611" title="Go to source code">get_shipping_tax</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets shipping tax amount.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets shipping tax amount.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_total" id="_get_total">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_total">#</a>
+			<code><a href="source-class-WC_Order.html#614-622" title="Go to source code">get_total</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets order total.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets order total.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_order_total" id="_get_order_total">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_order_total">#</a>
+			<code><a href="source-class-WC_Order.html#625-633" title="Go to source code">get_order_total</a>( )</code>
+
+			<div class="description short">
+				
+<p>get_order_total function. Alias for get_total()</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>get_order_total function. Alias for get_total()</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_method" id="_get_shipping_method">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_shipping_method">#</a>
+			<code><a href="source-class-WC_Order.html#635-643" title="Go to source code">get_shipping_method</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets shipping method title.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets shipping method title.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_item_subtotal" id="_get_item_subtotal">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_item_subtotal">#</a>
+			<code><a href="source-class-WC_Order.html#646-661" title="Go to source code">get_item_subtotal</a>( <span>mixed <var>$item</var></span>, <span>boolean <var>$inc_tax</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$round</var> = <span class="php-keyword1">true</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Get item subtotal - this is the cost before discount.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get item subtotal - this is the cost before discount.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$item</var></dt>
+						<dd><code>mixed</code><br>$item</dd>
+						<dt><var>$inc_tax</var></dt>
+						<dd><code>boolean</code><br>$inc_tax (default: false)</dd>
+						<dt><var>$round</var></dt>
+						<dd><code>boolean</code><br>$round (default: true)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_line_subtotal" id="_get_line_subtotal">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_line_subtotal">#</a>
+			<code><a href="source-class-WC_Order.html#664-679" title="Go to source code">get_line_subtotal</a>( <span>mixed <var>$item</var></span>, <span>boolean <var>$inc_tax</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$round</var> = <span class="php-keyword1">true</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Get line subtotal - this is the cost before discount.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get line subtotal - this is the cost before discount.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$item</var></dt>
+						<dd><code>mixed</code><br>$item</dd>
+						<dt><var>$inc_tax</var></dt>
+						<dd><code>boolean</code><br>$inc_tax (default: false)</dd>
+						<dt><var>$round</var></dt>
+						<dd><code>boolean</code><br>$round (default: true)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_item_total" id="_get_item_total">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_item_total">#</a>
+			<code><a href="source-class-WC_Order.html#682-697" title="Go to source code">get_item_total</a>( <span>mixed <var>$item</var></span>, <span>boolean <var>$inc_tax</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$round</var> = <span class="php-keyword1">true</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Calculate item cost - useful for gateways.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Calculate item cost - useful for gateways.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$item</var></dt>
+						<dd><code>mixed</code><br>$item</dd>
+						<dt><var>$inc_tax</var></dt>
+						<dd><code>boolean</code><br>$inc_tax (default: false)</dd>
+						<dt><var>$round</var></dt>
+						<dd><code>boolean</code><br>$round (default: true)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_item_tax" id="_get_item_tax">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_item_tax">#</a>
+			<code><a href="source-class-WC_Order.html#700-711" title="Go to source code">get_item_tax</a>( <span>mixed <var>$item</var></span>, <span>boolean <var>$round</var> = <span class="php-keyword1">true</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Calculate item tax - useful for gateways.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Calculate item tax - useful for gateways.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$item</var></dt>
+						<dd><code>mixed</code><br>$item</dd>
+						<dt><var>$round</var></dt>
+						<dd><code>boolean</code><br>$round (default: true)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_line_total" id="_get_line_total">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_line_total">#</a>
+			<code><a href="source-class-WC_Order.html#714-727" title="Go to source code">get_line_total</a>( <span>mixed <var>$item</var></span>, <span>boolean <var>$inc_tax</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Calculate line total - useful for gateways.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Calculate line total - useful for gateways.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$item</var></dt>
+						<dd><code>mixed</code><br>$item</dd>
+						<dt><var>$inc_tax</var></dt>
+						<dd><code>boolean</code><br>$inc_tax (default: false)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_line_tax" id="_get_line_tax">
+
+			<td class="attributes"><code>
+				 public 
+				float
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_line_tax">#</a>
+			<code><a href="source-class-WC_Order.html#730-739" title="Go to source code">get_line_tax</a>( <span>mixed <var>$item</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Calculate line tax - useful for gateways.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Calculate line tax - useful for gateways.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$item</var></dt>
+						<dd><code>mixed</code><br>$item</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>float</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_formatted_line_subtotal" id="_get_formatted_line_subtotal">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_formatted_line_subtotal">#</a>
+			<code><a href="source-class-WC_Order.html#743-767" title="Go to source code">get_formatted_line_subtotal</a>( <span>mixed <var>$item</var></span>, <span>mixed <var>$tax_display</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Gets line subtotal - formatted for display.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets line subtotal - formatted for display.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$item</var></dt>
+						<dd><code>mixed</code><br>$item</dd>
+						<dt><var>$tax_display</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_formatted_order_total" id="_get_formatted_order_total">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_formatted_order_total">#</a>
+			<code><a href="source-class-WC_Order.html#770-781" title="Go to source code">get_formatted_order_total</a>( )</code>
+
+			<div class="description short">
+				
+<p>Gets order total - formatted for display.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets order total - formatted for display.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_subtotal_to_display" id="_get_subtotal_to_display">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_subtotal_to_display">#</a>
+			<code><a href="source-class-WC_Order.html#784-849" title="Go to source code">get_subtotal_to_display</a>( <span>boolean <var>$compound</var> = <span class="php-keyword1">false</span></span>, <span>mixed <var>$tax_display</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Gets subtotal - subtotal is shown before discounts, but with localised
+taxes.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets subtotal - subtotal is shown before discounts, but with localised
+taxes.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$compound</var></dt>
+						<dd><code>boolean</code><br>$compound (default: false)</dd>
+						<dt><var>$tax_display</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_shipping_to_display" id="_get_shipping_to_display">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_shipping_to_display">#</a>
+			<code><a href="source-class-WC_Order.html#852-895" title="Go to source code">get_shipping_to_display</a>( <span>mixed <var>$tax_display</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Gets shipping (formatted).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets shipping (formatted).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cart_discount_to_display" id="_get_cart_discount_to_display">
+
+			<td class="attributes"><code>
+				 public 
+				string.
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_cart_discount_to_display">#</a>
+			<code><a href="source-class-WC_Order.html#898-906" title="Go to source code">get_cart_discount_to_display</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get cart discount (formatted).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get cart discount (formatted).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string.</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_order_discount_to_display" id="_get_order_discount_to_display">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_order_discount_to_display">#</a>
+			<code><a href="source-class-WC_Order.html#909-917" title="Go to source code">get_order_discount_to_display</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get cart discount (formatted).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get cart discount (formatted).</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_product_from_item" id="_get_product_from_item">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-WC_Product.html">WC_Product</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_product_from_item">#</a>
+			<code><a href="source-class-WC_Order.html#920-931" title="Go to source code">get_product_from_item</a>( <span>mixed <var>$item</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Get a product (either product or variation).</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get a product (either product or variation).</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$item</var></dt>
+						<dd><code>mixed</code><br>$item</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-WC_Product.html">WC_Product</a></code></code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_order_item_totals" id="_get_order_item_totals">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_order_item_totals">#</a>
+			<code><a href="source-class-WC_Order.html#934-1021" title="Go to source code">get_order_item_totals</a>( <span>mixed <var>$tax_display</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Get totals for display on pages and in emails.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get totals for display on pages and in emails.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="email_order_items_table" id="_email_order_items_table">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_email_order_items_table">#</a>
+			<code><a href="source-class-WC_Order.html#1024-1055" title="Go to source code">email_order_items_table</a>( <span>boolean <var>$show_download_links</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$show_sku</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$show_purchase_note</var> = <span class="php-keyword1">false</span></span>, <span>boolean <var>$show_image</var> = <span class="php-keyword1">false</span></span>, <span>array <var>$image_size</var> = <span class="php-keyword1">array</span>( <span class="php-num">32</span>, <span class="php-num">32</span> )</span>, <span>boolean <var>$plain_text</var> = <span class="php-keyword1">false</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Output items for display in html emails.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Output items for display in html emails.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$show_download_links</var></dt>
+						<dd><code>boolean</code><br>$show_download_links (default: false)</dd>
+						<dt><var>$show_sku</var></dt>
+						<dd><code>boolean</code><br>$show_sku (default: false)</dd>
+						<dt><var>$show_purchase_note</var></dt>
+						<dd><code>boolean</code><br>$show_purchase_note (default: false)</dd>
+						<dt><var>$show_image</var></dt>
+						<dd><code>boolean</code><br>$show_image (default: false)</dd>
+						<dt><var>$image_size</var></dt>
+						<dd><code>array</code><br>$image_size (default: array( 32, 32 )</dd>
+						<dt><var>$plain_text</var></dt>
+						<dd><code>boolean</code><br>plain text</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_download_permitted" id="_is_download_permitted">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_is_download_permitted">#</a>
+			<code><a href="source-class-WC_Order.html#1057-1065" title="Go to source code">is_download_permitted</a>( )</code>
+
+			<div class="description short">
+				
+<p>Checks if product download is permitted</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Checks if product download is permitted</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="has_downloadable_item" id="_has_downloadable_item">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_has_downloadable_item">#</a>
+			<code><a href="source-class-WC_Order.html#1067-1087" title="Go to source code">has_downloadable_item</a>( )</code>
+
+			<div class="description short">
+				
+<p>Returns true if the order contains a downloadable product.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Returns true if the order contains a downloadable product.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>boolean</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_checkout_payment_url" id="_get_checkout_payment_url">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_checkout_payment_url">#</a>
+			<code><a href="source-class-WC_Order.html#1090-1103" title="Go to source code">get_checkout_payment_url</a>( )</code>
+
+			<div class="description short">
+				
+<p>Generates a URL so that a customer can checkout/pay for their (unpaid -
+pending) order via a link.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Generates a URL so that a customer can checkout/pay for their (unpaid -
+pending) order via a link.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_cancel_order_url" id="_get_cancel_order_url">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_cancel_order_url">#</a>
+			<code><a href="source-class-WC_Order.html#1106-1115" title="Go to source code">get_cancel_order_url</a>( )</code>
+
+			<div class="description short">
+				
+<p>Generates a URL so that a customer can cancel their (unpaid - pending)
+order.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Generates a URL so that a customer can cancel their (unpaid - pending)
+order.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>string</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_downloadable_file_urls" id="_get_downloadable_file_urls">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_downloadable_file_urls">#</a>
+			<code><a href="source-class-WC_Order.html#1118-1153" title="Go to source code">get_downloadable_file_urls</a>( <span>integer <var>$product_id</var></span>, <span>integer <var>$variation_id</var></span>, <span>array <var>$item</var></span> )</code>
+
+			<div class="description short">
+				
+<p>Gets any downloadable product file urls.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Gets any downloadable product file urls.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$product_id</var></dt>
+						<dd><code>integer</code><br>$product_id product identifier</dd>
+						<dt><var>$variation_id</var></dt>
+						<dd><code>integer</code><br>$variation_id variation identifier, or null</dd>
+						<dt><var>$item</var></dt>
+						<dd><code>array</code><br>$item the item</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br>available downloadable file urls<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="add_order_note" id="_add_order_note">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-WC_Order.html#$id">WC_Order::<var>$id</var></a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_add_order_note">#</a>
+			<code><a href="source-class-WC_Order.html#1155-1189" title="Go to source code">add_order_note</a>( <span>string <var>$note</var></span>, <span>integer <var>$is_customer_note</var> = <span class="php-num">0</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Adds a note (comment) to the order</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Adds a note (comment) to the order</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$note</var></dt>
+						<dd><code>string</code><br>$note Note to add</dd>
+						<dt><var>$is_customer_note</var></dt>
+						<dd><code>integer</code><br>$is_customer_note (default: 0) Is this a note for the customer?</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><code><a href="class-WC_Order.html#$id">WC_Order::<var>$id</var></a></code></code><br>Comment ID<br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="update_status" id="_update_status">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_update_status">#</a>
+			<code><a href="source-class-WC_Order.html#1192-1248" title="Go to source code">update_status</a>( <span>string <var>$new_status_slug</var></span>, <span>string <var>$note</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Updates status of order</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Updates status of order</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$new_status_slug</var></dt>
+						<dd><code>string</code><br>$new_status_slug Status to change the order to</dd>
+						<dt><var>$note</var></dt>
+						<dd><code>string</code><br>$note (default: '') Optional note to add</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="cancel_order" id="_cancel_order">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_cancel_order">#</a>
+			<code><a href="source-class-WC_Order.html#1251-1265" title="Go to source code">cancel_order</a>( <span>string <var>$note</var> = <span class="php-quote">''</span> </span> )</code>
+
+			<div class="description short">
+				
+<p>Cancel the order and restore the cart (before payment)</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Cancel the order and restore the cart (before payment)</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$note</var></dt>
+						<dd><code>string</code><br>$note (default: '') Optional note to add</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="payment_complete" id="_payment_complete">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_payment_complete">#</a>
+			<code><a href="source-class-WC_Order.html#1267-1328" title="Go to source code">payment_complete</a>( )</code>
+
+			<div class="description short">
+				
+<p>When a payment is complete this function is called</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>When a payment is complete this function is called</p>
+
+<p>Most of the time this should mark an order as 'processing' so that admin can
+process/post the items If the cart contains only downloadable items then the
+order is 'complete' since the admin needs to take no action Stock levels are
+reduced at this point Sales are also recorded for products Finally, record the
+date of payment</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="record_product_sales" id="_record_product_sales">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_record_product_sales">#</a>
+			<code><a href="source-class-WC_Order.html#1331-1354" title="Go to source code">record_product_sales</a>( )</code>
+
+			<div class="description short">
+				
+<p>Record sales</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Record sales</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_used_coupons" id="_get_used_coupons">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_used_coupons">#</a>
+			<code><a href="source-class-WC_Order.html#1357-1373" title="Go to source code">get_used_coupons</a>( )</code>
+
+			<div class="description short">
+				
+<p>Get coupon codes only.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Get coupon codes only.</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="increase_coupon_usage_counts" id="_increase_coupon_usage_counts">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_increase_coupon_usage_counts">#</a>
+			<code><a href="source-class-WC_Order.html#1376-1399" title="Go to source code">increase_coupon_usage_counts</a>( )</code>
+
+			<div class="description short">
+				
+<p>Increase applied coupon counts</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Increase applied coupon counts</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="decrease_coupon_usage_counts" id="_decrease_coupon_usage_counts">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_decrease_coupon_usage_counts">#</a>
+			<code><a href="source-class-WC_Order.html#1402-1425" title="Go to source code">decrease_coupon_usage_counts</a>( )</code>
+
+			<div class="description short">
+				
+<p>Decrease applied coupon counts</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Decrease applied coupon counts</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="reduce_order_stock" id="_reduce_order_stock">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_reduce_order_stock">#</a>
+			<code><a href="source-class-WC_Order.html#1428-1467" title="Go to source code">reduce_order_stock</a>( )</code>
+
+			<div class="description short">
+				
+<p>Reduce stock levels</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Reduce stock levels</p>
+
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="send_stock_notifications" id="_send_stock_notifications">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_send_stock_notifications">#</a>
+			<code><a href="source-class-WC_Order.html#1470-1497" title="Go to source code">send_stock_notifications</a>( <span>object <var>$product</var></span>, <span>integer <var>$new_stock</var></span>, <span>integer <var>$qty_ordered</var></span> )</code>
+
+			<div class="description short">
+				
+<p>send_stock_notifications function.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>send_stock_notifications function.</p>
+
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$product</var></dt>
+						<dd><code>object</code><br>$product</dd>
+						<dt><var>$new_stock</var></dt>
+						<dd><code>integer</code><br>$new_stock</dd>
+						<dt><var>$qty_ordered</var></dt>
+						<dd><code>integer</code><br>$qty_ordered</dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_customer_order_notes" id="_get_customer_order_notes">
+
+			<td class="attributes"><code>
+				 public 
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="class-WC_Order.html#_get_customer_order_notes">#</a>
+			<code><a href="source-class-WC_Order.html#1500-1531" title="Go to source code">get_customer_order_notes</a>( )</code>
+
+			<div class="description short">
+				
+<p>List order notes (public) for the customer</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>List order notes (public) for the customer</p>
+
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code>array</code><br />
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+		<h3>Magic methods summary</h3>
+
+
+
+
+
+
+
+
+		<h2>Properties summary</h2>
+		<table class="summary table table-bordered table-striped" id="properties">
+		<tr data-order="id" id="$id">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#15-16" title="Go to source code"><var>$id</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$id" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								int Order (post) ID<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="status" id="$status">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#18-19" title="Go to source code"><var>$status</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$status" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Order status.<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="order_date" id="$order_date">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#21-22" title="Go to source code"><var>$order_date</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$order_date" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Order date (placed).<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="modified_date" id="$modified_date">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#24-25" title="Go to source code"><var>$modified_date</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$modified_date" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Order date (paid).<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="customer_note" id="$customer_note">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#27-28" title="Go to source code"><var>$customer_note</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$customer_note" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Note added by the customer.<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="order_custom_fields" id="$order_custom_fields">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#30-31" title="Go to source code"><var>$order_custom_fields</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$order_custom_fields" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								array Order (post) meta/custom fields.<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="order_key" id="$order_key">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#33-34" title="Go to source code"><var>$order_key</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$order_key" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Order unique key.<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_first_name" id="$billing_first_name">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#36-37" title="Go to source code"><var>$billing_first_name</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_first_name" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_last_name" id="$billing_last_name">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#39-40" title="Go to source code"><var>$billing_last_name</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_last_name" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_company" id="$billing_company">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#42-43" title="Go to source code"><var>$billing_company</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_company" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_address_1" id="$billing_address_1">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#45-46" title="Go to source code"><var>$billing_address_1</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_address_1" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_address_2" id="$billing_address_2">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#48-49" title="Go to source code"><var>$billing_address_2</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_address_2" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_city" id="$billing_city">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#51-52" title="Go to source code"><var>$billing_city</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_city" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_postcode" id="$billing_postcode">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#54-55" title="Go to source code"><var>$billing_postcode</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_postcode" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_country" id="$billing_country">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#57-58" title="Go to source code"><var>$billing_country</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_country" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_state" id="$billing_state">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#60-61" title="Go to source code"><var>$billing_state</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_state" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_email" id="$billing_email">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#63-64" title="Go to source code"><var>$billing_email</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_email" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_phone" id="$billing_phone">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#66-67" title="Go to source code"><var>$billing_phone</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_phone" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_first_name" id="$shipping_first_name">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#69-70" title="Go to source code"><var>$shipping_first_name</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_first_name" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_last_name" id="$shipping_last_name">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#72-73" title="Go to source code"><var>$shipping_last_name</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_last_name" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_company" id="$shipping_company">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#75-76" title="Go to source code"><var>$shipping_company</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_company" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_address_1" id="$shipping_address_1">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#78-79" title="Go to source code"><var>$shipping_address_1</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_address_1" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_address_2" id="$shipping_address_2">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#81-82" title="Go to source code"><var>$shipping_address_2</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_address_2" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_city" id="$shipping_city">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#84-85" title="Go to source code"><var>$shipping_city</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_city" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_postcode" id="$shipping_postcode">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#87-88" title="Go to source code"><var>$shipping_postcode</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_postcode" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_country" id="$shipping_country">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#90-91" title="Go to source code"><var>$shipping_country</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_country" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_state" id="$shipping_state">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#93-94" title="Go to source code"><var>$shipping_state</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_state" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_method" id="$shipping_method">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#96-97" title="Go to source code"><var>$shipping_method</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_method" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Method id of the shipping used<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_method_title" id="$shipping_method_title">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#99-100" title="Go to source code"><var>$shipping_method_title</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_method_title" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Shipping method title<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="payment_method" id="$payment_method">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#102-103" title="Go to source code"><var>$payment_method</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$payment_method" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Method id of the payment used<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="payment_method_title" id="$payment_method_title">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#105-106" title="Go to source code"><var>$payment_method_title</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$payment_method_title" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Payment method title<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="order_discount" id="$order_discount">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#108-109" title="Go to source code"><var>$order_discount</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$order_discount" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string After tax discount total<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="cart_discount" id="$cart_discount">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#111-112" title="Go to source code"><var>$cart_discount</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$cart_discount" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Before tax discount total<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="order_tax" id="$order_tax">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#114-115" title="Go to source code"><var>$order_tax</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$order_tax" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Tax for the items total<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="order_shipping" id="$order_shipping">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#117-118" title="Go to source code"><var>$order_shipping</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$order_shipping" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Shipping cost<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="order_shipping_tax" id="$order_shipping_tax">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#120-121" title="Go to source code"><var>$order_shipping_tax</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$order_shipping_tax" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Shipping tax<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="order_total" id="$order_total">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#123-124" title="Go to source code"><var>$order_total</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$order_total" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string Grand total<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="taxes" id="$taxes">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#126-127" title="Go to source code"><var>$taxes</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$taxes" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								array Taxes array (tax rows)<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="customer_user" id="$customer_user">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#129-130" title="Go to source code"><var>$customer_user</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$customer_user" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								int User ID<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="user_id" id="$user_id">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#132-133" title="Go to source code"><var>$user_id</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$user_id" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								int User ID<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="completed_date" id="$completed_date">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#135-136" title="Go to source code"><var>$completed_date</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$completed_date" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="billing_address" id="$billing_address">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#138-139" title="Go to source code"><var>$billing_address</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$billing_address" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="formatted_billing_address" id="$formatted_billing_address">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#141-142" title="Go to source code"><var>$formatted_billing_address</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$formatted_billing_address" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="shipping_address" id="$shipping_address">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#144-145" title="Go to source code"><var>$shipping_address</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$shipping_address" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="formatted_shipping_address" id="$formatted_shipping_address">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#147-148" title="Go to source code"><var>$formatted_shipping_address</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$formatted_shipping_address" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		<tr data-order="post_status" id="$post_status">
+			<td class="attributes"><code>
+				public  
+				mixed
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-WC_Order.html#150-151" title="Go to source code"><var>$post_status</var></a>
+			</td>
+			<td class="description"><div>
+				<a href="class-WC_Order.html#$post_status" class="anchor">#</a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+						<h4>Public</h4>
+						<div class="list">
+								string<br />
+						</div>
+				</div>
+			</div></td>
+		</tr>
+		</table>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>

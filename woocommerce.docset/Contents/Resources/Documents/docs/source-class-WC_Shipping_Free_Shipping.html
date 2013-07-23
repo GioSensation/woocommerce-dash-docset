@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>File classes/shipping/free-shipping/class-wc-shipping-free-shipping.php | WooCommerce</title>
+
+	<script type="text/javascript" src="resources/combined-1359452498.js"></script>
+	<script type="text/javascript" src="elementlist-2750599401.js"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/bootstrap.min-2450451432.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style-1319793728.css" />
+
+</head>
+
+<body>
+	<div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a href="index.html" class="brand">WooCommerce</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li>
+							<a href="package-WooCommerce.Classes.Shipping.html" title="Summary of WooCommerce\Classes\Shipping"><span>Package</span></a>
+						</li>
+						<li>
+							<a href="class-WC_Shipping_Free_Shipping.html" title="Summary of WC_Shipping_Free_Shipping"><span>Class</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="woocommerce-api-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+						</li>
+
+						<li class="divider-vertical"></li>
+
+						<li>
+							<a href="http://docs.woothemes.com/" title="Go back to WooCommerce Docs"><span>&larr; Back to WooDocs</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="left">
+	<div id="menu">
+		<form id="search" class="form-search">
+			<input type="hidden" name="cx" value="" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="text" name="q" class="search-query" placeholder="Search" />
+		</form>
+
+
+		<div id="groups">
+			<h3>Packages</h3>
+			<ul>
+				<li class="active"><a href="package-WooCommerce.html">WooCommerce<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Abstracts.html">Abstracts</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.html">Admin<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Admin.Coupons.html">Coupons</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Dashboard.html">Dashboard</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Import.html">Import</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Importers.html">Importers</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Install.html">Install</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Products.html">Products</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Reports.html">Reports</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Settings.html">Settings</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.System.html">System</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Taxonomies.html">Taxonomies</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Updates.html">Updates</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.Users.html">Users</a>
+						</li>
+				<li><a href="package-WooCommerce.Admin.WritePanels.html">WritePanels</a>
+						</li>
+							</ul></li>
+				<li class="active"><a href="package-WooCommerce.Classes.html">Classes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Classes.Emails.html">Emails</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Integrations.html">Integrations</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Payment.html">Payment</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Products.html">Products</a>
+						</li>
+				<li class="active"><a href="package-WooCommerce.Classes.Shipping.html">Shipping</a>
+						</li>
+				<li><a href="package-WooCommerce.Classes.Walkers.html">Walkers</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Functions.html">Functions<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Functions.AJAX.html">AJAX</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.html">Shortcodes<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Change.html">Change<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Change.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.html">Edit<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Edit.Address.html">Address</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.html">Lost<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Lost.Password.html">Password</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.My.html">My<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.My.Account.html">Account</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Order.html">Order<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.Order.Tracking.html">Tracking</a>
+						</li>
+							</ul></li>
+				<li><a href="package-WooCommerce.Shortcodes.Pay.html">Pay</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.Thankyou.html">Thankyou</a>
+						</li>
+				<li><a href="package-WooCommerce.Shortcodes.View.html">View<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Shortcodes.View.Order.html">Order</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Templates.html">Templates<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Archives.html">Archives</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Cart.html">Cart</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Checkout.html">Checkout</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Forms.html">Forms</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Loop.html">Loop</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Orders.html">Orders</a>
+						</li>
+				<li><a href="package-WooCommerce.Templates.Product.html">Product<span></span></a>
+						<ul>
+				<li><a href="package-WooCommerce.Templates.Product.Tabs.html">Tabs</a>
+						</li>
+							</ul></li></ul></li>
+				<li><a href="package-WooCommerce.Widgets.html">Widgets</a>
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WC_Shipping.html">WC_Shipping</a></li>
+				<li><a href="class-WC_Shipping_Flat_Rate.html">WC_Shipping_Flat_Rate</a></li>
+				<li class="active"><a href="class-WC_Shipping_Free_Shipping.html">WC_Shipping_Free_Shipping</a></li>
+				<li><a href="class-WC_Shipping_International_Delivery.html">WC_Shipping_International_Delivery</a></li>
+				<li><a href="class-WC_Shipping_Local_Delivery.html">WC_Shipping_Local_Delivery</a></li>
+				<li><a href="class-WC_Shipping_Local_Pickup.html">WC_Shipping_Local_Pickup</a></li>
+				<li><a href="class-WC_Shipping_Rate.html">WC_Shipping_Rate</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-woocommerce_register_shipping_method.html">woocommerce_register_shipping_method</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<pre id="source"><code><span id="1" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#1">  1 </a><span class="xlang">&lt;?php</span>
+</span><span id="2" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#2">  2 </a>
+</span><span id="3" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#3">  3 </a><span class="php-keyword1">if</span> ( ! <span class="php-keyword2">defined</span>( <span class="php-quote">'ABSPATH'</span> ) ) <span class="php-keyword1">exit</span>; <span class="php-comment">// Exit if accessed directly</span>
+</span><span id="4" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#4">  4 </a>
+</span><span id="5" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#5">  5 </a><span class="php-comment">/**
+</span></span><span id="6" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#6">  6 </a><span class="php-comment"> * Free Shipping Method
+</span></span><span id="7" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#7">  7 </a><span class="php-comment"> *
+</span></span><span id="8" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#8">  8 </a><span class="php-comment"> * A simple shipping method for free shipping
+</span></span><span id="9" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#9">  9 </a><span class="php-comment"> *
+</span></span><span id="10" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#10"> 10 </a><span class="php-comment"> * @class       WC_Shipping_Free_Shipping
+</span></span><span id="11" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#11"> 11 </a><span class="php-comment"> * @version     2.0.0
+</span></span><span id="12" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#12"> 12 </a><span class="php-comment"> * @package     WooCommerce/Classes/Shipping
+</span></span><span id="13" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#13"> 13 </a><span class="php-comment"> * @author      WooThemes
+</span></span><span id="14" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#14"> 14 </a><span class="php-comment"> */</span>
+</span><span id="15" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#15"> 15 </a><span class="php-keyword1">class</span> <a id="WC_Shipping_Free_Shipping" href="source-class-WC_Shipping_Free_Shipping.html#WC_Shipping_Free_Shipping">WC_Shipping_Free_Shipping</a> <span class="php-keyword1">extends</span> WC_Shipping_Method {
+</span><span id="16" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#16"> 16 </a>
+</span><span id="17" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#17"> 17 </a>    <span class="php-comment">/**
+</span></span><span id="18" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#18"> 18 </a><span class="php-comment">     * __construct function.
+</span></span><span id="19" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#19"> 19 </a><span class="php-comment">     *
+</span></span><span id="20" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#20"> 20 </a><span class="php-comment">     * @access public
+</span></span><span id="21" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#21"> 21 </a><span class="php-comment">     * @return void
+</span></span><span id="22" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#22"> 22 </a><span class="php-comment">     */</span>
+</span><span id="23" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#23"> 23 </a>    <span class="php-keyword1">function</span> <a id="___construct" href="source-class-WC_Shipping_Free_Shipping.html#___construct">__construct</a>() {
+</span><span id="24" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#24"> 24 </a>        <span class="php-var">$this</span>-&gt;id           = <span class="php-quote">'free_shipping'</span>;
+</span><span id="25" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#25"> 25 </a>        <span class="php-var">$this</span>-&gt;method_title = __( <span class="php-quote">'Free Shipping'</span>, <span class="php-quote">'woocommerce'</span> );
+</span><span id="26" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#26"> 26 </a>        <span class="php-var">$this</span>-&gt;init();
+</span><span id="27" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#27"> 27 </a>    }
+</span><span id="28" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#28"> 28 </a>
+</span><span id="29" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#29"> 29 </a>    <span class="php-comment">/**
+</span></span><span id="30" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#30"> 30 </a><span class="php-comment">     * init function.
+</span></span><span id="31" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#31"> 31 </a><span class="php-comment">     *
+</span></span><span id="32" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#32"> 32 </a><span class="php-comment">     * @access public
+</span></span><span id="33" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#33"> 33 </a><span class="php-comment">     * @return void
+</span></span><span id="34" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#34"> 34 </a><span class="php-comment">     */</span>
+</span><span id="35" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#35"> 35 </a>    <span class="php-keyword1">function</span> <a id="_init" href="source-class-WC_Shipping_Free_Shipping.html#_init">init</a>() {
+</span><span id="36" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#36"> 36 </a>
+</span><span id="37" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#37"> 37 </a>        <span class="php-comment">// Load the settings.</span>
+</span><span id="38" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#38"> 38 </a>        <span class="php-var">$this</span>-&gt;init_form_fields();
+</span><span id="39" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#39"> 39 </a>        <span class="php-var">$this</span>-&gt;init_settings();
+</span><span id="40" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#40"> 40 </a>
+</span><span id="41" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#41"> 41 </a>        <span class="php-comment">// Define user set variables</span>
+</span><span id="42" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#42"> 42 </a>        <span class="php-var">$this</span>-&gt;enabled      = <span class="php-var">$this</span>-&gt;get_option( <span class="php-quote">'enabled'</span> );
+</span><span id="43" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#43"> 43 </a>        <span class="php-var">$this</span>-&gt;title        = <span class="php-var">$this</span>-&gt;get_option( <span class="php-quote">'title'</span> );
+</span><span id="44" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#44"> 44 </a>        <span class="php-var">$this</span>-&gt;min_amount   = <span class="php-var">$this</span>-&gt;get_option( <span class="php-quote">'min_amount'</span>, <span class="php-num">0</span> );
+</span><span id="45" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#45"> 45 </a>        <span class="php-var">$this</span>-&gt;availability = <span class="php-var">$this</span>-&gt;get_option( <span class="php-quote">'availability'</span> );
+</span><span id="46" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#46"> 46 </a>        <span class="php-var">$this</span>-&gt;countries    = <span class="php-var">$this</span>-&gt;get_option( <span class="php-quote">'countries'</span> );
+</span><span id="47" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#47"> 47 </a>        <span class="php-var">$this</span>-&gt;requires     = <span class="php-var">$this</span>-&gt;get_option( <span class="php-quote">'requires'</span> );
+</span><span id="48" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#48"> 48 </a>
+</span><span id="49" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#49"> 49 </a>        <span class="php-comment">// Actions</span>
+</span><span id="50" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#50"> 50 </a>        add_action( <span class="php-quote">'woocommerce_update_options_shipping_'</span> . <span class="php-var">$this</span>-&gt;id, <span class="php-keyword1">array</span>( <span class="php-var">$this</span>, <span class="php-quote">'process_admin_options'</span> ) );
+</span><span id="51" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#51"> 51 </a>    }
+</span><span id="52" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#52"> 52 </a>
+</span><span id="53" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#53"> 53 </a>
+</span><span id="54" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#54"> 54 </a>    <span class="php-comment">/**
+</span></span><span id="55" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#55"> 55 </a><span class="php-comment">     * Initialise Gateway Settings Form Fields
+</span></span><span id="56" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#56"> 56 </a><span class="php-comment">     *
+</span></span><span id="57" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#57"> 57 </a><span class="php-comment">     * @access public
+</span></span><span id="58" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#58"> 58 </a><span class="php-comment">     * @return void
+</span></span><span id="59" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#59"> 59 </a><span class="php-comment">     */</span>
+</span><span id="60" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#60"> 60 </a>    <span class="php-keyword1">function</span> <a id="_init_form_fields" href="source-class-WC_Shipping_Free_Shipping.html#_init_form_fields">init_form_fields</a>() {
+</span><span id="61" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#61"> 61 </a>        <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>;
+</span><span id="62" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#62"> 62 </a>
+</span><span id="63" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#63"> 63 </a>        <span class="php-comment">// Backwards compat</span>
+</span><span id="64" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#64"> 64 </a>        <span class="php-keyword1">if</span> ( <span class="php-var">$this</span>-&gt;get_option( <span class="php-quote">'requires_coupon'</span> ) &amp;&amp; <span class="php-var">$this</span>-&gt;min_amount )
+</span><span id="65" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#65"> 65 </a>            <span class="php-var">$default_requires</span> = <span class="php-quote">'either'</span>;
+</span><span id="66" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#66"> 66 </a>        <span class="php-keyword1">elseif</span> ( <span class="php-var">$this</span>-&gt;get_option( <span class="php-quote">'requires_coupon'</span> ) )
+</span><span id="67" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#67"> 67 </a>            <span class="php-var">$default_requires</span> = <span class="php-quote">'coupon'</span>;
+</span><span id="68" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#68"> 68 </a>        <span class="php-keyword1">elseif</span> ( <span class="php-var">$this</span>-&gt;min_amount )
+</span><span id="69" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#69"> 69 </a>            <span class="php-var">$default_requires</span> = <span class="php-quote">'min_amount'</span>;
+</span><span id="70" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#70"> 70 </a>        <span class="php-keyword1">else</span>
+</span><span id="71" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#71"> 71 </a>            <span class="php-var">$default_requires</span> = <span class="php-quote">''</span>;
+</span><span id="72" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#72"> 72 </a>
+</span><span id="73" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#73"> 73 </a>        <span class="php-var">$this</span>-&gt;form_fields = <span class="php-keyword1">array</span>(
+</span><span id="74" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#74"> 74 </a>            <span class="php-quote">'enabled'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="75" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#75"> 75 </a>                            <span class="php-quote">'title'</span>         =&gt; __( <span class="php-quote">'Enable/Disable'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="76" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#76"> 76 </a>                            <span class="php-quote">'type'</span>          =&gt; <span class="php-quote">'checkbox'</span>,
+</span><span id="77" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#77"> 77 </a>                            <span class="php-quote">'label'</span>         =&gt; __( <span class="php-quote">'Enable Free Shipping'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="78" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#78"> 78 </a>                            <span class="php-quote">'default'</span>       =&gt; <span class="php-quote">'yes'</span>
+</span><span id="79" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#79"> 79 </a>                        ),
+</span><span id="80" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#80"> 80 </a>            <span class="php-quote">'title'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="81" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#81"> 81 </a>                            <span class="php-quote">'title'</span>         =&gt; __( <span class="php-quote">'Method Title'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="82" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#82"> 82 </a>                            <span class="php-quote">'type'</span>          =&gt; <span class="php-quote">'text'</span>,
+</span><span id="83" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#83"> 83 </a>                            <span class="php-quote">'description'</span>   =&gt; __( <span class="php-quote">'This controls the title which the user sees during checkout.'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="84" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#84"> 84 </a>                            <span class="php-quote">'default'</span>       =&gt; __( <span class="php-quote">'Free Shipping'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="85" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#85"> 85 </a>                            <span class="php-quote">'desc_tip'</span>      =&gt; <span class="php-keyword1">true</span>,
+</span><span id="86" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#86"> 86 </a>                        ),
+</span><span id="87" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#87"> 87 </a>            <span class="php-quote">'availability'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="88" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#88"> 88 </a>                            <span class="php-quote">'title'</span>         =&gt; __( <span class="php-quote">'Method availability'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="89" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#89"> 89 </a>                            <span class="php-quote">'type'</span>          =&gt; <span class="php-quote">'select'</span>,
+</span><span id="90" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#90"> 90 </a>                            <span class="php-quote">'default'</span>       =&gt; <span class="php-quote">'all'</span>,
+</span><span id="91" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#91"> 91 </a>                            <span class="php-quote">'class'</span>         =&gt; <span class="php-quote">'availability'</span>,
+</span><span id="92" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#92"> 92 </a>                            <span class="php-quote">'options'</span>       =&gt; <span class="php-keyword1">array</span>(
+</span><span id="93" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#93"> 93 </a>                                <span class="php-quote">'all'</span>       =&gt; __( <span class="php-quote">'All allowed countries'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="94" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#94"> 94 </a>                                <span class="php-quote">'specific'</span>  =&gt; __( <span class="php-quote">'Specific Countries'</span>, <span class="php-quote">'woocommerce'</span> )
+</span><span id="95" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#95"> 95 </a>                            )
+</span><span id="96" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#96"> 96 </a>                        ),
+</span><span id="97" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#97"> 97 </a>            <span class="php-quote">'countries'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="98" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#98"> 98 </a>                            <span class="php-quote">'title'</span>         =&gt; __( <span class="php-quote">'Specific Countries'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="99" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#99"> 99 </a>                            <span class="php-quote">'type'</span>          =&gt; <span class="php-quote">'multiselect'</span>,
+</span><span id="100" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#100">100 </a>                            <span class="php-quote">'class'</span>         =&gt; <span class="php-quote">'chosen_select'</span>,
+</span><span id="101" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#101">101 </a>                            <span class="php-quote">'css'</span>           =&gt; <span class="php-quote">'width: 450px;'</span>,
+</span><span id="102" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#102">102 </a>                            <span class="php-quote">'default'</span>       =&gt; <span class="php-quote">''</span>,
+</span><span id="103" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#103">103 </a>                            <span class="php-quote">'options'</span>       =&gt; <span class="php-var">$woocommerce</span>-&gt;countries-&gt;countries
+</span><span id="104" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#104">104 </a>                        ),
+</span><span id="105" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#105">105 </a>            <span class="php-quote">'requires'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="106" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#106">106 </a>                            <span class="php-quote">'title'</span>         =&gt; __( <span class="php-quote">'Free Shipping Requires...'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="107" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#107">107 </a>                            <span class="php-quote">'type'</span>          =&gt; <span class="php-quote">'select'</span>,
+</span><span id="108" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#108">108 </a>                            <span class="php-quote">'default'</span>       =&gt; <span class="php-var">$default_requires</span>,
+</span><span id="109" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#109">109 </a>                            <span class="php-quote">'options'</span>       =&gt; <span class="php-keyword1">array</span>(
+</span><span id="110" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#110">110 </a>                                <span class="php-quote">''</span>              =&gt; __( <span class="php-quote">'N/A'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="111" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#111">111 </a>                                <span class="php-quote">'coupon'</span>        =&gt; __( <span class="php-quote">'A valid free shipping coupon'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="112" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#112">112 </a>                                <span class="php-quote">'min_amount'</span>    =&gt; __( <span class="php-quote">'A minimum order amount (defined below)'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="113" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#113">113 </a>                                <span class="php-quote">'either'</span>        =&gt; __( <span class="php-quote">'A minimum order amount OR a coupon'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="114" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#114">114 </a>                                <span class="php-quote">'both'</span>          =&gt; __( <span class="php-quote">'A minimum order amount AND a coupon'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="115" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#115">115 </a>                            )
+</span><span id="116" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#116">116 </a>                        ),
+</span><span id="117" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#117">117 </a>            <span class="php-quote">'min_amount'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="118" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#118">118 </a>                            <span class="php-quote">'title'</span>         =&gt; __( <span class="php-quote">'Minimum Order Amount'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="119" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#119">119 </a>                            <span class="php-quote">'type'</span>          =&gt; <span class="php-quote">'number'</span>,
+</span><span id="120" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#120">120 </a>                            <span class="php-quote">'custom_attributes'</span> =&gt; <span class="php-keyword1">array</span>(
+</span><span id="121" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#121">121 </a>                                <span class="php-quote">'step'</span>  =&gt; <span class="php-quote">'any'</span>,
+</span><span id="122" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#122">122 </a>                                <span class="php-quote">'min'</span>   =&gt; <span class="php-quote">'0'</span>
+</span><span id="123" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#123">123 </a>                            ),
+</span><span id="124" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#124">124 </a>                            <span class="php-quote">'description'</span>   =&gt; __( <span class="php-quote">'Users will need to spend this amount to get free shipping (if enabled above).'</span>, <span class="php-quote">'woocommerce'</span> ),
+</span><span id="125" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#125">125 </a>                            <span class="php-quote">'default'</span>       =&gt; <span class="php-quote">'0'</span>,
+</span><span id="126" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#126">126 </a>                            <span class="php-quote">'desc_tip'</span>      =&gt; <span class="php-keyword1">true</span>,
+</span><span id="127" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#127">127 </a>                            <span class="php-quote">'placeholder'</span>   =&gt; <span class="php-quote">'0.00'</span>
+</span><span id="128" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#128">128 </a>                        )
+</span><span id="129" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#129">129 </a>            );
+</span><span id="130" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#130">130 </a>
+</span><span id="131" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#131">131 </a>    }
+</span><span id="132" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#132">132 </a>
+</span><span id="133" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#133">133 </a>
+</span><span id="134" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#134">134 </a>    <span class="php-comment">/**
+</span></span><span id="135" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#135">135 </a><span class="php-comment">     * Admin Panel Options
+</span></span><span id="136" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#136">136 </a><span class="php-comment">     * - Options for bits like 'title' and availability on a country-by-country basis
+</span></span><span id="137" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#137">137 </a><span class="php-comment">     *
+</span></span><span id="138" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#138">138 </a><span class="php-comment">     * @since 1.0.0
+</span></span><span id="139" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#139">139 </a><span class="php-comment">     * @access public
+</span></span><span id="140" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#140">140 </a><span class="php-comment">     * @return void
+</span></span><span id="141" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#141">141 </a><span class="php-comment">     */</span>
+</span><span id="142" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#142">142 </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> <a id="_admin_options" href="source-class-WC_Shipping_Free_Shipping.html#_admin_options">admin_options</a>() {
+</span><span id="143" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#143">143 </a>
+</span><span id="144" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#144">144 </a>        <span class="xlang">?&gt;</span>
+</span><span id="145" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#145">145 </a>        &lt;h3&gt;<span class="xlang">&lt;?php</span> _e( <span class="php-quote">'Free Shipping'</span>, <span class="php-quote">'woocommerce'</span> ); <span class="xlang">?&gt;</span>&lt;/h3&gt;
+</span><span id="146" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#146">146 </a>        &lt;table <span class="php-keyword1">class</span>=<span class="php-quote">&quot;form-table&quot;</span>&gt;
+</span><span id="147" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#147">147 </a>        <span class="xlang">&lt;?php</span>
+</span><span id="148" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#148">148 </a>            <span class="php-comment">// Generate the HTML For the settings form.</span>
+</span><span id="149" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#149">149 </a>            <span class="php-var">$this</span>-&gt;generate_settings_html();
+</span><span id="150" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#150">150 </a>        <span class="xlang">?&gt;</span>
+</span><span id="151" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#151">151 </a>        &lt;/table&gt;&lt;!--/.form-table--&gt;
+</span><span id="152" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#152">152 </a>        <span class="xlang">&lt;?php</span>
+</span><span id="153" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#153">153 </a>    }
+</span><span id="154" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#154">154 </a>
+</span><span id="155" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#155">155 </a>
+</span><span id="156" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#156">156 </a>    <span class="php-comment">/**
+</span></span><span id="157" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#157">157 </a><span class="php-comment">     * is_available function.
+</span></span><span id="158" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#158">158 </a><span class="php-comment">     *
+</span></span><span id="159" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#159">159 </a><span class="php-comment">     * @access public
+</span></span><span id="160" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#160">160 </a><span class="php-comment">     * @param mixed $package
+</span></span><span id="161" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#161">161 </a><span class="php-comment">     * @return bool
+</span></span><span id="162" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#162">162 </a><span class="php-comment">     */</span>
+</span><span id="163" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#163">163 </a>    <span class="php-keyword1">function</span> <a id="_is_available" href="source-class-WC_Shipping_Free_Shipping.html#_is_available">is_available</a>( <span class="php-var">$package</span> ) {
+</span><span id="164" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#164">164 </a>        <span class="php-keyword1">global</span> <span class="php-var">$woocommerce</span>;
+</span><span id="165" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#165">165 </a>
+</span><span id="166" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#166">166 </a>        <span class="php-keyword1">if</span> ( <span class="php-var">$this</span>-&gt;enabled == <span class="php-quote">&quot;no&quot;</span> ) <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="167" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#167">167 </a>
+</span><span id="168" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#168">168 </a>        <span class="php-var">$ship_to_countries</span> = <span class="php-quote">''</span>;
+</span><span id="169" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#169">169 </a>
+</span><span id="170" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#170">170 </a>        <span class="php-keyword1">if</span> ( <span class="php-var">$this</span>-&gt;availability == <span class="php-quote">'specific'</span> ) {
+</span><span id="171" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#171">171 </a>            <span class="php-var">$ship_to_countries</span> = <span class="php-var">$this</span>-&gt;countries;
+</span><span id="172" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#172">172 </a>        } <span class="php-keyword1">else</span> {
+</span><span id="173" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#173">173 </a>            <span class="php-keyword1">if</span> ( get_option(<span class="php-quote">'woocommerce_allowed_countries'</span>) == <span class="php-quote">'specific'</span> )
+</span><span id="174" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#174">174 </a>                <span class="php-var">$ship_to_countries</span> = get_option(<span class="php-quote">'woocommerce_specific_allowed_countries'</span>);
+</span><span id="175" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#175">175 </a>        }
+</span><span id="176" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#176">176 </a>
+</span><span id="177" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#177">177 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword2">is_array</span>( <span class="php-var">$ship_to_countries</span> ) )
+</span><span id="178" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#178">178 </a>            <span class="php-keyword1">if</span> ( ! <span class="php-keyword2">in_array</span>( <span class="php-var">$package</span>[<span class="php-quote">'destination'</span>][<span class="php-quote">'country'</span>], <span class="php-var">$ship_to_countries</span> ) )
+</span><span id="179" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#179">179 </a>                <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="180" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#180">180 </a>
+</span><span id="181" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#181">181 </a>        <span class="php-comment">// Enabled logic</span>
+</span><span id="182" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#182">182 </a>        <span class="php-var">$is_available</span>       = <span class="php-keyword1">false</span>;
+</span><span id="183" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#183">183 </a>        <span class="php-var">$has_coupon</span>         = <span class="php-keyword1">false</span>;
+</span><span id="184" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#184">184 </a>        <span class="php-var">$has_met_min_amount</span> = <span class="php-keyword1">false</span>;
+</span><span id="185" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#185">185 </a>
+</span><span id="186" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#186">186 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword2">in_array</span>( <span class="php-var">$this</span>-&gt;requires, <span class="php-keyword1">array</span>( <span class="php-quote">'coupon'</span>, <span class="php-quote">'either'</span>, <span class="php-quote">'both'</span> ) ) ) {
+</span><span id="187" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#187">187 </a>
+</span><span id="188" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#188">188 </a>            <span class="php-keyword1">if</span> ( <span class="php-var">$woocommerce</span>-&gt;cart-&gt;applied_coupons ) {
+</span><span id="189" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#189">189 </a>                <span class="php-keyword1">foreach</span> (<span class="php-var">$woocommerce</span>-&gt;cart-&gt;applied_coupons <span class="php-keyword1">as</span> <span class="php-var">$code</span>) {
+</span><span id="190" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#190">190 </a>                    <span class="php-var">$coupon</span> = <span class="php-keyword1">new</span> WC_Coupon( <span class="php-var">$code</span> );
+</span><span id="191" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#191">191 </a>
+</span><span id="192" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#192">192 </a>                    <span class="php-keyword1">if</span> ( <span class="php-var">$coupon</span>-&gt;is_valid() &amp;&amp; <span class="php-var">$coupon</span>-&gt;enable_free_shipping() )
+</span><span id="193" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#193">193 </a>                        <span class="php-var">$has_coupon</span> = <span class="php-keyword1">true</span>;
+</span><span id="194" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#194">194 </a>                }
+</span><span id="195" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#195">195 </a>            }
+</span><span id="196" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#196">196 </a>        }
+</span><span id="197" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#197">197 </a>
+</span><span id="198" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#198">198 </a>        <span class="php-keyword1">if</span> ( <span class="php-keyword2">in_array</span>( <span class="php-var">$this</span>-&gt;requires, <span class="php-keyword1">array</span>( <span class="php-quote">'min_amount'</span>, <span class="php-quote">'either'</span>, <span class="php-quote">'both'</span> ) ) ) {
+</span><span id="199" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#199">199 </a>
+</span><span id="200" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#200">200 </a>            <span class="php-keyword1">if</span> ( <span class="php-keyword1">isset</span>( <span class="php-var">$woocommerce</span>-&gt;cart-&gt;cart_contents_total ) ) {
+</span><span id="201" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#201">201 </a>
+</span><span id="202" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#202">202 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$woocommerce</span>-&gt;cart-&gt;prices_include_tax )
+</span><span id="203" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#203">203 </a>                    <span class="php-var">$total</span> = <span class="php-var">$woocommerce</span>-&gt;cart-&gt;tax_total + <span class="php-var">$woocommerce</span>-&gt;cart-&gt;cart_contents_total;
+</span><span id="204" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#204">204 </a>                <span class="php-keyword1">else</span>
+</span><span id="205" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#205">205 </a>                    <span class="php-var">$total</span> = <span class="php-var">$woocommerce</span>-&gt;cart-&gt;cart_contents_total;
+</span><span id="206" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#206">206 </a>
+</span><span id="207" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#207">207 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$total</span> &gt;= <span class="php-var">$this</span>-&gt;min_amount )
+</span><span id="208" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#208">208 </a>                    <span class="php-var">$has_met_min_amount</span> = <span class="php-keyword1">true</span>;
+</span><span id="209" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#209">209 </a>            }
+</span><span id="210" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#210">210 </a>        }
+</span><span id="211" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#211">211 </a>
+</span><span id="212" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#212">212 </a>        <span class="php-keyword1">switch</span> ( <span class="php-var">$this</span>-&gt;requires ) {
+</span><span id="213" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#213">213 </a>            <span class="php-keyword1">case</span> <span class="php-quote">'min_amount'</span> :
+</span><span id="214" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#214">214 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$has_met_min_amount</span> ) <span class="php-var">$is_available</span> = <span class="php-keyword1">true</span>;
+</span><span id="215" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#215">215 </a>            <span class="php-keyword1">break</span>;
+</span><span id="216" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#216">216 </a>            <span class="php-keyword1">case</span> <span class="php-quote">'coupon'</span> :
+</span><span id="217" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#217">217 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$has_coupon</span> ) <span class="php-var">$is_available</span> = <span class="php-keyword1">true</span>;
+</span><span id="218" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#218">218 </a>            <span class="php-keyword1">break</span>;
+</span><span id="219" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#219">219 </a>            <span class="php-keyword1">case</span> <span class="php-quote">'both'</span> :
+</span><span id="220" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#220">220 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$has_met_min_amount</span> &amp;&amp; <span class="php-var">$has_coupon</span> ) <span class="php-var">$is_available</span> = <span class="php-keyword1">true</span>;
+</span><span id="221" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#221">221 </a>            <span class="php-keyword1">break</span>;
+</span><span id="222" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#222">222 </a>            <span class="php-keyword1">case</span> <span class="php-quote">'either'</span> :
+</span><span id="223" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#223">223 </a>                <span class="php-keyword1">if</span> ( <span class="php-var">$has_met_min_amount</span> || <span class="php-var">$has_coupon</span> ) <span class="php-var">$is_available</span> = <span class="php-keyword1">true</span>;
+</span><span id="224" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#224">224 </a>            <span class="php-keyword1">break</span>;
+</span><span id="225" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#225">225 </a>            <span class="php-keyword1">default</span> :
+</span><span id="226" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#226">226 </a>                <span class="php-var">$is_available</span> = <span class="php-keyword1">true</span>;
+</span><span id="227" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#227">227 </a>            <span class="php-keyword1">break</span>;
+</span><span id="228" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#228">228 </a>        }
+</span><span id="229" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#229">229 </a>
+</span><span id="230" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#230">230 </a>        <span class="php-keyword1">return</span> apply_filters( <span class="php-quote">'woocommerce_shipping_'</span> . <span class="php-var">$this</span>-&gt;id . <span class="php-quote">'_is_available'</span>, <span class="php-var">$is_available</span> );
+</span><span id="231" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#231">231 </a>    }
+</span><span id="232" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#232">232 </a>
+</span><span id="233" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#233">233 </a>
+</span><span id="234" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#234">234 </a>    <span class="php-comment">/**
+</span></span><span id="235" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#235">235 </a><span class="php-comment">     * calculate_shipping function.
+</span></span><span id="236" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#236">236 </a><span class="php-comment">     *
+</span></span><span id="237" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#237">237 </a><span class="php-comment">     * @access public
+</span></span><span id="238" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#238">238 </a><span class="php-comment">     * @return array
+</span></span><span id="239" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#239">239 </a><span class="php-comment">     */</span>
+</span><span id="240" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#240">240 </a>    <span class="php-keyword1">function</span> <a id="_calculate_shipping" href="source-class-WC_Shipping_Free_Shipping.html#_calculate_shipping">calculate_shipping</a>() {
+</span><span id="241" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#241">241 </a>        <span class="php-var">$args</span> = <span class="php-keyword1">array</span>(
+</span><span id="242" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#242">242 </a>            <span class="php-quote">'id'</span>    =&gt; <span class="php-var">$this</span>-&gt;id,
+</span><span id="243" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#243">243 </a>            <span class="php-quote">'label'</span> =&gt; <span class="php-var">$this</span>-&gt;title,
+</span><span id="244" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#244">244 </a>            <span class="php-quote">'cost'</span>  =&gt; <span class="php-num">0</span>,
+</span><span id="245" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#245">245 </a>            <span class="php-quote">'taxes'</span> =&gt; <span class="php-keyword1">false</span>
+</span><span id="246" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#246">246 </a>        );
+</span><span id="247" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#247">247 </a>        <span class="php-var">$this</span>-&gt;add_rate( <span class="php-var">$args</span> );
+</span><span id="248" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#248">248 </a>    }
+</span><span id="249" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#249">249 </a>
+</span><span id="250" class="l"><a class="l" href="source-class-WC_Shipping_Free_Shipping.html#250">250 </a></span>}</code></pre>
+	</div>
+
+	<div id="footer">
+		WooCommerce API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</body>
+</html>
